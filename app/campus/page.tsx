@@ -13,6 +13,13 @@ const sections = ["Resumen", "Asignaturas", "Tareas", "Calendario", "Biblioteca"
 const normalize = (text: string) => text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 const dateLabel = (date: string) => new Date(date).toLocaleString("es-ES", {timeZone:"Europe/Madrid",day:"numeric",month:"long",hour:"2-digit",minute:"2-digit"});
 const syncDate = (value:string) => new Date(value.length===10?value+"T12:00:00Z":value).toLocaleDateString("es-ES",{timeZone:"Europe/Madrid",day:"numeric",month:"long",year:"numeric"});
+const subjectExamIds:Record<string,string[]>={
+  "module-53375":["class-CECO0000596831"],
+  "module-53416":["class-CECO0000596838"],
+  "module-53428":["academic-escritura"],
+  "module-53592":["academic-estrategia"],
+  "module-53603":["academic-paises"]
+};
 const ext = (url: string) => decodeURIComponent(url.split("?")[0].split(".").pop()||"DOC").toUpperCase();
 
 function External({href,children,className=""}:{href:string;children:React.ReactNode;className?:string}) {
@@ -47,6 +54,8 @@ export default function Campus() {
     return taskDateFilter==="recientes"?-difference:difference;
   });
 
+  const studyPlan=data.subjects.map((subject,index)=>({subject,index,exam:calendarEvents.filter(event=>(subjectExamIds[subject.id]||[]).includes(event.id)&&(event.allDay?event.end>today:now!==null&&new Date(event.end).getTime()>now)).sort((a,b)=>a.start.localeCompare(b.start))[0]})).sort((a,b)=>a.exam&&b.exam?a.exam.start.localeCompare(b.exam.start):a.exam?-1:b.exam?1:a.index-b.index);
+
   return <div className="campus">
     <aside className="campus-sidebar">
       <div className="campus-brand"><a href="/campus" className="campus-logo"><img src="/icex-campus.svg" alt="ICEX Campus" width="210" height="43" /></a><Notes/></div>
@@ -62,7 +71,7 @@ export default function Campus() {
         {section==="Resumen"?<>
           <div className="campus-quick-grid">{[{label:"Próximo evento",events:nextDayEvents,target:"Calendario",action:"Ver calendario"},{label:"Próximas tareas",events:nextDayTasks,target:"Tareas",action:"Ver tareas"}].map(card=><section className="campus-quick-card" key={card.label} aria-label={card.label}><h2 className="campus-quick-heading">{card.label}</h2>{card.events.length?<div className="campus-quick-items">{card.events.map(event=><article className="campus-quick-item" key={event.id}><h3>{event.title}</h3><p className="campus-quick-date">{previewDate(event)}{!event.allDay&&event.kind!=="entrega"?" – "+new Date(event.end).toLocaleTimeString("es-ES",{timeZone:"Europe/Madrid",hour:"2-digit",minute:"2-digit"})+" h":""}</p></article>)}</div>:<p className="campus-quick-empty">{now===null?"Consultando calendario…":"No hay próximas fechas publicadas."}</p>}<button onClick={()=>setSection(card.target)}>{card.action} ↗</button></section>)}</div>
 
-          <div className="campus-section-heading"><div><p className="campus-overline">APRENDER, CONECTAR, AVANZAR</p><h2>Tu plan de estudios</h2></div><button onClick={()=>setSection("Asignaturas")}>Ver las {data.subjects.length} asignaturas ↗</button></div><div className="campus-preview-grid">{data.subjects.filter(s=>s.phase==="Fase I").slice(0,3).map((s,i)=><button key={s.id} className="campus-subject-preview" onClick={()=>{setSection("Asignaturas");setQuery(s.title);}}><span>FASE I <b>0{i+1}</b></span><h3>{s.title}</h3><span>{s.resources.flatMap(r=>r.files).length} documentos <b>↗</b></span></button>)}</div>
+          <div className="campus-section-heading"><div><p className="campus-overline">APRENDER, CONECTAR, AVANZAR</p><h2>Tu plan de estudios</h2></div><button onClick={()=>setSection("Asignaturas")}>Ver las {data.subjects.length} asignaturas ↗</button></div><div className="campus-preview-grid">{studyPlan.map(({subject:s,exam})=><article key={s.id} className="campus-study-card"><span className="campus-overline">{s.phase}</span><h3><button onClick={()=>{setSection("Asignaturas");setQuery(s.title);}}>{s.title}</button></h3><p className="campus-study-exam">{exam?<>Examen · {new Date(exam.allDay?exam.start+"T12:00:00Z":exam.start).toLocaleDateString("es-ES",{timeZone:"Europe/Madrid",day:"numeric",month:"long",year:"numeric"})}{exam.allDay?" · Hora no indicada":" · "+new Date(exam.start).toLocaleTimeString("es-ES",{timeZone:"Europe/Madrid",hour:"2-digit",minute:"2-digit"})+" h"}</>:"Examen · Sin próxima fecha confirmada"}</p>{s.resources.flatMap(r=>r.files).length?<details className="campus-study-documents"><summary>{s.resources.flatMap(r=>r.files).length} documentos</summary><div>{s.resources.flatMap(r=>r.files).map(f=><External key={f.url} href={f.url}>{f.text}</External>)}</div></details>:<span className="campus-study-empty">Sin documentos publicados</span>}</article>)}</div>
         </>:null}
 
         {["Asignaturas","Tareas","Biblioteca"].includes(section)?<div className="campus-tools"><label className="campus-search"><span aria-hidden="true">⌕</span><input value={query} onChange={e=>setQuery(e.target.value)} placeholder="Buscar asignatura, tarea o documento…" aria-label="Buscar contenido"/></label>{section==="Asignaturas"?<select aria-label="Filtrar por fase" value={phase} onChange={e=>setPhase(e.target.value)}><option>Todas</option><option>Fase I</option><option>Transversales</option></select>:<span>{section==="Tareas"?tasks.length:files.length} resultados</span>}</div>:null}
