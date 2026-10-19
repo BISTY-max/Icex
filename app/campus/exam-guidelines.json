@@ -1,0 +1,444 @@
+{
+  "module-53823": {
+    "pages": [
+      11
+    ],
+    "items": [
+      {
+        "label": "Peso",
+        "text": "Parcial 29 % · Final 70 % · Curso online 1 %."
+      },
+      {
+        "label": "Formato",
+        "text": "Parcial y final tipo test; pueden exigir resolver problemas o desarrollar teoría."
+      },
+      {
+        "label": "Curso online",
+        "text": "El 1 % exige entregar todas las actividades en plazo y obtener una media mínima del 75 % en el curso online."
+      },
+      {
+        "label": "Errores",
+        "text": "La guía no especifica cuánto restan las respuestas incorrectas."
+      },
+      {
+        "label": "Material",
+        "text": "Las fórmulas de ratios financieras y económicas se facilitarán si son necesarias."
+      }
+    ],
+    "note": "Evaluación conjunta de la parte online y presencial de Fundamentos de Contabilidad y Finanzas; no son dos exámenes independientes por modalidad."
+  },
+  "module-53416": {
+    "pages": [
+      11
+    ],
+    "items": [
+      {
+        "label": "Peso",
+        "text": "Parcial 29 % · Final 70 % · Curso online 1 %."
+      },
+      {
+        "label": "Formato",
+        "text": "Parcial y final tipo test; pueden exigir resolver problemas o desarrollar teoría."
+      },
+      {
+        "label": "Curso online",
+        "text": "El 1 % exige entregar todas las actividades en plazo y obtener una media mínima del 75 % en el curso online."
+      },
+      {
+        "label": "Errores",
+        "text": "La guía no especifica cuánto restan las respuestas incorrectas."
+      },
+      {
+        "label": "Material",
+        "text": "Las fórmulas de ratios financieras y económicas se facilitarán si son necesarias."
+      }
+    ],
+    "note": "Evaluación conjunta de la parte online y presencial de Fundamentos de Contabilidad y Finanzas; no son dos exámenes independientes por modalidad."
+  },
+  "module-53383": {
+    "pages": [
+      15,
+      16
+    ],
+    "items": [
+      {
+        "label": "Peso",
+        "text": "Examen final 80 % · Actividades online 20 %."
+      },
+      {
+        "label": "Actividades",
+        "text": "10 actividades, cada una vale el 2 % de la nota final; deben completarse correctamente y en plazo."
+      },
+      {
+        "label": "Formato",
+        "text": "40 preguntas de opción múltiple · 50 minutos."
+      },
+      {
+        "label": "Puntuación",
+        "text": "Acierto +0,25 · Error −0,25. La guía no indica la puntuación de las respuestas en blanco."
+      },
+      {
+        "label": "Calificación",
+        "text": "Se aplica curva de Gauss; las correcciones online se ajustan por grupo."
+      }
+    ],
+    "note": "Las actividades online y el examen pertenecen a la evaluación conjunta de Investigación Comercial I."
+  },
+  "module-53392": {
+    "pages": [
+      15,
+      16
+    ],
+    "items": [
+      {
+        "label": "Peso",
+        "text": "Examen final 80 % · Actividades online 20 %."
+      },
+      {
+        "label": "Actividades",
+        "text": "10 actividades, cada una vale el 2 % de la nota final; deben completarse correctamente y en plazo."
+      },
+      {
+        "label": "Formato",
+        "text": "40 preguntas de opción múltiple · 50 minutos."
+      },
+      {
+        "label": "Puntuación",
+        "text": "Acierto +0,25 · Error −0,25. La guía no indica la puntuación de las respuestas en blanco."
+      },
+      {
+        "label": "Calificación",
+        "text": "Se aplica curva de Gauss; las correcciones online se ajustan por grupo."
+      }
+    ],
+    "note": "Las actividades online y el examen pertenecen a la evaluación conjunta de Investigación Comercial I."
+  },
+  "module-53375": {
+    "pages": [
+      18,
+      19,
+      20
+    ],
+    "items": [
+      {
+        "label": "Peso",
+        "text": "Parcial 1/3 de la nota · Final 2/3."
+      },
+      {
+        "label": "Formato",
+        "text": "Dos pruebas tipo test. El parcial incluye las sesiones 1 a 4; el final, el resto del programa."
+      },
+      {
+        "label": "Trabajos",
+        "text": "Los ejercicios, casos de clase y cuestionarios formativos de Socrative no cuentan para la nota."
+      },
+      {
+        "label": "Errores",
+        "text": "Penalización por errores y duración no especificadas en esta guía."
+      },
+      {
+        "label": "Recuperación",
+        "text": "Desde la 2.ª convocatoria, 100 % de la nota depende del examen; el profesorado anunciará el formato."
+      }
+    ],
+    "note": ""
+  },
+  "module-53395": {
+    "pages": [
+      22,
+      24
+    ],
+    "items": [
+      {
+        "label": "Peso",
+        "text": "Examen 60 % · Casos prácticos en grupo 40 %."
+      },
+      {
+        "label": "Formato",
+        "text": "60 minutos: 25 preguntas tipo test y 2 abiertas. Desglose detallado: test 75 % y abiertas 25 % de la nota del examen."
+      },
+      {
+        "label": "Puntuación del test",
+        "text": "Acierto +0,4 · Error −0,4 · Blanco 0. Cuatro opciones y una respuesta correcta."
+      },
+      {
+        "label": "Preguntas abiertas",
+        "text": "Hasta 5 puntos por pregunta antes de ponderar su bloque; respuestas en blanco 0."
+      },
+      {
+        "label": "Casos",
+        "text": "Caso 1: 40 % de la práctica (16 % del total). Caso 2: 60 % de la práctica (24 % del total). Ambos en inglés; misma nota para todo el grupo."
+      }
+    ],
+    "note": "La guía también menciona una proporción aproximada 80/20 para test/abiertas; el desglose detallado de la evaluación indica 75/25. Confirmar esta diferencia con el profesorado."
+  },
+  "module-53378": {
+    "pages": [
+      30
+    ],
+    "items": [
+      {
+        "label": "Peso",
+        "text": "Prueba individual 70 % · Trabajo y presentación en grupo 30 %."
+      },
+      {
+        "label": "Formato",
+        "text": "Tipo test y/o ensayo; se anunciará con antelación."
+      },
+      {
+        "label": "Mínimo",
+        "text": "Al menos 3,8/10 en la prueba individual para ponderar con el trabajo."
+      },
+      {
+        "label": "Participación",
+        "text": "Puede modificar la nota final hasta ±10 %."
+      },
+      {
+        "label": "Errores",
+        "text": "No se especifican penalización por errores ni duración del examen."
+      },
+      {
+        "label": "Recuperación",
+        "text": "Desde la 2.ª convocatoria, 100 % depende de la prueba que anuncie el profesorado."
+      }
+    ],
+    "note": ""
+  },
+  "subject-investigacion-comercial-ii": {
+    "pages": [
+      35,
+      36
+    ],
+    "items": [
+      {
+        "label": "Peso",
+        "text": "Examen individual 40 % · Estudio de mercado en grupo 60 %."
+      },
+      {
+        "label": "Formato",
+        "text": "40 preguntas tipo test · 60 minutos · Manual y cuatro lecturas obligatorias; de estas lecturas pueden entrar 2 a 4 preguntas."
+      },
+      {
+        "label": "Puntuación",
+        "text": "Acierto +0,25 · Error −0,10 · Blanco 0."
+      },
+      {
+        "label": "Mínimos",
+        "text": "Al menos 3,5/10 tanto en el examen como en el trabajo para hacer media."
+      },
+      {
+        "label": "Trabajo",
+        "text": "Se evalúa el documento escrito; la presentación es formativa. Entrega fuera de plazo: −1 punto en el trabajo."
+      },
+      {
+        "label": "Ajuste y recuperación",
+        "text": "Actitud/desempeño puede modificar hasta ±10 %. En 2.ª convocatoria se repiten las partes suspendidas y la nota final es la media aritmética del examen y el trabajo."
+      }
+    ],
+    "note": ""
+  },
+  "module-53592": {
+    "pages": [
+      40
+    ],
+    "items": [
+      {
+        "label": "Peso",
+        "text": "Examen final 90 % · Tests previos a las clases 10 %."
+      },
+      {
+        "label": "Formato",
+        "text": "12 preguntas tipo test (hasta 6 puntos: 0,5 cada una) y una pregunta abierta con apartados (hasta 4 puntos). Espacio de respuesta limitado."
+      },
+      {
+        "label": "Participación",
+        "text": "Puede aumentar o reducir la nota final hasta un 10 %."
+      },
+      {
+        "label": "Errores",
+        "text": "La guía no especifica descuento por error ni duración."
+      },
+      {
+        "label": "Recuperación",
+        "text": "Desde la 2.ª convocatoria, 100 % de la nota depende de la prueba anunciada por el profesorado."
+      }
+    ],
+    "note": ""
+  },
+  "module-53419": {
+    "pages": [
+      41,
+      45,
+      49,
+      50
+    ],
+    "items": [
+      {
+        "label": "Nota conjunta",
+        "text": "Taller de Escritura supone el 75 % de la nota conjunta; Comportamiento Social, el 25 % restante."
+      },
+      {
+        "label": "Dentro de Taller",
+        "text": "Examen final 67 % · Carpeta de ejercicios 16,5 % · Cuatro textos breves de la fase virtual 16,5 %. Estos porcentajes se aplican al componente de Taller."
+      },
+      {
+        "label": "Formato",
+        "text": "Examen práctico: corrección de errores y ejercicios de precisión de las fichas virtuales, más casos de redacción empresarial."
+      },
+      {
+        "label": "Trabajos",
+        "text": "Carpeta con ejercicios individuales y grupales; cuatro redacciones breves individuales en la fase virtual."
+      },
+      {
+        "label": "Participación",
+        "text": "Calidad de la participación en clases y tutorías: ajuste de hasta ±10 %, común con Comportamiento Social."
+      },
+      {
+        "label": "Errores",
+        "text": "No se especifica una penalización fija por respuesta incorrecta ni duración del examen de Taller."
+      }
+    ],
+    "note": "La evaluación integra las partes virtual y presencial; no duplicar los porcentajes entre las dos fichas de Taller."
+  },
+  "module-53428": {
+    "pages": [
+      41,
+      45,
+      49,
+      50
+    ],
+    "items": [
+      {
+        "label": "Nota conjunta",
+        "text": "Taller de Escritura supone el 75 % de la nota conjunta; Comportamiento Social, el 25 % restante."
+      },
+      {
+        "label": "Dentro de Taller",
+        "text": "Examen final 67 % · Carpeta de ejercicios 16,5 % · Cuatro textos breves de la fase virtual 16,5 %. Estos porcentajes se aplican al componente de Taller."
+      },
+      {
+        "label": "Formato",
+        "text": "Examen práctico: corrección de errores y ejercicios de precisión de las fichas virtuales, más casos de redacción empresarial."
+      },
+      {
+        "label": "Trabajos",
+        "text": "Carpeta con ejercicios individuales y grupales; cuatro redacciones breves individuales en la fase virtual."
+      },
+      {
+        "label": "Participación",
+        "text": "Calidad de la participación en clases y tutorías: ajuste de hasta ±10 %, común con Comportamiento Social."
+      },
+      {
+        "label": "Errores",
+        "text": "No se especifica una penalización fija por respuesta incorrecta ni duración del examen de Taller."
+      }
+    ],
+    "note": "La evaluación integra las partes virtual y presencial; no duplicar los porcentajes entre las dos fichas de Taller."
+  },
+  "module-53441": {
+    "pages": [
+      47,
+      49,
+      50
+    ],
+    "items": [
+      {
+        "label": "Nota conjunta",
+        "text": "Comportamiento Social constituye el 25 % de la nota conjunta con Taller de Escritura."
+      },
+      {
+        "label": "Dentro de Comportamiento Social",
+        "text": "Examen 2/3 · Caso práctico en grupo 1/3. Estos pesos se aplican al componente de Comportamiento Social."
+      },
+      {
+        "label": "Formato",
+        "text": "40 minutos: test de 25 preguntas con una respuesta válida (90 % del examen) y un caso de desarrollo breve (10 %)."
+      },
+      {
+        "label": "Puntuación del test",
+        "text": "Acierto +0,4 · Error −0,20. No se especifica penalización para respuestas en blanco."
+      },
+      {
+        "label": "Participación",
+        "text": "Actitud, colaboración y puesta en práctica de las pautas: ajuste de hasta ±10 %."
+      }
+    ],
+    "note": ""
+  },
+  "module-53445": {
+    "pages": [
+      57
+    ],
+    "items": [
+      {
+        "label": "Peso",
+        "text": "Examen final 30 % · Proyecto grupal de negociación 25 % · Proyecto grupal de comunicación 25 % · Participación 20 %."
+      },
+      {
+        "label": "Formato",
+        "text": "Examen individual tipo test sobre marcos teóricos, aplicación a casos y conceptos de negociación y comunicación estratégica."
+      },
+      {
+        "label": "Proyectos",
+        "text": "Negociación: portfolio acumulativo del equipo. Comunicación: simulación final/rueda de prensa."
+      },
+      {
+        "label": "Participación",
+        "text": "Incluye mini-cuestionarios, actividades en clase, role-plays y feedback entre compañeros."
+      },
+      {
+        "label": "Errores",
+        "text": "No se especifican penalización por respuestas incorrectas ni duración."
+      },
+      {
+        "label": "Recuperación",
+        "text": "Desde la 2.ª convocatoria, 100 % depende del examen; formato test y/o ensayo anunciado previamente."
+      }
+    ],
+    "note": ""
+  },
+  "module-53450": {
+    "pages": [
+      63,
+      64
+    ],
+    "items": [
+      {
+        "label": "Peso",
+        "text": "Examen tipo test 70 % · Póster y presentación oral en grupo 30 %."
+      },
+      {
+        "label": "Contenido",
+        "text": "Explicaciones de clase y lecturas recomendadas; algunas preguntas exigen reflexión y aplicación del criterio propio."
+      },
+      {
+        "label": "Participación",
+        "text": "Actitud y participación pueden aumentar o disminuir la nota final hasta un 10 %."
+      },
+      {
+        "label": "Errores",
+        "text": "La guía no especifica número de preguntas, penalización por error ni duración."
+      },
+      {
+        "label": "Recuperación",
+        "text": "Desde la 2.ª convocatoria, 100 % depende de la prueba anunciada; el ajuste de hasta ±10 % también puede aplicarse en los supuestos indicados por la guía."
+      }
+    ],
+    "note": ""
+  },
+  "module-53404": {
+    "pages": [],
+    "items": [],
+    "note": "Este anexo no incluye un sistema de evaluación específico para esta ficha. No hay porcentajes ni penalizaciones confirmados en el documento aportado."
+  },
+  "module-53589": {
+    "pages": [],
+    "items": [],
+    "note": "Este anexo no incluye un sistema de evaluación específico para esta ficha. No hay porcentajes ni penalizaciones confirmados en el documento aportado."
+  },
+  "module-53603": {
+    "pages": [],
+    "items": [],
+    "note": "Este anexo no incluye un sistema de evaluación específico para esta ficha. No hay porcentajes ni penalizaciones confirmados en el documento aportado."
+  }
+}
