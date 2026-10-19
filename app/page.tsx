@@ -1,4 +1,5 @@
 const links = [
+  { href: "/campus", label: "Mi campus" },
   { href: "#proyecto", label: "El proyecto" },
   { href: "#objetivo", label: "Objetivo" },
   { href: "#contacto", label: "Contacto" }
@@ -52,3 +53,4 @@ export default function Home() {
     </main>
   );
 }
+

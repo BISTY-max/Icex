@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Campus personal//ICEX//ES
+BEGIN:VEVENT
+UID:icex-53398@campus
+DTSTAMP:20261019T200000Z
+DTSTART:20261204T163000Z
+SUMMARY:Caso práctico final — Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies
+URL:https://lms.icex.es/mod/assign/view.php?id=53398
+END:VEVENT
+BEGIN:VEVENT
+UID:icex-53403@campus
+DTSTAMP:20261019T200000Z
+DTSTART:20261127T163000Z
+SUMMARY:Caso práctico — Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies
+URL:https://lms.icex.es/mod/assign/view.php?id=53403
+END:VEVENT
+BEGIN:VEVENT
+UID:icex-53444@campus
+DTSTAMP:20261019T200000Z
+DTSTART:20261217T163000Z
+SUMMARY:Caso práctico final — Comportamiento Social en los Negocios
+URL:https://lms.icex.es/mod/assign/view.php?id=53444
+END:VEVENT
+BEGIN:VEVENT
+UID:icex-53839@campus
+DTSTAMP:20261019T200000Z
+DTSTART:20261103T093000Z
+SUMMARY:Póster Académico — Sector Exterior y Políticas Unión Europea
+URL:https://lms.icex.es/mod/assign/view.php?id=53839
+END:VEVENT
+END:VCALENDAR

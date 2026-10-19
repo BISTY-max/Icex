@@ -1,0 +1,2200 @@
+{
+  "updated": "19 de octubre de 2026",
+  "subjects": [
+    {
+      "id": "module-53375",
+      "title": "Fundamentos de Economía",
+      "phase": "Fase I",
+      "resources": [
+        {
+          "id": "module-53376",
+          "title": "Documentación",
+          "kind": "Documentación",
+          "url": "https://lms.icex.es/mod/data/view.php?id=53376",
+          "note": "",
+          "files": [
+            {
+              "text": "Ex F Economía-parcial MIM 25-26.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224297/mod_data/content/134152/Ex%20F%20Econom%C3%ADa-parcial%20MIM%2025-26.pdf"
+            },
+            {
+              "text": "Ex F Economía _final 25-26.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224297/mod_data/content/134156/Ex%20F%20Econom%C3%ADa%20_final%2025-26.pdf"
+            }
+          ]
+        },
+        {
+          "id": "module-53377",
+          "title": "Foro",
+          "kind": "Foro",
+          "url": "https://lms.icex.es/mod/forum/view.php?id=53377",
+          "note": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "module-53378",
+      "title": "Dirección Estratégica",
+      "phase": "Fase I",
+      "resources": [
+        {
+          "id": "module-53379",
+          "title": "Documentación",
+          "kind": "Documentación",
+          "url": "https://lms.icex.es/mod/data/view.php?id=53379",
+          "note": "",
+          "files": [
+            {
+              "text": "Ex Dir estrategia 25-26.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224300/mod_data/content/134160/Ex%20Dir%20estrategia%2025-26.pdf"
+            },
+            {
+              "text": "MANUAL DIRECCION ESTRATEGICA 26-27.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224300/mod_data/content/133855/MANUAL%20DIRECCION%20ESTRATEGICA%2026-27.pdf"
+            },
+            {
+              "text": "Camino Evolutivo Dirección Estrategica.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224300/mod_data/content/133859/Camino%20Evolutivo%20Direcci%C3%B3n%20Estrategica.pdf"
+            },
+            {
+              "text": "Como Trabajar con Matrices.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224300/mod_data/content/133863/Como%20Trabajar%20con%20Matrices.pdf"
+            },
+            {
+              "text": "Como cuantificar un DAFO.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224300/mod_data/content/133867/Como%20cuantificar%20un%20DAFO.pdf"
+            },
+            {
+              "text": "caso práctico instrucciones 26-27.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224300/mod_data/content/133871/caso%20pr%C3%A1ctico%20instrucciones%2026-27.pdf"
+            },
+            {
+              "text": "Caso práctico texto 26-27.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224300/mod_data/content/133875/Caso%20pr%C3%A1ctico%20texto%2026-27.pdf"
+            }
+          ]
+        },
+        {
+          "id": "module-53380",
+          "title": "Foro",
+          "kind": "Foro",
+          "url": "https://lms.icex.es/mod/forum/view.php?id=53380",
+          "note": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "module-53383",
+      "title": "Module on-line Market research I - Economic and commercial information sources",
+      "phase": "Fase I",
+      "resources": [
+        {
+          "id": "module-53385",
+          "title": "Documentation",
+          "kind": "Documentación",
+          "url": "https://lms.icex.es/mod/data/view.php?id=53385",
+          "note": "",
+          "files": [
+            {
+              "text": "ICEX MIM Fuentes 2627 Capitulo 1.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134060/ICEX%20MIM%20Fuentes%202627%20Capitulo%201.pdf"
+            },
+            {
+              "text": "ICEX MIM Fuentes 2627 Capitulo 2.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134064/ICEX%20MIM%20Fuentes%202627%20Capitulo%202.pdf"
+            },
+            {
+              "text": "ICEX MIM Fuentes 2627 Capitulo 0.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134068/ICEX%20MIM%20Fuentes%202627%20Capitulo%200.pdf"
+            },
+            {
+              "text": "ICEX MIM Fuentes 2627 Capitulo 00 Atalaya Bio.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134072/ICEX%20MIM%20Fuentes%202627%20Capitulo%2000%20Atalaya%20Bio.pdf"
+            },
+            {
+              "text": "ICEX MIM Fuentes 2627 Capitulo 3.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134076/ICEX%20MIM%20Fuentes%202627%20Capitulo%203.pdf"
+            },
+            {
+              "text": "ICEX MIM Fuentes 2627 Capitulo 4.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134080/ICEX%20MIM%20Fuentes%202627%20Capitulo%204.pdf"
+            },
+            {
+              "text": "ICEX MIM Fuentes 2627 Capitulo 5.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134084/ICEX%20MIM%20Fuentes%202627%20Capitulo%205.pdf"
+            },
+            {
+              "text": "ICEX MIM Fuentes 2627 Capitulo 6.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134088/ICEX%20MIM%20Fuentes%202627%20Capitulo%206.pdf"
+            },
+            {
+              "text": "ICEX MIM Fuentes 2627 Capitulo 7.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134092/ICEX%20MIM%20Fuentes%202627%20Capitulo%207.pdf"
+            },
+            {
+              "text": "ICEX MIM Fuentes 2627 Capitulo 8.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134096/ICEX%20MIM%20Fuentes%202627%20Capitulo%208.pdf"
+            },
+            {
+              "text": "ICEX MIM Fuentes 2627 Capitulo 10.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134104/ICEX%20MIM%20Fuentes%202627%20Capitulo%2010.pdf"
+            },
+            {
+              "text": "ICEX MIM Fuentes 2627 Plan de Actividades.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134108/ICEX%20MIM%20Fuentes%202627%20Plan%20de%20Actividades.pdf"
+            },
+            {
+              "text": "Actividades 3 y 4 MIM Fuentes 2627.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134215/Actividades%203%20y%204%20MIM%20Fuentes%202627.pdf"
+            },
+            {
+              "text": "Actividades 5 y 6 MIM Fuentes 2627.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134239/Actividades%205%20y%206%20MIM%20Fuentes%202627.pdf"
+            },
+            {
+              "text": "Actividades 1 y 2 MIM Fuentes 2627.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134144/Actividades%201%20y%202%20%20MIM%20Fuentes%202627.pdf"
+            },
+            {
+              "text": "Informe Feria Cosmoprof Bolonia 2026.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134032/Informe%20Feria%20Cosmoprof%20Bolonia%202026.pdf"
+            },
+            {
+              "text": "informe-feria-cosmoprofasia-hongkong-2025.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134036/informe-feria-cosmoprofasia-hongkong-2025.pdf"
+            },
+            {
+              "text": "estudio-mercado-vino-tranquilo-Japon-2025.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134052/estudio-mercado-vino-tranquilo-Japon-2025.pdf"
+            },
+            {
+              "text": "Estudio de mercado del vino español en Japón.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134056/Estudio%20de%20mercado%20del%20vino%20espan%CC%83ol%20en%20Japo%CC%81n.pdf"
+            },
+            {
+              "text": "ICEX MIM Fuentes 2627 Capitulo 9.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134100/ICEX%20MIM%20Fuentes%202627%20Capitulo%209.pdf"
+            },
+            {
+              "text": "estudio-mercado-distribucion-alimentaria-polonia-2026.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134235/estudio-mercado-distribucion-alimentaria-polonia-2026.pdf"
+            },
+            {
+              "text": "Fuentes Presentación PPT día 1.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134148/Fuentes%20Presentacio%CC%81n%20PPT%20di%CC%81a%201.pdf"
+            },
+            {
+              "text": "Fuentes Presentación PPT día 2.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134219/Fuentes%20Presentacio%CC%81n%20PPT%20di%CC%81a%202.pdf"
+            }
+          ]
+        },
+        {
+          "id": "module-53384",
+          "title": "Foro",
+          "kind": "Foro",
+          "url": "https://lms.icex.es/mod/forum/view.php?id=53384",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53840",
+          "title": "Activities 1 to 2",
+          "kind": "Tarea",
+          "url": "https://lms.icex.es/mod/assign/view.php?id=53840",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53841",
+          "title": "Activities 3 to 4",
+          "kind": "Tarea",
+          "url": "https://lms.icex.es/mod/assign/view.php?id=53841",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53842",
+          "title": "Activities 5 to 6",
+          "kind": "Tarea",
+          "url": "https://lms.icex.es/mod/assign/view.php?id=53842",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53843",
+          "title": "Activities 7 to 8",
+          "kind": "Tarea",
+          "url": "https://lms.icex.es/mod/assign/view.php?id=53843",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53844",
+          "title": "Activities 9 to 10",
+          "kind": "Tarea",
+          "url": "https://lms.icex.es/mod/assign/view.php?id=53844",
+          "note": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "module-53392",
+      "title": "Investigación Comercial I - Fuentes de información Económica y Comercial /  Market research I - Economic and commercial information sources",
+      "phase": "Fase I",
+      "resources": [
+        {
+          "id": "module-53393",
+          "title": "Documentación",
+          "kind": "Documentación",
+          "url": "https://lms.icex.es/mod/data/view.php?id=53393",
+          "note": "",
+          "files": [
+            {
+              "text": "Ex Fuentes información MIM 25-26.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224314/mod_data/content/134164/Ex%20Fuentes%20informaci%C3%B3n%20MIM%2025-26.pdf"
+            }
+          ]
+        },
+        {
+          "id": "module-53394",
+          "title": "Foro",
+          "kind": "Foro",
+          "url": "https://lms.icex.es/mod/forum/view.php?id=53394",
+          "note": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "module-53395",
+      "title": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
+      "phase": "Fase I",
+      "resources": [
+        {
+          "id": "module-53396",
+          "title": "Documentación",
+          "kind": "Documentación",
+          "url": "https://lms.icex.es/mod/data/view.php?id=53396",
+          "note": "",
+          "files": [
+            {
+              "text": "Ex F y estrategias MK MIM 25-26 .pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/134168/Ex%20F%20y%20estrategias%20MK%20MIM%2025-26%20.pdf"
+            },
+            {
+              "text": "TEMA 1- CONCEPTOS ESENCIALES Y PLAN DE MARKETING.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133904/TEMA%201-%20CONCEPTOS%20ESENCIALES%20Y%20PLAN%20DE%20MARKETING.pdf"
+            },
+            {
+              "text": "TEMA 2- POLITICA DE PRODUCTO.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133908/TEMA%202-%20POLITICA%20DE%20PRODUCTO.pdf"
+            },
+            {
+              "text": "TEMA 3- POLITICA DE PRECIO.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133912/TEMA%203-%20POLITICA%20DE%20PRECIO.pdf"
+            },
+            {
+              "text": "TEMA 4-POLITICA DE COMUNICACION .pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133916/TEMA%204-POLITICA%20DE%20COMUNICACION%20%20.pdf"
+            },
+            {
+              "text": "TEMA 5-POLITICA DE DISTRIBUCIÓN .pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133920/TEMA%205-POLITICA%20DE%20DISTRIBUCI%C3%93N%20.pdf"
+            },
+            {
+              "text": "LECTURA TEMA 1. Conceptos esenciales y Plan de Marketing.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133924/LECTURA%20TEMA%201.%20Conceptos%20esenciales%20y%20Plan%20de%20Marketing.pdf"
+            },
+            {
+              "text": "Lectura Tema 2. Producto.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133928/Lectura%20Tema%202.%20Producto.pdf"
+            },
+            {
+              "text": "Lectura Tema 3. Precio.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133932/Lectura%20%20Tema%203.%20Precio.pdf"
+            },
+            {
+              "text": "Lectura Tema 4. Comunicación.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133936/Lectura%20Tema%204.%20Comunicaci%C3%B3n.pdf"
+            },
+            {
+              "text": "Lectura Tema 5. Distribución.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133940/Lectura%20Tema%205.%20Distribuci%C3%B3n.pdf"
+            },
+            {
+              "text": "MINI CASE 2 - POLITICA DE PRODUCTO.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133944/MINI%20CASE%202%20-%20POLITICA%20DE%20PRODUCTO.pdf"
+            },
+            {
+              "text": "MINI CASE 3 - POLITICA DE PRECIOS.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133948/MINI%20CASE%203%20-%20POLITICA%20DE%20PRECIOS.pdf"
+            },
+            {
+              "text": "MINI CASE 4 - POLITICA DE COMUNICACION.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133952/MINI%20CASE%204%20%20-%20POLITICA%20DE%20COMUNICACION.pdf"
+            },
+            {
+              "text": "MINI CASE 5 - POLITICA DE DISTRIBUCIÓN.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133956/MINI%20CASE%205%20-%20POLITICA%20DE%20DISTRIBUCI%C3%93N.pdf"
+            },
+            {
+              "text": "CASE_STUDY_1_VELORA_ENGLISH.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133960/CASE_STUDY_1_VELORA_ENGLISH.pdf"
+            },
+            {
+              "text": "PRACTICAL CASE 2 ENGLISH.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133964/PRACTICAL%20CASE%202%20ENGLISH.pdf"
+            }
+          ]
+        },
+        {
+          "id": "module-53397",
+          "title": "Foro",
+          "kind": "Foro",
+          "url": "https://lms.icex.es/mod/forum/view.php?id=53397",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53398",
+          "title": "Caso práctico final",
+          "kind": "Tarea",
+          "url": "https://lms.icex.es/mod/assign/view.php?id=53398",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53400",
+          "title": "Documentación",
+          "kind": "Documentación",
+          "url": "https://lms.icex.es/mod/data/view.php?id=53400",
+          "note": "",
+          "files": [
+            {
+              "text": "Ex Estudios mercado 25-26.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224321/mod_data/content/134172/Ex%20Estudios%20mercado%2025-26.pdf"
+            },
+            {
+              "text": "MANUAL.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224321/mod_data/content/133968/MANUAL.pdf"
+            },
+            {
+              "text": "LECTURAS OBLIGATORIAS.zip",
+              "url": "https://lms.icex.es/pluginfile.php/224321/mod_data/content/133972/LECTURAS%20OBLIGATORIAS.zip"
+            },
+            {
+              "text": "LECTURAS RECOMENDADAS.zip",
+              "url": "https://lms.icex.es/pluginfile.php/224321/mod_data/content/133976/LECTURAS%20RECOMENDADAS.zip"
+            }
+          ]
+        },
+        {
+          "id": "module-53401",
+          "title": "Foro",
+          "kind": "Foro",
+          "url": "https://lms.icex.es/mod/forum/view.php?id=53401",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53402",
+          "title": "Caso práctico de lectura obligatoria “aceite de oliva gourmet Castillo de Canena en Japón”",
+          "kind": "Recurso",
+          "url": "https://lms.icex.es/mod/folder/view.php?id=53402",
+          "note": "",
+          "files": [
+            {
+              "text": "Anexos Caso Castillo de Canena.7z",
+              "url": "https://lms.icex.es/pluginfile.php/224323/mod_folder/content/0/Anexos%20Caso%20Castillo%20de%20Canena.7z?forcedownload=1"
+            },
+            {
+              "text": "Caso Práctico Aceite nicho gourmet Castillo de Canena en Japón.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224323/mod_folder/content/0/Caso%20Pra%CC%81ctico%20Aceite%20nicho%20gourmet%20Castillo%20de%20Canena%20en%20Japo%CC%81n.pdf?forcedownload=1"
+            }
+          ]
+        },
+        {
+          "id": "module-53403",
+          "title": "Caso práctico",
+          "kind": "Tarea",
+          "url": "https://lms.icex.es/mod/assign/view.php?id=53403",
+          "note": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "module-53404",
+      "title": "Precurso de Contabilidad y Finanzas",
+      "phase": "Fase I",
+      "resources": [
+        {
+          "id": "module-53835",
+          "title": "Avisos",
+          "kind": "Foro",
+          "url": "https://lms.icex.es/mod/forum/view.php?id=53835",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53786",
+          "title": "Foro de dudas y consultas",
+          "kind": "Foro",
+          "url": "https://lms.icex.es/mod/forum/view.php?id=53786",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53787",
+          "title": "Documentación: plantillas y simulador TIR y VAN",
+          "kind": "Recurso",
+          "url": "https://lms.icex.es/mod/folder/view.php?id=53787",
+          "note": "",
+          "files": [
+            {
+              "text": "Plantilla contabilidad 1.doc",
+              "url": "https://lms.icex.es/pluginfile.php/226626/mod_folder/content/0/Plantilla%20contabilidad%201.doc?forcedownload=1"
+            },
+            {
+              "text": "Plantilla contabilidad 1.xlsx",
+              "url": "https://lms.icex.es/pluginfile.php/226626/mod_folder/content/0/Plantilla%20contabilidad%201.xlsx?forcedownload=1"
+            },
+            {
+              "text": "Plantilla contabilidad 2.doc",
+              "url": "https://lms.icex.es/pluginfile.php/226626/mod_folder/content/0/Plantilla%20contabilidad%202.doc?forcedownload=1"
+            },
+            {
+              "text": "Plantilla contabilidad 2.xlsx",
+              "url": "https://lms.icex.es/pluginfile.php/226626/mod_folder/content/0/Plantilla%20contabilidad%202.xlsx?forcedownload=1"
+            },
+            {
+              "text": "Simulador_de_TIR_y_VAN.xls",
+              "url": "https://lms.icex.es/pluginfile.php/226626/mod_folder/content/0/Simulador_de_TIR_y_VAN.xls?forcedownload=1"
+            }
+          ]
+        },
+        {
+          "id": "module-53788",
+          "title": "Plan de actividades Curso Fundamentos de Contabilidad y Finanzas",
+          "kind": "Recurso",
+          "url": "https://lms.icex.es/mod/resource/view.php?id=53788",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53789",
+          "title": "Tema 1.1. Marco contable internacional",
+          "kind": "Recurso",
+          "url": "https://lms.icex.es/mod/scorm/view.php?id=53789",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53790",
+          "title": "Descarga el tema 1.1: el marco contable internacional",
+          "kind": "Restringido",
+          "url": "",
+          "note": "Descarga el tema 1.1: el marco contable internacional\nArchivo\nRestringido No disponible hasta que: La actividad Tema 1.1. Marco contable internacional esté marcada como realizada",
+          "files": []
+        },
+        {
+          "id": "module-53791",
+          "title": "Tema 1.2. Proceso y estados contables",
+          "kind": "Restringido",
+          "url": "",
+          "note": "Tema 1.2. Proceso y estados contables\nPaquete SCORM\nRestringido No disponible hasta que: La actividad Tema 1.1. Marco contable internacional esté marcada como realizada",
+          "files": []
+        },
+        {
+          "id": "module-53792",
+          "title": "Descarga el tema 1.2. Proceso y estados contables",
+          "kind": "Restringido",
+          "url": "",
+          "note": "Descarga el tema 1.2. Proceso y estados contables\nArchivo\nRestringido No disponible hasta que: La actividad Tema 1.2. Proceso y estados contables esté marcada como realizada",
+          "files": []
+        },
+        {
+          "id": "module-53793",
+          "title": "Pon en práctica lo que has aprendido",
+          "kind": "Recurso",
+          "url": "",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53794",
+          "title": "Caso práctico: Red Rum S. A.",
+          "kind": "Restringido",
+          "url": "",
+          "note": "Caso práctico: Red Rum S. A.\nPaquete SCORM\nRestringido No disponible hasta que: La actividad Tema 1.2. Proceso y estados contables esté marcada como realizada",
+          "files": []
+        },
+        {
+          "id": "module-53795",
+          "title": "Tema 2.1. Como hacer el análisis economico financiero de una empresa",
+          "kind": "Restringido",
+          "url": "",
+          "note": "Tema 2.1. Como hacer el análisis economico financiero de una empresa\nPaquete SCORM\nRestringido No disponible hasta que: La actividad Tema 1.2. Proceso y estados contables esté marcada como realizada",
+          "files": []
+        },
+        {
+          "id": "module-53796",
+          "title": "Descarga el tema 2.1. Como hacer el análisis economico financiero de una empresa",
+          "kind": "Restringido",
+          "url": "",
+          "note": "Descarga el tema 2.1. Como hacer el análisis economico financiero de una empresa\nArchivo\nRestringido No disponible hasta que: La actividad Tema 2.1. Como hacer el análisis economico financiero de una empresa esté marcada como realizada",
+          "files": []
+        },
+        {
+          "id": "module-53797",
+          "title": "Pon en práctica lo que has aprendido",
+          "kind": "Recurso",
+          "url": "",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53798",
+          "title": "Caso practico: empresa de fabricación y venta de zapatos",
+          "kind": "Restringido",
+          "url": "",
+          "note": "Caso practico: empresa de fabricación y venta de zapatos\nPaquete SCORM\nRestringido No disponible hasta que: La actividad Tema 2.1. Como hacer el análisis economico financiero de una empresa esté marcada como realizada",
+          "files": []
+        },
+        {
+          "id": "module-53799",
+          "title": "Tema 2.2. Benchmarking sectorial",
+          "kind": "Restringido",
+          "url": "",
+          "note": "Tema 2.2. Benchmarking sectorial\nPaquete SCORM\nRestringido No disponible hasta que: La actividad Tema 2.1. Como hacer el análisis economico financiero de una empresa esté marcada como realizada",
+          "files": []
+        },
+        {
+          "id": "module-53800",
+          "title": "Descarga el tema 2.2. Benchmarking sectorial",
+          "kind": "Restringido",
+          "url": "",
+          "note": "Descarga el tema 2.2. Benchmarking sectorial\nArchivo\nRestringido No disponible hasta que: La actividad Tema 2.2. Benchmarking sectorial esté marcada como realizada",
+          "files": []
+        },
+        {
+          "id": "module-53801",
+          "title": "Tema 3.1. Los costes en contexto internacional",
+          "kind": "Restringido",
+          "url": "",
+          "note": "Tema 3.1. Los costes en contexto internacional\nPaquete SCORM\nRestringido No disponible hasta que: La actividad Tema 2.2. Benchmarking sectorial esté marcada como realizada",
+          "files": []
+        },
+        {
+          "id": "module-53802",
+          "title": "Descarga el tema 3.1. Los costes en contexto internacional",
+          "kind": "Restringido",
+          "url": "",
+          "note": "Descarga el tema 3.1. Los costes en contexto internacional\nArchivo\nRestringido No disponible hasta que: La actividad Tema 3.1. Los costes en contexto internacional esté marcada como realizada",
+          "files": []
+        },
+        {
+          "id": "module-53803",
+          "title": "Pon en práctica lo que has aprendido",
+          "kind": "Recurso",
+          "url": "",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53804",
+          "title": "Caso práctico: ejercicio Toronto",
+          "kind": "Restringido",
+          "url": "",
+          "note": "Caso práctico: ejercicio Toronto\nPaquete SCORM\nRestringido No disponible hasta que: La actividad Tema 3.1. Los costes en contexto internacional esté marcada como realizada",
+          "files": []
+        },
+        {
+          "id": "module-53805",
+          "title": "Caso práctico restaurante libs",
+          "kind": "Restringido",
+          "url": "",
+          "note": "Caso práctico restaurante libs\nPaquete SCORM\nRestringido No disponible hasta que: La actividad Tema 3.1. Los costes en contexto internacional esté marcada como realizada",
+          "files": []
+        },
+        {
+          "id": "module-53806",
+          "title": "Tema 4.1. Cálculo financiero valor actual",
+          "kind": "Restringido",
+          "url": "",
+          "note": "Tema 4.1. Cálculo financiero valor actual\nPaquete SCORM\nRestringido No disponible hasta que: La actividad Tema 3.1. Los costes en contexto internacional esté marcada como realizada",
+          "files": []
+        },
+        {
+          "id": "module-53807",
+          "title": "Descarga el tema 4.1. Cálculo financiero valor actual",
+          "kind": "Restringido",
+          "url": "",
+          "note": "Descarga el tema 4.1. Cálculo financiero valor actual\nArchivo\nRestringido No disponible hasta que: La actividad Tema 4.1. Cálculo financiero valor actual esté marcada como realizada",
+          "files": []
+        },
+        {
+          "id": "module-53808",
+          "title": "Tema 4.2. Proyecciones economico financieras y escenarios",
+          "kind": "Restringido",
+          "url": "",
+          "note": "Tema 4.2. Proyecciones economico financieras y escenarios\nPaquete SCORM\nRestringido No disponible hasta que: La actividad Tema 4.1. Cálculo financiero valor actual esté marcada como realizada",
+          "files": []
+        },
+        {
+          "id": "module-53809",
+          "title": "Descarga el tema 4.2. Proyecciones economico financieras y escenarios",
+          "kind": "Restringido",
+          "url": "",
+          "note": "Descarga el tema 4.2. Proyecciones economico financieras y escenarios\nArchivo\nRestringido No disponible hasta que: La actividad Tema 4.2. Proyecciones economico financieras y escenarios esté marcada como realizada",
+          "files": []
+        },
+        {
+          "id": "module-53810",
+          "title": "Pon en práctica lo que has aprendido",
+          "kind": "Recurso",
+          "url": "",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53811",
+          "title": "Caso práctico: ejercicio internacionalizacion",
+          "kind": "Restringido",
+          "url": "",
+          "note": "Caso práctico: ejercicio internacionalizacion\nPaquete SCORM\nRestringido No disponible hasta que: La actividad Tema 4.2. Proyecciones economico financieras y escenarios esté marcada como realizada",
+          "files": []
+        },
+        {
+          "id": "module-53812",
+          "title": "Tema 4.3. Valoración de proyectos de internacionalizacion",
+          "kind": "Restringido",
+          "url": "",
+          "note": "Tema 4.3. Valoración de proyectos de internacionalizacion\nPaquete SCORM\nRestringido No disponible hasta que: La actividad Tema 4.2. Proyecciones economico financieras y escenarios esté marcada como realizada",
+          "files": []
+        },
+        {
+          "id": "module-53813",
+          "title": "Descarga el tema 4.3. Valoración de proyectos de internacionalizacion",
+          "kind": "Restringido",
+          "url": "",
+          "note": "Descarga el tema 4.3. Valoración de proyectos de internacionalizacion\nArchivo\nRestringido No disponible hasta que: La actividad Tema 4.3. Valoración de proyectos de internacionalizacion esté marcada como realizada",
+          "files": []
+        },
+        {
+          "id": "module-53814",
+          "title": "Pon en práctica lo que has aprendido",
+          "kind": "Recurso",
+          "url": "",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53815",
+          "title": "Caso práctico valoración de proyecto de internacionalización",
+          "kind": "Restringido",
+          "url": "",
+          "note": "Caso práctico valoración de proyecto de internacionalización\nPaquete SCORM\nRestringido No disponible hasta que: La actividad Tema 4.3. Valoración de proyectos de internacionalizacion esté marcada como realizada",
+          "files": []
+        },
+        {
+          "id": "module-53816",
+          "title": "Ejercicio práctico PALESTRINA",
+          "kind": "Cuestionario",
+          "url": "https://lms.icex.es/mod/quiz/view.php?id=53816",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53817",
+          "title": "Ejercicio práctico PARSONS",
+          "kind": "Cuestionario",
+          "url": "https://lms.icex.es/mod/quiz/view.php?id=53817",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53818",
+          "title": "Ejercicio práctico TYE",
+          "kind": "Cuestionario",
+          "url": "https://lms.icex.es/mod/quiz/view.php?id=53818",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53819",
+          "title": "Ejercicio práctico Cálculo financiero: BYRD",
+          "kind": "Cuestionario",
+          "url": "https://lms.icex.es/mod/quiz/view.php?id=53819",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53820",
+          "title": "Ejercicio práctico Morales",
+          "kind": "Cuestionario",
+          "url": "https://lms.icex.es/mod/quiz/view.php?id=53820",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53821",
+          "title": "Ejercicio práctico Empresa Agrícola",
+          "kind": "Cuestionario",
+          "url": "https://lms.icex.es/mod/quiz/view.php?id=53821",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53822",
+          "title": "Solución comentada",
+          "kind": "Recurso",
+          "url": "https://lms.icex.es/mod/resource/view.php?id=53822",
+          "note": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "module-53823",
+      "title": "Fundamentos de contabilidad y finanzas on-line",
+      "phase": "Fase I",
+      "resources": [
+        {
+          "id": "module-53407",
+          "title": "Documentación",
+          "kind": "Documentación",
+          "url": "https://lms.icex.es/mod/data/view.php?id=53407",
+          "note": "",
+          "files": [
+            {
+              "text": "Plantilla Contabilidad 1.docx",
+              "url": "https://lms.icex.es/pluginfile.php/224328/mod_data/content/133827/Plantilla%20Contabilidad%201.docx"
+            },
+            {
+              "text": "plantilla contabilidad.xlsx",
+              "url": "https://lms.icex.es/pluginfile.php/224328/mod_data/content/133831/plantilla%20contabilidad.xlsx"
+            },
+            {
+              "text": "Plantilla contabilidad 2.xlsx",
+              "url": "https://lms.icex.es/pluginfile.php/224328/mod_data/content/133835/Plantilla%20contabilidad%202.xlsx"
+            },
+            {
+              "text": "Plantilla contabilidad 2.doc",
+              "url": "https://lms.icex.es/pluginfile.php/224328/mod_data/content/133839/Plantilla%20contabilidad%202.doc"
+            },
+            {
+              "text": "ANEXO CUADRO DE CUENTAS CONTABLES ORIENTATIVO.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224328/mod_data/content/133843/ANEXO%20%20CUADRO%20DE%20CUENTAS%20CONTABLES%20ORIENTATIVO.pdf"
+            },
+            {
+              "text": "PLANTILLA EJERCICIO EUCALIPTO.xlsx",
+              "url": "https://lms.icex.es/pluginfile.php/224328/mod_data/content/133847/PLANTILLA%20EJERCICIO%20EUCALIPTO.xlsx"
+            },
+            {
+              "text": "Simulador de cálculo de TIR y VAN.xlsx",
+              "url": "https://lms.icex.es/pluginfile.php/224328/mod_data/content/133851/Simulador%20de%20c%C3%A1lculo%20de%20TIR%20y%20VAN.xlsx"
+            }
+          ]
+        },
+        {
+          "id": "module-53408",
+          "title": "Foro",
+          "kind": "Foro",
+          "url": "https://lms.icex.es/mod/forum/view.php?id=53408",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53831",
+          "title": "Plan de actividades",
+          "kind": "Recurso",
+          "url": "https://lms.icex.es/mod/resource/view.php?id=53831",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53832",
+          "title": "Contenido didáctico - Nota Técnica",
+          "kind": "Recurso",
+          "url": "https://lms.icex.es/mod/resource/view.php?id=53832",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53825",
+          "title": "Ejercicio práctico Abedul",
+          "kind": "Tarea",
+          "url": "https://lms.icex.es/mod/assign/view.php?id=53825",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53826",
+          "title": "Ejercicio práctico Castaño",
+          "kind": "Tarea",
+          "url": "https://lms.icex.es/mod/assign/view.php?id=53826",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53827",
+          "title": "Ejercicio práctico Roble",
+          "kind": "Tarea",
+          "url": "https://lms.icex.es/mod/assign/view.php?id=53827",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53828",
+          "title": "Ejercicio práctico Eucalipto",
+          "kind": "Tarea",
+          "url": "https://lms.icex.es/mod/assign/view.php?id=53828",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53829",
+          "title": "Ejercicio práctico Encina",
+          "kind": "Tarea",
+          "url": "https://lms.icex.es/mod/assign/view.php?id=53829",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53830",
+          "title": "Ejercicio práctico Cálculo financiero: Laurel",
+          "kind": "Tarea",
+          "url": "https://lms.icex.es/mod/assign/view.php?id=53830",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53415",
+          "title": "Cuestionario de autoevaluación",
+          "kind": "Cuestionario",
+          "url": "https://lms.icex.es/mod/quiz/view.php?id=53415",
+          "note": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "module-53416",
+      "title": "Fundamentos de contabilidad y finanzas (presencial)",
+      "phase": "Fase I",
+      "resources": [
+        {
+          "id": "module-53417",
+          "title": "Documentación",
+          "kind": "Documentación",
+          "url": "https://lms.icex.es/mod/data/view.php?id=53417",
+          "note": "",
+          "files": [
+            {
+              "text": "Sesión 1 presentación y proceso contable.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224338/mod_data/content/134040/Sesi%C3%B3n%201%20presentaci%C3%B3n%20y%20proceso%20contable.pdf"
+            },
+            {
+              "text": "Sesión 2 proceso contable.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224338/mod_data/content/134044/Sesi%C3%B3n%202%20proceso%20contable.pdf"
+            },
+            {
+              "text": "Enunciado ejercicios sesiones presenciales MUGIE 2026-2027.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224338/mod_data/content/134048/Enunciado%20ejercicios%20sesiones%20presenciales%20MUGIE%202026-2027.pdf"
+            },
+            {
+              "text": "Sesión 3 existencias.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224338/mod_data/content/134223/Sesi%C3%B3n%203%20existencias.pdf"
+            },
+            {
+              "text": "Sesión 4 amortizaciones.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224338/mod_data/content/134227/Sesi%C3%B3n%204%20amortizaciones.pdf"
+            },
+            {
+              "text": "Sesión 5 proceso contable y cálculo financiero.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224338/mod_data/content/134231/Sesi%C3%B3n%205%20proceso%20contable%20y%20c%C3%A1lculo%20financiero.pdf"
+            },
+            {
+              "text": "Ex F Contafinanzas_parcial MIM 25-26.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224338/mod_data/content/134176/Ex%20F%20Contafinanzas_parcial%20MIM%2025-26.pdf"
+            },
+            {
+              "text": "Ex F Contafinanzas_final 25-26.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224338/mod_data/content/134180/Ex%20F%20Contafinanzas_final%2025-26.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module-53419",
+      "title": "Taller de escritura on-line",
+      "phase": "Fase I",
+      "resources": [
+        {
+          "id": "module-53422",
+          "title": "Documentación",
+          "kind": "Documentación",
+          "url": "https://lms.icex.es/mod/data/view.php?id=53422",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53423",
+          "title": "Foro",
+          "kind": "Foro",
+          "url": "https://lms.icex.es/mod/forum/view.php?id=53423",
+          "note": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "module-53428",
+      "title": "Taller de Escritura",
+      "phase": "Fase I",
+      "resources": [
+        {
+          "id": "module-53429",
+          "title": "Documentación",
+          "kind": "Documentación",
+          "url": "https://lms.icex.es/mod/data/view.php?id=53429",
+          "note": "",
+          "files": [
+            {
+              "text": "Cuaderno de trabajo MIM 26-27.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224350/mod_data/content/133886/Cuaderno%20de%20trabajo%20MIM%2026-27.pdf"
+            },
+            {
+              "text": "Carpeta de Ejercicios.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224350/mod_data/content/133992/Carpeta%20de%20Ejercicios.pdf"
+            },
+            {
+              "text": "La relación bilateral entre Marruecos y EEUU y sus implicaciones para España.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224350/mod_data/content/133996/La%20relaci%C3%B3n%20bilateral%20entre%20Marruecos%20y%20EEUU%20y%20sus%20implicaciones%20para%20Espa%C3%B1a.pdf"
+            },
+            {
+              "text": "CursivasGuiaFundeu (1).pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224350/mod_data/content/134004/CursivasGuiaFundeu%20%281%29.pdf"
+            },
+            {
+              "text": "agenda en varsovia.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224350/mod_data/content/134008/agenda%20en%20varsovia.pdf"
+            },
+            {
+              "text": "Identificación de socios comerciales en Sudáfrica.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224350/mod_data/content/134012/Identificaci%C3%B3n%20de%20socios%20comerciales%20en%20Sud%C3%A1frica.pdf"
+            },
+            {
+              "text": "Informe de feria IF_Expo Envases Packaging y Procesos_2023 (002).pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224350/mod_data/content/134016/Informe%20de%20feria%20IF_Expo%20Envases%20%20Packaging%20y%20Procesos_2023%20%28002%29.pdf"
+            },
+            {
+              "text": "estudio-mercado-calzado-corea-sur-2025-resumen (002).pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224350/mod_data/content/134020/estudio-mercado-calzado-corea-sur-2025-resumen%20%28002%29.pdf"
+            },
+            {
+              "text": "Infografía Correo profesional en ofecomes.png",
+              "url": "https://lms.icex.es/pluginfile.php/224350/mod_data/content/134024/Infograf%C3%ADa%20Correo%20profesional%20en%20ofecomes.png"
+            },
+            {
+              "text": "Infografía Comunicación profesional en ofecomes.png",
+              "url": "https://lms.icex.es/pluginfile.php/224350/mod_data/content/134028/Infograf%C3%ADa%20Comunicaci%C3%B3n%20profesional%20en%20ofecomes.png"
+            },
+            {
+              "text": "Taller de Escritura. MIM 26-27.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224350/mod_data/content/134243/Taller%20de%20Escritura.%20MIM%2026-27.pdf"
+            },
+            {
+              "text": "ICEX consejo-administracion-22-02-2024.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224350/mod_data/content/134247/ICEX%20consejo-administracion-22-02-2024.pdf"
+            },
+            {
+              "text": "ICEX consejo-administracion-23-06-2022.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224350/mod_data/content/134251/ICEX%20consejo-administracion-23-06-2022.pdf"
+            }
+          ]
+        },
+        {
+          "id": "module-53430",
+          "title": "Foro",
+          "kind": "Foro",
+          "url": "https://lms.icex.es/mod/forum/view.php?id=53430",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53434",
+          "title": "Ejercicios restantes de la sesión 1",
+          "kind": "Tarea",
+          "url": "https://lms.icex.es/mod/assign/view.php?id=53434",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53435",
+          "title": "Ejercicios restantes de la sesión 2",
+          "kind": "Tarea",
+          "url": "https://lms.icex.es/mod/assign/view.php?id=53435",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53436",
+          "title": "Ejercicios restantes de la sesión 3",
+          "kind": "Tarea",
+          "url": "https://lms.icex.es/mod/assign/view.php?id=53436",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53437",
+          "title": "Ejercicios restantes de la sesión 4",
+          "kind": "Tarea",
+          "url": "https://lms.icex.es/mod/assign/view.php?id=53437",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53438",
+          "title": "Ejercicios restantes de la sesión 5",
+          "kind": "Tarea",
+          "url": "https://lms.icex.es/mod/assign/view.php?id=53438",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53439",
+          "title": "Ejercicios restantes de la sesión 6",
+          "kind": "Tarea",
+          "url": "https://lms.icex.es/mod/assign/view.php?id=53439",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53440",
+          "title": "Ejercicios restantes de la sesión 7",
+          "kind": "Tarea",
+          "url": "https://lms.icex.es/mod/assign/view.php?id=53440",
+          "note": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "module-53441",
+      "title": "Comportamiento Social en los Negocios",
+      "phase": "Fase I",
+      "resources": [
+        {
+          "id": "module-53442",
+          "title": "Documentación",
+          "kind": "Documentación",
+          "url": "https://lms.icex.es/mod/data/view.php?id=53442",
+          "note": "",
+          "files": [
+            {
+              "text": "Manual.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224363/mod_data/content/133898/Manual.pdf"
+            },
+            {
+              "text": "CASO PRÁCTICO FINAL Nota un tercio.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224363/mod_data/content/133901/CASO%20PR%C3%81CTICO%20FINAL%20Nota%20%20un%20tercio.pdf"
+            },
+            {
+              "text": "Ex Comporta social 25-26.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224363/mod_data/content/134184/Ex%20Comporta%20social%2025-26.pdf"
+            }
+          ]
+        },
+        {
+          "id": "module-53443",
+          "title": "Foro",
+          "kind": "Foro",
+          "url": "https://lms.icex.es/mod/forum/view.php?id=53443",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53444",
+          "title": "Caso práctico final",
+          "kind": "Tarea",
+          "url": "https://lms.icex.es/mod/assign/view.php?id=53444",
+          "note": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "module-53445",
+      "title": "Communication and Negotiation Skills",
+      "phase": "Fase I",
+      "resources": [
+        {
+          "id": "module-53446",
+          "title": "Documentación",
+          "kind": "Documentación",
+          "url": "https://lms.icex.es/mod/data/view.php?id=53446",
+          "note": "",
+          "files": [
+            {
+              "text": "Ex Habilidades directivas MIM 25-26.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224367/mod_data/content/134187/Ex%20Habilidades%20directivas%20MIM%2025-26.pdf"
+            },
+            {
+              "text": "SESSION_1_ICEXCECO_2026.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224367/mod_data/content/134199/SESSION_1_ICEXCECO_2026.pdf"
+            },
+            {
+              "text": "Session 2_ ICEX-CECO_2026.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224367/mod_data/content/134203/Session%202_%20ICEX-CECO_2026.pdf"
+            },
+            {
+              "text": "GettingtoYesinComplexNegotiations-StrategiesforResolvingConflictsandAchievingWin-Wins_ExecutiveVersion.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224367/mod_data/content/134207/GettingtoYesinComplexNegotiations-StrategiesforResolvingConflictsandAchievingWin-Wins_ExecutiveVersion.pdf"
+            },
+            {
+              "text": "Terra_Pact-public_case.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224367/mod_data/content/134211/Terra_Pact-public_case.pdf"
+            }
+          ]
+        },
+        {
+          "id": "module-53447",
+          "title": "Foro",
+          "kind": "Foro",
+          "url": "https://lms.icex.es/mod/forum/view.php?id=53447",
+          "note": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "module-53450",
+      "title": "Sector Exterior y Políticas Unión Europea",
+      "phase": "Fase I",
+      "resources": [
+        {
+          "id": "module-53451",
+          "title": "Documentación",
+          "kind": "Documentación",
+          "url": "https://lms.icex.es/mod/data/view.php?id=53451",
+          "note": "",
+          "files": [
+            {
+              "text": "Ex Sector Exterior MIM 25-26.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224372/mod_data/content/134191/Ex%20Sector%20Exterior%20MIM%2025-26.pdf"
+            },
+            {
+              "text": "Sesión 1_El sector exterior en la economía.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224372/mod_data/content/134112/Sesi%C3%B3n%201_El%20sector%20exterior%20en%20la%20econom%C3%ADa.pdf"
+            },
+            {
+              "text": "Sesión 2_Política Comercial. Medidas Arancelarias.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224372/mod_data/content/134116/Sesi%C3%B3n%202_Pol%C3%ADtica%20Comercial.%20Medidas%20Arancelarias.pdf"
+            },
+            {
+              "text": "Sesión 3_Política Comercial. Medidas no arancelarias.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224372/mod_data/content/134120/Sesi%C3%B3n%203_Pol%C3%ADtica%20Comercial.%20Medidas%20no%20arancelarias.pdf"
+            },
+            {
+              "text": "Sesión 4_OMC (I).pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224372/mod_data/content/134124/Sesi%C3%B3n%204_OMC%20%28I%29.pdf"
+            },
+            {
+              "text": "Sesión 5_OMC (Actividad).pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224372/mod_data/content/134128/Sesi%C3%B3n%205_OMC%20%28Actividad%29.pdf"
+            },
+            {
+              "text": "Sesión 6_Política Comercial UE. Acuerdos.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224372/mod_data/content/134132/Sesi%C3%B3n%206_Pol%C3%ADtica%20Comercial%20UE.%20Acuerdos.pdf"
+            },
+            {
+              "text": "Sesión 7_Política Comercial UE. Instrumentos.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224372/mod_data/content/134136/Sesi%C3%B3n%207_Pol%C3%ADtica%20Comercial%20UE.%20Instrumentos.pdf"
+            },
+            {
+              "text": "Sesión 8_Comercio digital y otros.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224372/mod_data/content/134140/Sesi%C3%B3n%208_Comercio%20digital%20y%20otros.pdf"
+            }
+          ]
+        },
+        {
+          "id": "module-53452",
+          "title": "Foro",
+          "kind": "Foro",
+          "url": "https://lms.icex.es/mod/forum/view.php?id=53452",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53839",
+          "title": "Póster Académico",
+          "kind": "Tarea",
+          "url": "https://lms.icex.es/mod/assign/view.php?id=53839",
+          "note": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "module-53589",
+      "title": "Sesiones Magistrales",
+      "phase": "Transversales",
+      "resources": [
+        {
+          "id": "module-53590",
+          "title": "Documentación",
+          "kind": "Documentación",
+          "url": "https://lms.icex.es/mod/data/view.php?id=53590",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53591",
+          "title": "Foro",
+          "kind": "Foro",
+          "url": "https://lms.icex.es/mod/forum/view.php?id=53591",
+          "note": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "module-53592",
+      "title": "Estrategia Avanzada: Casos de empresas internacionalizadas",
+      "phase": "Transversales",
+      "resources": [
+        {
+          "id": "module-53593",
+          "title": "Documentación",
+          "kind": "Documentación",
+          "url": "https://lms.icex.es/mod/data/view.php?id=53593",
+          "note": "",
+          "files": [
+            {
+              "text": "CASO ACERINOX_EAVanz.pdf",
+              "url": "https://lms.icex.es/pluginfile.php/224514/mod_data/content/134195/CASO%20ACERINOX_EAVanz.pdf"
+            }
+          ]
+        },
+        {
+          "id": "module-53594",
+          "title": "Foro",
+          "kind": "Foro",
+          "url": "https://lms.icex.es/mod/forum/view.php?id=53594",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53596",
+          "title": "Caso ACERINOX",
+          "kind": "Cuestionario",
+          "url": "https://lms.icex.es/mod/quiz/view.php?id=53596",
+          "note": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "module-53603",
+      "title": "Análisis de Países",
+      "phase": "Transversales",
+      "resources": [
+        {
+          "id": "module-53604",
+          "title": "Documentación",
+          "kind": "Documentación",
+          "url": "https://lms.icex.es/mod/data/view.php?id=53604",
+          "note": "",
+          "files": []
+        },
+        {
+          "id": "module-53605",
+          "title": "Foro",
+          "kind": "Foro",
+          "url": "https://lms.icex.es/mod/forum/view.php?id=53605",
+          "note": "",
+          "files": []
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "53840",
+      "title": "Activities 1 to 2",
+      "url": "https://lms.icex.es/mod/assign/view.php?id=53840",
+      "subject": "Module on-line Market research I - Economic and commercial information sources",
+      "due": "",
+      "description": ""
+    },
+    {
+      "id": "53841",
+      "title": "Activities 3 to 4",
+      "url": "https://lms.icex.es/mod/assign/view.php?id=53841",
+      "subject": "Module on-line Market research I - Economic and commercial information sources",
+      "due": "",
+      "description": ""
+    },
+    {
+      "id": "53842",
+      "title": "Activities 5 to 6",
+      "url": "https://lms.icex.es/mod/assign/view.php?id=53842",
+      "subject": "Module on-line Market research I - Economic and commercial information sources",
+      "due": "",
+      "description": ""
+    },
+    {
+      "id": "53843",
+      "title": "Activities 7 to 8",
+      "url": "https://lms.icex.es/mod/assign/view.php?id=53843",
+      "subject": "Module on-line Market research I - Economic and commercial information sources",
+      "due": "",
+      "description": ""
+    },
+    {
+      "id": "53844",
+      "title": "Activities 9 to 10",
+      "url": "https://lms.icex.es/mod/assign/view.php?id=53844",
+      "subject": "Module on-line Market research I - Economic and commercial information sources",
+      "due": "",
+      "description": ""
+    },
+    {
+      "id": "53398",
+      "title": "Caso práctico final",
+      "url": "https://lms.icex.es/mod/assign/view.php?id=53398",
+      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
+      "due": "2026-12-04T17:30:00+01:00",
+      "description": "Fecha límite de entrega el 4 de diciembre de 2026 hasta las 17:30h"
+    },
+    {
+      "id": "53403",
+      "title": "Caso práctico",
+      "url": "https://lms.icex.es/mod/assign/view.php?id=53403",
+      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
+      "due": "2026-11-27T17:30:00+01:00",
+      "description": "Fecha límite de entrega el 27 de noviembre de 2026 hasta las 17:30h"
+    },
+    {
+      "id": "53825",
+      "title": "Ejercicio práctico Abedul",
+      "url": "https://lms.icex.es/mod/assign/view.php?id=53825",
+      "subject": "Fundamentos de contabilidad y finanzas on-line",
+      "due": "",
+      "description": "Ejercicio práctico Abedul\n\nLa Empresa ABEDUL S.L. se encuentra el 1 de Enero de 20X9 con los siguientes saldos de libro mayor referidos al 31 de Diciembre de 20X8.\n\nCUENTA\n\n\t\n\nIMPORTE\n\n\n\n\nDietas y otros gastos viaje\n\n\t\n\n3.000\n\n\n\n\nNave industrial en propiedad\n\n\t\n\n159.000\n\n\n\n\nClientes\n\n\t\n\n120.000\n\n\n\n\nCuentas corrientes bancarias\n\n\t\n\n1.000\n\n\n\n\nMobiliario\n\n\t\n\n72.000\n\n\n\n\nCapital Social\n\n\t\n\n60.000\n\n\n\n\nGastos servicio mantenimiento y limpieza\n\n\t\n\n120.000\n\n\n\n\nVentas\n\n\t\n\n450.000\n\n\n\n\nProveedores\n\n\t\n\n135.000\n\n\n\n\nPatente registrada\n\n\t\n\n4.000\n\n\n\n\nGastos sueldos y salarios\n\n\t\n\n230.000\n\n\n\n\nGastos de transporte\n\n\t\n\n5.000\n\n\n\n\nOrdenador y fotocopiadora\n\n\t\n\n10.000\n\n\n\n\nPréstamo bancario a 6 meses\n\n\t\n\n45.000\n\n\n\n\nGastos suministros de luz y teléfono\n\n\t\n\n3.000\n\n\n\n\nInversiones financieras a 6 meses\n\n\t\n\n12.000\n\n\n\n\nPrimas por póliza de seguros\n\n\t\n\n3.000\n\n\n\n\nHacienda Pública acreedora\n\n\t\n\n6.000\n\n\n\n\nReservas\n\n\t\n\n4.000\n\n\n\n\nDotación a la amortización\n\n\t\n\n8.000\n\n\n\n\nAmortización acumulada\n\n\t\n\n50.000\n\n \n\nDado que se desea conocer la situación de la empresa al cierre del ejercicio, se pide realizar lo siguiente:\n\n1. Decidir, para cada cuenta, a cuál de los cuatro tipos pertenece: activo, pasivo/patrimonio neto, ingresos o gastos.\n\n\n2. Una vez hecho lo anterior, calcular el resultado económico del ejercicio preparando la Cuenta de pérdidas y ganancias. Esto se hace volcando el saldo de las cuentas de ingreso y gasto en una sola, que se conoce como cuenta de Pérdidas y Ganancias. \n\n\n3. A continuación, preparar el Balance de cierre del ejercicio, incorporando la cifra final de beneficio o pérdida. El Balance debe estar ordenado según lo estudiado en el curso, es decir, distinguiendo activo corriente (circulante) y activo no corriente (fijo) y pasivo corriente (circulante), pasivo no corriente (fijo) y patrimonio neto (recursos propios).\n\n A final de año no quedan existencias en almacén.\n\n\nEste ejercicio debe realizarlo utilizando la plantilla llamada Contabilidad 1 (elegir versión en Word o en Excel) que puede descargar en el recurso “Documentación.\n\nUna vez realizado el ejercicio práctico Abedul S.A., súbalo a este recurso para su corrección."
+    },
+    {
+      "id": "53826",
+      "title": "Ejercicio práctico Castaño",
+      "url": "https://lms.icex.es/mod/assign/view.php?id=53826",
+      "subject": "Fundamentos de contabilidad y finanzas on-line",
+      "due": "",
+      "description": "Ejercicio práctico Castaño\n\nLa empresa Castaño, S.L. que se dedica a ofrecer servicios de consultoría se encuentra preparando el cierre contable del año 20X9, primero de su actividad. Se solicita:\n\nRegistrar los hechos ocurridos durante 20X9 a nivel de Libro Diario y Libro Mayor\nCalcular el resultado del ejercicio 20X9 (Cálculo del beneficio o pérdida)\nPreparar el balance de cierre de 20X9\n\n \n\nDurante el año 20X9, han ocurrido los siguientes hechos en la empresa\n\nEl 1 de enero se constituye la empresa, con un capital de 25.000 euros, que se dejan en una cuenta bancaria\nSe genera un gasto por líneas de comunicaciones por valor de 500 euros que se dejan a deber.\nEl 1 de enero se adquiere un terreno por 6.000 euros y un ordenador por 3.000 que se pagan al contado por Banco\nEl 10 de febrero se factura un servicio a un cliente 7.000 euros a crédito, a cobrar a 60 días.\nSe paga el recibo de gastos de luz por 300 euros al contado por Bancos\nEl 16 de abril se realiza el pago de una comisión a un agente por las ventas realizadas en el año por 1.500 euros a pagar al contado\nEl 30 de mayo se pagan 1.300 euros de sueldo a los empleados al contado por Banco.\nSe cobra por banco a los clientes del punto 4\nEl 18 de Julio se paga el gasto pendiente de pago del punto 2\nSe recibe factura del servicio de mantenimiento del equipo por valor de 1.600 euros, que se dejan a deber a los acreedores.\nSe venden servicios a crédito facturando a un cliente por valor de 2.300 euros\nSe pagan los gastos de viaje del Director General por 600 euros\n\n \n\nEl 31 de diciembre, la empresa debe contabilizar la amortización del ejercicio. Los activos no corrientes de esta empresa (ordenador) se amortizan de forma lineal en 3 años (amortización lineal quiere decir que cada año se amortiza la misma cantidad, al ser 3 años, en tres cuotas iguales) y se asume para el cálculo de la amortización que no tienen valor residual. Como los bienes se compraron el 1 de enero, se amortiza el año completo. Si se hubieran comprado a mitad de año, se habría ajustado el gasto a la porción del año en que han permanecido en el activo no corriente de la empresa. Los terrenos no se amortizan.\n\nEste ejercicio debe realizarlo utilizando la plantilla llamada Contabilidad 2 (elegir versión en Word o en Excel) que puede descargar en el recurso “Documentación”.\n\nUna vez realizado el ejercicio práctico Castaño S.L., súbalo a este recurso para su corrección"
+    },
+    {
+      "id": "53827",
+      "title": "Ejercicio práctico Roble",
+      "url": "https://lms.icex.es/mod/assign/view.php?id=53827",
+      "subject": "Fundamentos de contabilidad y finanzas on-line",
+      "due": "",
+      "description": "Ejercicio práctico Roble\n\nLa empresa ROBLE, S.L. se encuentra preparando el cierre contable del año 201X. Se dedica a comprar productos (mesas de teka) en Asia que vende después en España.\n\nSu balance de cierre de 201X-1 es como sigue\n\nACTIVO\n\n\t\n\nPASIVO\n\n\n\n\nACTIVO CORRIENTE (CIRCULANTE)\n\n\t\n\nPASIVO CORRIENTE (CIRCULANTE)\n\n\n\n\nBANCOS\n\n\t\n\n180.000\n\n\t\n\n \n\n\t\n\n \n\n\n\n\nCLIENTES\n\n\t\n\n20.000\n\n\t\n\n \n\n\t\n\n \n\n\n\n\nACTIVO NO CORRIENTE (FIJO)\n\n\t\n\nPASIVO NO CORRIENTE (FIJO)\n\n\n\n\n \n\n\t\n\n \n\n\t\n\nPATRIMONIO NETO (RECURSOS PROPIOS)\n\n\n\n\n \n\n\t\n\n \n\n\t\n\nCAPITAL SOCIAL\n\n\t\n\n200.000\n\n\n\n\n \n\n\t\n\n \n\n\t\n\n \n\n\t\n\n \n\n\n\n\n200.000\n\n\t\n\nTOTAL ACTIVO\n\n\t\n\nTOTAL PASIVO\n\n\t\n\n200.000\n\n \n\nLos saldos de balance de cierre de un año son los de apertura del siguiente y deben arrastrarse al siguiente año, a través de un asiento de diario de apertura, que debe incluirse como saldo inicial en las cuentas de mayor de cada partida. Las cuentas del balance de cierre con saldo deudor se llevarán al debe del asiento de apertura y las cuentas con saldo acreedor al haber del asiento de apertura.\n\n \n\nSe solicita:\n\n1. Registrar los hechos ocurridos durante 201X a nivel de Libro Diario y Libro Mayor, usando el sistema de inventario periódico o especulativo, incluyendo el asiento de apertura.\n\n2. Calcular el resultado del ejercicio 201X.\n\n3. Preparar el balance de cierre de 201X.\n\n \n\nDurante el año 201X, han ocurrido los siguientes hechos en la empresa\n\n1. Se cobran los clientes del año anterior a través de la cuenta bancaria\n\n2. Compra 15 mesas de teka a 140 euros cada una, que deja a deber al proveedor.\n\n3. Compra 10 mesas de teka a 145 euros cada una, que se pagan al contado.\n\n4. Adquiere un local por 24.000 euros el 6 de mayo, que se paga al contado por Banco. Se amortiza de forma lineal en 20 años y se calcula la amortización por meses completos (incluyendo mayo completo), en un único asiento a final de año. El activo no cuenta con valor residual.\n\n5. Pide un préstamo a 3 años al Banco por 30.000 euros el día 1 de julio. Paga un total de un 8% de intereses anuales, que se pagan el último día de cada mes, incluyendo el mes de diciembre. Por simplicidad, realizaremos un solo asiento el 31 de diciembre por los intereses acumulados de todos los meses que corresponda. No paga principal los dos primeros años (carencia).\n\n6. Vende 9 mesas de teka por 660 euros cada una, a crédito.\n\n7. Paga el recibo de la luz por 530 euros, al contado.\n\n8. Contabiliza un gasto de 1.600 euros de sueldo a los empleados, que se pagan al contado por Bancos.\n\n9. El 7 de julio compra un vehículo por valor de 4.500 euros que paga al contado por Bancos. Se amortiza de forma lineal en 5 años y se hace por meses completos, a final de año, julio completo incluido.\n\n10. Paga la mitad de los proveedores pendientes del punto 2.\n\n11. Compra 16 mesas a 152 euros cada una que dejamos a deber.\n\n12. Paga una tasa municipal por Banco de 250 euros.\n\n13. Vende 32 mesas a 650 euros cada una que los clientes  pagan la mitad al contado y la otra mitad a crédito.\n\n14. Compra 10 mesas a 168 euros cada una que deja a deber.\n\n \n\nAjustes final de año\n\nNo tenía existencias iniciales, pero si finales (las de la última compra). Realizar el asiento de variación de existencias. La valoración de las existencias finales, dado el método de valoración usado por la sociedad,  coincide en este caso con el valor de la última compra, la realizada en el punto 14 del enunciado.\n\nRealiza el cálculo del Impuesto de Sociedades, del 25% del beneficio, que refleja en la contabilidad como gastos pero no lo paga, dejándolo a deber a Hacienda (aparece en un pasivo corriente como deuda a corto plazo ante Hacienda).\n\n \n\nEste ejercicio debe realizarlo utilizando la plantilla llamada Contabilidad 2 (elegir versión en Word o en Excel) que puede descargar en el recurso “Documentación.Ajustar el formato al número de asientos y a las cuentas concretas del ejercicio.\n\nUna vez realizado el ejercicio práctico, súbalo a este recurso para su corrección"
+    },
+    {
+      "id": "53828",
+      "title": "Ejercicio práctico Eucalipto",
+      "url": "https://lms.icex.es/mod/assign/view.php?id=53828",
+      "subject": "Fundamentos de contabilidad y finanzas on-line",
+      "due": "",
+      "description": "Ejercicio práctico Eucalipto\n\n\nLa empresa Eucalipto S.L. se dedica a la compra y venta de ambientadores para coche.\n\nAl principio de este año económico tiene en el almacén ambientadores por importe de 4.000 euros. Estas existencias iniciales corresponden a 1.000 unidades valoradas a un coste de 4 euros cada una.\n\nDurante el año se han realizado las siguientes compras con sus fechas asociadas (todas las compras a crédito):\n\n· Febrero 600 unidades a 5,5 euros cada una\n\n· Marzo 800 unidades a 5,5 euros cada una\n\n· Julio 1.300 unidades a 7 euros cada una\n\n· Agosto 1.400 unidades a 7 euros cada una\n\nAsí mismo las ventas han sido las siguientes, precio de venta constante durante el año de 16 euros cada unidad (todas las ventas a crédito):\n\n· Octubre 800 unidades\n\n· Noviembre 2.600 unidades\n\nLa empresa sigue el sistema de inventario periódico.\n\nRealizar la ficha de inventario tanto por FIFO, LIFO y CMP. Preparar la cuenta de pérdidas y ganancias y calcular el resultado de la empresa (no se consideran más datos) para cada método FIFO, LIFO, CMP, así como el coste de ventas, según formato ofrecido.\n\nUtilizar el formato en Excel en recurso Documentación llamado “Formato ejercicio Eucalipto”. Se ofrece resuelto el caso del método FIFO.\n\nUna vez realizado el ejercicio práctico, súbalo a este recurso para su corrección"
+    },
+    {
+      "id": "53829",
+      "title": "Ejercicio práctico Encina",
+      "url": "https://lms.icex.es/mod/assign/view.php?id=53829",
+      "subject": "Fundamentos de contabilidad y finanzas on-line",
+      "due": "",
+      "description": "Ejercicio práctico Contabilidad: Encina\n\n\nLa sociedad ENCINA S.A. de carácter comercial, presenta los siguientes saldos en su balance a 31/12/X0.\n\n CAPITAL SOCIAL\n\n\t\n\n330.600\n\n\n\n\nRESERVA LEGAL\n\n\t\n\n40.000\n\n\n\n\nRESERVAS VOLUNTARIAS\n\n\t\n\n32.000\n\n\n\n\nRESULTADO DEL EJERCICIO X0 (BENEFICIO)\n\n\t\n\n34.250\n\n\n\n\nDEUDAS A LARGO PLAZO CON ENTIDADES DE CREDITO\n\n\t\n\n107.950\n\n\n\n\nPROVEEDORES DE INMOV. LARGO PLAZO\n\n\t\n\n94.000\n\n\n\n\nMAQUINARIA\n\n\t\n\n6.600\n\n\n\n\nINVERSIONES EN TERRENOS Y BIENES NATURALES\n\n\t\n\n284.000\n\n\n\n\nMOBILIARIO\n\n\t\n\n48.200\n\n\n\n\nEQUIPOS PARA PROC. DE INFORMACION- ORDENADORES\n\n\t\n\n14.200\n\n\n\n\nAMORTIZACION ACUMULADA DEL INMOVILIZADO MATERIAL\n\n\t\n\n15.610\n\n\n\n\nMERCADERIAS\n\n\t\n\n89.350\n\n\n\n\nPROVEEDORES\n\n\t\n\n13.380\n\n\n\n\nACREEDORES POR PRESTACIONES DE SERVICIOS\n\n\t\n\n2.540\n\n\n\n\nCLIENTES\n\n\t\n\n72.400\n\n\n\n\nHACIENDA PUBLICA ACREEDOR POR RETENCIONES PRACTICADAS\n\n\t\n\n970\n\n\n\n\nINVERSIONES FINANCIERAS A C/P EN INSTRUMENTOS DE PATRIMONIO\n\n\t\n\n65.350\n\n\n\n\nBANCOS E INSTITUCIONES DE CREDITO C.C. VISTA, €\n\n\t\n\n91.200\n\n \n\nRealizar las siguientes operaciones:\n\nFormar el balance de cierre del año X0 (de apertura de X1) Y PRESENTARLO EN LA PESTAÑA ESPECÍFICA DE LA HOJA DE CÁLCULO\nContabilizar los asientos que procedan durante el ejercicio X1 con relación a las siguientes operaciones:\n\n1. Asiento de apertura del año X1. Se realiza anotando un asiento en el diario en el que consten todas las cuentas de balance, las de saldo deudor en el debe y las de saldo acreedor en el haber. Y todo lo que se anote en este asiento, como los demás asientos en el diario, se anotará también en el mayor de cada cuenta.\n\n2. Se ha cobrado la totalidad de los saldos iniciales con clientes.  \n\n3. Se ha pagado la totalidad de los saldos iniciales con acreedores a corto plazo (proveedores, acreedores, hacienda). También se pagó el 60% de la deuda con la empresa que nos vendió el solar (el proveedor de inmovilizado a largo plazo). NOTA: LA DEUDA CON PROVEEDORES DE INMOVILIZADO A LARGO PLAZO NO DEBE RECLASIFICARSE COMO DEUDA A CORTO PLAZO AL SEGUIR SIENDO DE LARGO PLAZO PUESTO QUE QUEDA MÁS DE UN AÑO DESDE EL CIERRE DE X1 PARA PAGARLA.  \n\n4. Se han comprado a crédito mercaderías al precio global de 76.000€\n\n5. La sociedad factura durante el ejercicio 360.000€ por venta de mercaderías. El 40% se cobra al contado y el resto a crédito.\n\n6. Se han devengado y pagado intereses de préstamos por 8.950€.\n\n7. La Junta General de Socios acuerda destinar los beneficios obtenidos en X0 a la dotación de reservas voluntarias en su totalidad.\n\n8. Las nóminas del personal contratado en diciembre ascienden a 9.605 euros que se pagan por Banco el mismo mes.\n\n9. Se ha recibido factura de una empresa externa por transporte de mercancías al extranjero. La factura asciende a 3.200€. Está pendiente de pago a cierre del ejercicio X1.\n\n10. Por asistencia a una feria en Portugal se ha incurrido en gastos por 12.650€, pagados durante el año.\n\n11. La sociedad amortiza su inmovilizado de forma lineal de acuerdo con la siguiente información (considerar que los activos no tienen valor residual, salvo que se indique expresamente):\n\na. Maquinaria: 10% anual.\n\nb. Mobiliario: 12%; Valor residual: 3.200€.\n\nc. Ordenadores: 25%.\n\n12. El valor de las existencias al cierre es de 145.000 euros.\n\n13. Calcular el impuesto de sociedades (25%) (Previamente se debe calcular el beneficio antes de impuestos y realizar entonces el asiento por el gasto derivado del I. Sociedades el cual no se paga en el ejercicio cerrado y queda como una deuda a corto plazo frente a la Hacienda Pública).\n\n\nFormular la cuenta de Pérdidas y Ganancias del ejercicio X1\nFormular el Balance de Situación a 31/12/X1\n\n NOTAS:\n\nPor simplificación no se ha incluido el IVA\nLos cobros y pagos se hacen por banco.\nEl 50% del préstamo que figura en Deudas a largo plazo con entidades de crédito vence en X2 (y por tanto pasa a ser de corto plazo y habría que reclasificarlo como deuda a corto plazo); el resto en X3 (y sigue siendo deuda a largo plazo). NOTA: LA DEUDA CON PROVEEDORES DE INMOVILIZADO A LARGO PLAZO NO DEBE RECLASIFICARSE COMO DEUDA A CORTO PLAZO AL SEGUIR SIENDO DE LARGO PLAZO PUESTO QUE QUEDA MÁS DE UN AÑO DESDE EL CIERRE DE X1 PARA PAGARLA.  \nNo realizar ninguna otra contabilización que no esté expresamente indicada.\nNo se ha tenido en cuenta la normativa española sobre dotación de reservas legales, pues no se indica en qué país opera la empresa y por tanto se ha obviado cualquier obligación de esta índole.\n\nEste ejercicio debe realizarlo utilizando la plantilla llamada Contabilidad 2 (elegir versión en Word o en Excel) que puede descargar en el recurso “Documentación.\n\nAjustar el formato al número de asientos y a las cuentas concretas del ejercicio.\n\nUna vez realizado el ejercicio práctico, súbalo a este recurso para su corrección"
+    },
+    {
+      "id": "53830",
+      "title": "Ejercicio práctico Cálculo financiero: Laurel",
+      "url": "https://lms.icex.es/mod/assign/view.php?id=53830",
+      "subject": "Fundamentos de contabilidad y finanzas on-line",
+      "due": "",
+      "description": "Ejercicio práctico Cálculo financiero: Laurel\n\nLa empresa LAUREL se encuentra realizando una revisión de distintos aspectos financieros de su gestión y necesita comprobar los siguientes cálculos:\n\n1. La empresa espera obtener los siguientes flujos de caja en los próximos años, derivados de un proyecto de inversión. La tasa de descuento estimada es el 6%: Calcular el valor actual de cada uno de los flujos\n\nFlujo de caja de 55.000 euros al final del año 3\nFlujo de caja de 66.000 al final del año 5\nFlujo de caja de 90.000 al final del año 7\n\n 2. La empresa desea conocer el valor futuro de una inversión de 18.000 euros, si invierte tanto a tipo de interés simple como compuesto, durante 4 años al 10% de interés. Indicar el valor final de ambas operaciones.\n\nFormato libre. Una vez realizado el ejercicio práctico, súbalo a este recurso para su corrección"
+    },
+    {
+      "id": "53434",
+      "title": "Ejercicios restantes de la sesión 1",
+      "url": "https://lms.icex.es/mod/assign/view.php?id=53434",
+      "subject": "Taller de Escritura",
+      "due": "",
+      "description": "Ejercicios restantes de la sesión 1"
+    },
+    {
+      "id": "53435",
+      "title": "Ejercicios restantes de la sesión 2",
+      "url": "https://lms.icex.es/mod/assign/view.php?id=53435",
+      "subject": "Taller de Escritura",
+      "due": "",
+      "description": ""
+    },
+    {
+      "id": "53436",
+      "title": "Ejercicios restantes de la sesión 3",
+      "url": "https://lms.icex.es/mod/assign/view.php?id=53436",
+      "subject": "Taller de Escritura",
+      "due": "",
+      "description": ""
+    },
+    {
+      "id": "53437",
+      "title": "Ejercicios restantes de la sesión 4",
+      "url": "https://lms.icex.es/mod/assign/view.php?id=53437",
+      "subject": "Taller de Escritura",
+      "due": "",
+      "description": ""
+    },
+    {
+      "id": "53438",
+      "title": "Ejercicios restantes de la sesión 5",
+      "url": "https://lms.icex.es/mod/assign/view.php?id=53438",
+      "subject": "Taller de Escritura",
+      "due": "",
+      "description": ""
+    },
+    {
+      "id": "53439",
+      "title": "Ejercicios restantes de la sesión 6",
+      "url": "https://lms.icex.es/mod/assign/view.php?id=53439",
+      "subject": "Taller de Escritura",
+      "due": "",
+      "description": ""
+    },
+    {
+      "id": "53440",
+      "title": "Ejercicios restantes de la sesión 7",
+      "url": "https://lms.icex.es/mod/assign/view.php?id=53440",
+      "subject": "Taller de Escritura",
+      "due": "",
+      "description": ""
+    },
+    {
+      "id": "53444",
+      "title": "Caso práctico final",
+      "url": "https://lms.icex.es/mod/assign/view.php?id=53444",
+      "subject": "Comportamiento Social en los Negocios",
+      "due": "2026-12-17T17:30:00+01:00",
+      "description": "La fecha límite de entrega es el 17 de diciembre 2026 hasta las 17:30h"
+    },
+    {
+      "id": "53839",
+      "title": "Póster Académico",
+      "url": "https://lms.icex.es/mod/assign/view.php?id=53839",
+      "subject": "Sector Exterior y Políticas Unión Europea",
+      "due": "2026-11-03T10:30:00+01:00",
+      "description": "Cierre: martes, 3 de noviembre de 2026, 10:30"
+    }
+  ],
+  "files": [
+    {
+      "text": "Ex F Economía-parcial MIM 25-26.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224297/mod_data/content/134152/Ex%20F%20Econom%C3%ADa-parcial%20MIM%2025-26.pdf",
+      "subject": "Fundamentos de Economía",
+      "subjectId": "module-53375"
+    },
+    {
+      "text": "Ex F Economía _final 25-26.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224297/mod_data/content/134156/Ex%20F%20Econom%C3%ADa%20_final%2025-26.pdf",
+      "subject": "Fundamentos de Economía",
+      "subjectId": "module-53375"
+    },
+    {
+      "text": "Ex Dir estrategia 25-26.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224300/mod_data/content/134160/Ex%20Dir%20estrategia%2025-26.pdf",
+      "subject": "Dirección Estratégica",
+      "subjectId": "module-53378"
+    },
+    {
+      "text": "MANUAL DIRECCION ESTRATEGICA 26-27.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224300/mod_data/content/133855/MANUAL%20DIRECCION%20ESTRATEGICA%2026-27.pdf",
+      "subject": "Dirección Estratégica",
+      "subjectId": "module-53378"
+    },
+    {
+      "text": "Camino Evolutivo Dirección Estrategica.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224300/mod_data/content/133859/Camino%20Evolutivo%20Direcci%C3%B3n%20Estrategica.pdf",
+      "subject": "Dirección Estratégica",
+      "subjectId": "module-53378"
+    },
+    {
+      "text": "Como Trabajar con Matrices.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224300/mod_data/content/133863/Como%20Trabajar%20con%20Matrices.pdf",
+      "subject": "Dirección Estratégica",
+      "subjectId": "module-53378"
+    },
+    {
+      "text": "Como cuantificar un DAFO.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224300/mod_data/content/133867/Como%20cuantificar%20un%20DAFO.pdf",
+      "subject": "Dirección Estratégica",
+      "subjectId": "module-53378"
+    },
+    {
+      "text": "caso práctico instrucciones 26-27.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224300/mod_data/content/133871/caso%20pr%C3%A1ctico%20instrucciones%2026-27.pdf",
+      "subject": "Dirección Estratégica",
+      "subjectId": "module-53378"
+    },
+    {
+      "text": "Caso práctico texto 26-27.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224300/mod_data/content/133875/Caso%20pr%C3%A1ctico%20texto%2026-27.pdf",
+      "subject": "Dirección Estratégica",
+      "subjectId": "module-53378"
+    },
+    {
+      "text": "ICEX MIM Fuentes 2627 Capitulo 1.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134060/ICEX%20MIM%20Fuentes%202627%20Capitulo%201.pdf",
+      "subject": "Module on-line Market research I - Economic and commercial information sources",
+      "subjectId": "module-53383"
+    },
+    {
+      "text": "ICEX MIM Fuentes 2627 Capitulo 2.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134064/ICEX%20MIM%20Fuentes%202627%20Capitulo%202.pdf",
+      "subject": "Module on-line Market research I - Economic and commercial information sources",
+      "subjectId": "module-53383"
+    },
+    {
+      "text": "ICEX MIM Fuentes 2627 Capitulo 0.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134068/ICEX%20MIM%20Fuentes%202627%20Capitulo%200.pdf",
+      "subject": "Module on-line Market research I - Economic and commercial information sources",
+      "subjectId": "module-53383"
+    },
+    {
+      "text": "ICEX MIM Fuentes 2627 Capitulo 00 Atalaya Bio.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134072/ICEX%20MIM%20Fuentes%202627%20Capitulo%2000%20Atalaya%20Bio.pdf",
+      "subject": "Module on-line Market research I - Economic and commercial information sources",
+      "subjectId": "module-53383"
+    },
+    {
+      "text": "ICEX MIM Fuentes 2627 Capitulo 3.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134076/ICEX%20MIM%20Fuentes%202627%20Capitulo%203.pdf",
+      "subject": "Module on-line Market research I - Economic and commercial information sources",
+      "subjectId": "module-53383"
+    },
+    {
+      "text": "ICEX MIM Fuentes 2627 Capitulo 4.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134080/ICEX%20MIM%20Fuentes%202627%20Capitulo%204.pdf",
+      "subject": "Module on-line Market research I - Economic and commercial information sources",
+      "subjectId": "module-53383"
+    },
+    {
+      "text": "ICEX MIM Fuentes 2627 Capitulo 5.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134084/ICEX%20MIM%20Fuentes%202627%20Capitulo%205.pdf",
+      "subject": "Module on-line Market research I - Economic and commercial information sources",
+      "subjectId": "module-53383"
+    },
+    {
+      "text": "ICEX MIM Fuentes 2627 Capitulo 6.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134088/ICEX%20MIM%20Fuentes%202627%20Capitulo%206.pdf",
+      "subject": "Module on-line Market research I - Economic and commercial information sources",
+      "subjectId": "module-53383"
+    },
+    {
+      "text": "ICEX MIM Fuentes 2627 Capitulo 7.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134092/ICEX%20MIM%20Fuentes%202627%20Capitulo%207.pdf",
+      "subject": "Module on-line Market research I - Economic and commercial information sources",
+      "subjectId": "module-53383"
+    },
+    {
+      "text": "ICEX MIM Fuentes 2627 Capitulo 8.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134096/ICEX%20MIM%20Fuentes%202627%20Capitulo%208.pdf",
+      "subject": "Module on-line Market research I - Economic and commercial information sources",
+      "subjectId": "module-53383"
+    },
+    {
+      "text": "ICEX MIM Fuentes 2627 Capitulo 10.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134104/ICEX%20MIM%20Fuentes%202627%20Capitulo%2010.pdf",
+      "subject": "Module on-line Market research I - Economic and commercial information sources",
+      "subjectId": "module-53383"
+    },
+    {
+      "text": "ICEX MIM Fuentes 2627 Plan de Actividades.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134108/ICEX%20MIM%20Fuentes%202627%20Plan%20de%20Actividades.pdf",
+      "subject": "Module on-line Market research I - Economic and commercial information sources",
+      "subjectId": "module-53383"
+    },
+    {
+      "text": "Actividades 3 y 4 MIM Fuentes 2627.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134215/Actividades%203%20y%204%20MIM%20Fuentes%202627.pdf",
+      "subject": "Module on-line Market research I - Economic and commercial information sources",
+      "subjectId": "module-53383"
+    },
+    {
+      "text": "Actividades 5 y 6 MIM Fuentes 2627.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134239/Actividades%205%20y%206%20MIM%20Fuentes%202627.pdf",
+      "subject": "Module on-line Market research I - Economic and commercial information sources",
+      "subjectId": "module-53383"
+    },
+    {
+      "text": "Actividades 1 y 2 MIM Fuentes 2627.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134144/Actividades%201%20y%202%20%20MIM%20Fuentes%202627.pdf",
+      "subject": "Module on-line Market research I - Economic and commercial information sources",
+      "subjectId": "module-53383"
+    },
+    {
+      "text": "Informe Feria Cosmoprof Bolonia 2026.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134032/Informe%20Feria%20Cosmoprof%20Bolonia%202026.pdf",
+      "subject": "Module on-line Market research I - Economic and commercial information sources",
+      "subjectId": "module-53383"
+    },
+    {
+      "text": "informe-feria-cosmoprofasia-hongkong-2025.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134036/informe-feria-cosmoprofasia-hongkong-2025.pdf",
+      "subject": "Module on-line Market research I - Economic and commercial information sources",
+      "subjectId": "module-53383"
+    },
+    {
+      "text": "estudio-mercado-vino-tranquilo-Japon-2025.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134052/estudio-mercado-vino-tranquilo-Japon-2025.pdf",
+      "subject": "Module on-line Market research I - Economic and commercial information sources",
+      "subjectId": "module-53383"
+    },
+    {
+      "text": "Estudio de mercado del vino español en Japón.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134056/Estudio%20de%20mercado%20del%20vino%20espan%CC%83ol%20en%20Japo%CC%81n.pdf",
+      "subject": "Module on-line Market research I - Economic and commercial information sources",
+      "subjectId": "module-53383"
+    },
+    {
+      "text": "ICEX MIM Fuentes 2627 Capitulo 9.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134100/ICEX%20MIM%20Fuentes%202627%20Capitulo%209.pdf",
+      "subject": "Module on-line Market research I - Economic and commercial information sources",
+      "subjectId": "module-53383"
+    },
+    {
+      "text": "estudio-mercado-distribucion-alimentaria-polonia-2026.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134235/estudio-mercado-distribucion-alimentaria-polonia-2026.pdf",
+      "subject": "Module on-line Market research I - Economic and commercial information sources",
+      "subjectId": "module-53383"
+    },
+    {
+      "text": "Fuentes Presentación PPT día 1.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134148/Fuentes%20Presentacio%CC%81n%20PPT%20di%CC%81a%201.pdf",
+      "subject": "Module on-line Market research I - Economic and commercial information sources",
+      "subjectId": "module-53383"
+    },
+    {
+      "text": "Fuentes Presentación PPT día 2.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224306/mod_data/content/134219/Fuentes%20Presentacio%CC%81n%20PPT%20di%CC%81a%202.pdf",
+      "subject": "Module on-line Market research I - Economic and commercial information sources",
+      "subjectId": "module-53383"
+    },
+    {
+      "text": "Ex Fuentes información MIM 25-26.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224314/mod_data/content/134164/Ex%20Fuentes%20informaci%C3%B3n%20MIM%2025-26.pdf",
+      "subject": "Investigación Comercial I - Fuentes de información Económica y Comercial /  Market research I - Economic and commercial information sources",
+      "subjectId": "module-53392"
+    },
+    {
+      "text": "Ex F y estrategias MK MIM 25-26 .pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/134168/Ex%20F%20y%20estrategias%20MK%20MIM%2025-26%20.pdf",
+      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
+      "subjectId": "module-53395"
+    },
+    {
+      "text": "TEMA 1- CONCEPTOS ESENCIALES Y PLAN DE MARKETING.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133904/TEMA%201-%20CONCEPTOS%20ESENCIALES%20Y%20PLAN%20DE%20MARKETING.pdf",
+      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
+      "subjectId": "module-53395"
+    },
+    {
+      "text": "TEMA 2- POLITICA DE PRODUCTO.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133908/TEMA%202-%20POLITICA%20DE%20PRODUCTO.pdf",
+      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
+      "subjectId": "module-53395"
+    },
+    {
+      "text": "TEMA 3- POLITICA DE PRECIO.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133912/TEMA%203-%20POLITICA%20DE%20PRECIO.pdf",
+      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
+      "subjectId": "module-53395"
+    },
+    {
+      "text": "TEMA 4-POLITICA DE COMUNICACION .pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133916/TEMA%204-POLITICA%20DE%20COMUNICACION%20%20.pdf",
+      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
+      "subjectId": "module-53395"
+    },
+    {
+      "text": "TEMA 5-POLITICA DE DISTRIBUCIÓN .pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133920/TEMA%205-POLITICA%20DE%20DISTRIBUCI%C3%93N%20.pdf",
+      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
+      "subjectId": "module-53395"
+    },
+    {
+      "text": "LECTURA TEMA 1. Conceptos esenciales y Plan de Marketing.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133924/LECTURA%20TEMA%201.%20Conceptos%20esenciales%20y%20Plan%20de%20Marketing.pdf",
+      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
+      "subjectId": "module-53395"
+    },
+    {
+      "text": "Lectura Tema 2. Producto.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133928/Lectura%20Tema%202.%20Producto.pdf",
+      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
+      "subjectId": "module-53395"
+    },
+    {
+      "text": "Lectura Tema 3. Precio.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133932/Lectura%20%20Tema%203.%20Precio.pdf",
+      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
+      "subjectId": "module-53395"
+    },
+    {
+      "text": "Lectura Tema 4. Comunicación.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133936/Lectura%20Tema%204.%20Comunicaci%C3%B3n.pdf",
+      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
+      "subjectId": "module-53395"
+    },
+    {
+      "text": "Lectura Tema 5. Distribución.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133940/Lectura%20Tema%205.%20Distribuci%C3%B3n.pdf",
+      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
+      "subjectId": "module-53395"
+    },
+    {
+      "text": "MINI CASE 2 - POLITICA DE PRODUCTO.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133944/MINI%20CASE%202%20-%20POLITICA%20DE%20PRODUCTO.pdf",
+      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
+      "subjectId": "module-53395"
+    },
+    {
+      "text": "MINI CASE 3 - POLITICA DE PRECIOS.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133948/MINI%20CASE%203%20-%20POLITICA%20DE%20PRECIOS.pdf",
+      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
+      "subjectId": "module-53395"
+    },
+    {
+      "text": "MINI CASE 4 - POLITICA DE COMUNICACION.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133952/MINI%20CASE%204%20%20-%20POLITICA%20DE%20COMUNICACION.pdf",
+      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
+      "subjectId": "module-53395"
+    },
+    {
+      "text": "MINI CASE 5 - POLITICA DE DISTRIBUCIÓN.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133956/MINI%20CASE%205%20-%20POLITICA%20DE%20DISTRIBUCI%C3%93N.pdf",
+      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
+      "subjectId": "module-53395"
+    },
+    {
+      "text": "CASE_STUDY_1_VELORA_ENGLISH.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133960/CASE_STUDY_1_VELORA_ENGLISH.pdf",
+      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
+      "subjectId": "module-53395"
+    },
+    {
+      "text": "PRACTICAL CASE 2 ENGLISH.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224317/mod_data/content/133964/PRACTICAL%20CASE%202%20ENGLISH.pdf",
+      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
+      "subjectId": "module-53395"
+    },
+    {
+      "text": "Ex Estudios mercado 25-26.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224321/mod_data/content/134172/Ex%20Estudios%20mercado%2025-26.pdf",
+      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
+      "subjectId": "module-53395"
+    },
+    {
+      "text": "MANUAL.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224321/mod_data/content/133968/MANUAL.pdf",
+      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
+      "subjectId": "module-53395"
+    },
+    {
+      "text": "LECTURAS OBLIGATORIAS.zip",
+      "url": "https://lms.icex.es/pluginfile.php/224321/mod_data/content/133972/LECTURAS%20OBLIGATORIAS.zip",
+      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
+      "subjectId": "module-53395"
+    },
+    {
+      "text": "LECTURAS RECOMENDADAS.zip",
+      "url": "https://lms.icex.es/pluginfile.php/224321/mod_data/content/133976/LECTURAS%20RECOMENDADAS.zip",
+      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
+      "subjectId": "module-53395"
+    },
+    {
+      "text": "Anexos Caso Castillo de Canena.7z",
+      "url": "https://lms.icex.es/pluginfile.php/224323/mod_folder/content/0/Anexos%20Caso%20Castillo%20de%20Canena.7z?forcedownload=1",
+      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
+      "subjectId": "module-53395"
+    },
+    {
+      "text": "Caso Práctico Aceite nicho gourmet Castillo de Canena en Japón.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224323/mod_folder/content/0/Caso%20Pra%CC%81ctico%20Aceite%20nicho%20gourmet%20Castillo%20de%20Canena%20en%20Japo%CC%81n.pdf?forcedownload=1",
+      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
+      "subjectId": "module-53395"
+    },
+    {
+      "text": "Plantilla contabilidad 1.doc",
+      "url": "https://lms.icex.es/pluginfile.php/226626/mod_folder/content/0/Plantilla%20contabilidad%201.doc?forcedownload=1",
+      "subject": "Precurso de Contabilidad y Finanzas",
+      "subjectId": "module-53404"
+    },
+    {
+      "text": "Plantilla contabilidad 1.xlsx",
+      "url": "https://lms.icex.es/pluginfile.php/226626/mod_folder/content/0/Plantilla%20contabilidad%201.xlsx?forcedownload=1",
+      "subject": "Precurso de Contabilidad y Finanzas",
+      "subjectId": "module-53404"
+    },
+    {
+      "text": "Plantilla contabilidad 2.doc",
+      "url": "https://lms.icex.es/pluginfile.php/226626/mod_folder/content/0/Plantilla%20contabilidad%202.doc?forcedownload=1",
+      "subject": "Precurso de Contabilidad y Finanzas",
+      "subjectId": "module-53404"
+    },
+    {
+      "text": "Plantilla contabilidad 2.xlsx",
+      "url": "https://lms.icex.es/pluginfile.php/226626/mod_folder/content/0/Plantilla%20contabilidad%202.xlsx?forcedownload=1",
+      "subject": "Precurso de Contabilidad y Finanzas",
+      "subjectId": "module-53404"
+    },
+    {
+      "text": "Simulador_de_TIR_y_VAN.xls",
+      "url": "https://lms.icex.es/pluginfile.php/226626/mod_folder/content/0/Simulador_de_TIR_y_VAN.xls?forcedownload=1",
+      "subject": "Precurso de Contabilidad y Finanzas",
+      "subjectId": "module-53404"
+    },
+    {
+      "text": "Plantilla Contabilidad 1.docx",
+      "url": "https://lms.icex.es/pluginfile.php/224328/mod_data/content/133827/Plantilla%20Contabilidad%201.docx",
+      "subject": "Fundamentos de contabilidad y finanzas on-line",
+      "subjectId": "module-53823"
+    },
+    {
+      "text": "plantilla contabilidad.xlsx",
+      "url": "https://lms.icex.es/pluginfile.php/224328/mod_data/content/133831/plantilla%20contabilidad.xlsx",
+      "subject": "Fundamentos de contabilidad y finanzas on-line",
+      "subjectId": "module-53823"
+    },
+    {
+      "text": "Plantilla contabilidad 2.xlsx",
+      "url": "https://lms.icex.es/pluginfile.php/224328/mod_data/content/133835/Plantilla%20contabilidad%202.xlsx",
+      "subject": "Fundamentos de contabilidad y finanzas on-line",
+      "subjectId": "module-53823"
+    },
+    {
+      "text": "Plantilla contabilidad 2.doc",
+      "url": "https://lms.icex.es/pluginfile.php/224328/mod_data/content/133839/Plantilla%20contabilidad%202.doc",
+      "subject": "Fundamentos de contabilidad y finanzas on-line",
+      "subjectId": "module-53823"
+    },
+    {
+      "text": "ANEXO CUADRO DE CUENTAS CONTABLES ORIENTATIVO.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224328/mod_data/content/133843/ANEXO%20%20CUADRO%20DE%20CUENTAS%20CONTABLES%20ORIENTATIVO.pdf",
+      "subject": "Fundamentos de contabilidad y finanzas on-line",
+      "subjectId": "module-53823"
+    },
+    {
+      "text": "PLANTILLA EJERCICIO EUCALIPTO.xlsx",
+      "url": "https://lms.icex.es/pluginfile.php/224328/mod_data/content/133847/PLANTILLA%20EJERCICIO%20EUCALIPTO.xlsx",
+      "subject": "Fundamentos de contabilidad y finanzas on-line",
+      "subjectId": "module-53823"
+    },
+    {
+      "text": "Simulador de cálculo de TIR y VAN.xlsx",
+      "url": "https://lms.icex.es/pluginfile.php/224328/mod_data/content/133851/Simulador%20de%20c%C3%A1lculo%20de%20TIR%20y%20VAN.xlsx",
+      "subject": "Fundamentos de contabilidad y finanzas on-line",
+      "subjectId": "module-53823"
+    },
+    {
+      "text": "Sesión 1 presentación y proceso contable.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224338/mod_data/content/134040/Sesi%C3%B3n%201%20presentaci%C3%B3n%20y%20proceso%20contable.pdf",
+      "subject": "Fundamentos de contabilidad y finanzas (presencial)",
+      "subjectId": "module-53416"
+    },
+    {
+      "text": "Sesión 2 proceso contable.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224338/mod_data/content/134044/Sesi%C3%B3n%202%20proceso%20contable.pdf",
+      "subject": "Fundamentos de contabilidad y finanzas (presencial)",
+      "subjectId": "module-53416"
+    },
+    {
+      "text": "Enunciado ejercicios sesiones presenciales MUGIE 2026-2027.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224338/mod_data/content/134048/Enunciado%20ejercicios%20sesiones%20presenciales%20MUGIE%202026-2027.pdf",
+      "subject": "Fundamentos de contabilidad y finanzas (presencial)",
+      "subjectId": "module-53416"
+    },
+    {
+      "text": "Sesión 3 existencias.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224338/mod_data/content/134223/Sesi%C3%B3n%203%20existencias.pdf",
+      "subject": "Fundamentos de contabilidad y finanzas (presencial)",
+      "subjectId": "module-53416"
+    },
+    {
+      "text": "Sesión 4 amortizaciones.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224338/mod_data/content/134227/Sesi%C3%B3n%204%20amortizaciones.pdf",
+      "subject": "Fundamentos de contabilidad y finanzas (presencial)",
+      "subjectId": "module-53416"
+    },
+    {
+      "text": "Sesión 5 proceso contable y cálculo financiero.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224338/mod_data/content/134231/Sesi%C3%B3n%205%20proceso%20contable%20y%20c%C3%A1lculo%20financiero.pdf",
+      "subject": "Fundamentos de contabilidad y finanzas (presencial)",
+      "subjectId": "module-53416"
+    },
+    {
+      "text": "Ex F Contafinanzas_parcial MIM 25-26.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224338/mod_data/content/134176/Ex%20F%20Contafinanzas_parcial%20MIM%2025-26.pdf",
+      "subject": "Fundamentos de contabilidad y finanzas (presencial)",
+      "subjectId": "module-53416"
+    },
+    {
+      "text": "Ex F Contafinanzas_final 25-26.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224338/mod_data/content/134180/Ex%20F%20Contafinanzas_final%2025-26.pdf",
+      "subject": "Fundamentos de contabilidad y finanzas (presencial)",
+      "subjectId": "module-53416"
+    },
+    {
+      "text": "Cuaderno de trabajo MIM 26-27.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224350/mod_data/content/133886/Cuaderno%20de%20trabajo%20MIM%2026-27.pdf",
+      "subject": "Taller de Escritura",
+      "subjectId": "module-53428"
+    },
+    {
+      "text": "Carpeta de Ejercicios.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224350/mod_data/content/133992/Carpeta%20de%20Ejercicios.pdf",
+      "subject": "Taller de Escritura",
+      "subjectId": "module-53428"
+    },
+    {
+      "text": "La relación bilateral entre Marruecos y EEUU y sus implicaciones para España.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224350/mod_data/content/133996/La%20relaci%C3%B3n%20bilateral%20entre%20Marruecos%20y%20EEUU%20y%20sus%20implicaciones%20para%20Espa%C3%B1a.pdf",
+      "subject": "Taller de Escritura",
+      "subjectId": "module-53428"
+    },
+    {
+      "text": "CursivasGuiaFundeu (1).pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224350/mod_data/content/134004/CursivasGuiaFundeu%20%281%29.pdf",
+      "subject": "Taller de Escritura",
+      "subjectId": "module-53428"
+    },
+    {
+      "text": "agenda en varsovia.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224350/mod_data/content/134008/agenda%20en%20varsovia.pdf",
+      "subject": "Taller de Escritura",
+      "subjectId": "module-53428"
+    },
+    {
+      "text": "Identificación de socios comerciales en Sudáfrica.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224350/mod_data/content/134012/Identificaci%C3%B3n%20de%20socios%20comerciales%20en%20Sud%C3%A1frica.pdf",
+      "subject": "Taller de Escritura",
+      "subjectId": "module-53428"
+    },
+    {
+      "text": "Informe de feria IF_Expo Envases Packaging y Procesos_2023 (002).pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224350/mod_data/content/134016/Informe%20de%20feria%20IF_Expo%20Envases%20%20Packaging%20y%20Procesos_2023%20%28002%29.pdf",
+      "subject": "Taller de Escritura",
+      "subjectId": "module-53428"
+    },
+    {
+      "text": "estudio-mercado-calzado-corea-sur-2025-resumen (002).pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224350/mod_data/content/134020/estudio-mercado-calzado-corea-sur-2025-resumen%20%28002%29.pdf",
+      "subject": "Taller de Escritura",
+      "subjectId": "module-53428"
+    },
+    {
+      "text": "Infografía Correo profesional en ofecomes.png",
+      "url": "https://lms.icex.es/pluginfile.php/224350/mod_data/content/134024/Infograf%C3%ADa%20Correo%20profesional%20en%20ofecomes.png",
+      "subject": "Taller de Escritura",
+      "subjectId": "module-53428"
+    },
+    {
+      "text": "Infografía Comunicación profesional en ofecomes.png",
+      "url": "https://lms.icex.es/pluginfile.php/224350/mod_data/content/134028/Infograf%C3%ADa%20Comunicaci%C3%B3n%20profesional%20en%20ofecomes.png",
+      "subject": "Taller de Escritura",
+      "subjectId": "module-53428"
+    },
+    {
+      "text": "Taller de Escritura. MIM 26-27.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224350/mod_data/content/134243/Taller%20de%20Escritura.%20MIM%2026-27.pdf",
+      "subject": "Taller de Escritura",
+      "subjectId": "module-53428"
+    },
+    {
+      "text": "ICEX consejo-administracion-22-02-2024.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224350/mod_data/content/134247/ICEX%20consejo-administracion-22-02-2024.pdf",
+      "subject": "Taller de Escritura",
+      "subjectId": "module-53428"
+    },
+    {
+      "text": "ICEX consejo-administracion-23-06-2022.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224350/mod_data/content/134251/ICEX%20consejo-administracion-23-06-2022.pdf",
+      "subject": "Taller de Escritura",
+      "subjectId": "module-53428"
+    },
+    {
+      "text": "Manual.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224363/mod_data/content/133898/Manual.pdf",
+      "subject": "Comportamiento Social en los Negocios",
+      "subjectId": "module-53441"
+    },
+    {
+      "text": "CASO PRÁCTICO FINAL Nota un tercio.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224363/mod_data/content/133901/CASO%20PR%C3%81CTICO%20FINAL%20Nota%20%20un%20tercio.pdf",
+      "subject": "Comportamiento Social en los Negocios",
+      "subjectId": "module-53441"
+    },
+    {
+      "text": "Ex Comporta social 25-26.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224363/mod_data/content/134184/Ex%20Comporta%20social%2025-26.pdf",
+      "subject": "Comportamiento Social en los Negocios",
+      "subjectId": "module-53441"
+    },
+    {
+      "text": "Ex Habilidades directivas MIM 25-26.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224367/mod_data/content/134187/Ex%20Habilidades%20directivas%20MIM%2025-26.pdf",
+      "subject": "Communication and Negotiation Skills",
+      "subjectId": "module-53445"
+    },
+    {
+      "text": "SESSION_1_ICEXCECO_2026.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224367/mod_data/content/134199/SESSION_1_ICEXCECO_2026.pdf",
+      "subject": "Communication and Negotiation Skills",
+      "subjectId": "module-53445"
+    },
+    {
+      "text": "Session 2_ ICEX-CECO_2026.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224367/mod_data/content/134203/Session%202_%20ICEX-CECO_2026.pdf",
+      "subject": "Communication and Negotiation Skills",
+      "subjectId": "module-53445"
+    },
+    {
+      "text": "GettingtoYesinComplexNegotiations-StrategiesforResolvingConflictsandAchievingWin-Wins_ExecutiveVersion.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224367/mod_data/content/134207/GettingtoYesinComplexNegotiations-StrategiesforResolvingConflictsandAchievingWin-Wins_ExecutiveVersion.pdf",
+      "subject": "Communication and Negotiation Skills",
+      "subjectId": "module-53445"
+    },
+    {
+      "text": "Terra_Pact-public_case.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224367/mod_data/content/134211/Terra_Pact-public_case.pdf",
+      "subject": "Communication and Negotiation Skills",
+      "subjectId": "module-53445"
+    },
+    {
+      "text": "Ex Sector Exterior MIM 25-26.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224372/mod_data/content/134191/Ex%20Sector%20Exterior%20MIM%2025-26.pdf",
+      "subject": "Sector Exterior y Políticas Unión Europea",
+      "subjectId": "module-53450"
+    },
+    {
+      "text": "Sesión 1_El sector exterior en la economía.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224372/mod_data/content/134112/Sesi%C3%B3n%201_El%20sector%20exterior%20en%20la%20econom%C3%ADa.pdf",
+      "subject": "Sector Exterior y Políticas Unión Europea",
+      "subjectId": "module-53450"
+    },
+    {
+      "text": "Sesión 2_Política Comercial. Medidas Arancelarias.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224372/mod_data/content/134116/Sesi%C3%B3n%202_Pol%C3%ADtica%20Comercial.%20Medidas%20Arancelarias.pdf",
+      "subject": "Sector Exterior y Políticas Unión Europea",
+      "subjectId": "module-53450"
+    },
+    {
+      "text": "Sesión 3_Política Comercial. Medidas no arancelarias.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224372/mod_data/content/134120/Sesi%C3%B3n%203_Pol%C3%ADtica%20Comercial.%20Medidas%20no%20arancelarias.pdf",
+      "subject": "Sector Exterior y Políticas Unión Europea",
+      "subjectId": "module-53450"
+    },
+    {
+      "text": "Sesión 4_OMC (I).pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224372/mod_data/content/134124/Sesi%C3%B3n%204_OMC%20%28I%29.pdf",
+      "subject": "Sector Exterior y Políticas Unión Europea",
+      "subjectId": "module-53450"
+    },
+    {
+      "text": "Sesión 5_OMC (Actividad).pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224372/mod_data/content/134128/Sesi%C3%B3n%205_OMC%20%28Actividad%29.pdf",
+      "subject": "Sector Exterior y Políticas Unión Europea",
+      "subjectId": "module-53450"
+    },
+    {
+      "text": "Sesión 6_Política Comercial UE. Acuerdos.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224372/mod_data/content/134132/Sesi%C3%B3n%206_Pol%C3%ADtica%20Comercial%20UE.%20Acuerdos.pdf",
+      "subject": "Sector Exterior y Políticas Unión Europea",
+      "subjectId": "module-53450"
+    },
+    {
+      "text": "Sesión 7_Política Comercial UE. Instrumentos.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224372/mod_data/content/134136/Sesi%C3%B3n%207_Pol%C3%ADtica%20Comercial%20UE.%20Instrumentos.pdf",
+      "subject": "Sector Exterior y Políticas Unión Europea",
+      "subjectId": "module-53450"
+    },
+    {
+      "text": "Sesión 8_Comercio digital y otros.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224372/mod_data/content/134140/Sesi%C3%B3n%208_Comercio%20digital%20y%20otros.pdf",
+      "subject": "Sector Exterior y Políticas Unión Europea",
+      "subjectId": "module-53450"
+    },
+    {
+      "text": "CASO ACERINOX_EAVanz.pdf",
+      "url": "https://lms.icex.es/pluginfile.php/224514/mod_data/content/134195/CASO%20ACERINOX_EAVanz.pdf",
+      "subject": "Estrategia Avanzada: Casos de empresas internacionalizadas",
+      "subjectId": "module-53592"
+    }
+  ],
+  "guides": [
+    {
+      "text": "Guía del alumno",
+      "url": "https://lms.icex.es/pluginfile.php/224285/mod_label/intro/GA26-27v3.pdf?time=1790753279710"
+    },
+    {
+      "text": "Anexo de la guía del alumno. Asignaturas Fase 1",
+      "url": "https://lms.icex.es/pluginfile.php/224285/mod_label/intro/GA_ANEXO_F1%20%281%29.pdf?time=1791448610487"
+    },
+    {
+      "text": "Anexo de la guía del alumno. Asignaturas Fase 2",
+      "url": "https://lms.icex.es/pluginfile.php/224285/mod_label/intro/2025-2026%20-%20GA_ANEXO_F2_v5_26.pdf"
+    },
+    {
+      "text": "Anexo de la guía del alumno. Asignaturas Optativas",
+      "url": "https://lms.icex.es/pluginfile.php/224285/mod_label/intro/GA_ANEXO_ELECTIVAS-V2.pdf"
+    },
+    {
+      "text": "Anexo de la guía del alumno. Asignaturas Fase 3",
+      "url": "https://lms.icex.es/pluginfile.php/224285/mod_label/intro/GA_ANEXO_F3v2%20%2829-05-2026%29.pdf?time=1780052962468"
+    },
+    {
+      "text": "Prácticas curriculares",
+      "url": "https://lms.icex.es/pluginfile.php/224285/mod_label/intro/S_PCurriculares_25-27.pdf"
+    },
+    {
+      "text": "CV Profesores",
+      "url": "https://lms.icex.es/pluginfile.php/224285/mod_label/intro/CV%20PROFESORES%20MIM%2026-27%20%281%29.pdf"
+    }
+  ],
+  "orientation": [
+    {
+      "title": "Módulo 0: Formación en Herramientas e-learning - CV",
+      "resources": [
+        {
+          "text": "Módulo 0 - Formación en herramientas e-learning del Campus Virtual\nPaquete SCORM",
+          "url": "https://lms.icex.es/mod/scorm/view.php?id=53367"
+        }
+      ]
+    },
+    {
+      "title": "TEST GUÍA DEL ALUMNADO",
+      "resources": [
+        {
+          "text": "Test guía del alumnado – Grupo E, F, G\nCuestionario",
+          "url": "https://lms.icex.es/mod/quiz/view.php?id=53369"
+        }
+      ]
+    }
+  ]
+}
