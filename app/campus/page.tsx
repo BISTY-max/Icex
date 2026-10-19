@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import CalendarPanel from "./calendar";
+import Notes from "./notes";
 import calendarEvents from "./calendar-events.json";
 import data from "./data.json";
 import syncStatus from "./sync-status.json";
@@ -41,7 +42,7 @@ export default function Campus() {
 
   return <div className="campus">
     <aside className="campus-sidebar">
-      <a href="/campus" className="campus-logo"><img src="/icex-campus.svg" alt="ICEX Campus" width="210" height="43" /></a>
+      <div className="campus-brand"><a href="/campus" className="campus-logo"><img src="/icex-campus.svg" alt="ICEX Campus" width="210" height="43" /></a><Notes/></div>
       <div className="campus-course"><span className="campus-overline">MI ESPACIO ACADÉMICO</span><strong>MBA in International<br/>Management</strong><span>Promoción 2026 — 2027</span></div>
       <nav aria-label="Secciones del campus">{sections.map((name,i)=><button key={name} type="button" className={section===name?"active":""} onClick={()=>{setSection(name);setQuery("");}} aria-current={section===name?"page":undefined}><span className="nav-number">0{i+1}</span>{name}<span className="nav-arrow" aria-hidden="true">↗</span></button>)}</nav>
       <div className="campus-sidebar-bottom"><a href="/campus/documentos">Mi biblioteca privada ↗</a><External href="https://lms.icex.es/course/view.php?id=862">Abrir campus oficial</External><a href="/">← Volver a mi web</a><span>Consulta personal · ICEX</span></div>
