@@ -26,3 +26,6 @@ La revisión inicial y última actualización de contenido son del 19 de octubre
 
 ## Corrección manual de asignatura (20 de octubre de 2026)
 Los recursos module-53400, module-53401, module-53402 y module-53403 pertenecen a INVESTIGACIÓN COMERCIAL II: ESTUDIOS DE MERCADOS, Fase I (subject-investigacion-comercial-ii). Mantener separados de Marketing, aunque el LMS no delimite correctamente el bloque. Incluye sus seis archivos y la tarea 53403, también en Biblioteca y Tareas.
+
+## Fechas manuales de actividades (20 de octubre de 2026)
+Tareas 53840/Actividades 1–2: 9 de octubre; 53841/3–4: 16 de octubre; 53842/5–6: 23 de octubre; 53843/7–8: 30 de octubre; 53844/9–10: 8 de noviembre. Año 2026, todas antes de las 19:30 Europe/Madrid. Fuente: imagen aportada por el usuario. Mantener si el LMS no publica fechas; no volver a dejarlas sin fecha por campos vacíos. Leer capítulos 0 y 00 es una indicación previa sin fecha concreta, no una entrega nueva.

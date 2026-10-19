@@ -169,6 +169,19 @@
     "url": ""
   },
   {
+    "id": "task-53840",
+    "kind": "entrega",
+    "title": "Activities 1 to 2",
+    "start": "2026-10-09T19:30:00+02:00",
+    "end": "2026-10-09T19:31:00+02:00",
+    "allDay": false,
+    "description": "Module on-line Market research I - Economic and commercial information sources\nEntrega antes de las 19:30 h (Madrid) del 09/10/2026. Fecha facilitada por el usuario en la imagen de actividades.",
+    "location": "",
+    "source": "Imagen de fechas de actividades facilitada por el usuario",
+    "sourceUid": "53840",
+    "url": "https://lms.icex.es/mod/assign/view.php?id=53840"
+  },
+  {
     "id": "class-CECO0000596275",
     "kind": "clase",
     "title": "DIRECCIÓN ESTRATÉGICA",
@@ -284,6 +297,19 @@
     "source": "Horario ICEX (.ics)",
     "sourceUid": "CECO0000596595",
     "url": ""
+  },
+  {
+    "id": "task-53841",
+    "kind": "entrega",
+    "title": "Activities 3 to 4",
+    "start": "2026-10-16T19:30:00+02:00",
+    "end": "2026-10-16T19:31:00+02:00",
+    "allDay": false,
+    "description": "Module on-line Market research I - Economic and commercial information sources\nEntrega antes de las 19:30 h (Madrid) del 16/10/2026. Fecha facilitada por el usuario en la imagen de actividades.",
+    "location": "",
+    "source": "Imagen de fechas de actividades facilitada por el usuario",
+    "sourceUid": "53841",
+    "url": "https://lms.icex.es/mod/assign/view.php?id=53841"
   },
   {
     "id": "class-CECO0000596017",
@@ -429,6 +455,19 @@
     "url": ""
   },
   {
+    "id": "task-53842",
+    "kind": "entrega",
+    "title": "Activities 5 to 6",
+    "start": "2026-10-23T19:30:00+02:00",
+    "end": "2026-10-23T19:31:00+02:00",
+    "allDay": false,
+    "description": "Module on-line Market research I - Economic and commercial information sources\nEntrega antes de las 19:30 h (Madrid) del 23/10/2026. Fecha facilitada por el usuario en la imagen de actividades.",
+    "location": "",
+    "source": "Imagen de fechas de actividades facilitada por el usuario",
+    "sourceUid": "53842",
+    "url": "https://lms.icex.es/mod/assign/view.php?id=53842"
+  },
+  {
     "id": "class-CECO0000596087",
     "kind": "clase",
     "title": "SECTOR EXTERIOR ESPAÑOL Y POLÍTICAS UE",
@@ -572,6 +611,19 @@
     "url": ""
   },
   {
+    "id": "task-53843",
+    "kind": "entrega",
+    "title": "Activities 7 to 8",
+    "start": "2026-10-30T19:30:00+01:00",
+    "end": "2026-10-30T19:31:00+01:00",
+    "allDay": false,
+    "description": "Module on-line Market research I - Economic and commercial information sources\nEntrega antes de las 19:30 h (Madrid) del 30/10/2026. Fecha facilitada por el usuario en la imagen de actividades.",
+    "location": "",
+    "source": "Imagen de fechas de actividades facilitada por el usuario",
+    "sourceUid": "53843",
+    "url": "https://lms.icex.es/mod/assign/view.php?id=53843"
+  },
+  {
     "id": "task-53839",
     "kind": "entrega",
     "title": "Póster Académico",
@@ -700,6 +752,19 @@
     "source": "Horario ICEX (.ics)",
     "sourceUid": "CECO0000596523",
     "url": ""
+  },
+  {
+    "id": "task-53844",
+    "kind": "entrega",
+    "title": "Activities 9 to 10",
+    "start": "2026-11-08T19:30:00+01:00",
+    "end": "2026-11-08T19:31:00+01:00",
+    "allDay": false,
+    "description": "Module on-line Market research I - Economic and commercial information sources\nEntrega antes de las 19:30 h (Madrid) del 08/11/2026. Fecha facilitada por el usuario en la imagen de actividades.",
+    "location": "",
+    "source": "Imagen de fechas de actividades facilitada por el usuario",
+    "sourceUid": "53844",
+    "url": "https://lms.icex.es/mod/assign/view.php?id=53844"
   },
   {
     "id": "class-CECO0000596497",

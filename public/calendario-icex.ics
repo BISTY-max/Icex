@@ -171,6 +171,19 @@ DTEND:20261009T123000Z
 LOCATION:Aula: On Line CECO: Avda. Cardenal Herrera Oria 378\, Ed. A
 END:VEVENT
 BEGIN:VEVENT
+UID:task-53840@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Activities 1 to 2
+CATEGORIES:ENTREGA
+DESCRIPTION:Module on-line Market research I - Economic and commercial inf
+ ormation sources\nEntrega antes de las 19:30 h (Madrid) del 09/10/2026. F
+ echa facilitada por el usuario en la imagen de actividades.\nFuente: Imag
+ en de fechas de actividades facilitada por el usuario
+DTSTART:20261009T173000Z
+DTEND:20261009T173100Z
+URL:https://lms.icex.es/mod/assign/view.php?id=53840
+END:VEVENT
+BEGIN:VEVENT
 UID:class-CECO0000596275@icex-campus
 DTSTAMP:20261019T203000Z
 SUMMARY:DIRECCIÓN ESTRATÉGICA
@@ -283,6 +296,19 @@ DESCRIPTION:Asignatura: FUNDAMENTOS DE CONTABILIDAD Y FINANZAS\nTema: Se r
 DTSTART:20261015T174500Z
 DTEND:20261015T191500Z
 LOCATION:Aula: 1.2 CECO: Avda. Cardenal Herrera Oria 378\, Ed. A
+END:VEVENT
+BEGIN:VEVENT
+UID:task-53841@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Activities 3 to 4
+CATEGORIES:ENTREGA
+DESCRIPTION:Module on-line Market research I - Economic and commercial inf
+ ormation sources\nEntrega antes de las 19:30 h (Madrid) del 16/10/2026. F
+ echa facilitada por el usuario en la imagen de actividades.\nFuente: Imag
+ en de fechas de actividades facilitada por el usuario
+DTSTART:20261016T173000Z
+DTEND:20261016T173100Z
+URL:https://lms.icex.es/mod/assign/view.php?id=53841
 END:VEVENT
 BEGIN:VEVENT
 UID:class-CECO0000596017@icex-campus
@@ -418,6 +444,19 @@ DESCRIPTION:Asignatura: FUNDAMENTOS DE CONTABILIDAD Y FINANZAS\nTema: Se r
 DTSTART:20261022T174500Z
 DTEND:20261022T191500Z
 LOCATION:Aula: 1.2 CECO: Avda. Cardenal Herrera Oria 378\, Ed. A
+END:VEVENT
+BEGIN:VEVENT
+UID:task-53842@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Activities 5 to 6
+CATEGORIES:ENTREGA
+DESCRIPTION:Module on-line Market research I - Economic and commercial inf
+ ormation sources\nEntrega antes de las 19:30 h (Madrid) del 23/10/2026. F
+ echa facilitada por el usuario en la imagen de actividades.\nFuente: Imag
+ en de fechas de actividades facilitada por el usuario
+DTSTART:20261023T173000Z
+DTEND:20261023T173100Z
+URL:https://lms.icex.es/mod/assign/view.php?id=53842
 END:VEVENT
 BEGIN:VEVENT
 UID:class-CECO0000596087@icex-campus
@@ -556,6 +595,19 @@ DTEND:20261029T201500Z
 LOCATION:Aula: 1.2 CECO: Avda. Cardenal Herrera Oria 378\, Ed. A
 END:VEVENT
 BEGIN:VEVENT
+UID:task-53843@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Activities 7 to 8
+CATEGORIES:ENTREGA
+DESCRIPTION:Module on-line Market research I - Economic and commercial inf
+ ormation sources\nEntrega antes de las 19:30 h (Madrid) del 30/10/2026. F
+ echa facilitada por el usuario en la imagen de actividades.\nFuente: Imag
+ en de fechas de actividades facilitada por el usuario
+DTSTART:20261030T183000Z
+DTEND:20261030T183100Z
+URL:https://lms.icex.es/mod/assign/view.php?id=53843
+END:VEVENT
+BEGIN:VEVENT
 UID:task-53839@icex-campus
 DTSTAMP:20261019T203000Z
 SUMMARY:Póster Académico
@@ -679,6 +731,19 @@ DESCRIPTION:Asignatura: Comportamiento social en los negocios\nTema: Segui
 DTSTART:20261105T184500Z
 DTEND:20261105T201500Z
 LOCATION:Aula: 1.2 CECO: Avda. Cardenal Herrera Oria 378\, Ed. A
+END:VEVENT
+BEGIN:VEVENT
+UID:task-53844@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Activities 9 to 10
+CATEGORIES:ENTREGA
+DESCRIPTION:Module on-line Market research I - Economic and commercial inf
+ ormation sources\nEntrega antes de las 19:30 h (Madrid) del 08/11/2026. F
+ echa facilitada por el usuario en la imagen de actividades.\nFuente: Imag
+ en de fechas de actividades facilitada por el usuario
+DTSTART:20261108T183000Z
+DTEND:20261108T183100Z
+URL:https://lms.icex.es/mod/assign/view.php?id=53844
 END:VEVENT
 BEGIN:VEVENT
 UID:class-CECO0000596497@icex-campus
