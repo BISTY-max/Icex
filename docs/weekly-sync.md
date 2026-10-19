@@ -23,3 +23,6 @@ Automatización local de Codex: `revisi-n-semanal-del-campus-icex`. Lunes a las 
 8. Guardar informe fechado en outputs/revisiones-icex: alcance, novedades, versiones modificadas, hashes, restricciones, cambios publicados y comprobaciones. Si falla alguna etapa, conservar datos anteriores y comunicar el fallo.
 
 La revisión inicial y última actualización de contenido son del 19 de octubre de 2026. Existen materiales restringidos en el LMS: los informes iniciales documentan esas limitaciones. No prometer cobertura de contenido al que la cuenta no tenga acceso.
+
+## Corrección manual de asignatura (20 de octubre de 2026)
+Los recursos module-53400, module-53401, module-53402 y module-53403 pertenecen a INVESTIGACIÓN COMERCIAL II: ESTUDIOS DE MERCADOS, Fase I (subject-investigacion-comercial-ii). Mantener separados de Marketing, aunque el LMS no delimite correctamente el bloque. Incluye sus seis archivos y la tarea 53403, también en Biblioteca y Tareas.

@@ -366,7 +366,14 @@
           "url": "https://lms.icex.es/mod/assign/view.php?id=53398",
           "note": "",
           "files": []
-        },
+        }
+      ]
+    },
+    {
+      "id": "subject-investigacion-comercial-ii",
+      "title": "INVESTIGACIÓN COMERCIAL II: ESTUDIOS DE MERCADOS",
+      "phase": "Fase I",
+      "resources": [
         {
           "id": "module-53400",
           "title": "Documentación",
@@ -1378,7 +1385,7 @@
       "id": "53403",
       "title": "Caso práctico",
       "url": "https://lms.icex.es/mod/assign/view.php?id=53403",
-      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
+      "subject": "INVESTIGACIÓN COMERCIAL II: ESTUDIOS DE MERCADOS",
       "due": "2026-11-27T17:30:00+01:00",
       "description": "Fecha límite de entrega el 27 de noviembre de 2026 hasta las 17:30h"
     },
@@ -1807,38 +1814,38 @@
     {
       "text": "Ex Estudios mercado 25-26.pdf",
       "url": "https://lms.icex.es/pluginfile.php/224321/mod_data/content/134172/Ex%20Estudios%20mercado%2025-26.pdf",
-      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
-      "subjectId": "module-53395"
+      "subject": "INVESTIGACIÓN COMERCIAL II: ESTUDIOS DE MERCADOS",
+      "subjectId": "subject-investigacion-comercial-ii"
     },
     {
       "text": "MANUAL.pdf",
       "url": "https://lms.icex.es/pluginfile.php/224321/mod_data/content/133968/MANUAL.pdf",
-      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
-      "subjectId": "module-53395"
+      "subject": "INVESTIGACIÓN COMERCIAL II: ESTUDIOS DE MERCADOS",
+      "subjectId": "subject-investigacion-comercial-ii"
     },
     {
       "text": "LECTURAS OBLIGATORIAS.zip",
       "url": "https://lms.icex.es/pluginfile.php/224321/mod_data/content/133972/LECTURAS%20OBLIGATORIAS.zip",
-      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
-      "subjectId": "module-53395"
+      "subject": "INVESTIGACIÓN COMERCIAL II: ESTUDIOS DE MERCADOS",
+      "subjectId": "subject-investigacion-comercial-ii"
     },
     {
       "text": "LECTURAS RECOMENDADAS.zip",
       "url": "https://lms.icex.es/pluginfile.php/224321/mod_data/content/133976/LECTURAS%20RECOMENDADAS.zip",
-      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
-      "subjectId": "module-53395"
+      "subject": "INVESTIGACIÓN COMERCIAL II: ESTUDIOS DE MERCADOS",
+      "subjectId": "subject-investigacion-comercial-ii"
     },
     {
       "text": "Anexos Caso Castillo de Canena.7z",
       "url": "https://lms.icex.es/pluginfile.php/224323/mod_folder/content/0/Anexos%20Caso%20Castillo%20de%20Canena.7z?forcedownload=1",
-      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
-      "subjectId": "module-53395"
+      "subject": "INVESTIGACIÓN COMERCIAL II: ESTUDIOS DE MERCADOS",
+      "subjectId": "subject-investigacion-comercial-ii"
     },
     {
       "text": "Caso Práctico Aceite nicho gourmet Castillo de Canena en Japón.pdf",
       "url": "https://lms.icex.es/pluginfile.php/224323/mod_folder/content/0/Caso%20Pra%CC%81ctico%20Aceite%20nicho%20gourmet%20Castillo%20de%20Canena%20en%20Japo%CC%81n.pdf?forcedownload=1",
-      "subject": "Fundamentos y estrategias de Marketing / Fundamentals of Marketing and strategies",
-      "subjectId": "module-53395"
+      "subject": "INVESTIGACIÓN COMERCIAL II: ESTUDIOS DE MERCADOS",
+      "subjectId": "subject-investigacion-comercial-ii"
     },
     {
       "text": "Plantilla contabilidad 1.doc",
