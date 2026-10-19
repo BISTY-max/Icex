@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import CalendarPanel from "./calendar";
+import calendarEvents from "./calendar-events.json";
 import data from "./data.json";
 import documentIndex from "./document-index.json";
 import "./campus.css";
@@ -22,6 +23,13 @@ export default function Campus() {
   const [section,setSection]=useState("Resumen");
   const [query,setQuery]=useState("");
   const [phase,setPhase]=useState("Todas");
+  const [now,setNow]=useState<number|null>(null);
+  useEffect(()=>{const update=()=>setNow(Date.now());update();const timer=setInterval(update,60000);return()=>clearInterval(timer);},[]);
+  const today=now===null?"":new Date(now).toLocaleDateString("en-CA",{timeZone:"Europe/Madrid"});
+  const upcoming=now===null?[]:calendarEvents.filter(event=>event.allDay?event.start>=today:new Date(event.start).getTime()>=now).sort((a,b)=>a.start.localeCompare(b.start));
+  const nextEvent=upcoming[0];
+  const nextTask=upcoming.find(event=>event.kind==="entrega");
+  const previewDate=(event:typeof calendarEvents[number])=>new Date(event.allDay?event.start+"T12:00:00Z":event.start).toLocaleDateString("es-ES",{timeZone:"Europe/Madrid",weekday:"long",day:"numeric",month:"long"})+(event.allDay?" · Sin hora indicada":" · "+new Date(event.start).toLocaleTimeString("es-ES",{timeZone:"Europe/Madrid",hour:"2-digit",minute:"2-digit"})+" h");
   useEffect(()=>{if(window.location.hash==="#calendario")setSection("Calendario");},[]);
   const matches=(text:string)=>normalize(text).includes(normalize(query));
   const subjects=data.subjects.filter(s=>(phase==="Todas"||s.phase===phase)&&matches(s.title+" "+s.resources.map(r=>r.title).join(" ")));
@@ -42,8 +50,9 @@ export default function Campus() {
         <div className="campus-page-heading"><div><p className="campus-overline">CAMPUS / {section.toUpperCase()}</p><h1>{section==="Resumen"?<>Tu próximo<br/><em>horizonte.</em></>:section}</h1><p className="campus-subtitle">{section==="Resumen"?"Asignaturas, materiales y entregas. Todo tu máster, en un solo lugar.":section==="Biblioteca"?"Documentación organizada por asignatura. Accede con tu sesión de ICEX.":section==="Calendario"?"Clases, exámenes, entregas y revisiones · Horario de Madrid.":"Información del curso 2026–2027, organizada para consultar con facilidad."}</p></div><div className="campus-edition"><span>ICEX</span><span>2026<br/>2027</span><div className="edition-line"/></div></div>
 
         {section==="Resumen"?<>
+          <div className="campus-quick-grid">{[{label:"Próximo evento",event:nextEvent,target:"Calendario",action:"Ver calendario"},{label:"Próximas tareas",event:nextTask,target:"Tareas",action:"Ver tareas"}].map(card=><section className="campus-quick-card" key={card.label} aria-label={card.label}><span className="campus-overline">{card.label}</span>{card.event?<><p className="campus-quick-date">{previewDate(card.event)}</p><h2>{card.event.title}</h2></>:<p className="campus-quick-empty">{now===null?"Consultando calendario…":"No hay próximas fechas publicadas."}</p>}<button onClick={()=>setSection(card.target)}>{card.action} ↗</button></section>)}</div>
           <div className="campus-stats">{[[data.subjects.length,"ASIGNATURAS VISIBLES"],[data.files.length,"DOCUMENTOS ENLAZADOS"],[data.tasks.length,"TAREAS DEL CURSO"],[dated.length,"PLAZOS PUBLICADOS"]].map(([n,label])=><div key={label}><strong>{n}</strong><span>{label}</span></div>)}</div>
-          <div className="campus-summary-grid"><section className="campus-next"><span className="campus-overline">PRÓXIMA ENTREGA PUBLICADA</span><div className="campus-next-date"><strong>03</strong><div>NOVIEMBRE<span>2026 · 10:30 h</span></div></div><h2>Póster Académico</h2><p>Sector Exterior y Políticas Unión Europea</p><External className="campus-button" href="https://lms.icex.es/mod/assign/view.php?id=53839">Ver tarea en ICEX</External></section><section className="campus-upcoming"><div className="campus-section-heading"><h2>En el horizonte</h2><button onClick={()=>setSection("Calendario")}>Ver calendario ↗</button></div>{dated.map(t=><External key={t.id} href={t.url} className="campus-event-row"><time dateTime={t.due}><strong>{new Date(t.due).getUTCDate()}</strong><span>{new Date(t.due).toLocaleString("es-ES",{month:"short",timeZone:"Europe/Madrid"})}</span></time><div><strong>{t.title}</strong><small>{t.subject}</small></div></External>)}</section></div>
+
           <div className="campus-section-heading"><div><p className="campus-overline">APRENDER, CONECTAR, AVANZAR</p><h2>Tu plan de estudios</h2></div><button onClick={()=>setSection("Asignaturas")}>Ver las {data.subjects.length} asignaturas ↗</button></div><div className="campus-preview-grid">{data.subjects.filter(s=>s.phase==="Fase I").slice(0,3).map((s,i)=><button key={s.id} className="campus-subject-preview" onClick={()=>{setSection("Asignaturas");setQuery(s.title);}}><span>FASE I <b>0{i+1}</b></span><h3>{s.title}</h3><span>{s.resources.flatMap(r=>r.files).length} documentos <b>↗</b></span></button>)}</div>
         </>:null}
 
