@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import CalendarPanel from "./calendar";
 import data from "./data.json";
 import documentIndex from "./document-index.json";
 import "./campus.css";
@@ -21,14 +22,11 @@ export default function Campus() {
   const [section,setSection]=useState("Resumen");
   const [query,setQuery]=useState("");
   const [phase,setPhase]=useState("Todas");
-  const [month,setMonth]=useState("2026-11");
+  useEffect(()=>{if(window.location.hash==="#calendario")setSection("Calendario");},[]);
   const matches=(text:string)=>normalize(text).includes(normalize(query));
   const subjects=data.subjects.filter(s=>(phase==="Todas"||s.phase===phase)&&matches(s.title+" "+s.resources.map(r=>r.title).join(" ")));
   const files=data.files.filter(f=>matches(f.text+" "+f.subject));
   const tasks=data.tasks.filter(t=>matches(t.title+" "+t.subject));
-  const [year,monthNumber]=month.split("-").map(Number);
-  const offset=(new Date(year,monthNumber-1,1).getDay()+6)%7;
-  const days=new Date(year,monthNumber,0).getDate();
 
   return <div className="campus">
     <aside className="campus-sidebar">
@@ -41,7 +39,7 @@ export default function Campus() {
     <div className="campus-main">
       <header className="campus-top"><span>Máster Universitario en Gestión Internacional de la Empresa</span><span className="campus-year">CURSO 26/27 <i/></span></header>
       <main className="campus-content" id="contenido">
-        <div className="campus-page-heading"><div><p className="campus-overline">CAMPUS / {section.toUpperCase()}</p><h1>{section==="Resumen"?<>Tu próximo<br/><em>horizonte.</em></>:section}</h1><p className="campus-subtitle">{section==="Resumen"?"Asignaturas, materiales y entregas. Todo tu máster, en un solo lugar.":section==="Biblioteca"?"Documentación organizada por asignatura. Accede con tu sesión de ICEX.":section==="Calendario"?"Fechas de entrega publicadas en el curso · Horario de Madrid.":"Información del curso 2026–2027, organizada para consultar con facilidad."}</p></div><div className="campus-edition"><span>ICEX</span><span>2026<br/>2027</span><div className="edition-line"/></div></div>
+        <div className="campus-page-heading"><div><p className="campus-overline">CAMPUS / {section.toUpperCase()}</p><h1>{section==="Resumen"?<>Tu próximo<br/><em>horizonte.</em></>:section}</h1><p className="campus-subtitle">{section==="Resumen"?"Asignaturas, materiales y entregas. Todo tu máster, en un solo lugar.":section==="Biblioteca"?"Documentación organizada por asignatura. Accede con tu sesión de ICEX.":section==="Calendario"?"Clases, exámenes, entregas y revisiones · Horario de Madrid.":"Información del curso 2026–2027, organizada para consultar con facilidad."}</p></div><div className="campus-edition"><span>ICEX</span><span>2026<br/>2027</span><div className="edition-line"/></div></div>
 
         {section==="Resumen"?<>
           <div className="campus-stats">{[[data.subjects.length,"ASIGNATURAS VISIBLES"],[data.files.length,"DOCUMENTOS ENLAZADOS"],[data.tasks.length,"TAREAS DEL CURSO"],[dated.length,"PLAZOS PUBLICADOS"]].map(([n,label])=><div key={label}><strong>{n}</strong><span>{label}</span></div>)}</div>
@@ -56,7 +54,7 @@ export default function Campus() {
 
         {section==="Tareas"?<div className="campus-task-list">{tasks.map(t=><article key={t.id} className="campus-task"><div><p className="campus-overline">{t.subject}</p><h2>{t.title}</h2><p>{t.due?dateLabel(t.due)+" h":"Sin fecha límite publicada en la ficha consultada"}</p>{t.description?<details><summary>Ver indicaciones</summary><p className="campus-description">{t.description}</p></details>:null}</div><External href={t.url} className="campus-outline-button">Abrir tarea</External></article>)}{!tasks.length?<p className="campus-empty">No hay tareas que coincidan con tu búsqueda.</p>:null}</div>:null}
 
-        {section==="Calendario"?<><div className="campus-tools"><label>Mes <input type="month" aria-label="Mes del calendario" value={month} min="2026-09" max="2027-12" onChange={e=>{if(e.target.value)setMonth(e.target.value);}}/></label><a className="campus-outline-button" href="/entregas-icex.ics" download>Descargar entregas .ics ↓</a></div><div className="campus-calendar"><div className="campus-weekdays">{["LUN","MAR","MIÉ","JUE","VIE","SÁB","DOM"].map(d=><span key={d}>{d}</span>)}</div><div className="campus-days">{Array.from({length:offset},(_,i)=><div key={'blank'+i} className="campus-day blank"/>)}{Array.from({length:days},(_,i)=>{const date=month+'-'+String(i+1).padStart(2,'0');const events=dated.filter(t=>t.due.startsWith(date));return <div key={date} className={'campus-day '+(events.length?'has-event':'')}><span>{i+1}</span>{events.map(t=><External key={t.id} href={t.url}>{t.title}<small>{dateLabel(t.due).split(',').pop()}</small></External>)}</div>;})}</div></div><div className="campus-note">Incluye los {dated.length} plazos de entrega publicados en el curso al {data.updated}. Algunas fechas están en los textos de las tareas y no aparecen como eventos en Moodle.</div><div className="campus-task-list">{dated.map(t=><div className="campus-task" key={t.id}><div><span className="campus-overline">{dateLabel(t.due)} h</span><h2>{t.title}</h2><p>{t.subject}</p></div><External href={t.url}>Ver tarea</External></div>)}</div></>:null}
+        {section==="Calendario"?<CalendarPanel/>:null}
 
         {section==="Biblioteca"?<div className="campus-library">{files.map(f=><External key={f.url} href={f.url} className="campus-file"><span className="campus-file-type">{ext(f.url)}</span><div><strong>{f.text}</strong><small>{f.subject}</small></div></External>)}{!files.length?<p className="campus-empty">No hay documentos que coincidan con tu búsqueda.</p>:null}</div>:null}
 
