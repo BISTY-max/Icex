@@ -7,6 +7,8 @@ import calendarEvents from "./calendar-events.json";
 import data from "./data.json";
 import syncStatus from "./sync-status.json";
 import examGuidelines from "./exam-guidelines.json";
+import taskDocuments from "./task-documents.json";
+import TaskDownload from "./task-download";
 import documentIndex from "./document-index.json";
 import "./campus.css";
 
@@ -94,7 +96,7 @@ export default function Campus() {
 
         {section==="Tareas"?<div className="campus-task-date-filter"><label htmlFor="task-date-filter">Fecha de entrega</label><select id="task-date-filter" value={taskDateFilter} onChange={e=>setTaskDateFilter(e.target.value)}><option value="todas">Todas las tareas</option><option value="proximas">Entrega más próxima primero</option><option value="recientes">Entrega más reciente primero</option><option value="sin-fecha">Sin fecha límite</option></select></div>:null}
 
-        {section==="Tareas"?<div className="campus-task-list">{tasks.map(t=><article key={t.id} className="campus-task"><div><p className="campus-overline">{t.subject}</p><h2>{t.title}</h2><p>{t.due?dateLabel(t.due)+" h":"Sin fecha límite publicada en la ficha consultada"}</p>{t.description?<details><summary>Ver indicaciones</summary><p className="campus-description">{t.description}</p></details>:null}</div><External href={t.url} className="campus-outline-button">Abrir tarea</External></article>)}{!tasks.length?<p className="campus-empty">No hay tareas que coincidan con tu búsqueda.</p>:null}</div>:null}
+        {section==="Tareas"?<div className="campus-task-list">{tasks.map(t=><article key={t.id} className="campus-task"><div><p className="campus-overline">{t.subject}</p><h2>{t.title}</h2><p>{t.due?dateLabel(t.due)+" h":"Sin fecha límite publicada en la ficha consultada"}</p>{t.description?<details><summary>Ver indicaciones</summary><p className="campus-description">{t.description}</p></details>:null}</div>{t.id in taskDocuments?<TaskDownload documents={(taskDocuments as Record<string,{sha256:string;name:string}[]>)[t.id]}/>:<External href={t.url} className="campus-outline-button">Abrir tarea</External>}</article>)}{!tasks.length?<p className="campus-empty">No hay tareas que coincidan con tu búsqueda.</p>:null}</div>:null}
 
         {section==="Calendario"?<CalendarPanel/>:null}
 
