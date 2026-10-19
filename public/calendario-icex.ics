@@ -557,6 +557,17 @@ DTEND:20261028T163000Z
 LOCATION:Aula: 1.2 CECO: Avda. Cardenal Herrera Oria 378\, Ed. A
 END:VEVENT
 BEGIN:VEVENT
+UID:exam-image-notas-economia-parcial@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Publicación de notas — Fundamentos de Economía — Parcial
+CATEGORIES:NOTAS
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+END:VEVENT
+BEGIN:VEVENT
 UID:class-CECO0000596277@icex-campus
 DTSTAMP:20261019T203000Z
 SUMMARY:DIRECCIÓN ESTRATÉGICA
@@ -696,6 +707,18 @@ DTEND:20261104T201500Z
 LOCATION:Aula: 1.2 CECO: Avda. Cardenal Herrera Oria 378\, Ed. A
 END:VEVENT
 BEGIN:VEVENT
+UID:exam-image-notas-contabilidad-parcial@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Publicación de notas — Fundamentos de Contabilidad y Finanzas 
+ — Parcial
+CATEGORIES:NOTAS
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+END:VEVENT
+BEGIN:VEVENT
 UID:class-CECO0000596278@icex-campus
 DTSTAMP:20261019T203000Z
 SUMMARY:DIRECCIÓN ESTRATÉGICA
@@ -744,6 +767,17 @@ DESCRIPTION:Module on-line Market research I - Economic and commercial inf
 DTSTART:20261108T183000Z
 DTEND:20261108T183100Z
 URL:https://lms.icex.es/mod/assign/view.php?id=53844
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-revision-economia-parcial@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Revisión — Fundamentos de Economía — Parcial
+CATEGORIES:REVISION
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261112
 END:VEVENT
 BEGIN:VEVENT
 UID:class-CECO0000596497@icex-campus
@@ -817,6 +851,18 @@ DESCRIPTION:Asignatura: FUNDAMENTOS Y ESTRATEGIAS DE MARKETING / FUNDAMENT
 DTSTART:20261111T184500Z
 DTEND:20261111T201500Z
 LOCATION:Aula: 1.2 CECO: Avda. Cardenal Herrera Oria 378\, Ed. A
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-research-i@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Examen — Investigación Comercial I — Fuentes de información 
+ económica y comercial (práctico)
+CATEGORIES:EXAMEN
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
 END:VEVENT
 BEGIN:VEVENT
 UID:class-CECO0000596845@icex-campus
@@ -960,6 +1006,17 @@ DESCRIPTION:Tema: PENDIENTE DE ASIGNAR\nGrupo: F\n\nFuente: Horario ICEX (
 DTSTART:20261117T184500Z
 DTEND:20261117T201500Z
 LOCATION:Aula: 1.2 CECO: Avda. Cardenal Herrera Oria 378\, Ed. A
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-revision-contabilidad-parcial@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Revisión — Fundamentos de Contabilidad y Finanzas — Parcial
+CATEGORIES:REVISION
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261120
 END:VEVENT
 BEGIN:VEVENT
 UID:class-CECO0000596397@icex-campus
@@ -1141,6 +1198,17 @@ DESCRIPTION:Asignatura: FUNDAMENTOS Y ESTRATEGIAS DE MARKETING / FUNDAMENT
 DTSTART:20261125T184500Z
 DTEND:20261125T201500Z
 LOCATION:Aula: 1.2 CECO: Avda. Cardenal Herrera Oria 378\, Ed. A
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-notas-research-i@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Publicación de notas — Investigación Comercial I — Práctico
+CATEGORIES:NOTAS
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
 END:VEVENT
 BEGIN:VEVENT
 UID:class-CECO0000596699@icex-campus
@@ -1350,6 +1418,17 @@ DTEND:20261204T163100Z
 URL:https://lms.icex.es/mod/assign/view.php?id=53398
 END:VEVENT
 BEGIN:VEVENT
+UID:exam-image-revision-research-i@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Revisión — Investigación Comercial I — Práctico
+CATEGORIES:REVISION
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261211
+END:VEVENT
+BEGIN:VEVENT
 UID:class-CECO0000596412@icex-campus
 DTSTAMP:20261019T203000Z
 SUMMARY:HABILIDADES DIRECTIVAS / COMMUNICATION AND NEGOTIATION SKILLS
@@ -1434,6 +1513,61 @@ DTEND:20261210T201500Z
 LOCATION:Aula: 1.2 CECO: Avda. Cardenal Herrera Oria 378\, Ed. A
 END:VEVENT
 BEGIN:VEVENT
+UID:exam-image-research-ii@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Examen — Investigación Comercial II — Estudios de Mercado
+CATEGORIES:EXAMEN
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-economia-final@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Examen — Fundamentos de Economía — Final
+CATEGORIES:EXAMEN
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-sector@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Examen — Sector Exterior y Políticas de la U.E.
+CATEGORIES:EXAMEN
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-direccion@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Examen — Dirección Estratégica
+CATEGORIES:EXAMEN
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-marketing@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Examen — Fundamentos de Marketing y Estrategias
+CATEGORIES:EXAMEN
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+END:VEVENT
+BEGIN:VEVENT
 UID:task-53444@icex-campus
 DTSTAMP:20261019T203000Z
 SUMMARY:Caso práctico final
@@ -1443,6 +1577,243 @@ DESCRIPTION:Comportamiento Social en los Negocios\nFuente: Curso ICEX · p
 DTSTART:20261217T163000Z
 DTEND:20261217T163100Z
 URL:https://lms.icex.es/mod/assign/view.php?id=53444
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-skills@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Examen — Habilidades Directivas / Communication and Negotiation 
+ Skills
+CATEGORIES:EXAMEN
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-social@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Examen — Comportamiento Social en los Negocios
+CATEGORIES:EXAMEN
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-contabilidad-final@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Examen — Fundamentos de Contabilidad y Finanzas — Final
+CATEGORIES:EXAMEN
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-notas-diciembre@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Publicación de notas — Exámenes del 11 al 21 de diciembre de 2
+ 026
+CATEGORIES:NOTAS
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-revision-diciembre@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Revisión — Exámenes del 11 al 21 de diciembre de 2026
+CATEGORIES:REVISION
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270122
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-financiacion-parcial@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Examen — Financiación de Operaciones a Medio y Largo Plazo — 
+ Parcial
+CATEGORIES:EXAMEN
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-finanzas-corto@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Examen — Finanzas Internacionales a Corto Plazo
+CATEGORIES:EXAMEN
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-notas-financiacion-parcial@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Publicación de notas — Financiación de Operaciones a Medio y L
+ argo Plazo — Parcial
+CATEGORIES:NOTAS
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-notas-finanzas-corto@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Publicación de notas — Finanzas Internacionales a Corto Plazo
+CATEGORIES:NOTAS
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-fiscalidad@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Examen — Fiscalidad Internacional
+CATEGORIES:EXAMEN
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-revision-financiacion-parcial@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Revisión — Financiación de Operaciones a Medio y Largo Plazo 
+ — Parcial
+CATEGORIES:REVISION
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270310
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-analytics@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Examen — Business Analytics e Inteligencia Artificial
+CATEGORIES:EXAMEN
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-juridico@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Examen — Entorno Jurídico — Contratación Internacional
+CATEGORIES:EXAMEN
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-marketing-internacional@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Examen — Marketing Internacional
+CATEGORIES:EXAMEN
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-logistica@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Examen — Transporte y Logística Internacional
+CATEGORIES:EXAMEN
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-revision-finanzas-corto@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Revisión — Finanzas Internacionales a Corto Plazo
+CATEGORIES:REVISION
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270317
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-financiacion-final@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Examen — Financiación de Operaciones a Medio y Largo Plazo — 
+ Final
+CATEGORIES:EXAMEN
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270317
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-ebusiness@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Examen — Desarrollo y Gestión Internacional de E-business
+CATEGORIES:EXAMEN
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-notas-marzo@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Publicación de notas — Exámenes del 8 al 17 de marzo de 2027
+CATEGORIES:NOTAS
+DESCRIPTION:Fecha confirmada en las imágenes aportadas el 20 de octubre d
+ e 2026. Hora no indicada.\nFuente: Imágenes de exámenes aportadas por e
+ l usuario · 20/10/2026
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270409
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-revision-marzo-2027-04-16@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Revisión — Exámenes del 8 al 17 de marzo de 2027
+CATEGORIES:REVISION
+DESCRIPTION:La imagen indica revisiones los días 16 y 19 de abril de 2027
+ \, sin incluir los días intermedios. Hora no indicada.\nFuente: Imágene
+ s de exámenes aportadas por el usuario · 20/10/2026
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270417
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-image-revision-marzo-2027-04-19@icex-campus
+DTSTAMP:20261019T203000Z
+SUMMARY:Revisión — Exámenes del 8 al 17 de marzo de 2027
+CATEGORIES:REVISION
+DESCRIPTION:La imagen indica revisiones los días 16 y 19 de abril de 2027
+ \, sin incluir los días intermedios. Hora no indicada.\nFuente: Imágene
+ s de exámenes aportadas por el usuario · 20/10/2026
+DTSTART;VALUE=DATE:20270419
+DTEND;VALUE=DATE:20270420
 END:VEVENT
 BEGIN:VEVENT
 UID:academic-electivas@icex-campus

@@ -29,3 +29,6 @@ Los recursos module-53400, module-53401, module-53402 y module-53403 pertenecen 
 
 ## Fechas manuales de actividades (20 de octubre de 2026)
 Tareas 53840/Actividades 1–2: 9 de octubre; 53841/3–4: 16 de octubre; 53842/5–6: 23 de octubre; 53843/7–8: 30 de octubre; 53844/9–10: 8 de noviembre. Año 2026, todas antes de las 19:30 Europe/Madrid. Fuente: imagen aportada por el usuario. Mantener si el LMS no publica fechas; no volver a dejarlas sin fecha por campos vacíos. Leer capítulos 0 y 00 es una indicación previa sin fecha concreta, no una entrega nueva.
+
+## Exámenes completados (20 de octubre de 2026)
+Las dos nuevas imágenes del usuario añaden 18 exámenes, 7 publicaciones de notas y 8 periodos/días de revisión. Preservar las horas de los parciales de Economía (21/10/2026 09:30) y Contabilidad (28/10/2026 10:00) sin duplicarlos. El 18/12/2026 hay dos exámenes diferentes: Habilidades Directivas y Comportamiento Social. Las revisiones de marzo son el 16 y el 19 de abril (dos días, no un rango). Mantener los vínculos subjectExamIds para el resumen de los cinco exámenes más próximos. Horas no indicadas: eventos de día completo. No inferir fechas de filas que no aparezcan en las imágenes.
