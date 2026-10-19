@@ -12,7 +12,6 @@ const sections = ["Resumen", "Asignaturas", "Tareas", "Calendario", "Biblioteca"
 const normalize = (text: string) => text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 const dateLabel = (date: string) => new Date(date).toLocaleString("es-ES", {timeZone:"Europe/Madrid",day:"numeric",month:"long",hour:"2-digit",minute:"2-digit"});
 const syncDate = (value:string) => new Date(value.length===10?value+"T12:00:00Z":value).toLocaleDateString("es-ES",{timeZone:"Europe/Madrid",day:"numeric",month:"long",year:"numeric"});
-const dated = data.tasks.filter(t=>t.due).sort((a,b)=>a.due.localeCompare(b.due));
 const ext = (url: string) => decodeURIComponent(url.split("?")[0].split(".").pop()||"DOC").toUpperCase();
 
 function External({href,children,className=""}:{href:string;children:React.ReactNode;className?:string}) {
@@ -54,7 +53,6 @@ export default function Campus() {
 
         {section==="Resumen"?<>
           <div className="campus-quick-grid">{[{label:"Próximo evento",events:nextDayEvents,target:"Calendario",action:"Ver calendario"},{label:"Próximas tareas",events:nextDayTasks,target:"Tareas",action:"Ver tareas"}].map(card=><section className="campus-quick-card" key={card.label} aria-label={card.label}><h2 className="campus-quick-heading">{card.label}</h2>{card.events.length?<div className="campus-quick-items">{card.events.map(event=><article className="campus-quick-item" key={event.id}><h3>{event.title}</h3><p className="campus-quick-date">{previewDate(event)}{!event.allDay&&event.kind!=="entrega"?" – "+new Date(event.end).toLocaleTimeString("es-ES",{timeZone:"Europe/Madrid",hour:"2-digit",minute:"2-digit"})+" h":""}</p></article>)}</div>:<p className="campus-quick-empty">{now===null?"Consultando calendario…":"No hay próximas fechas publicadas."}</p>}<button onClick={()=>setSection(card.target)}>{card.action} ↗</button></section>)}</div>
-          <div className="campus-stats">{[[data.subjects.length,"ASIGNATURAS VISIBLES"],[data.files.length,"DOCUMENTOS ENLAZADOS"],[data.tasks.length,"TAREAS DEL CURSO"],[dated.length,"PLAZOS PUBLICADOS"]].map(([n,label])=><div key={label}><strong>{n}</strong><span>{label}</span></div>)}</div>
 
           <div className="campus-section-heading"><div><p className="campus-overline">APRENDER, CONECTAR, AVANZAR</p><h2>Tu plan de estudios</h2></div><button onClick={()=>setSection("Asignaturas")}>Ver las {data.subjects.length} asignaturas ↗</button></div><div className="campus-preview-grid">{data.subjects.filter(s=>s.phase==="Fase I").slice(0,3).map((s,i)=><button key={s.id} className="campus-subject-preview" onClick={()=>{setSection("Asignaturas");setQuery(s.title);}}><span>FASE I <b>0{i+1}</b></span><h3>{s.title}</h3><span>{s.resources.flatMap(r=>r.files).length} documentos <b>↗</b></span></button>)}</div>
         </>:null}
