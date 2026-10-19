@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import data from "./data.json";
+import documentIndex from "./document-index.json";
 import "./campus.css";
 
 const sections = ["Resumen", "Asignaturas", "Tareas", "Calendario", "Biblioteca", "Guías"];
@@ -11,7 +12,9 @@ const dated = data.tasks.filter(t=>t.due).sort((a,b)=>a.due.localeCompare(b.due)
 const ext = (url: string) => decodeURIComponent(url.split("?")[0].split(".").pop()||"DOC").toUpperCase();
 
 function External({href,children,className=""}:{href:string;children:React.ReactNode;className?:string}) {
-  return <a className={className} href={href} target="_blank" rel="noopener noreferrer">{children}<span aria-hidden="true"> ↗</span></a>;
+  const stored=(documentIndex as Record<string,string>)[href.split("?")[0]];
+  const destination=stored?"/campus/documentos?doc="+stored:href;
+  return <a className={className} href={destination} target="_blank" rel="noopener noreferrer">{children}<span aria-hidden="true"> ↗</span></a>;
 }
 
 export default function Campus() {
@@ -32,7 +35,7 @@ export default function Campus() {
       <a href="/campus" className="campus-logo"><img src="/icex-campus.svg" alt="ICEX Campus" width="210" height="43" /></a>
       <div className="campus-course"><span className="campus-overline">MI ESPACIO ACADÉMICO</span><strong>MBA in International<br/>Management</strong><span>Promoción 2026 — 2027</span></div>
       <nav aria-label="Secciones del campus">{sections.map((name,i)=><button key={name} type="button" className={section===name?"active":""} onClick={()=>{setSection(name);setQuery("");}} aria-current={section===name?"page":undefined}><span className="nav-number">0{i+1}</span>{name}<span className="nav-arrow" aria-hidden="true">↗</span></button>)}</nav>
-      <div className="campus-sidebar-bottom"><External href="https://lms.icex.es/course/view.php?id=862">Abrir campus oficial</External><a href="/">← Volver a mi web</a><span>Consulta personal · ICEX</span></div>
+      <div className="campus-sidebar-bottom"><a href="/campus/documentos">Mi biblioteca privada ↗</a><External href="https://lms.icex.es/course/view.php?id=862">Abrir campus oficial</External><a href="/">← Volver a mi web</a><span>Consulta personal · ICEX</span></div>
     </aside>
 
     <div className="campus-main">
@@ -46,6 +49,7 @@ export default function Campus() {
           <div className="campus-section-heading"><div><p className="campus-overline">APRENDER, CONECTAR, AVANZAR</p><h2>Tu plan de estudios</h2></div><button onClick={()=>setSection("Asignaturas")}>Ver las {data.subjects.length} asignaturas ↗</button></div><div className="campus-preview-grid">{data.subjects.filter(s=>s.phase==="Fase I").slice(0,3).map((s,i)=><button key={s.id} className="campus-subject-preview" onClick={()=>{setSection("Asignaturas");setQuery(s.title);}}><span>FASE I <b>0{i+1}</b></span><h3>{s.title}</h3><span>{s.resources.flatMap(r=>r.files).length} documentos <b>↗</b></span></button>)}</div>
         </>:null}
 
+        <div className="campus-note"><a href="/campus/documentos">Mi biblioteca privada ↗</a> · Tus 94 documentos y el logo guardados en Supabase. Entra con tu correo para descargarlos sin depender del LMS.</div>
         {["Asignaturas","Tareas","Biblioteca"].includes(section)?<div className="campus-tools"><label className="campus-search"><span aria-hidden="true">⌕</span><input value={query} onChange={e=>setQuery(e.target.value)} placeholder="Buscar asignatura, tarea o documento…" aria-label="Buscar contenido"/></label>{section==="Asignaturas"?<select aria-label="Filtrar por fase" value={phase} onChange={e=>setPhase(e.target.value)}><option>Todas</option><option>Fase I</option><option>Transversales</option></select>:<span>{section==="Tareas"?tasks.length:files.length} resultados</span>}</div>:null}
 
         {section==="Asignaturas"?<><div className="campus-subjects">{subjects.map((s,i)=><details key={s.id} className="campus-subject"><summary><span className="campus-subject-index">{String(i+1).padStart(2,"0")}</span><div><span className="campus-overline">{s.phase}</span><h2>{s.title}</h2><small>{s.resources.flatMap(r=>r.files).length} documentos · {s.resources.filter(r=>r.kind==="Tarea").length} tareas</small></div><span className="campus-expand" aria-hidden="true">+</span></summary><div className="campus-resource-list">{s.resources.map(r=><div className="campus-resource" key={r.id}><span className="campus-pill">{r.kind}</span>{r.url?<External href={r.url}>{r.title}</External>:<span>{r.title}</span>}{r.note?<small>{r.note.split('Restringido')[1]}</small>:null}{r.files.length?<div className="campus-file-list">{r.files.map(f=><External key={f.url} href={f.url}>{f.text}</External>)}</div>:null}</div>)}</div></details>)}</div>{!subjects.length?<p className="campus-empty">No hay asignaturas que coincidan con tu búsqueda.</p>:null}<div className="campus-note">Las fases II, III y las optativas figuran en las guías. Sus secciones de actividades aún no están visibles en este curso.</div></>:null}
