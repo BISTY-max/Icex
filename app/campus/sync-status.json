@@ -1,0 +1,9 @@
+{
+  "lastReviewedAt": "2026-10-19",
+  "lastUpdatedAt": "2026-10-19",
+  "nextReviewAt": "2026-10-26T09:00:00+01:00",
+  "timeZone": "Europe/Madrid",
+  "scheduleLabel": "Cada lunes a las 09:00 (Madrid)",
+  "automationId": "revisi-n-semanal-del-campus-icex",
+  "status": "scheduled"
+}

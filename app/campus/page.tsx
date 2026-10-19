@@ -4,12 +4,14 @@ import { useEffect, useState } from "react";
 import CalendarPanel from "./calendar";
 import calendarEvents from "./calendar-events.json";
 import data from "./data.json";
+import syncStatus from "./sync-status.json";
 import documentIndex from "./document-index.json";
 import "./campus.css";
 
 const sections = ["Resumen", "Asignaturas", "Tareas", "Calendario", "Biblioteca", "Guías"];
 const normalize = (text: string) => text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 const dateLabel = (date: string) => new Date(date).toLocaleString("es-ES", {timeZone:"Europe/Madrid",day:"numeric",month:"long",hour:"2-digit",minute:"2-digit"});
+const syncDate = (value:string) => new Date(value.length===10?value+"T12:00:00Z":value).toLocaleDateString("es-ES",{timeZone:"Europe/Madrid",day:"numeric",month:"long",year:"numeric"});
 const dated = data.tasks.filter(t=>t.due).sort((a,b)=>a.due.localeCompare(b.due));
 const ext = (url: string) => decodeURIComponent(url.split("?")[0].split(".").pop()||"DOC").toUpperCase();
 
@@ -69,7 +71,7 @@ export default function Campus() {
         {section==="Biblioteca"?<div className="campus-library">{files.map(f=><External key={f.url} href={f.url} className="campus-file"><span className="campus-file-type">{ext(f.url)}</span><div><strong>{f.text}</strong><small>{f.subject}</small></div></External>)}{!files.length?<p className="campus-empty">No hay documentos que coincidan con tu búsqueda.</p>:null}</div>:null}
 
         {section==="Guías"?<><div className="campus-guide-grid">{data.guides.map((g,i)=><External key={g.url} href={g.url} className="campus-guide"><span className="campus-overline">DOCUMENTO {String(i+1).padStart(2,'0')} · PDF</span><h2>{g.text}</h2><span>Consultar en ICEX ↗</span></External>)}</div><div className="campus-section-heading"><h2>Primeros pasos</h2></div>{data.orientation.map(o=><section key={o.title} className="campus-task"><div><h2>{o.title}</h2>{o.resources.map(r=><p key={r.url}><External href={r.url}>{r.text.replace('Paquete SCORM','').replace('Cuestionario','')}</External></p>)}</div></section>)}</>:null}
-        <footer className="campus-footer"><span>Consulta del {data.updated} · Información importada de ICEX</span><span>Los materiales requieren acceso al campus oficial. <External href="https://lms.icex.es/course/view.php?id=862">Ver fuente</External></span></footer>
+        <footer className="campus-footer"><span className="campus-sync-status">Última revisión: {syncDate(syncStatus.lastReviewedAt)}<br/>Última actualización: {syncDate(syncStatus.lastUpdatedAt)}<br/>Próxima revisión programada: {syncDate(syncStatus.nextReviewAt)} · 09:00 h (Madrid)<small>Revisión semanal · Requiere Codex disponible y sesión de ICEX activa.</small></span><span>Los materiales requieren acceso al campus oficial. <External href="https://lms.icex.es/course/view.php?id=862">Ver fuente</External></span></footer>
       </main>
     </div>
   </div>;
