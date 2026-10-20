@@ -47,9 +47,40 @@
     meter.max = total || 1;
     meter.value = selected + written;
   }
+  function clearQuestionFeedback(i) {
+    const field = document.querySelector(`#question-${i}`);
+    const feedback = field.querySelector('.feedback');
+    feedback.hidden = true;
+    feedback.textContent = '';
+    field.classList.remove('is-correct','is-wrong','is-blank');
+    field.querySelectorAll('.is-correct,.is-wrong').forEach(node => node.classList.remove('is-correct','is-wrong'));
+  }
   function clearFeedback() {
-    form.querySelectorAll('.feedback').forEach(node => { node.hidden = true; node.textContent = ''; });
-    form.querySelectorAll('.is-correct,.is-wrong,.is-blank').forEach(node => node.classList.remove('is-correct','is-wrong','is-blank'));
+    exam.questions.forEach((_, i) => clearQuestionFeedback(i));
+  }
+  function checkQuestion(i, final = false) {
+    clearQuestionFeedback(i);
+    const question = exam.questions[i];
+    const selected = selections()[i];
+    const field = document.querySelector(`#question-${i}`);
+    const feedback = field.querySelector('.feedback');
+    if (selected === null && !final) {
+      feedback.textContent = 'Selecciona una respuesta para corregirla.';
+      feedback.hidden = false;
+      return;
+    }
+    const state = selected === null ? 'blank' : selected === question.answer ? 'correct' : 'wrong';
+    field.classList.add(`is-${state}`);
+    const labels = field.querySelectorAll('label.option');
+    labels[question.answer].classList.add('is-correct');
+    if (state === 'wrong') labels[selected].classList.add('is-wrong');
+    const status = document.createElement('strong');
+    status.textContent = state === 'correct' ? 'Correcto' : state === 'wrong' ? 'Incorrecto' : 'En blanco';
+    status.className = `feedback-${state}`;
+    const explanation = document.createElement('span');
+    explanation.textContent = `Respuesta correcta: ${String.fromCharCode(65 + question.answer)}. ${question.options[question.answer]}. ${question.explanation}`;
+    feedback.append(status, explanation);
+    feedback.hidden = false;
   }
   function resume() {
     finished = false;
@@ -69,9 +100,17 @@
     result.append(p);
   }
   form.addEventListener('input', updateProgress);
-  form.addEventListener('change', updateProgress);
+  form.addEventListener('change', event => {
+    updateProgress();
+    const name = event.target.name;
+    if (!finished && /^q-\d+$/.test(name || '')) clearQuestionFeedback(Number(name.slice(2)));
+  });
+  form.querySelectorAll('[data-check]').forEach(button => button.addEventListener('click', () => {
+    if (!finished) checkQuestion(Number(button.dataset.check));
+  }));
   form.querySelectorAll('[data-clear]').forEach(button => button.addEventListener('click', () => {
     const i = button.dataset.clear;
+    clearQuestionFeedback(Number(i));
     form.querySelectorAll(`input[name="q-${i}"]`).forEach(input => { input.checked = false; });
     updateProgress();
   }));
@@ -85,15 +124,7 @@
       const selected = answers[i];
       const state = selected === null ? 'blank' : selected === question.answer ? 'correct' : 'wrong';
       if (state === 'correct') correct++; else if (state === 'wrong') wrong++; else blank++;
-      const field = document.querySelector(`#question-${i}`);
-      const feedback = field.querySelector('.feedback');
-      field.classList.add(`is-${state}`);
-      const labels = field.querySelectorAll('label.option');
-      labels[question.answer].classList.add('is-correct');
-      if (state === 'wrong') labels[selected].classList.add('is-wrong');
-      const prefix = state === 'correct' ? 'Correcta.' : state === 'wrong' ? 'Incorrecta.' : 'En blanco.';
-      feedback.textContent = `${prefix} Respuesta: ${String.fromCharCode(65 + question.answer)}. ${question.options[question.answer]}. ${question.explanation}`;
-      feedback.hidden = false;
+      checkQuestion(i, true);
     });
     fields.forEach(field => { field.disabled = true; });
     result.replaceChildren();

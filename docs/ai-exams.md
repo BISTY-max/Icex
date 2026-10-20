@@ -29,3 +29,7 @@ Compilación Next.js y TypeScript correctas. Se han comprobado cuatro opciones d
 ## Navegación paso a paso
 
 Cada modelo muestra una pregunta o ejercicio cada vez, con Anterior y Siguiente. Las respuestas permanecen al navegar. La corrección aparece en la última pregunta; las soluciones siguen ocultas hasta finalizar. Tras corregir, se pueden revisar las preguntas de una en una. Imprimir conserva todos los enunciados mediante estilos de impresión. Los títulos están dentro de la tarjeta en flujo normal, sin legend sobre el borde. Instrucciones y metodología quedan disponibles en un desplegable. Pruebas en navegador: navegación, conservación de selección y texto escrito, separación de 20 px entre enunciado y opciones, un único bloque visible y puntuación final correcta.
+
+## Corrección por pregunta
+
+Un botón rojo Corregir aparece a la derecha de Dejar en blanco en cada pregunta tipo test. Muestra Correcto o Incorrecto, identifica la opción correcta en verde y la elegida incorrectamente en rojo, y explica la solución. Cambiar o borrar una respuesta limpia su feedback; navegar lo conserva. Sin selección se pide elegir una respuesta. La corrección final sigue funcionando. Se ha retirado Materiales de referencia de la interfaz de los 33 modelos; las fuentes se conservan en los datos editables. Verificado en navegador con respuesta correcta, incorrecta, cambio de opción, ausencia de selección y puntuación final.
