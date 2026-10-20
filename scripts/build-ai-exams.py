@@ -546,29 +546,38 @@ for sid,exam in output.items():
   assert all(q['prompt'] and q['answer'] for q in model['openQuestions'])
 (ROOT/'content/ai-exams.json').write_text(json.dumps(output,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({'subjectEntries':len(output),'distinctSubjectSets':len(output)-3,'distinctModels':(len(output)-3)*3,'renderedModels':len(output)*3,'bankSizes':{'economy':len(economy),'research1':len(research1),'research2':len(research2),'marketing':len(marketing),'skills':len(skills),'strategy':len(strategy),'direction':len(direction),'social':len(social),'sector':len(sector)}},ensure_ascii=False))
-# Generate standalone, printable practice papers. Solutions stay closed by default.
+# Generate interactive questionnaires with shared behaviour and styles.
 from html import escape as esc
 html_dir=ROOT/'public/campus/examenes-ia';html_dir.mkdir(parents=True,exist_ok=True)
 index={}
+scoring={
+ 'module-53375':dict(correct=.5,wrong=-.17,proposed=False,note='Puntos según el parcial anterior, no una nota oficial de esta convocatoria. El parcial pesa 1/3 de la asignatura.'),
+ 'subject-investigacion-comercial-ii':dict(correct=.25,wrong=-.10,proposed=False,note='Test sobre 10. El examen pesa el 40 % de la asignatura; el trabajo se evalúa aparte.'),
+ 'module-53395':dict(correct=.4,wrong=-.4,proposed=False,note='Puntos del bloque test sobre 10, antes de ponderar. Las dos abiertas se autocorrigen con rúbrica. La guía detallada indica test 75 % y abiertas 25 % del examen, con la discrepancia ya señalada.'),
+ 'module-53416':dict(correct=.5,wrong=-.16,proposed=False,note='Puntuación con las reglas del final anterior. No representa la nota de la asignatura ni confirma las reglas de esta convocatoria.'),
+ 'module-53445':dict(correct=.2,wrong=-.1,proposed=False,note='Puntuación con las reglas del examen anterior, no confirmadas para esta convocatoria. El examen pesa el 30 % de la asignatura.'),
+ 'module-53378':dict(correct=.3,wrong=0,proposed=True,note='Escala propuesta solo para practicar: test hasta 6 puntos; ensayo hasta 4, pendiente de autocorrección. No es una regla oficial.'),
+ 'module-53450':dict(correct=.4,wrong=0,proposed=True,note='Escala propuesta solo para practicar. La guía no concreta número de preguntas, duración ni penalización oficiales.')
+}
 for sid,exam in output.items():
  index[sid]=dict(scope=exam['scope'],models=[])
  for model in exam['models']:
   title=subjects[sid]['title']
   index[sid]['models'].append(dict(title=model['title'],url='/campus/examenes-ia/'+model['id']+'.html',testCount=len(model['questions']),openCount=len(model['openQuestions'])))
-  # Online aliases intentionally point to the same original paper.
   if sid in ['module-53383','module-53823','module-53419']:continue
   body=''
   if model['questions']:
-   body+='<h2>Preguntas tipo test</h2><p>Una respuesta correcta por pregunta. Anota tus respuestas antes de abrir las soluciones.</p><ol class="questions">'
-   for q in model['questions']:
-    body+='<li><p>'+esc(q['prompt'])+'</p><ol type="A">'+''.join('<li>'+esc(o)+'</li>' for o in q['options'])+'</ol></li>'
-   body+='</ol>'
+   body+='<h2>Preguntas tipo test</h2><p>Marca una opción por pregunta. Puedes dejar preguntas en blanco.</p>'
+   for i,q in enumerate(model['questions']):
+    body+=f'<fieldset class="question" id="question-{i}"><legend><span class="question-number">{i+1}.</span> '+esc(q['prompt'])+'</legend><div class="options">'
+    for j,option in enumerate(q['options']):
+     body+=f'<label class="option" for="q-{i}-{j}"><input id="q-{i}-{j}" type="radio" name="q-{i}" value="{j}"><span>{chr(65+j)}. '+esc(option)+'</span></label>'
+    body+=f'</div><button class="clear-answer" type="button" data-clear="{i}">Dejar en blanco</button><p class="feedback" hidden></p></fieldset>'
   if model['openQuestions']:
-   body+='<h2>Ejercicios de desarrollo</h2><ol class="questions">'
-   for q in model['openQuestions']:
-    body+='<li><p>'+esc(q['prompt']).replace('\n','<br>')+'</p><div class="answer-space" aria-label="Espacio para respuesta manuscrita"></div></li>'
-   body+='</ol>'
-  solutions='<details class="solutions"><summary>Soluciones y criterios de corrección</summary><div><p>Corrección orientativa generada con IA. En las respuestas abiertas puede haber varias soluciones válidas.</p>'
+   body+='<h2>Ejercicios de desarrollo</h2>'
+   for i,q in enumerate(model['openQuestions']):
+    body+=f'<fieldset class="question"><legend><span class="question-number">{i+1}.</span> '+esc(q['prompt'])+f'</legend><label class="written-answer" for="open-{i}">Tu respuesta al ejercicio {i+1}</label><textarea id="open-{i}" name="open-{i}" rows="7" placeholder="Escribe tu respuesta aquí…"></textarea></fieldset>'
+  solutions='<details class="solutions" id="solutions" hidden><summary>Soluciones y criterios de corrección</summary><div><p>Corrección orientativa generada con IA. En las respuestas abiertas puede haber varias soluciones válidas.</p>'
   if model['questions']:
    solutions+='<h3>Tipo test</h3><ol>'
    for q in model['questions']:
@@ -578,8 +587,8 @@ for sid,exam in output.items():
    solutions+='<h3>Desarrollo</h3><ol>'+''.join('<li><p>'+esc(q['answer'])+'</p></li>' for q in model['openQuestions'])+'</ol>'
   solutions+='</div></details>'
   sources='<details class="sources"><summary>Materiales de referencia</summary><ul>'+''.join('<li>'+esc(s)+'</li>' for s in exam['sources'])+'</ul></details>'
-  page='''<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>'''+esc(title+' · '+model['title'])+'''</title><style>
-:root{font-family:Arial,Helvetica,sans-serif;color:#2b2b2b;background:#faf9f7;line-height:1.6}*{box-sizing:border-box}body{margin:0}header{background:#c93c2b;color:white;padding:18px max(20px,calc((100vw - 940px)/2));font-size:14px}header a{color:inherit}main{max-width:940px;padding:28px 24px 60px;margin:auto}h1{font-size:clamp(24px,4vw,36px);font-weight:500;line-height:1.2}h2{font-size:21px;font-weight:500;margin-top:30px}h3{font-size:17px}p,li{overflow-wrap:anywhere}.label{font-size:12px;text-transform:uppercase;letter-spacing:1.5px;color:#a52f23}.intro{border:1px solid #e5e1dd;border-top:3px solid #c93c2b;background:white;padding:18px 22px}.intro p:first-child{margin-top:0}.intro p:last-child{margin-bottom:0}.scope,.note{font-size:13px;color:#73716f}.questions{padding-left:25px}.questions>li{padding:10px 0 22px;border-bottom:1px solid #e5e1dd}.questions>li>p{font-weight:500}.questions ol{padding-left:25px}.questions ol li{padding:4px 0}.answer-space{height:140px;border-bottom:1px dashed #ccc}.solutions,.sources{border:1px solid #e5e1dd;background:white;margin-top:28px}.solutions>summary,.sources>summary{padding:15px 18px;cursor:pointer;color:#a52f23}.solutions>div,.sources>ul{padding:0 24px 20px}.solutions ol{padding-left:22px}.toolbar{display:flex;gap:12px;flex-wrap:wrap;margin:22px 0}.toolbar button,.toolbar a{font:inherit;padding:10px 15px;background:white;border:1px solid #c93c2b;color:#a52f23;cursor:pointer;text-decoration:none;font-size:13px}footer{font-size:12px;color:#73716f;margin-top:30px}@media print{@page{margin:18mm}body{background:white}header,.toolbar{display:none}main{max-width:none;padding:0}h1{font-size:22pt}.questions>li{break-inside:avoid}.solutions:not([open]),.sources:not([open]){display:none}.solutions[open]{break-before:page}.intro{border-color:#aaa}.scope,.note{color:#444}a{color:inherit}}
-</style></head><body><header><a href="/campus">← Volver al campus</a></header><main><p class="label">Exámenes IA · práctica no oficial</p><h1>'''+esc(title)+'''</h1><h2>'''+esc(model['title'])+'''</h2><div class="intro"><p><strong>'''+esc(exam['format'])+'''</strong></p><p>'''+esc(exam['rules'])+'''</p></div><p class="scope">'''+esc(exam['scope'])+'''</p><p class="note">Los modelos teóricos tienen selecciones distintas de un banco común y comparten algunas preguntas de repaso. No son predicciones del examen oficial. Para imprimir solo el enunciado, deja cerradas las soluciones; ábrelas si quieres incluirlas.</p><div class="toolbar"><button type="button" onclick="window.print()">Imprimir / guardar PDF</button></div>'''+body+solutions+sources+'''<footer>Preparado el 20 de octubre de 2026. Repasa también los materiales y las instrucciones vigentes del profesorado.</footer></main></body></html>'''
+  payload=json.dumps(dict(questions=model['questions'],openQuestions=model['openQuestions'],scoring=scoring.get(sid)),ensure_ascii=False).replace('<',chr(92)+'u003c').replace('>',chr(92)+'u003e').replace('&',chr(92)+'u0026')
+  finish='Corregir cuestionario' if model['questions'] else 'Finalizar y ver rúbricas'
+  page='<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>'+esc(title+' · '+model['title']+' · Cuestionario')+'</title><link rel="stylesheet" href="/campus/examenes-ia/quiz.css?v=1"><script src="/campus/examenes-ia/quiz.js?v=1" defer></script></head><body><header><a href="/campus">← Volver al campus</a></header><main><p class="label">Exámenes IA · Cuestionario de práctica</p><h1>'+esc(title)+'</h1><h2>'+esc(model['title'])+'</h2><div class="intro"><p><strong>'+esc(exam['format'])+'</strong></p><p>'+esc(exam['rules'])+'</p></div><p class="scope">'+esc(exam['scope'])+'</p><p class="note">Responde y pulsa «'+esc(finish)+'» para revisar tus resultados. Las respuestas se conservan mientras esta página siga abierta; se reinician al recargar. Estos modelos de práctica no son exámenes oficiales y pueden compartir preguntas de repaso.</p><noscript>Activa JavaScript para responder y corregir el cuestionario.</noscript><div class="progress-strip"><span id="progress" aria-live="polite">0 respondidas</span><progress id="progress-meter" aria-label="Progreso del cuestionario" value="0" max="1"></progress></div><form id="quiz" novalidate>'+body+'<div class="actions"><button id="finish" class="primary" type="submit" disabled>'+esc(finish)+'</button><button id="edit" type="button" hidden>Volver a editar</button><button id="restart" type="button">Empezar de nuevo</button><button id="print" type="button">Imprimir / guardar PDF</button></div></form><section class="result" id="result" tabindex="-1" aria-live="polite" hidden></section>'+solutions+sources+'<dialog id="reset-dialog" aria-labelledby="reset-title"><h2 id="reset-title">¿Empezar de nuevo?</h2><p>Se borrarán las respuestas de este intento.</p><div class="actions"><button id="cancel-reset" type="button">Seguir respondiendo</button><button id="confirm-reset" class="primary" type="button">Borrar y empezar</button></div></dialog><footer>Práctica generada con IA. Repasa también los materiales y las instrucciones del profesorado.</footer></main><script id="quiz-data" type="application/json">'+payload+'</script></body></html>'
   (html_dir/(model['id']+'.html')).write_text(page)
 (DATA/'ai-exams-index.json').write_text(json.dumps(index,ensure_ascii=False,indent=2)+'\n')

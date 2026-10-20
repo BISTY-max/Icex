@@ -1,0 +1,119 @@
+'use strict';
+(() => {
+  const form = document.querySelector('#quiz');
+  const payload = document.querySelector('#quiz-data');
+  if (!form || !payload) return;
+  const exam = JSON.parse(payload.textContent);
+  const submit = document.querySelector('#finish');
+  const result = document.querySelector('#result');
+  const solutions = document.querySelector('#solutions');
+  const progress = document.querySelector('#progress');
+  const meter = document.querySelector('#progress-meter');
+  const edit = document.querySelector('#edit');
+  const resetDialog = document.querySelector('#reset-dialog');
+  const fields = [...form.querySelectorAll('fieldset')];
+  let finished = false;
+  const selections = () => exam.questions.map((_, i) => {
+    const checked = form.querySelector(`input[name="q-${i}"]:checked`);
+    return checked ? Number(checked.value) : null;
+  });
+  function updateProgress() {
+    const selected = selections().filter(value => value !== null).length;
+    const written = [...form.querySelectorAll('textarea')].filter(field => field.value.trim()).length;
+    const total = exam.questions.length + exam.openQuestions.length;
+    progress.textContent = `${selected + written} de ${total} respondidas`;
+    meter.max = total || 1;
+    meter.value = selected + written;
+  }
+  function clearFeedback() {
+    form.querySelectorAll('.feedback').forEach(node => { node.hidden = true; node.textContent = ''; });
+    form.querySelectorAll('.is-correct,.is-wrong,.is-blank').forEach(node => node.classList.remove('is-correct','is-wrong','is-blank'));
+  }
+  function resume() {
+    finished = false;
+    fields.forEach(field => { field.disabled = false; });
+    clearFeedback();
+    result.hidden = true;
+    result.replaceChildren();
+    solutions.hidden = true;
+    solutions.open = false;
+    edit.hidden = true;
+    submit.hidden = false;
+  }
+  function line(text, className) {
+    const p = document.createElement('p');
+    p.textContent = text;
+    if (className) p.className = className;
+    result.append(p);
+  }
+  form.addEventListener('input', updateProgress);
+  form.addEventListener('change', updateProgress);
+  form.querySelectorAll('[data-clear]').forEach(button => button.addEventListener('click', () => {
+    const i = button.dataset.clear;
+    form.querySelectorAll(`input[name="q-${i}"]`).forEach(input => { input.checked = false; });
+    updateProgress();
+  }));
+  form.addEventListener('submit', event => {
+    event.preventDefault();
+    if (finished) return;
+    const answers = selections();
+    let correct = 0, wrong = 0, blank = 0;
+    exam.questions.forEach((question, i) => {
+      const selected = answers[i];
+      const state = selected === null ? 'blank' : selected === question.answer ? 'correct' : 'wrong';
+      if (state === 'correct') correct++; else if (state === 'wrong') wrong++; else blank++;
+      const field = document.querySelector(`#question-${i}`);
+      const feedback = field.querySelector('.feedback');
+      field.classList.add(`is-${state}`);
+      const labels = field.querySelectorAll('label.option');
+      labels[question.answer].classList.add('is-correct');
+      if (state === 'wrong') labels[selected].classList.add('is-wrong');
+      const prefix = state === 'correct' ? 'Correcta.' : state === 'wrong' ? 'Incorrecta.' : 'En blanco.';
+      feedback.textContent = `${prefix} Respuesta: ${String.fromCharCode(65 + question.answer)}. ${question.options[question.answer]}. ${question.explanation}`;
+      feedback.hidden = false;
+    });
+    fields.forEach(field => { field.disabled = true; });
+    result.replaceChildren();
+    const heading = document.createElement('h2');
+    heading.textContent = exam.questions.length ? 'Resultado del cuestionario' : 'Cuestionario finalizado';
+    result.append(heading);
+    if (exam.questions.length) {
+      line(`${correct} ${correct === 1 ? 'acierto' : 'aciertos'} · ${wrong} ${wrong === 1 ? 'error' : 'errores'} · ${blank} en blanco`, 'result-counts');
+      const scoring = exam.scoring;
+      if (scoring) {
+        const points = correct * scoring.correct + wrong * scoring.wrong;
+        const number = value => value.toLocaleString('es-ES', {minimumFractionDigits:2, maximumFractionDigits:2});
+        line(`${scoring.proposed ? 'Puntuación de práctica' : 'Puntos del test'}: ${number(points)} / ${number(exam.questions.length * scoring.correct)}`, 'result-score');
+        line(scoring.note);
+      } else {
+        line('Se muestran aciertos, errores y blancos. No se asigna nota: la guía no concreta todas las reglas de puntuación.');
+      }
+    }
+    if (exam.openQuestions.length) {
+      const completed = [...form.querySelectorAll('textarea')].filter(field => field.value.trim()).length;
+      line(`${completed} de ${exam.openQuestions.length} ejercicios de desarrollo respondidos.`);
+      line('Las respuestas escritas no se califican automáticamente. Compáralas con las soluciones y rúbricas; puede haber varias respuestas válidas.');
+    }
+    line('Puedes revisar la corrección y abrir las soluciones completas.');
+    finished = true;
+    result.hidden = false;
+    solutions.hidden = false;
+    edit.hidden = false;
+    submit.hidden = true;
+    result.focus();
+  });
+  edit.addEventListener('click', () => { resume(); fields[0]?.querySelector('input,textarea')?.focus(); });
+  document.querySelector('#restart').addEventListener('click', () => {
+    const hasAnswers = selections().some(value => value !== null) || [...form.querySelectorAll('textarea')].some(field => field.value.trim());
+    if (hasAnswers || finished) resetDialog.showModal();
+    else { resume(); updateProgress(); }
+  });
+  document.querySelector('#cancel-reset').addEventListener('click', () => resetDialog.close());
+  document.querySelector('#confirm-reset').addEventListener('click', () => {
+    form.reset(); resume(); updateProgress(); resetDialog.close();
+    fields[0]?.querySelector('input,textarea')?.focus();
+  });
+  document.querySelector('#print').addEventListener('click', () => window.print());
+  submit.disabled = false;
+  updateProgress();
+})();
