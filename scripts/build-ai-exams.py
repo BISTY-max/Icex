@@ -531,6 +531,10 @@ for m,indices in enumerate([[0,3,5],[1,4,7],[2,6,8]]):
 output['subject-investigacion-comercial-ii']['scope']='37 preguntas de técnicas y conceptos más 3 sobre las lecturas obligatorias aportadas. Las referencias de lecturas son las ediciones de 2025 del ZIP, no datos vigentes del mercado.'
 output['subject-investigacion-comercial-ii']['sources'] += ['LECTURAS OBLIGATORIAS.zip: joyería en Italia (pp. 4–6), pesca y acuicultura en China (p. 1), aceite de oliva en Japón (pp. 1–2), canal contract en Polonia (pp. 1–2)']
 
+# Source-aligned partial/final replacements.
+import runpy
+runpy.run_path(str(ROOT/'scripts/ai-exams/exam_variants.py'))['apply'](output)
+
 # Shared evaluations appear in the corresponding online subject without creating a separate assessment.
 output['module-53383']={**output['module-53392'],'scope':'Evaluación conjunta con Investigación Comercial I presencial. Se muestran los mismos tres modelos; no son una evaluación online independiente. '+output['module-53392']['scope']}
 output['module-53823']={**output['module-53416'],'scope':'Evaluación conjunta con Contabilidad presencial. Se muestran los mismos tres modelos; no son una evaluación online independiente. '+output['module-53416']['scope']}
@@ -538,14 +542,14 @@ output['module-53419']={**output['module-53428'],'scope':'Evaluación conjunta c
 
 for sid,exam in output.items():
  assert sid in subjects
- assert len(exam['models'])==3
+ assert len(exam['models'])==(6 if sid in ['module-53375','module-53416','module-53823'] else 3)
  for model in exam['models']:
   assert len({q['prompt'] for q in model['questions']})==len(model['questions'])
   for q in model['questions']:
    assert len(q['options'])==4 and len(set(q['options']))==4 and 0<=q['answer']<4 and q['explanation'], (sid,q)
   assert all(q['prompt'] and q['answer'] for q in model['openQuestions'])
 (ROOT/'content/ai-exams.json').write_text(json.dumps(output,ensure_ascii=False,indent=2)+'\n')
-print(json.dumps({'subjectEntries':len(output),'distinctSubjectSets':len(output)-3,'distinctModels':(len(output)-3)*3,'renderedModels':len(output)*3,'bankSizes':{'economy':len(economy),'research1':len(research1),'research2':len(research2),'marketing':len(marketing),'skills':len(skills),'strategy':len(strategy),'direction':len(direction),'social':len(social),'sector':len(sector)}},ensure_ascii=False))
+print(json.dumps({'subjectEntries':len(output),'distinctSubjectSets':len(output)-3,'distinctModels':sum(len(e['models']) for sid,e in output.items() if sid not in ['module-53383','module-53823','module-53419']),'renderedModels':sum(len(e['models']) for e in output.values()),'bankSizes':{'economy':len(economy),'research1':len(research1),'research2':len(research2),'marketing':len(marketing),'skills':len(skills),'strategy':len(strategy),'direction':len(direction),'social':len(social),'sector':len(sector)}},ensure_ascii=False))
 # Generate interactive questionnaires with shared behaviour and styles.
 from html import escape as esc
 html_dir=ROOT/'public/campus/examenes-ia';html_dir.mkdir(parents=True,exist_ok=True)
@@ -570,6 +574,8 @@ for sid,exam in output.items():
    body+='<h2 class="question-section-heading" data-section="test">Preguntas tipo test</h2>'
    for i,q in enumerate(model['questions']):
     body+=f'<fieldset class="question" id="question-{i}" aria-labelledby="prompt-{i}"><h3 class="question-title" id="prompt-{i}" tabindex="-1"><span class="question-number">{i+1}.</span> '+esc(q['prompt'])+'</h3><div class="options">'
+    if q.get('context'):
+     body+='<details class="case-data"><summary>Datos del caso · mostrar / ocultar</summary><p>'+esc(q['context'])+'</p></details>'
     for j,option in enumerate(q['options']):
      body+=f'<label class="option" for="q-{i}-{j}"><input id="q-{i}-{j}" type="radio" name="q-{i}" value="{j}"><span>{chr(65+j)}. '+esc(option)+'</span></label>'
     body+=f'</div><div class="question-tools"><button class="clear-answer" type="button" data-clear="{i}">Dejar en blanco</button><button class="check-answer" type="button" data-check="{i}">Corregir</button></div><p class="feedback" role="status" hidden></p></fieldset>'
@@ -587,8 +593,8 @@ for sid,exam in output.items():
    solutions+='<h3>Desarrollo</h3><ol>'+''.join('<li><p>'+esc(q['answer'])+'</p></li>' for q in model['openQuestions'])+'</ol>'
   solutions+='</div></details>'
   sources='<details class="sources"><summary>Materiales de referencia</summary><ul>'+''.join('<li>'+esc(s)+'</li>' for s in exam['sources'])+'</ul></details>'
-  payload=json.dumps(dict(questions=model['questions'],openQuestions=model['openQuestions'],scoring=scoring.get(sid)),ensure_ascii=False).replace('<',chr(92)+'u003c').replace('>',chr(92)+'u003e').replace('&',chr(92)+'u0026')
+  payload=json.dumps(dict(questions=model['questions'],openQuestions=model['openQuestions'],scoring=model.get('scoring',scoring.get(sid))),ensure_ascii=False).replace('<',chr(92)+'u003c').replace('>',chr(92)+'u003e').replace('&',chr(92)+'u0026')
   finish='Corregir cuestionario' if model['questions'] else 'Finalizar y ver rúbricas'
-  page='<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>'+esc(title+' · '+model['title']+' · Cuestionario')+'</title><link rel="stylesheet" href="/campus/examenes-ia/quiz.css?v=3"><script src="/campus/examenes-ia/quiz.js?v=3" defer></script></head><body><header><a href="/campus">← Volver al campus</a></header><main><p class="label">Exámenes IA · Cuestionario de práctica</p><h1>'+esc(title)+'</h1><h2>'+esc(model['title'])+'</h2><noscript>Activa JavaScript para responder y corregir el cuestionario.</noscript><div class="progress-strip"><span id="question-position"></span><span id="progress" aria-live="polite">0 respondidas</span><progress id="progress-meter" aria-label="Progreso del cuestionario" value="0" max="1"></progress></div><form id="quiz" novalidate>'+body+'<div class="question-navigation" aria-label="Navegación entre preguntas"><button id="previous" type="button">← Anterior</button><button id="next" type="button">Siguiente →</button></div><div class="actions"><button id="finish" class="primary" type="submit" disabled>'+esc(finish)+'</button><button id="edit" type="button" hidden>Volver a editar</button><button id="restart" type="button">Empezar de nuevo</button><button id="print" type="button">Imprimir / guardar PDF</button></div></form><section class="result" id="result" tabindex="-1" aria-live="polite" hidden></section>'+solutions+'<dialog id="reset-dialog" aria-labelledby="reset-title"><h2 id="reset-title">¿Empezar de nuevo?</h2><p>Se borrarán las respuestas de este intento.</p><div class="actions"><button id="cancel-reset" type="button">Seguir respondiendo</button><button id="confirm-reset" class="primary" type="button">Borrar y empezar</button></div></dialog><footer>Práctica generada con IA. Repasa también los materiales y las instrucciones del profesorado.</footer></main><script id="quiz-data" type="application/json">'+payload+'</script></body></html>'
+  page='<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>'+esc(title+' · '+model['title']+' · Cuestionario')+'</title><link rel="stylesheet" href="/campus/examenes-ia/quiz.css?v=4"><script src="/campus/examenes-ia/quiz.js?v=4" defer></script></head><body><header><a href="/campus">← Volver al campus</a></header><main><p class="label">Exámenes IA · Cuestionario de práctica</p><h1>'+esc(title)+'</h1><h2>'+esc(model['title'])+'</h2><noscript>Activa JavaScript para responder y corregir el cuestionario.</noscript><div class="progress-strip"><span id="question-position"></span><span id="progress" aria-live="polite">0 respondidas</span><progress id="progress-meter" aria-label="Progreso del cuestionario" value="0" max="1"></progress></div><form id="quiz" novalidate>'+body+'<div class="question-navigation" aria-label="Navegación entre preguntas"><button id="previous" type="button">← Anterior</button><button id="next" type="button">Siguiente →</button></div><div class="actions"><button id="finish" class="primary" type="submit" disabled>'+esc(finish)+'</button><button id="edit" type="button" hidden>Volver a editar</button><button id="restart" type="button">Empezar de nuevo</button><button id="print" type="button">Imprimir / guardar PDF</button></div></form><section class="result" id="result" tabindex="-1" aria-live="polite" hidden></section>'+solutions+'<dialog id="reset-dialog" aria-labelledby="reset-title"><h2 id="reset-title">¿Empezar de nuevo?</h2><p>Se borrarán las respuestas de este intento.</p><div class="actions"><button id="cancel-reset" type="button">Seguir respondiendo</button><button id="confirm-reset" class="primary" type="button">Borrar y empezar</button></div></dialog><footer>Práctica generada con IA. Repasa también los materiales y las instrucciones del profesorado.</footer></main><script id="quiz-data" type="application/json">'+payload+'</script></body></html>'
   (html_dir/(model['id']+'.html')).write_text(page)
 (DATA/'ai-exams-index.json').write_text(json.dumps(index,ensure_ascii=False,indent=2)+'\n')

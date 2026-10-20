@@ -167,6 +167,16 @@
     form.reset(); resume(); updateProgress(); resetDialog.close();
     showQuestion(0);
   });
+  // The case data are part of the exam and must be present in printed copies.
+  let casesClosedBeforePrint = [];
+  window.addEventListener('beforeprint', () => {
+    casesClosedBeforePrint = [...form.querySelectorAll('.case-data:not([open])')];
+    casesClosedBeforePrint.forEach(details => { details.open = true; });
+  });
+  window.addEventListener('afterprint', () => {
+    casesClosedBeforePrint.forEach(details => { details.open = false; });
+    casesClosedBeforePrint = [];
+  });
   document.querySelector('#print').addEventListener('click', () => window.print());
   submit.disabled = false;
   updateProgress();

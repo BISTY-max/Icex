@@ -1,22 +1,40 @@
 {
   "module-53375": {
-    "scope": "Modelos centrados en el parcial disponible: principios, oferta y demanda, elasticidades, excedentes e intervención. No cubren el final, cuyo documento no está disponible.",
+    "scope": "Parcial: tres modelos de microeconomía (20 preguntas; referencia: 40 minutos). Final: tres modelos de macroeconomía (20 preguntas; referencia: 50 minutos). Nuevos supuestos y datos basados en los dos exámenes aportados. Acierto +0,50; error −0,17; blanco 0, según los documentos anteriores, no como confirmación de la convocatoria actual.",
     "models": [
       {
-        "title": "Modelo 1",
+        "title": "Modelo 1 parcial",
         "url": "/campus/examenes-ia/module-53375-1.html",
         "testCount": 20,
         "openCount": 0
       },
       {
-        "title": "Modelo 2",
+        "title": "Modelo 2 parcial",
         "url": "/campus/examenes-ia/module-53375-2.html",
         "testCount": 20,
         "openCount": 0
       },
       {
-        "title": "Modelo 3",
+        "title": "Modelo 3 parcial",
         "url": "/campus/examenes-ia/module-53375-3.html",
+        "testCount": 20,
+        "openCount": 0
+      },
+      {
+        "title": "Modelo 1 final",
+        "url": "/campus/examenes-ia/module-53375-final-1.html",
+        "testCount": 20,
+        "openCount": 0
+      },
+      {
+        "title": "Modelo 2 final",
+        "url": "/campus/examenes-ia/module-53375-final-2.html",
+        "testCount": 20,
+        "openCount": 0
+      },
+      {
+        "title": "Modelo 3 final",
+        "url": "/campus/examenes-ia/module-53375-final-3.html",
         "testCount": 20,
         "openCount": 0
       }
@@ -115,22 +133,40 @@
     ]
   },
   "module-53416": {
-    "scope": "Tres modelos con cifras distintas: contabilidad, inventarios, ratios, inversión y cálculo financiero. Todos los datos y el tipo fiscal son supuestos cerrados de práctica; no se aplican impuestos o normas no indicados.",
+    "scope": "Tres parciales (10 preguntas sobre un caso contable completo) y tres finales (20 preguntas: proyecto de inversión, análisis económico-financiero y problemas individuales). Casos, cifras y respuestas nuevos; sigue los dos documentos aportados. Los datos desplegables de cada caso están disponibles junto a su pregunta. Puntuación: parcial +1/−0,33; final +0,50/−0,16; blanco 0, como referencia de los exámenes anteriores.",
     "models": [
       {
-        "title": "Modelo 1",
+        "title": "Modelo 1 parcial",
+        "url": "/campus/examenes-ia/account-parcial-1.html",
+        "testCount": 10,
+        "openCount": 0
+      },
+      {
+        "title": "Modelo 2 parcial",
+        "url": "/campus/examenes-ia/account-parcial-2.html",
+        "testCount": 10,
+        "openCount": 0
+      },
+      {
+        "title": "Modelo 3 parcial",
+        "url": "/campus/examenes-ia/account-parcial-3.html",
+        "testCount": 10,
+        "openCount": 0
+      },
+      {
+        "title": "Modelo 1 final",
         "url": "/campus/examenes-ia/account-1.html",
         "testCount": 20,
         "openCount": 0
       },
       {
-        "title": "Modelo 2",
+        "title": "Modelo 2 final",
         "url": "/campus/examenes-ia/account-2.html",
         "testCount": 20,
         "openCount": 0
       },
       {
-        "title": "Modelo 3",
+        "title": "Modelo 3 final",
         "url": "/campus/examenes-ia/account-3.html",
         "testCount": 20,
         "openCount": 0
@@ -276,22 +312,40 @@
     ]
   },
   "module-53823": {
-    "scope": "Evaluación conjunta con Contabilidad presencial. Se muestran los mismos tres modelos; no son una evaluación online independiente. Tres modelos con cifras distintas: contabilidad, inventarios, ratios, inversión y cálculo financiero. Todos los datos y el tipo fiscal son supuestos cerrados de práctica; no se aplican impuestos o normas no indicados.",
+    "scope": "Evaluación conjunta con Contabilidad presencial. Se muestran los mismos tres modelos; no son una evaluación online independiente. Tres parciales (10 preguntas sobre un caso contable completo) y tres finales (20 preguntas: proyecto de inversión, análisis económico-financiero y problemas individuales). Casos, cifras y respuestas nuevos; sigue los dos documentos aportados. Los datos desplegables de cada caso están disponibles junto a su pregunta. Puntuación: parcial +1/−0,33; final +0,50/−0,16; blanco 0, como referencia de los exámenes anteriores.",
     "models": [
       {
-        "title": "Modelo 1",
+        "title": "Modelo 1 parcial",
+        "url": "/campus/examenes-ia/account-parcial-1.html",
+        "testCount": 10,
+        "openCount": 0
+      },
+      {
+        "title": "Modelo 2 parcial",
+        "url": "/campus/examenes-ia/account-parcial-2.html",
+        "testCount": 10,
+        "openCount": 0
+      },
+      {
+        "title": "Modelo 3 parcial",
+        "url": "/campus/examenes-ia/account-parcial-3.html",
+        "testCount": 10,
+        "openCount": 0
+      },
+      {
+        "title": "Modelo 1 final",
         "url": "/campus/examenes-ia/account-1.html",
         "testCount": 20,
         "openCount": 0
       },
       {
-        "title": "Modelo 2",
+        "title": "Modelo 2 final",
         "url": "/campus/examenes-ia/account-2.html",
         "testCount": 20,
         "openCount": 0
       },
       {
-        "title": "Modelo 3",
+        "title": "Modelo 3 final",
         "url": "/campus/examenes-ia/account-3.html",
         "testCount": 20,
         "openCount": 0

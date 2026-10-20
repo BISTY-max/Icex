@@ -6,3 +6,5 @@
 .question{scroll-margin-top:100px}
 
 .question-tools{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-top:14px}.check-answer{background:#c93c2b;color:white;border:1px solid #c93c2b;border-radius:3px;font:inherit;font-size:14px;padding:10px 20px;min-height:44px;cursor:pointer}.check-answer:disabled{display:none}.feedback>strong,.feedback>span{display:block}.feedback>strong{font-size:16px;margin-bottom:5px}.feedback-correct,.option.is-correct{color:#22633b}.feedback-wrong,.option.is-wrong{color:#b22c22}.feedback-blank{color:#8a6525}.question:disabled .option.is-correct{color:#22633b}.question:disabled .option.is-wrong{color:#b22c22}@media print{.question-tools{display:none!important}}
+
+.case-data{border:1px solid #e5e1dd;background:#faf8f6;margin:0 0 18px;padding:12px 14px;border-radius:3px}.case-data summary{cursor:pointer;font-weight:600;color:#a52f23;font-size:14px}.case-data p{white-space:pre-line;font-size:14px;line-height:1.65;margin:12px 0 0;overflow-wrap:anywhere}@media print{.case-data{font-size:10pt}}
