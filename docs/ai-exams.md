@@ -33,3 +33,7 @@ Cada modelo muestra una pregunta o ejercicio cada vez, con Anterior y Siguiente.
 ## Corrección por pregunta
 
 Un botón rojo Corregir aparece a la derecha de Dejar en blanco en cada pregunta tipo test. Muestra Correcto o Incorrecto, identifica la opción correcta en verde y la elegida incorrectamente en rojo, y explica la solución. Cambiar o borrar una respuesta limpia su feedback; navegar lo conserva. Sin selección se pide elegir una respuesta. La corrección final sigue funcionando. Se ha retirado Materiales de referencia de la interfaz de los 33 modelos; las fuentes se conservan en los datos editables. Verificado en navegador con respuesta correcta, incorrecta, cambio de opción, ausencia de selección y puntuación final.
+
+## Interfaz simplificada
+
+Se han retirado de las páginas de cuestionarios los bloques Instrucciones y metodología y Materiales de referencia. La metodología de cada asignatura sigue disponible en su ficha del campus; los datos y fuentes de los modelos se conservan en el generador.
