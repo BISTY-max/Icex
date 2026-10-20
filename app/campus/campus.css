@@ -24,3 +24,5 @@
 .campus-practice-exams{padding:15px 0;border-bottom:1px solid var(--line);font-size:12px}.campus-practice-exams h3{font-size:12px;font-weight:500;margin:0}.campus-practice-exams .campus-file-list{padding-top:12px}
 
 .campus-ai-models{display:grid;gap:10px}.campus-ai-models>a{display:block;background:white;border:1px solid var(--line);padding:12px 14px}.campus-ai-models>a:hover{border-color:var(--red)}.campus-ai-models>a>span{display:flex;justify-content:space-between;gap:12px;font-size:13px}.campus-ai-models>a>span>span{color:var(--red)}.campus-ai-models small{margin-top:4px}
+
+.campus-ai-exams>summary>.campus-ai-arrow{color:var(--red);font-size:18px;line-height:1;transition:transform .15s ease}.campus-ai-exams[open]>summary>.campus-ai-arrow{transform:rotate(90deg)}
