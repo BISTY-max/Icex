@@ -13,6 +13,28 @@
   const resetDialog = document.querySelector('#reset-dialog');
   const fields = [...form.querySelectorAll('fieldset')];
   let finished = false;
+  let current = 0;
+  const previous = document.querySelector('#previous');
+  const next = document.querySelector('#next');
+  const position = document.querySelector('#question-position');
+  function showQuestion(index, focus = true) {
+    current = Math.max(0, Math.min(fields.length - 1, index));
+    fields.forEach((field, i) => { field.hidden = i !== current; });
+    const isTest = current < exam.questions.length;
+    form.querySelectorAll('.question-section-heading').forEach(heading => {
+      heading.hidden = heading.dataset.section !== (isTest ? 'test' : 'written');
+    });
+    position.textContent = `${isTest ? 'Pregunta' : 'Ejercicio'} ${current + 1} de ${fields.length}`;
+    previous.disabled = current === 0;
+    next.hidden = current === fields.length - 1;
+    submit.hidden = finished || current !== fields.length - 1;
+    if (focus) {
+      fields[current]?.querySelector('.question-title')?.focus({preventScroll:true});
+      fields[current]?.scrollIntoView({block:'start',behavior:'auto'});
+    }
+  }
+  previous.addEventListener('click', () => showQuestion(current - 1));
+  next.addEventListener('click', () => showQuestion(current + 1));
   const selections = () => exam.questions.map((_, i) => {
     const checked = form.querySelector(`input[name="q-${i}"]:checked`);
     return checked ? Number(checked.value) : null;
@@ -38,7 +60,7 @@
     solutions.hidden = true;
     solutions.open = false;
     edit.hidden = true;
-    submit.hidden = false;
+    showQuestion(0, false);
   }
   function line(text, className) {
     const p = document.createElement('p');
@@ -56,6 +78,7 @@
   form.addEventListener('submit', event => {
     event.preventDefault();
     if (finished) return;
+    if (current < fields.length - 1) { showQuestion(current + 1); return; }
     const answers = selections();
     let correct = 0, wrong = 0, blank = 0;
     exam.questions.forEach((question, i) => {
@@ -102,7 +125,7 @@
     submit.hidden = true;
     result.focus();
   });
-  edit.addEventListener('click', () => { resume(); fields[0]?.querySelector('input,textarea')?.focus(); });
+  edit.addEventListener('click', () => { resume(); showQuestion(0); });
   document.querySelector('#restart').addEventListener('click', () => {
     const hasAnswers = selections().some(value => value !== null) || [...form.querySelectorAll('textarea')].some(field => field.value.trim());
     if (hasAnswers || finished) resetDialog.showModal();
@@ -111,9 +134,10 @@
   document.querySelector('#cancel-reset').addEventListener('click', () => resetDialog.close());
   document.querySelector('#confirm-reset').addEventListener('click', () => {
     form.reset(); resume(); updateProgress(); resetDialog.close();
-    fields[0]?.querySelector('input,textarea')?.focus();
+    showQuestion(0);
   });
   document.querySelector('#print').addEventListener('click', () => window.print());
   submit.disabled = false;
   updateProgress();
+  showQuestion(0, false);
 })();

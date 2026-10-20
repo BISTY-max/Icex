@@ -25,3 +25,7 @@ En cada página, Imprimir / guardar PDF utiliza el diálogo nativo. Las solucion
 ## Comprobación
 
 Compilación Next.js y TypeScript correctas. Se han comprobado cuatro opciones distintas y una clave por pregunta, enlaces a las 33 páginas, selección diferente entre modelos, tres modelos por ficha con contenido, suma de rúbricas de Taller y apertura de soluciones en navegador. Comprobación visual del bloque y del modelo de Contabilidad. Cuestionarios: prueba en navegador de acierto, error y blanco, puntuación con penalización, progreso, edición, cancelación de reinicio, reinicio confirmado y desarrollo con conservación de respuesta y rúbrica.
+
+## Navegación paso a paso
+
+Cada modelo muestra una pregunta o ejercicio cada vez, con Anterior y Siguiente. Las respuestas permanecen al navegar. La corrección aparece en la última pregunta; las soluciones siguen ocultas hasta finalizar. Tras corregir, se pueden revisar las preguntas de una en una. Imprimir conserva todos los enunciados mediante estilos de impresión. Los títulos están dentro de la tarjeta en flujo normal, sin legend sobre el borde. Instrucciones y metodología quedan disponibles en un desplegable. Pruebas en navegador: navegación, conservación de selección y texto escrito, separación de 20 px entre enunciado y opciones, un único bloque visible y puntuación final correcta.
