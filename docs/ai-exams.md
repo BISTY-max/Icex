@@ -37,3 +37,7 @@ Un botón rojo Corregir aparece a la derecha de Dejar en blanco en cada pregunta
 ## Interfaz simplificada
 
 Se han retirado de las páginas de cuestionarios los bloques Instrucciones y metodología y Materiales de referencia. La metodología de cada asignatura sigue disponible en su ficha del campus; los datos y fuentes de los modelos se conservan en el generador.
+
+## Precisión de los enunciados de Economía
+
+Revisados diez enunciados para distinguir precio, cantidad demandada e ingreso total; explicitar ceteris paribus y las pendientes de las curvas cuando son necesarias; y diferenciar cambios porcentuales exactos de aproximaciones. En el ejercicio de elasticidad, P baja un 5 % y Q aumenta un 10 %: el ingreso P × Q aumenta exactamente un 4,5 %. Comprobados los cálculos y la corrección por pregunta en el navegador. Esta revisión no elimina todavía las preguntas compartidas entre modelos descritas arriba.
