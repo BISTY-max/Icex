@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { createClient } from "@supabase/supabase-js";
+import { getCampusClient } from "./campus-client";
 
 export default function TaskDownload({documents}:{documents:{sha256:string;name:string}[]}){
   const [busy,setBusy]=useState("");
@@ -12,10 +12,10 @@ export default function TaskDownload({documents}:{documents:{sha256:string;name:
     try{
       const url=process.env.NEXT_PUBLIC_SUPABASE_URL,key=process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
       if(!url||!key)throw new Error("configuration");
-      const client=createClient(url,key);
+      const client=getCampusClient();if(!client)throw new Error("configuration");
       const {data:auth,error:authError}=await client.auth.getSession();
       if(authError)throw authError;
-      if(!auth.session){setNeedsLogin(sha256);return;}
+      if(!auth.session){window.dispatchEvent(new CustomEvent("campus-login",{detail:{hash:sha256}}));return;}
       const {data:file,error:lookupError}=await client.from("icex_documents").select("bucket_id,storage_path,file_name").eq("course_id","862").eq("sha256",sha256).not("verified_at","is",null).maybeSingle();
       if(lookupError||!file)throw lookupError||new Error("missing");
       const {data,error:signedError}=await client.storage.from(file.bucket_id).createSignedUrl(file.storage_path,60,{download:file.file_name});

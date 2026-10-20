@@ -1,7 +1,8 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState, type FormEvent } from "react";
-import { createClient, type Session, type SupabaseClient } from "@supabase/supabase-js";
+import { type Session, type SupabaseClient } from "@supabase/supabase-js";
+import { getCampusClient } from "../campus-client";
 import "../campus.css";
 import "./documentos.css";
 
@@ -12,7 +13,7 @@ const pendingDownloadKey="icex.pending-document-download.v1";
 const normalize=(text:string)=>text.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
 
 export default function Documents() {
-  const [client]=useState<SupabaseClient|null>(()=>url&&key?createClient(url,key):null);
+  const [client]=useState<SupabaseClient|null>(()=>getCampusClient());
   const [session,setSession]=useState<Session|null>(null);
   const [ready,setReady]=useState(false);
   const [files,setFiles]=useState<Document[]>([]);
