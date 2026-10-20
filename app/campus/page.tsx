@@ -56,6 +56,10 @@ function ExamGuidelines({subjectId}:{subjectId:string}){
   return <details className="campus-exam-guidelines"><summary>Metodología de examen <span aria-hidden="true">+</span></summary><div><p className="campus-overline">PAUTAS DEL EXAMEN · CONVOCATORIA ORDINARIA</p>{guide.items.length?<dl>{guide.items.map(item=><div key={item.label}><dt>{item.label}</dt><dd>{item.text}</dd></div>)}</dl>:null}{guide.note?<p className="exam-guidelines-note">{guide.note}</p>:null}{guide.pages.length?<small>Fuente: Anexo 1 · Asignaturas Fase 1, curso 2026–2027 · Páginas {guide.pages.join(", ")}. <External href={data.guides[1].url}>Consultar guía</External></small>:null}</div></details>;
 }
 
+function AIExams(){
+  return <details className="campus-exam-guidelines"><summary>Exámenes IA <span aria-hidden="true">+</span></summary><div /></details>;
+}
+
 export default function Campus() {
   const [section,setSection]=useState("Resumen");
   const [query,setQuery]=useState("");
@@ -104,7 +108,7 @@ export default function Campus() {
 
         {["Asignaturas","Tareas","Biblioteca"].includes(section)?<div className="campus-tools"><label className="campus-search"><span aria-hidden="true">⌕</span><input value={query} onChange={e=>setQuery(e.target.value)} placeholder="Buscar asignatura, tarea o documento…" aria-label="Buscar contenido"/></label>{section==="Asignaturas"?<select aria-label="Filtrar por fase" value={phase} onChange={e=>setPhase(e.target.value)}><option>Todas</option><option>Fase I</option><option>Transversales</option></select>:<span>{section==="Tareas"?tasks.length:files.length} resultados</span>}</div>:null}
 
-        {section==="Asignaturas"?<><div className="campus-subjects">{subjects.map((s,i)=><details key={s.id} className="campus-subject"><summary><span className="campus-subject-index">{String(i+1).padStart(2,"0")}</span><div><span className="campus-overline">{s.phase}</span><h2>{s.title}</h2><small>{s.resources.flatMap(r=>r.files).length} documentos · {s.resources.filter(r=>r.kind==="Tarea").length} tareas</small></div><span className="campus-expand" aria-hidden="true">+</span></summary><SubjectResources subject={s}/><ExamGuidelines subjectId={s.id}/></details>)}</div>{!subjects.length?<p className="campus-empty">No hay asignaturas que coincidan con tu búsqueda.</p>:null}<div className="campus-note">Las fases II, III y las optativas figuran en las guías. Sus secciones de actividades aún no están visibles en este curso.</div></>:null}
+        {section==="Asignaturas"?<><div className="campus-subjects">{subjects.map((s,i)=><details key={s.id} className="campus-subject"><summary><span className="campus-subject-index">{String(i+1).padStart(2,"0")}</span><div><span className="campus-overline">{s.phase}</span><h2>{s.title}</h2><small>{s.resources.flatMap(r=>r.files).length} documentos · {s.resources.filter(r=>r.kind==="Tarea").length} tareas</small></div><span className="campus-expand" aria-hidden="true">+</span></summary><SubjectResources subject={s}/><AIExams/><ExamGuidelines subjectId={s.id}/></details>)}</div>{!subjects.length?<p className="campus-empty">No hay asignaturas que coincidan con tu búsqueda.</p>:null}<div className="campus-note">Las fases II, III y las optativas figuran en las guías. Sus secciones de actividades aún no están visibles en este curso.</div></>:null}
 
         {section==="Tareas"?<div className="campus-task-date-filter"><label htmlFor="task-date-filter">Fecha de entrega</label><select id="task-date-filter" value={taskDateFilter} onChange={e=>setTaskDateFilter(e.target.value)}><option value="todas">Todas las tareas</option><option value="proximas">Entrega más próxima primero</option><option value="recientes">Entrega más reciente primero</option><option value="sin-fecha">Sin fecha límite</option></select></div>:null}
 
