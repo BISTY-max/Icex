@@ -13,19 +13,23 @@
         "text": "Parcial y final tipo test; pueden exigir resolver problemas o desarrollar teoría."
       },
       {
-        "label": "Curso online",
-        "text": "El 1 % exige entregar todas las actividades en plazo y obtener una media mínima del 75 % en el curso online."
+        "label": "Puntos por pregunta · parcial",
+        "text": "Acierto: +1 punto · Error: −0,33 puntos · En blanco: 0 puntos. Test de 10 preguntas."
       },
       {
-        "label": "Errores",
-        "text": "La guía no especifica cuánto restan las respuestas incorrectas."
+        "label": "Puntos por pregunta · final",
+        "text": "Acierto: +0,50 puntos · Error: −0,16 puntos · En blanco: 0 puntos. Test de 20 preguntas."
+      },
+      {
+        "label": "Curso online",
+        "text": "El 1 % exige entregar todas las actividades en plazo y obtener una media mínima del 75 % en el curso online."
       },
       {
         "label": "Material",
         "text": "Las fórmulas de ratios financieras y económicas se facilitarán si son necesarias."
       }
     ],
-    "note": "Evaluación conjunta de la parte online y presencial de Fundamentos de Contabilidad y Finanzas; no son dos exámenes independientes por modalidad."
+    "note": "Evaluación conjunta de la parte online y presencial de Fundamentos de Contabilidad y Finanzas; no son dos exámenes independientes por modalidad. Puntuaciones tomadas de los exámenes parcial y final 2025–2026 aportados; la guía 2026–2027 no confirma estas cifras."
   },
   "module-53416": {
     "pages": [
@@ -41,19 +45,23 @@
         "text": "Parcial y final tipo test; pueden exigir resolver problemas o desarrollar teoría."
       },
       {
-        "label": "Curso online",
-        "text": "El 1 % exige entregar todas las actividades en plazo y obtener una media mínima del 75 % en el curso online."
+        "label": "Puntos por pregunta · parcial",
+        "text": "Acierto: +1 punto · Error: −0,33 puntos · En blanco: 0 puntos. Test de 10 preguntas."
       },
       {
-        "label": "Errores",
-        "text": "La guía no especifica cuánto restan las respuestas incorrectas."
+        "label": "Puntos por pregunta · final",
+        "text": "Acierto: +0,50 puntos · Error: −0,16 puntos · En blanco: 0 puntos. Test de 20 preguntas."
+      },
+      {
+        "label": "Curso online",
+        "text": "El 1 % exige entregar todas las actividades en plazo y obtener una media mínima del 75 % en el curso online."
       },
       {
         "label": "Material",
         "text": "Las fórmulas de ratios financieras y económicas se facilitarán si son necesarias."
       }
     ],
-    "note": "Evaluación conjunta de la parte online y presencial de Fundamentos de Contabilidad y Finanzas; no son dos exámenes independientes por modalidad."
+    "note": "Evaluación conjunta de la parte online y presencial de Fundamentos de Contabilidad y Finanzas; no son dos exámenes independientes por modalidad. Puntuaciones tomadas de los exámenes parcial y final 2025–2026 aportados; la guía 2026–2027 no confirma estas cifras."
   },
   "module-53383": {
     "pages": [
@@ -70,19 +78,19 @@
         "text": "10 actividades, cada una vale el 2 % de la nota final; deben completarse correctamente y en plazo."
       },
       {
-        "label": "Formato",
-        "text": "40 preguntas de opción múltiple · 50 minutos."
+        "label": "Puntos por pregunta · test",
+        "text": "Acierto: +0,25 puntos · Error: −0,25 puntos (guía 2026–2027). En blanco: 0 puntos como referencia del examen 2025–2026; la guía actual no lo especifica."
       },
       {
-        "label": "Puntuación",
-        "text": "Acierto +0,25 · Error −0,25. La guía no indica la puntuación de las respuestas en blanco."
+        "label": "Formato",
+        "text": "40 preguntas de opción múltiple · 50 minutos."
       },
       {
         "label": "Calificación",
         "text": "Se aplica curva de Gauss; las correcciones online se ajustan por grupo."
       }
     ],
-    "note": "Las actividades online y el examen pertenecen a la evaluación conjunta de Investigación Comercial I."
+    "note": "Las actividades online y el examen pertenecen a la evaluación conjunta de Investigación Comercial I. El examen 2025–2026 restaba 0,20 por error; aquí se prioriza el descuento de 0,25 indicado en la guía actual."
   },
   "module-53392": {
     "pages": [
@@ -99,19 +107,19 @@
         "text": "10 actividades, cada una vale el 2 % de la nota final; deben completarse correctamente y en plazo."
       },
       {
-        "label": "Formato",
-        "text": "40 preguntas de opción múltiple · 50 minutos."
+        "label": "Puntos por pregunta · test",
+        "text": "Acierto: +0,25 puntos · Error: −0,25 puntos (guía 2026–2027). En blanco: 0 puntos como referencia del examen 2025–2026; la guía actual no lo especifica."
       },
       {
-        "label": "Puntuación",
-        "text": "Acierto +0,25 · Error −0,25. La guía no indica la puntuación de las respuestas en blanco."
+        "label": "Formato",
+        "text": "40 preguntas de opción múltiple · 50 minutos."
       },
       {
         "label": "Calificación",
         "text": "Se aplica curva de Gauss; las correcciones online se ajustan por grupo."
       }
     ],
-    "note": "Las actividades online y el examen pertenecen a la evaluación conjunta de Investigación Comercial I."
+    "note": "Las actividades online y el examen pertenecen a la evaluación conjunta de Investigación Comercial I. El examen 2025–2026 restaba 0,20 por error; aquí se prioriza el descuento de 0,25 indicado en la guía actual."
   },
   "module-53375": {
     "pages": [
@@ -129,19 +137,19 @@
         "text": "Dos pruebas tipo test. El parcial incluye las sesiones 1 a 4; el final, el resto del programa."
       },
       {
-        "label": "Trabajos",
-        "text": "Los ejercicios, casos de clase y cuestionarios formativos de Socrative no cuentan para la nota."
+        "label": "Puntos por pregunta · parcial y final",
+        "text": "Acierto: +0,50 puntos · Error: −0,17 puntos · En blanco: 0 puntos. 20 preguntas en cada examen."
       },
       {
-        "label": "Errores",
-        "text": "Penalización por errores y duración no especificadas en esta guía."
+        "label": "Trabajos",
+        "text": "Los ejercicios, casos de clase y cuestionarios formativos de Socrative no cuentan para la nota."
       },
       {
         "label": "Recuperación",
         "text": "Desde la 2.ª convocatoria, 100 % de la nota depende del examen; el profesorado anunciará el formato."
       }
     ],
-    "note": ""
+    "note": "Puntuaciones tomadas de los exámenes parcial y final de Economía 2025–2026 aportados; no están confirmadas para 2026–2027."
   },
   "module-53395": {
     "pages": [
@@ -158,8 +166,8 @@
         "text": "60 minutos: 25 preguntas tipo test y 2 abiertas. Desglose detallado: test 75 % y abiertas 25 % de la nota del examen."
       },
       {
-        "label": "Puntuación del test",
-        "text": "Acierto +0,4 · Error −0,4 · Blanco 0. Cuatro opciones y una respuesta correcta."
+        "label": "Puntos por pregunta · test",
+        "text": "Acierto: +0,40 puntos · Error: −0,40 puntos · En blanco: 0 puntos, según la guía 2026–2027. Son puntos del bloque test, antes de ponderarlo."
       },
       {
         "label": "Preguntas abiertas",
@@ -170,7 +178,7 @@
         "text": "Caso 1: 40 % de la práctica (16 % del total). Caso 2: 60 % de la práctica (24 % del total). Ambos en inglés; misma nota para todo el grupo."
       }
     ],
-    "note": "La guía también menciona una proporción aproximada 80/20 para test/abiertas; el desglose detallado de la evaluación indica 75/25. Confirmar esta diferencia con el profesorado."
+    "note": "La guía también menciona una proporción aproximada 80/20 para test/abiertas; el desglose detallado de la evaluación indica 75/25. Confirmar esta diferencia con el profesorado. El examen 2025–2026 restaba 0,20 por error; se muestra la penalización de 0,40 de la guía actual."
   },
   "module-53378": {
     "pages": [
@@ -186,6 +194,10 @@
         "text": "Tipo test y/o ensayo; se anunciará con antelación."
       },
       {
+        "label": "Puntos por pregunta",
+        "text": "Acierto: valor no especificado · Error: descuento no especificado · En blanco: puntuación no especificada en los documentos disponibles."
+      },
+      {
         "label": "Mínimo",
         "text": "Al menos 3,8/10 en la prueba individual para ponderar con el trabajo."
       },
@@ -194,12 +206,12 @@
         "text": "Puede modificar la nota final hasta ±10 %."
       },
       {
-        "label": "Errores",
-        "text": "No se especifican penalización por errores ni duración del examen."
-      },
-      {
         "label": "Recuperación",
         "text": "Desde la 2.ª convocatoria, 100 % depende de la prueba que anuncie el profesorado."
+      },
+      {
+        "label": "Duración",
+        "text": "No especificada en la guía."
       }
     ],
     "note": ""
@@ -219,8 +231,8 @@
         "text": "40 preguntas tipo test · 60 minutos · Manual y cuatro lecturas obligatorias; de estas lecturas pueden entrar 2 a 4 preguntas."
       },
       {
-        "label": "Puntuación",
-        "text": "Acierto +0,25 · Error −0,10 · Blanco 0."
+        "label": "Puntos por pregunta · test",
+        "text": "Acierto: +0,25 puntos · Error: −0,10 puntos · En blanco: 0 puntos."
       },
       {
         "label": "Mínimos",
@@ -251,16 +263,20 @@
         "text": "12 preguntas tipo test (hasta 6 puntos: 0,5 cada una) y una pregunta abierta con apartados (hasta 4 puntos). Espacio de respuesta limitado."
       },
       {
+        "label": "Puntos por pregunta · test",
+        "text": "Acierto: +0,50 puntos · Error: descuento no especificado · En blanco: puntuación no especificada. El test suma hasta 6 puntos; la pregunta abierta, hasta 4."
+      },
+      {
         "label": "Participación",
         "text": "Puede aumentar o reducir la nota final hasta un 10 %."
       },
       {
-        "label": "Errores",
-        "text": "La guía no especifica descuento por error ni duración."
-      },
-      {
         "label": "Recuperación",
         "text": "Desde la 2.ª convocatoria, 100 % de la nota depende de la prueba anunciada por el profesorado."
+      },
+      {
+        "label": "Duración",
+        "text": "No especificada en la guía."
       }
     ],
     "note": ""
@@ -282,6 +298,10 @@
         "text": "Examen final 67 % · Carpeta de ejercicios 16,5 % · Cuatro textos breves de la fase virtual 16,5 %. Estos porcentajes se aplican al componente de Taller."
       },
       {
+        "label": "Puntos por ejercicio",
+        "text": "No hay una puntuación fija publicada por acierto o error: es un examen práctico de corrección y redacción, evaluado por ejercicios. No se especifica una penalización numérica uniforme."
+      },
+      {
         "label": "Formato",
         "text": "Examen práctico: corrección de errores y ejercicios de precisión de las fichas virtuales, más casos de redacción empresarial."
       },
@@ -294,8 +314,8 @@
         "text": "Calidad de la participación en clases y tutorías: ajuste de hasta ±10 %, común con Comportamiento Social."
       },
       {
-        "label": "Errores",
-        "text": "No se especifica una penalización fija por respuesta incorrecta ni duración del examen de Taller."
+        "label": "Duración",
+        "text": "No especificada en la guía."
       }
     ],
     "note": "La evaluación integra las partes virtual y presencial; no duplicar los porcentajes entre las dos fichas de Taller."
@@ -317,6 +337,10 @@
         "text": "Examen final 67 % · Carpeta de ejercicios 16,5 % · Cuatro textos breves de la fase virtual 16,5 %. Estos porcentajes se aplican al componente de Taller."
       },
       {
+        "label": "Puntos por ejercicio",
+        "text": "No hay una puntuación fija publicada por acierto o error: es un examen práctico de corrección y redacción, evaluado por ejercicios. No se especifica una penalización numérica uniforme."
+      },
+      {
         "label": "Formato",
         "text": "Examen práctico: corrección de errores y ejercicios de precisión de las fichas virtuales, más casos de redacción empresarial."
       },
@@ -329,8 +353,8 @@
         "text": "Calidad de la participación en clases y tutorías: ajuste de hasta ±10 %, común con Comportamiento Social."
       },
       {
-        "label": "Errores",
-        "text": "No se especifica una penalización fija por respuesta incorrecta ni duración del examen de Taller."
+        "label": "Duración",
+        "text": "No especificada en la guía."
       }
     ],
     "note": "La evaluación integra las partes virtual y presencial; no duplicar los porcentajes entre las dos fichas de Taller."
@@ -351,12 +375,12 @@
         "text": "Examen 2/3 · Caso práctico en grupo 1/3. Estos pesos se aplican al componente de Comportamiento Social."
       },
       {
-        "label": "Formato",
-        "text": "40 minutos: test de 25 preguntas con una respuesta válida (90 % del examen) y un caso de desarrollo breve (10 %)."
+        "label": "Puntos por pregunta · test",
+        "text": "Acierto: +0,40 puntos · Error: −0,20 puntos. En blanco: puntuación no especificada en la guía. Son puntos del bloque test, antes de ponderarlo."
       },
       {
-        "label": "Puntuación del test",
-        "text": "Acierto +0,4 · Error −0,20. No se especifica penalización para respuestas en blanco."
+        "label": "Formato",
+        "text": "40 minutos: test de 25 preguntas con una respuesta válida (90 % del examen) y un caso de desarrollo breve (10 %)."
       },
       {
         "label": "Participación",
@@ -379,6 +403,10 @@
         "text": "Examen individual tipo test sobre marcos teóricos, aplicación a casos y conceptos de negociación y comunicación estratégica."
       },
       {
+        "label": "Puntos por pregunta · test",
+        "text": "Acierto: +0,20 puntos · Error: −0,10 puntos · En blanco: 0 puntos. Referencia del examen de 50 preguntas de 2025–2026."
+      },
+      {
         "label": "Proyectos",
         "text": "Negociación: portfolio acumulativo del equipo. Comunicación: simulación final/rueda de prensa."
       },
@@ -387,15 +415,11 @@
         "text": "Incluye mini-cuestionarios, actividades en clase, role-plays y feedback entre compañeros."
       },
       {
-        "label": "Errores",
-        "text": "No se especifican penalización por respuestas incorrectas ni duración."
-      },
-      {
         "label": "Recuperación",
         "text": "Desde la 2.ª convocatoria, 100 % depende del examen; formato test y/o ensayo anunciado previamente."
       }
     ],
-    "note": ""
+    "note": "Fuente de la puntuación: Ex Habilidades directivas MIM 25-26.pdf, instrucciones de la página 1. La guía 2026–2027 no confirma estas cifras."
   },
   "module-53450": {
     "pages": [
@@ -412,33 +436,52 @@
         "text": "Explicaciones de clase y lecturas recomendadas; algunas preguntas exigen reflexión y aplicación del criterio propio."
       },
       {
+        "label": "Puntos por pregunta",
+        "text": "Acierto: valor no especificado · Error: descuento no especificado · En blanco: puntuación no especificada en los documentos disponibles."
+      },
+      {
         "label": "Participación",
         "text": "Actitud y participación pueden aumentar o disminuir la nota final hasta un 10 %."
       },
       {
-        "label": "Errores",
-        "text": "La guía no especifica número de preguntas, penalización por error ni duración."
-      },
-      {
         "label": "Recuperación",
         "text": "Desde la 2.ª convocatoria, 100 % depende de la prueba anunciada; el ajuste de hasta ±10 % también puede aplicarse en los supuestos indicados por la guía."
+      },
+      {
+        "label": "Duración",
+        "text": "No especificada en la guía."
       }
     ],
     "note": ""
   },
   "module-53404": {
     "pages": [],
-    "items": [],
+    "items": [
+      {
+        "label": "Puntos por pregunta",
+        "text": "Acierto: valor no especificado · Error: descuento no especificado · En blanco: puntuación no especificada en los documentos disponibles."
+      }
+    ],
     "note": "Este anexo no incluye un sistema de evaluación específico para esta ficha. No hay porcentajes ni penalizaciones confirmados en el documento aportado."
   },
   "module-53589": {
     "pages": [],
-    "items": [],
+    "items": [
+      {
+        "label": "Puntos por pregunta",
+        "text": "Acierto: valor no especificado · Error: descuento no especificado · En blanco: puntuación no especificada en los documentos disponibles."
+      }
+    ],
     "note": "Este anexo no incluye un sistema de evaluación específico para esta ficha. No hay porcentajes ni penalizaciones confirmados en el documento aportado."
   },
   "module-53603": {
     "pages": [],
-    "items": [],
+    "items": [
+      {
+        "label": "Puntos por pregunta",
+        "text": "Acierto: valor no especificado · Error: descuento no especificado · En blanco: puntuación no especificada en los documentos disponibles."
+      }
+    ],
     "note": "Este anexo no incluye un sistema de evaluación específico para esta ficha. No hay porcentajes ni penalizaciones confirmados en el documento aportado."
   }
 }
