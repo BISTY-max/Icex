@@ -1,0 +1,324 @@
+{
+  "module-53375": {
+    "scope": "Modelos centrados en el parcial disponible: principios, oferta y demanda, elasticidades, excedentes e intervención. No cubren el final, cuyo documento no está disponible.",
+    "models": [
+      {
+        "title": "Modelo 1",
+        "url": "/campus/examenes-ia/module-53375-1.html",
+        "testCount": 20,
+        "openCount": 0
+      },
+      {
+        "title": "Modelo 2",
+        "url": "/campus/examenes-ia/module-53375-2.html",
+        "testCount": 20,
+        "openCount": 0
+      },
+      {
+        "title": "Modelo 3",
+        "url": "/campus/examenes-ia/module-53375-3.html",
+        "testCount": 20,
+        "openCount": 0
+      }
+    ]
+  },
+  "module-53392": {
+    "scope": "Interpretación de fuentes y consultas, comercio, acceso a mercados y ejercicios con datos cerrados. Sustituye las búsquedas de aranceles en vivo del original por supuestos reproducibles.",
+    "models": [
+      {
+        "title": "Modelo 1",
+        "url": "/campus/examenes-ia/module-53392-1.html",
+        "testCount": 40,
+        "openCount": 0
+      },
+      {
+        "title": "Modelo 2",
+        "url": "/campus/examenes-ia/module-53392-2.html",
+        "testCount": 40,
+        "openCount": 0
+      },
+      {
+        "title": "Modelo 3",
+        "url": "/campus/examenes-ia/module-53392-3.html",
+        "testCount": 40,
+        "openCount": 0
+      }
+    ]
+  },
+  "subject-investigacion-comercial-ii": {
+    "scope": "37 preguntas de técnicas y conceptos más 3 sobre las lecturas obligatorias aportadas. Las referencias de lecturas son las ediciones de 2025 del ZIP, no datos vigentes del mercado.",
+    "models": [
+      {
+        "title": "Modelo 1",
+        "url": "/campus/examenes-ia/subject-investigacion-comercial-ii-1.html",
+        "testCount": 40,
+        "openCount": 0
+      },
+      {
+        "title": "Modelo 2",
+        "url": "/campus/examenes-ia/subject-investigacion-comercial-ii-2.html",
+        "testCount": 40,
+        "openCount": 0
+      },
+      {
+        "title": "Modelo 3",
+        "url": "/campus/examenes-ia/subject-investigacion-comercial-ii-3.html",
+        "testCount": 40,
+        "openCount": 0
+      }
+    ]
+  },
+  "module-53395": {
+    "scope": "Preguntas nuevas sobre los contenidos y tipos de aplicación del modelo anterior. Las rúbricas de las abiertas son propuestas para autocorrección.",
+    "models": [
+      {
+        "title": "Modelo 1",
+        "url": "/campus/examenes-ia/module-53395-1.html",
+        "testCount": 25,
+        "openCount": 2
+      },
+      {
+        "title": "Modelo 2",
+        "url": "/campus/examenes-ia/module-53395-2.html",
+        "testCount": 25,
+        "openCount": 2
+      },
+      {
+        "title": "Modelo 3",
+        "url": "/campus/examenes-ia/module-53395-3.html",
+        "testCount": 25,
+        "openCount": 2
+      }
+    ]
+  },
+  "module-53445": {
+    "scope": "Preguntas nuevas en inglés sobre negociación, comunicación y trabajo en equipo. Los marcos culturales se aplican con cautela, sin atribuir conductas fijas a cada nacionalidad.",
+    "models": [
+      {
+        "title": "Modelo 1",
+        "url": "/campus/examenes-ia/module-53445-1.html",
+        "testCount": 50,
+        "openCount": 0
+      },
+      {
+        "title": "Modelo 2",
+        "url": "/campus/examenes-ia/module-53445-2.html",
+        "testCount": 50,
+        "openCount": 0
+      },
+      {
+        "title": "Modelo 3",
+        "url": "/campus/examenes-ia/module-53445-3.html",
+        "testCount": 50,
+        "openCount": 0
+      }
+    ]
+  },
+  "module-53416": {
+    "scope": "Tres modelos con cifras distintas: contabilidad, inventarios, ratios, inversión y cálculo financiero. Todos los datos y el tipo fiscal son supuestos cerrados de práctica; no se aplican impuestos o normas no indicados.",
+    "models": [
+      {
+        "title": "Modelo 1",
+        "url": "/campus/examenes-ia/account-1.html",
+        "testCount": 20,
+        "openCount": 0
+      },
+      {
+        "title": "Modelo 2",
+        "url": "/campus/examenes-ia/account-2.html",
+        "testCount": 20,
+        "openCount": 0
+      },
+      {
+        "title": "Modelo 3",
+        "url": "/campus/examenes-ia/account-3.html",
+        "testCount": 20,
+        "openCount": 0
+      }
+    ]
+  },
+  "module-53592": {
+    "scope": "Práctica limitada al caso Acerinox, único documento disponible de esta ficha; no sustituye el resto de casos de la asignatura. Rúbricas propuestas, no oficiales.",
+    "models": [
+      {
+        "title": "Modelo 1",
+        "url": "/campus/examenes-ia/module-53592-1.html",
+        "testCount": 12,
+        "openCount": 1
+      },
+      {
+        "title": "Modelo 2",
+        "url": "/campus/examenes-ia/module-53592-2.html",
+        "testCount": 12,
+        "openCount": 1
+      },
+      {
+        "title": "Modelo 3",
+        "url": "/campus/examenes-ia/module-53592-3.html",
+        "testCount": 12,
+        "openCount": 1
+      }
+    ]
+  },
+  "module-53428": {
+    "scope": "Ejercicios nuevos inspirados en las destrezas del cuaderno. Casos y datos ficticios. Las respuestas abiertas admiten alternativas correctas; las rúbricas no son criterios oficiales.",
+    "models": [
+      {
+        "title": "Modelo 1",
+        "url": "/campus/examenes-ia/writing-1.html",
+        "testCount": 0,
+        "openCount": 5
+      },
+      {
+        "title": "Modelo 2",
+        "url": "/campus/examenes-ia/writing-2.html",
+        "testCount": 0,
+        "openCount": 5
+      },
+      {
+        "title": "Modelo 3",
+        "url": "/campus/examenes-ia/writing-3.html",
+        "testCount": 0,
+        "openCount": 5
+      }
+    ]
+  },
+  "module-53378": {
+    "scope": "No se dispone del examen anterior. Modelos elaborados con el manual y la metodología, según tu indicación.",
+    "models": [
+      {
+        "title": "Modelo 1",
+        "url": "/campus/examenes-ia/module-53378-1.html",
+        "testCount": 20,
+        "openCount": 1
+      },
+      {
+        "title": "Modelo 2",
+        "url": "/campus/examenes-ia/module-53378-2.html",
+        "testCount": 20,
+        "openCount": 1
+      },
+      {
+        "title": "Modelo 3",
+        "url": "/campus/examenes-ia/module-53378-3.html",
+        "testCount": 20,
+        "openCount": 1
+      }
+    ]
+  },
+  "module-53441": {
+    "scope": "Sin copia disponible del examen anterior: modelos basados en manual y metodología. El caso breve se autocorrige con una rúbrica propuesta; no se presenta como criterio oficial.",
+    "models": [
+      {
+        "title": "Modelo 1",
+        "url": "/campus/examenes-ia/module-53441-1.html",
+        "testCount": 25,
+        "openCount": 1
+      },
+      {
+        "title": "Modelo 2",
+        "url": "/campus/examenes-ia/module-53441-2.html",
+        "testCount": 25,
+        "openCount": 1
+      },
+      {
+        "title": "Modelo 3",
+        "url": "/campus/examenes-ia/module-53441-3.html",
+        "testCount": 25,
+        "openCount": 1
+      }
+    ]
+  },
+  "module-53450": {
+    "scope": "Sin copia disponible del examen anterior: modelos basados en temario y metodología. Conceptos y supuestos de clase; no se preguntan aranceles o acuerdos vigentes que requieran una consulta actualizada.",
+    "models": [
+      {
+        "title": "Modelo 1",
+        "url": "/campus/examenes-ia/module-53450-1.html",
+        "testCount": 25,
+        "openCount": 0
+      },
+      {
+        "title": "Modelo 2",
+        "url": "/campus/examenes-ia/module-53450-2.html",
+        "testCount": 25,
+        "openCount": 0
+      },
+      {
+        "title": "Modelo 3",
+        "url": "/campus/examenes-ia/module-53450-3.html",
+        "testCount": 25,
+        "openCount": 0
+      }
+    ]
+  },
+  "module-53383": {
+    "scope": "Evaluación conjunta con Investigación Comercial I presencial. Se muestran los mismos tres modelos; no son una evaluación online independiente. Interpretación de fuentes y consultas, comercio, acceso a mercados y ejercicios con datos cerrados. Sustituye las búsquedas de aranceles en vivo del original por supuestos reproducibles.",
+    "models": [
+      {
+        "title": "Modelo 1",
+        "url": "/campus/examenes-ia/module-53392-1.html",
+        "testCount": 40,
+        "openCount": 0
+      },
+      {
+        "title": "Modelo 2",
+        "url": "/campus/examenes-ia/module-53392-2.html",
+        "testCount": 40,
+        "openCount": 0
+      },
+      {
+        "title": "Modelo 3",
+        "url": "/campus/examenes-ia/module-53392-3.html",
+        "testCount": 40,
+        "openCount": 0
+      }
+    ]
+  },
+  "module-53823": {
+    "scope": "Evaluación conjunta con Contabilidad presencial. Se muestran los mismos tres modelos; no son una evaluación online independiente. Tres modelos con cifras distintas: contabilidad, inventarios, ratios, inversión y cálculo financiero. Todos los datos y el tipo fiscal son supuestos cerrados de práctica; no se aplican impuestos o normas no indicados.",
+    "models": [
+      {
+        "title": "Modelo 1",
+        "url": "/campus/examenes-ia/account-1.html",
+        "testCount": 20,
+        "openCount": 0
+      },
+      {
+        "title": "Modelo 2",
+        "url": "/campus/examenes-ia/account-2.html",
+        "testCount": 20,
+        "openCount": 0
+      },
+      {
+        "title": "Modelo 3",
+        "url": "/campus/examenes-ia/account-3.html",
+        "testCount": 20,
+        "openCount": 0
+      }
+    ]
+  },
+  "module-53419": {
+    "scope": "Evaluación conjunta con Taller de Escritura presencial. Se muestran los mismos tres modelos; no son una evaluación online independiente. Ejercicios nuevos inspirados en las destrezas del cuaderno. Casos y datos ficticios. Las respuestas abiertas admiten alternativas correctas; las rúbricas no son criterios oficiales.",
+    "models": [
+      {
+        "title": "Modelo 1",
+        "url": "/campus/examenes-ia/writing-1.html",
+        "testCount": 0,
+        "openCount": 5
+      },
+      {
+        "title": "Modelo 2",
+        "url": "/campus/examenes-ia/writing-2.html",
+        "testCount": 0,
+        "openCount": 5
+      },
+      {
+        "title": "Modelo 3",
+        "url": "/campus/examenes-ia/writing-3.html",
+        "testCount": 0,
+        "openCount": 5
+      }
+    ]
+  }
+}

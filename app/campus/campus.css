@@ -22,3 +22,5 @@
 .campus-task-download{display:flex;flex-direction:column;gap:8px;align-items:flex-start;max-width:300px;flex-shrink:0}.campus-task-download p{font-size:11px;line-height:1.6;margin:0}.campus-task-download p a{color:var(--red);text-decoration:underline}.campus-task-download button:disabled{opacity:.6;cursor:wait}.campus-document-pending{font-size:11px;color:var(--muted);border:1px dashed var(--line);padding:10px 14px}
 
 .campus-practice-exams{padding:15px 0;border-bottom:1px solid var(--line);font-size:12px}.campus-practice-exams h3{font-size:12px;font-weight:500;margin:0}.campus-practice-exams .campus-file-list{padding-top:12px}
+
+.campus-ai-models{display:grid;gap:10px}.campus-ai-models>a{display:block;background:white;border:1px solid var(--line);padding:12px 14px}.campus-ai-models>a:hover{border-color:var(--red)}.campus-ai-models>a>span{display:flex;justify-content:space-between;gap:12px;font-size:13px}.campus-ai-models>a>span>span{color:var(--red)}.campus-ai-models small{margin-top:4px}
