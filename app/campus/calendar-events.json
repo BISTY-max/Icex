@@ -468,6 +468,19 @@
     "url": "https://lms.icex.es/mod/assign/view.php?id=53842"
   },
   {
+    "id": "entrega-actividades-contabilidad-2026-10-26",
+    "kind": "entrega",
+    "title": "Entrega actividades contabilidad",
+    "start": "2026-10-26T09:00:00+01:00",
+    "end": "2026-10-26T09:01:00+01:00",
+    "allDay": false,
+    "description": "Entrega de actividades de Contabilidad. Fecha y hora indicadas por el usuario: 26 de octubre de 2026 a las 09:00, hora de Madrid.",
+    "location": "",
+    "source": "Fecha facilitada por el usuario",
+    "sourceUid": "entrega-actividades-contabilidad-2026-10-26",
+    "url": ""
+  },
+  {
     "id": "class-CECO0000596087",
     "kind": "clase",
     "title": "SECTOR EXTERIOR ESPAÑOL Y POLÍTICAS UE",
