@@ -46,7 +46,7 @@ function SubjectResources({subject}:{subject:typeof data.subjects[number]}){
   const exams=subject.resources.flatMap(resource=>resource.files).filter(file=>isPracticeExam(file.text));
   const renderResource=(resource:typeof subject.resources[number])=>{
     const files=resource.files.filter(file=>!isPracticeExam(file.text));
-    return <div className="campus-resource" key={resource.id}><span className="campus-pill">{resource.kind}</span>{resource.url?<External href={resource.url}>{resource.title}</External>:<span>{resource.title}</span>}{resource.note?<small>{resource.note.split('Restringido')[1]}</small>:null}{files.length?<div className="campus-file-list">{files.map(file=><External key={file.url} href={file.url}>{file.text}</External>)}</div>:null}</div>;
+    return <div className="campus-resource" key={resource.id}><span className="campus-pill">{resource.kind}</span><span>{resource.title}</span>{resource.note?<small>{resource.note.split('Restringido')[1]}</small>:null}{files.length?<div className="campus-file-list">{files.map(file=><External key={file.url} href={file.url}>{file.text}</External>)}</div>:null}</div>;
   };
   return <div className="campus-resource-list">{subject.resources.filter(resource=>resource.kind==="Documentación").map(renderResource)}{exams.length?<section className="campus-practice-exams" aria-label="Exámenes de prueba"><h3>Exámenes de prueba</h3><div className="campus-file-list">{exams.map(file=><External key={file.url} href={file.url}>{file.text}</External>)}</div></section>:null}{subject.resources.filter(resource=>resource.kind!=="Documentación").map(renderResource)}</div>;
 }
