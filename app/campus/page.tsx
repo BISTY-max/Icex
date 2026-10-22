@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { subjectExamIds } from "./subject-exams";
 import CalendarPanel from "./calendar";
 import Notes from "./notes";
 import HistoricalMaterials, { historicalDocumentCount } from "./historical-materials";
@@ -19,20 +20,7 @@ const sections = ["Resumen", "Asignaturas", "Tareas", "Calendario", "Biblioteca"
 const normalize = (text: string) => text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 const dateLabel = (date: string) => new Date(date).toLocaleString("es-ES", {timeZone:"Europe/Madrid",day:"numeric",month:"long",hour:"2-digit",minute:"2-digit"});
 const syncDate = (value:string) => new Date(value.length===10?value+"T12:00:00Z":value).toLocaleDateString("es-ES",{timeZone:"Europe/Madrid",day:"numeric",month:"long",year:"numeric"});
-const subjectExamIds:Record<string,string[]>={
-  "module-53392":["exam-image-research-i"],
-  "subject-investigacion-comercial-ii":["exam-image-research-ii"],
-  "module-53450":["exam-image-sector"],
-  "module-53378":["exam-image-direccion"],
-  "module-53395":["exam-image-marketing"],
-  "module-53445":["exam-image-skills"],
-  "module-53441":["exam-image-social"],
-  "module-53375":["class-CECO0000596831","exam-image-economia-final"],
-  "module-53416":["class-CECO0000596838","exam-image-contabilidad-final"],
-  "module-53428":["academic-escritura"],
-  "module-53592":["academic-estrategia"],
-  "module-53603":["academic-paises"]
-};
+
 const ext = (url: string) => decodeURIComponent(url.split("?")[0].split(".").pop()||"DOC").toUpperCase();
 
 function External({href,children,className=""}:{href:string;children:React.ReactNode;className?:string}) {
@@ -77,7 +65,7 @@ export default function Campus() {
   const nextDayEvents=nextEvent?calendarEvents.filter(event=>event.start.slice(0,10)===nextEvent.start.slice(0,10)).sort((a,b)=>a.start.localeCompare(b.start)):[];
   const nextDayTasks=nextTask?calendarEvents.filter(event=>event.kind==="entrega"&&event.start.slice(0,10)===nextTask.start.slice(0,10)).sort((a,b)=>a.start.localeCompare(b.start)):[];
   const previewDate=(event:typeof calendarEvents[number])=>new Date(event.allDay?event.start+"T12:00:00Z":event.start).toLocaleDateString("es-ES",{timeZone:"Europe/Madrid",weekday:"long",day:"numeric",month:"long"})+(event.allDay?" · Sin hora indicada":" · "+new Date(event.start).toLocaleTimeString("es-ES",{timeZone:"Europe/Madrid",hour:"2-digit",minute:"2-digit"})+" h");
-  useEffect(()=>{if(window.location.hash==="#calendario")setSection("Calendario");},[]);
+  useEffect(()=>{if(window.location.hash==="#calendario")setSection("Calendario");const requested=new URLSearchParams(window.location.search).get("subject");const subject=data.subjects.find(s=>s.id===requested);if(subject){setSection("Asignaturas");setQuery(subject.title);}},[]);
   const matches=(text:string)=>normalize(text).includes(normalize(query));
   const subjects=data.subjects.filter(s=>(phase==="Todas"||s.phase===phase)&&matches(s.title+" "+s.resources.map(r=>r.title).join(" ")));
   const files=data.files.filter(f=>matches(f.text+" "+f.subject));
@@ -106,12 +94,12 @@ export default function Campus() {
         {section==="Resumen"?<>
           <div className="campus-quick-grid">{[{label:"Próximas clases/exámenes",events:nextDayEvents,target:"Calendario",action:"Ver calendario"},{label:"Próximas entregas",events:nextDayTasks,target:"Tareas",action:"Ver tareas"}].map(card=><section className="campus-quick-card" key={card.label} aria-label={card.label}><h2 className="campus-quick-heading">{card.label}</h2>{card.events.length?<div className="campus-quick-items">{card.events.map(event=><article className="campus-quick-item" key={event.id}><h3>{event.title}</h3><p className="campus-quick-date">{previewDate(event)}{!event.allDay&&event.kind!=="entrega"?" – "+new Date(event.end).toLocaleTimeString("es-ES",{timeZone:"Europe/Madrid",hour:"2-digit",minute:"2-digit"})+" h":""}</p></article>)}</div>:<p className="campus-quick-empty">{now===null?"Consultando calendario…":"No hay próximas fechas publicadas."}</p>}<button onClick={()=>setSection(card.target)}>{card.action} ↗</button></section>)}</div>
 
-          <div className="campus-section-heading"><div><p className="campus-overline">APRENDER, CONECTAR, AVANZAR</p><h2>Tu plan de estudios</h2></div><button onClick={()=>setSection("Asignaturas")}>Ver las {data.subjects.length} asignaturas ↗</button></div><div className="campus-preview-grid">{studyPlan.filter(item=>item.exam).slice(0,5).map(({subject:s,exam})=><article key={s.id} className="campus-study-card"><span className="campus-overline">{s.phase}</span><h3><button onClick={()=>{setSection("Asignaturas");setQuery(s.title);}}>{s.title}</button></h3><p className="campus-study-exam">{exam?<>Examen · {new Date(exam.allDay?exam.start+"T12:00:00Z":exam.start).toLocaleDateString("es-ES",{timeZone:"Europe/Madrid",day:"numeric",month:"long",year:"numeric"})}{exam.allDay?" · Hora no indicada":" · "+new Date(exam.start).toLocaleTimeString("es-ES",{timeZone:"Europe/Madrid",hour:"2-digit",minute:"2-digit"})+" h"}</>:"Examen · Sin próxima fecha confirmada"}</p>{s.resources.flatMap(r=>r.files).length?<details className="campus-study-documents"><summary>{s.resources.flatMap(r=>r.files).length} documentos</summary><div>{s.resources.flatMap(r=>r.files).map(f=><External key={f.url} href={f.url}>{f.text}</External>)}</div></details>:<span className="campus-study-empty">Sin documentos publicados</span>}</article>)}</div>
+          <div className="campus-section-heading"><div><p className="campus-overline">APRENDER, CONECTAR, AVANZAR</p><h2>Tu plan de estudios</h2></div><button onClick={()=>setSection("Asignaturas")}>Ver las {data.subjects.length} asignaturas ↗</button></div><div className="campus-preview-grid">{studyPlan.filter(item=>item.exam).slice(0,5).map(({subject:s,exam})=><article key={s.id} className="campus-study-card"><span className="campus-overline">{s.phase}</span><h3><button onClick={()=>{setSection("Asignaturas");setQuery(s.title);}}>{s.title}</button></h3><a className="campus-study-plan-link" href={`/campus/plan-de-estudio?subject=${s.id}`}>Plan de estudio <span aria-hidden="true">→</span></a><p className="campus-study-exam">{exam?<>Examen · {new Date(exam.allDay?exam.start+"T12:00:00Z":exam.start).toLocaleDateString("es-ES",{timeZone:"Europe/Madrid",day:"numeric",month:"long",year:"numeric"})}{exam.allDay?" · Hora no indicada":" · "+new Date(exam.start).toLocaleTimeString("es-ES",{timeZone:"Europe/Madrid",hour:"2-digit",minute:"2-digit"})+" h"}</>:"Examen · Sin próxima fecha confirmada"}</p>{s.resources.flatMap(r=>r.files).length?<details className="campus-study-documents"><summary>{s.resources.flatMap(r=>r.files).length} documentos</summary><div>{s.resources.flatMap(r=>r.files).map(f=><External key={f.url} href={f.url}>{f.text}</External>)}</div></details>:<span className="campus-study-empty">Sin documentos publicados</span>}</article>)}</div>
         </>:null}
 
         {["Asignaturas","Tareas","Biblioteca"].includes(section)?<div className="campus-tools"><label className="campus-search"><span aria-hidden="true">⌕</span><input value={query} onChange={e=>setQuery(e.target.value)} placeholder="Buscar asignatura, tarea o documento…" aria-label="Buscar contenido"/></label>{section==="Asignaturas"?<select aria-label="Filtrar por fase" value={phase} onChange={e=>setPhase(e.target.value)}><option>Todas</option><option>Fase I</option><option>Transversales</option></select>:<span>{section==="Tareas"?tasks.length:files.length} resultados</span>}</div>:null}
 
-        {section==="Asignaturas"?<><div className="campus-subjects">{subjects.map((s,i)=><details key={s.id} className="campus-subject"><summary><span className="campus-subject-index">{String(i+1).padStart(2,"0")}</span><div><span className="campus-overline">{s.phase}</span><h2>{s.title}</h2><small>{s.resources.flatMap(r=>r.files).length} documentos del curso{historicalDocumentCount(s.id)?` · ${historicalDocumentCount(s.id)} históricos`:""} · {s.resources.filter(r=>r.kind==="Tarea").length} tareas</small></div><span className="campus-expand" aria-hidden="true">+</span></summary><SubjectResources subject={s}/><HistoricalMaterials subjectId={s.id}/><AIExams subjectId={s.id}/><ExamGuidelines subjectId={s.id}/></details>)}</div>{!subjects.length?<p className="campus-empty">No hay asignaturas que coincidan con tu búsqueda.</p>:null}<div className="campus-note">Las fases II, III y las optativas figuran en las guías. Sus secciones de actividades aún no están visibles en este curso.</div></>:null}
+        {section==="Asignaturas"?<><div className="campus-subjects">{subjects.map((s,i)=><details key={s.id} className="campus-subject"><summary><span className="campus-subject-index">{String(i+1).padStart(2,"0")}</span><div><span className="campus-overline">{s.phase}</span><h2>{s.title}</h2><small>{s.resources.flatMap(r=>r.files).length} documentos del curso{historicalDocumentCount(s.id)?` · ${historicalDocumentCount(s.id)} históricos`:""} · {s.resources.filter(r=>r.kind==="Tarea").length} tareas</small></div><span className="campus-expand" aria-hidden="true">+</span></summary><div className="campus-subject-plan"><a href={`/campus/plan-de-estudio?subject=${s.id}`}>Plan de estudio →</a></div><SubjectResources subject={s}/><HistoricalMaterials subjectId={s.id}/><AIExams subjectId={s.id}/><ExamGuidelines subjectId={s.id}/></details>)}</div>{!subjects.length?<p className="campus-empty">No hay asignaturas que coincidan con tu búsqueda.</p>:null}<div className="campus-note">Las fases II, III y las optativas figuran en las guías. Sus secciones de actividades aún no están visibles en este curso.</div></>:null}
 
         {section==="Tareas"?<div className="campus-task-date-filter"><label htmlFor="task-date-filter">Fecha de entrega</label><select id="task-date-filter" value={taskDateFilter} onChange={e=>setTaskDateFilter(e.target.value)}><option value="todas">Todas las tareas</option><option value="proximas">Entrega más próxima primero</option><option value="recientes">Entrega más reciente primero</option><option value="sin-fecha">Sin fecha límite</option></select></div>:null}
 

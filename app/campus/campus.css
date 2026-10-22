@@ -26,3 +26,5 @@
 .campus-ai-models{display:grid;gap:10px}.campus-ai-models>a{display:block;background:white;border:1px solid var(--line);padding:12px 14px}.campus-ai-models>a:hover{border-color:var(--red)}.campus-ai-models>a>span{display:flex;justify-content:space-between;gap:12px;font-size:13px}.campus-ai-models>a>span>span{color:var(--red)}.campus-ai-models small{margin-top:4px}
 
 .campus-ai-exams>summary>.campus-ai-arrow{color:var(--red);font-size:18px;line-height:1;transition:transform .15s ease}.campus-ai-exams[open]>summary>.campus-ai-arrow{transform:rotate(90deg)}
+
+.campus-study-plan-link{display:inline-flex;gap:18px;align-items:center;color:#bc3023;font-weight:600;margin:0 0 20px;text-decoration:underline;text-underline-offset:4px}.campus-subject-plan{padding:0 28px 24px}.campus-subject-plan a{color:#bc3023;text-decoration:underline;text-underline-offset:4px}
