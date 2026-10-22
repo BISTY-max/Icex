@@ -6,3 +6,7 @@ npm-debug.log*
 .env*
 !.env.example
 
+
+# Original exam text and private correction data stay in Supabase Storage
+/content/historical-quizzes.json
+/content/historical-solutions.json

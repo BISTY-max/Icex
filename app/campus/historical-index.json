@@ -1,0 +1,5398 @@
+{
+  "module-53375": {
+    "subject": "Fundamentos de economía",
+    "source": "Fase I.zip",
+    "exams": [
+      {
+        "hash": "7b46e61d7d2a5af022d8ca65c83501e58f336b0d1c52568ca0212d2fb82b1acb",
+        "name": "Examen de Fundamentos de economía (parcial tipo B 2025-2026).pdf",
+        "year": "2025-2026",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "b71052058f3419c37b14bc2fcba349a99951eca51862019b1eeec3e7808c9c67",
+        "name": "Examen de Fundamentos de economía (parcial tipo A 2025-2026).pdf",
+        "year": "2025-2026",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "24f2e8c23eaa826617ba65a866aedfa11c72619ca9150fe84d040d81b65e7732",
+        "name": "Examen de Fundamentos de economía (final tipo B 2025-2026).pdf",
+        "year": "2025-2026",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "c68f23ab03ff858b53ceac53f906567bf304baa4aa5d787ea7c791565739e91b",
+        "name": "Examen de Fundamentos de economía (final tipo A 2025-2026).pdf",
+        "year": "2025-2026",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "6c7c425efdc074eb51ab2d3968661ffbb3b6192018f7da4f183bad434b02e3fe",
+        "name": "Examen de Fundamentos de economía (parcial tipo C 2024-2025).pdf",
+        "year": "2024-2025",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "ac42fd72ab38b710fa7d08d7486185a308f28659f19c63c822012359f874edcc",
+        "name": "Examen de Fundamentos de economía (parcial tipo B 2024-2025).pdf",
+        "year": "2024-2025",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "4722b4272f365dd3ff5b7c1d8ed9ea65584a63bd87e2e218eea5592d56c26b3f",
+        "name": "Examen de Fundamentos de economía (parcial tipo A 2024-2025).pdf",
+        "year": "2024-2025",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "03afb4f2b075d9c8bca5fb5362fab8551c79730cfb81a0a5e46b9926e0942ddc",
+        "name": "Examen de Fundamentos de economía (parcial tipo A 2023-2024).pdf",
+        "year": "2023-2024",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "2a28d09382ffd3f7f7a1be1d8163313ca2fb8964f1b3185d8cf3817618453a05",
+        "name": "Examen de Fundamentos de economía (final tipo A 2023-2024).pdf",
+        "year": "2023-2024",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "8818a670162db6d6d39fa920313c6d948df3cdf56168a40f75caf4488980cbb0",
+        "name": "Examen de Fundamentos de economía (parcial tipo B 2022-2023).pdf",
+        "year": "2022-2023",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "6793d6e6663fb5598003a311c012da4635a3fb1056eb1d5ab174780e34cd4f32",
+        "name": "Examen de Fundamentos de economía (parcial tipo A 2022-2023).pdf",
+        "year": "2022-2023",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "5c4bb13aa9adaa2031c6f2b48e4fb761ff828752ea759b629e5b9dbff2ae588a",
+        "name": "Examen de Fundamentos de economía (final tipo B 2022-2023).pdf",
+        "year": "2022-2023",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "27221679c5a18c40e0af83b33f212b412a3ae54d5ecb6a2ce47772c19c1472ee",
+        "name": "Examen de Fundamentos de economía (final tipo A 2022-2023).pdf",
+        "year": "2022-2023",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "7238977f7be889ed3bc1e207e62008823a2bfdd8f8385772c995d65e626b291d",
+        "name": "Examen de Fundamentos de economía (septiembre 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": [],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "95f884019e48e6798aecfe10414cee83ee309231fa7e4161bb503e5cc13b4ad8",
+        "name": "Examen de Fundamentos de economía (parcial tipo B 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "51ad29dd6d335c0fa5309372f7ec2ede8cc692ed90d1f9379c89e655361a1f72",
+        "name": "Examen de Fundamentos de economía (parcial tipo A 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 19,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 19
+      },
+      {
+        "hash": "01e4dee208b1df9bb585ef9dceac52bba72895e4c3b0b647e6e9d21304a55a63",
+        "name": "Examen de Fundamentos de economía (final tipo B 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "aa8b541bdefa93d8571877408315cc38712816751d75927b5d61702ff78a847c",
+        "name": "Examen de Fundamentos de economía (final tipo A 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "859680a8b04bd7b19c5c77b9153b376da364e8d1f6eff258b3b82d881f8b1f54",
+        "name": "Examen de Fundamentos de economía (moodle 2020-2021).pdf",
+        "year": "2020-2021",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": [],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "34b72ef125ba39962ca2a69f775df420a505ede04979cbd8b88d7ddd23305486",
+        "name": "Examen de Fundamentos de economía (septiembre 2019-2020).pdf",
+        "year": "2019-2020",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": [],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "b5cc06c3947ef7431ed86f06ee8f851a49e88ac1426d13a1ff090e3a6a34858d",
+        "name": "Examen de Fundamentos de economía (parcial tipo A 2019-2020).pdf",
+        "year": "2019-2020",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "759caf54ebec49686885ec5831abdb7aaeb93f3c8384484b9b45158f6b11e788",
+        "name": "Examen de Fundamentos de economía (final tipo B 2019-2020).pdf",
+        "year": "2019-2020",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "8cfac499c93e99884a4b9fdcc2d853a344304b9e1f19a51f504291d1f63478f3",
+        "name": "Examen de Fundamentos de economía (final tipo A 2019-2020).pdf",
+        "year": "2019-2020",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "b56ecc4b1a6708462d3f3a13260ea95a423504d9831b8870144418ead8a73f2f",
+        "name": "Examen de Fundamentos de economía (parcial tipo C 2018-2019).pdf",
+        "year": "2018-2019",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "9406ceda1ef507065c11189eb0a9af95f77c2b17ae4fda5d2c4207a4ddb53989",
+        "name": "Examen de Fundamentos de economía (parcial tipo A 2018-2019).pdf",
+        "year": "2018-2019",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "83d5697c27ae15a27ab9cc257eb996d330631aa82eb256e2b9f2ba0d0c76818c",
+        "name": "Examen de Fundamentos de economía (final tipo A 2018-2019).pdf",
+        "year": "2018-2019",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "9d8d060d6223edb5eb8788926d7291bdfc2a9a496078e9f20f8203317db9e624",
+        "name": "Examen de Fundamentos de economía (parcial tipo B 2017-2018).pdf",
+        "year": "2017-2018",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 13,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 13
+      },
+      {
+        "hash": "a2691f3b37d86ea42a699f5e589c6198957223ba824287f47a6364a9dc3894bb",
+        "name": "Examen de Fundamentos de economía (parcial tipo A 2017-2018).pdf",
+        "year": "2017-2018",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 13,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 13
+      },
+      {
+        "hash": "ee5bbfdae110adcc94996416b95106ca03d819687f1a604996c9dd87056897ae",
+        "name": "Examen de Fundamentos de economía (final tipo A 2017-2018).pdf",
+        "year": "2017-2018",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "08d9bfe91b90ff7c910fbcfdbf6bbf900c714df7573bb0f34adb06918b2433c5",
+        "name": "Examen de Fundamentos de economía (septiembre 2016-2017).pdf",
+        "year": "2016-2017",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "589b3f5cec73500cc6a9b738a8a2c9d1075a539690148980e46a056a4432c704",
+        "name": "Examen de Fundamentos de economía (parcial tipo B 2016-2017).pdf",
+        "year": "2016-2017",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "54750175d7881a0f6bf5e3409212a0feb6a4dbc54821f763b609401546f1cfc2",
+        "name": "Examen de Fundamentos de economía (parcial tipo A 2016-2017).pdf",
+        "year": "2016-2017",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "7a1f3b2b56c85fa112bb5a8ecb685bdf9bb9dd4b3488c93cfd895f019d7a148e",
+        "name": "Examen de Fundamentos de economía (final tipo C 2016-2017).pdf",
+        "year": "2016-2017",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "1a3c38f52c493e148f5a9f33050b6ab4f235222cbade41175d739efd8d6dc57a",
+        "name": "Examen de Fundamentos de economía (final tipo A 2016-2017).pdf",
+        "year": "2016-2017",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "1e0be03a6796654606eb96c4c2d4dd2641d760aabbb0575252330d537187616c",
+        "name": "Examen de Fundamentos de economía (parcial tipo A 2015-2016).pdf",
+        "year": "2015-2016",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 16,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 16
+      },
+      {
+        "hash": "0655557270c9991693fc92da3ad4a6d8f51665c81ab6c1b81fbf917f0b0a0075",
+        "name": "Examen de Fundamentos de economía (final tipo A 2015-2016).pdf",
+        "year": "2015-2016",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 17,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 17
+      },
+      {
+        "hash": "383f1dc9288aaecd114bfc9ba9262cbbaa665c27853011bc10d72dfa8e901389",
+        "name": "Examen de Fundamentos de economía (parcial tipo A 2014-2015).pdf",
+        "year": "2014-2015",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "0c96f51acb910ac75846750e360e7d48e6f1cda1cb5e2a9c5f2847bc22b4198a",
+        "name": "Examen de Fundamentos de economía (final tipo A 2014-2015).pdf",
+        "year": "2014-2015",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 30,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 30
+      },
+      {
+        "hash": "1607f27d2b6722e59692ff3295ece19a4b02eb90a8823cc395d85346ccb15d83",
+        "name": "Examen de Fundamentos de economía (parcial tipo B 2013-2014).pdf",
+        "year": "2013-2014",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "b8c90722f331d77b709391aa4afb3732e8acd390be054b15fc0cf0b47bcbccb7",
+        "name": "Examen de Fundamentos de economía (parcial tipo A 2013-2014).pdf",
+        "year": "2013-2014",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "a8ff3eac584ee8fb625271d3b3a6f5adf4b562b3820dab7bd8f62b958fbfb70a",
+        "name": "Examen de Fundamentos de economía (parcial tipo A 2013-2014 sin respuestas).pdf",
+        "year": "2013-2014",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 19,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 19
+      },
+      {
+        "hash": "9f1d991363afa4018a0b2e25fdf93a0de3f26356a447de7de4e254a8bc18a206",
+        "name": "Examen de Fundamentos de economía (final tipo A 2013-2014).pdf",
+        "year": "2013-2014",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 30,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 30
+      },
+      {
+        "hash": "50859facf846b8c0b0209a489ad59a2d113cc9f4a4d6a3a1f54f792ad5ce8e3c",
+        "name": "Examen de Fundamentos de economía (parcial tipo A 2012-2013).pdf",
+        "year": "2012-2013",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "1701a4779425b46c049d2cf77131d81489716ae8b48fdbff354cde933055d8a6",
+        "name": "Examen de Fundamentos de economía (final tipo A 2012-2013).pdf",
+        "year": "2012-2013",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 30,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 30
+      },
+      {
+        "hash": "44b61918bcaabcdf70313ff7b33278f4cc664092edfd5157b070e7dac555cac5",
+        "name": "Examen de Fundamentos de economía (parcial tipo A 2011-2012).pdf",
+        "year": "2011-2012",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "bae051ec0132326b1754d97502f1ca6d9d9ce467ec09f83d8906565a88ee6e3d",
+        "name": "Examen de Fundamentos de economía (parcial tipo A 2011-2012 sin respuestas).pdf",
+        "year": "2011-2012",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "1d0e45c273eda93f255b95e9f7715f1e018e3fe66db0c7997d64260a76be5c80",
+        "name": "Examen de Fundamentos de economía (final tipo A 2011-2012).pdf",
+        "year": "2011-2012",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 30,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 30
+      },
+      {
+        "hash": "42dc6c5d141cca456536ccde0ab5c484434d4ab61015a74f39c47dc95a4bf688",
+        "name": "Examen de Fundamentos de economía (parcial tipo A 2010-2011).pdf",
+        "year": "2010-2011",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 19,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 19
+      },
+      {
+        "hash": "f2e94be369d7428f16f4805d57291b900b99768d744002eb931700f9f75b36d8",
+        "name": "Examen de Fundamentos de economía (final tipo B 2010-2011).pdf",
+        "year": "2010-2011",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 30,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 30
+      },
+      {
+        "hash": "17bd110f7039f62ca91fd7a45a34411b572c3cc4f70bb29a2bb03f7946dd6aaf",
+        "name": "Examen de Fundamentos de economía (final tipo A 2010-2011).pdf",
+        "year": "2010-2011",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 30,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 30
+      },
+      {
+        "hash": "f83ee912bf1e1ea6805c11d443e168e3fdfe7837f88b881a5c14d79a53fc5489",
+        "name": "Examen de Fundamentos de economía (parcial tipo A 2009-2020).pdf",
+        "year": "2009-2020",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 19,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 19
+      },
+      {
+        "hash": "13fdddbcddc3b07d6fea0d076fe22c75c99e5062e6b7c9b39423201334eea1a4",
+        "name": "Examen de Fundamentos de economía (final tipo A 2009-2010).pdf",
+        "year": "2009-2010",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 29,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 29
+      },
+      {
+        "hash": "f0673777d6bcae0664d171158930dc18c87506cceced377a8fab40a34d4e2f3c",
+        "name": "Examen de Fundamentos de economía (ejemplos).pdf",
+        "year": null,
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 15,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 15
+      }
+    ],
+    "notes": [
+      {
+        "hash": "329d135214a0fab1b5c8065d8647803b4908f7bf2de4cbd834bc31876a443509",
+        "name": "Resumen de microeconomía.pdf",
+        "year": null,
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": []
+      },
+      {
+        "hash": "ea7770ba026f3974fc823d270c80870d22c020b016c1ee6b87d87a73048e67b4",
+        "name": "Resumen de macroeconomía.pdf",
+        "year": null,
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": []
+      },
+      {
+        "hash": "f3da8175acfbd11351dc5746e67c071b35e546017c5765380d25c9a8175ef2f7",
+        "name": "Principios de Economía (N. Gregory Mankiw).pdf",
+        "year": null,
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": []
+      }
+    ],
+    "statistics": {
+      "parcial": {
+        "totalQuestions": 502,
+        "classifiedQuestions": 352,
+        "documents": 28,
+        "analyzedDocuments": 28,
+        "examGroups": 28,
+        "topics": [
+          {
+            "name": "Oferta, demanda y equilibrio",
+            "questions": 152,
+            "questionPercent": 30.3,
+            "examsWithTopic": 25,
+            "examPercent": 89.3
+          },
+          {
+            "name": "Sin clasificar",
+            "questions": 150,
+            "questionPercent": 29.9,
+            "examsWithTopic": 28,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Elasticidad",
+            "questions": 72,
+            "questionPercent": 14.3,
+            "examsWithTopic": 22,
+            "examPercent": 78.6
+          },
+          {
+            "name": "Externalidades y sector público",
+            "questions": 52,
+            "questionPercent": 10.4,
+            "examsWithTopic": 25,
+            "examPercent": 89.3
+          },
+          {
+            "name": "Principios económicos y eficiencia",
+            "questions": 16,
+            "questionPercent": 3.2,
+            "examsWithTopic": 11,
+            "examPercent": 39.3
+          },
+          {
+            "name": "Economía abierta y tipos de cambio",
+            "questions": 15,
+            "questionPercent": 3.0,
+            "examsWithTopic": 12,
+            "examPercent": 42.9
+          },
+          {
+            "name": "Producción y costes",
+            "questions": 14,
+            "questionPercent": 2.8,
+            "examsWithTopic": 13,
+            "examPercent": 46.4
+          },
+          {
+            "name": "Inflación y mercado de trabajo",
+            "questions": 12,
+            "questionPercent": 2.4,
+            "examsWithTopic": 7,
+            "examPercent": 25.0
+          },
+          {
+            "name": "Dinero, bancos y política monetaria",
+            "questions": 10,
+            "questionPercent": 2.0,
+            "examsWithTopic": 3,
+            "examPercent": 10.7
+          },
+          {
+            "name": "Consumidor y utilidad",
+            "questions": 3,
+            "questionPercent": 0.6,
+            "examsWithTopic": 3,
+            "examPercent": 10.7
+          },
+          {
+            "name": "Política fiscal y modelos macroeconómicos",
+            "questions": 3,
+            "questionPercent": 0.6,
+            "examsWithTopic": 1,
+            "examPercent": 3.6
+          },
+          {
+            "name": "Contabilidad nacional y crecimiento",
+            "questions": 2,
+            "questionPercent": 0.4,
+            "examsWithTopic": 1,
+            "examPercent": 3.6
+          },
+          {
+            "name": "Mercados y competencia",
+            "questions": 1,
+            "questionPercent": 0.2,
+            "examsWithTopic": 1,
+            "examPercent": 3.6
+          }
+        ],
+        "years": [
+          "2009-2020",
+          "2010-2011",
+          "2011-2012",
+          "2012-2013",
+          "2013-2014",
+          "2014-2015",
+          "2015-2016",
+          "2016-2017",
+          "2017-2018",
+          "2018-2019",
+          "2019-2020",
+          "2021-2022",
+          "2022-2023",
+          "2023-2024",
+          "2024-2025",
+          "2025-2026"
+        ]
+      },
+      "final": {
+        "totalQuestions": 505,
+        "classifiedQuestions": 406,
+        "documents": 25,
+        "analyzedDocuments": 22,
+        "examGroups": 22,
+        "topics": [
+          {
+            "name": "Dinero, bancos y política monetaria",
+            "questions": 157,
+            "questionPercent": 31.1,
+            "examsWithTopic": 22,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Sin clasificar",
+            "questions": 99,
+            "questionPercent": 19.6,
+            "examsWithTopic": 22,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Política fiscal y modelos macroeconómicos",
+            "questions": 76,
+            "questionPercent": 15.0,
+            "examsWithTopic": 21,
+            "examPercent": 95.5
+          },
+          {
+            "name": "Economía abierta y tipos de cambio",
+            "questions": 56,
+            "questionPercent": 11.1,
+            "examsWithTopic": 22,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Contabilidad nacional y crecimiento",
+            "questions": 47,
+            "questionPercent": 9.3,
+            "examsWithTopic": 21,
+            "examPercent": 95.5
+          },
+          {
+            "name": "Inflación y mercado de trabajo",
+            "questions": 31,
+            "questionPercent": 6.1,
+            "examsWithTopic": 15,
+            "examPercent": 68.2
+          },
+          {
+            "name": "Producción y costes",
+            "questions": 28,
+            "questionPercent": 5.5,
+            "examsWithTopic": 18,
+            "examPercent": 81.8
+          },
+          {
+            "name": "Oferta, demanda y equilibrio",
+            "questions": 10,
+            "questionPercent": 2.0,
+            "examsWithTopic": 6,
+            "examPercent": 27.3
+          },
+          {
+            "name": "Externalidades y sector público",
+            "questions": 1,
+            "questionPercent": 0.2,
+            "examsWithTopic": 1,
+            "examPercent": 4.5
+          }
+        ],
+        "years": [
+          "2009-2010",
+          "2010-2011",
+          "2011-2012",
+          "2012-2013",
+          "2013-2014",
+          "2014-2015",
+          "2015-2016",
+          "2016-2017",
+          "2017-2018",
+          "2018-2019",
+          "2019-2020",
+          "2021-2022",
+          "2022-2023",
+          "2023-2024",
+          "2025-2026"
+        ]
+      },
+      "otros": {
+        "totalQuestions": 0,
+        "classifiedQuestions": 0,
+        "documents": 0,
+        "analyzedDocuments": 0,
+        "examGroups": 0,
+        "topics": [],
+        "years": []
+      }
+    }
+  },
+  "module-53416": {
+    "subject": "Fundamentos de contabilidad y finanzas",
+    "source": "Fase I.zip",
+    "exams": [
+      {
+        "hash": "f53ad6f5e14676efbf07ead5641d419f40c8b6fc0fff771b66b3eb10c1cb4c41",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (parcial tipo B 2025-2026).pdf",
+        "year": "2025-2026",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 10
+      },
+      {
+        "hash": "9f16a5d5a4116a6bd227bb73cddfadcb9096ae8627bc98996d292121199483b5",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (parcial tipo A 2025-2026).pdf",
+        "year": "2025-2026",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 10
+      },
+      {
+        "hash": "788c9cc97e3183da58edfc95380da4a146dc1f4e13eef072365fdfd7a55f1775",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo B 2025-2026).pdf",
+        "year": "2025-2026",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "7de2c818ca1cccd2335b2fb0cf8da59eb969d2fe335fc4c73ae94da9295498c3",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo A 2025-2026).pdf",
+        "year": "2025-2026",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "3c31c79ccba725601166b1915b35282915e87eb0f4644d1eb22df45ce8e04a35",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (parcial tipo B 2024-2025).pdf",
+        "year": "2024-2025",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 10
+      },
+      {
+        "hash": "2e5f4e48f4c4e4b7332a4c788a63ff7af2baae0a5f33ee7195a8ea1ebb2886bc",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (parcial tipo A 2024-2025).pdf",
+        "year": "2024-2025",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 10
+      },
+      {
+        "hash": "48251e3bc909a923e588427765a903172ce9dbacac4e61a25aef5cfe7c8c3c01",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo B 2024-2025).pdf",
+        "year": "2024-2025",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 19,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 19
+      },
+      {
+        "hash": "ba6e437d749456abaeece7a0b843bc252935011b5ce55d09dda71657762b5ac4",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo A 2024-2025).pdf",
+        "year": "2024-2025",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 19,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 19
+      },
+      {
+        "hash": "33ee11c8c65c609d7bb94f6a9b0b38a229f4fd9fcc67ea7d7ec8edf498e53d2a",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (parcial tipo A 2023-2024).pdf",
+        "year": "2023-2024",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 10
+      },
+      {
+        "hash": "f5f0c7931debc46f2993417e287aa0ffdb4842cfcc7dc5083728341bb97a59b4",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo A 2023-2024).pdf",
+        "year": "2023-2024",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 16,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 16
+      },
+      {
+        "hash": "944d94b7632de0118700f8e8e388b989f0065e78a7b5ec03a776bcb099537069",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (parcial tipo B 2022-2023).pdf",
+        "year": "2022-2023",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 10
+      },
+      {
+        "hash": "34b8f4a4bcbf978c5a34b82cefe09476430e966f07ae50356492c664473288b5",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (parcial tipo A 2022-2023).pdf",
+        "year": "2022-2023",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 10
+      },
+      {
+        "hash": "970c3413dc0ae43ad8fa3655dedc02afff78f740e5645763d19b3da811fba7f0",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo B 2022-2023).pdf",
+        "year": "2022-2023",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "cae686ede977b0070525d596f2191f2d3b27cc6a800bd81bcfcc20ef4f3cdaa8",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo A 2022-2023).pdf",
+        "year": "2022-2023",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "1455d0e970d71e200d7f8438e7c47013749400a6dddbbd76a4ef79977229df17",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (septiembre 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": [],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "d1968a58a0d15dbcf0267ae95b9b0a2c1bf5cdcae33bf0cce01e7ecfbb91d4e1",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (parcial tipo B 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 10
+      },
+      {
+        "hash": "1309452dcb392905deff433ac5fe54d7e67297b7ad7f5066610db0b27b54596b",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (parcial tipo A 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 10
+      },
+      {
+        "hash": "ee1aafeef39d1277ad89840672a798bfb0db66070a67559eda3f8bd4adb49445",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo B 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "ec3bb5c9b2149cf72169d0c064029c3e26b418a2eb8f389183adf6f63dfe944f",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo A 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "c6b5a19f07eb30f7d8bc1c47cee8388889fae1d18648113150cc2785dc7ab376",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final extraordinario tipo B 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 21,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 21
+      },
+      {
+        "hash": "d8658bf06ee81a53c86d3cc702c7f591178fe770b27b97e9b06a8d151d159afb",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final extraordinario tipo A 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 22,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 22
+      },
+      {
+        "hash": "d1b5d4df29e502576a3e3f1f4ceaff4ab94745148a269213f1d5a13227125e7c",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (moodle 2020-2021).pdf",
+        "year": "2020-2021",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 19,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 19
+      },
+      {
+        "hash": "788d224386d3427a7f58773395773a85d36c7ba1314fca73104c4c55d5232c5e",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (moodle 2020-2021).pdf",
+        "year": "2020-2021",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 10
+      },
+      {
+        "hash": "e56313cf0777bcc7048048661848fa74c43af793553f06095cdede2d69d9e8b4",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (parcial tipo B 2019-2020).pdf",
+        "year": "2019-2020",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [
+          "Examen de Fundamentos de contabilidad y finanzas (parcial tipo A 2019-2020).pdf"
+        ],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "23f265a3bdd8ab286f605d804919203e5792205016736ab0923d8bcac0895c09",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo B 2019-2020).pdf",
+        "year": "2019-2020",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 16,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 16
+      },
+      {
+        "hash": "bb83a5e39e940d2964fbbe1cc1e25588a3f3bd74478efca84b6eddaabcee3153",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo A 2019-2020).pdf",
+        "year": "2019-2020",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 16,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 16
+      },
+      {
+        "hash": "607161442bf90458671ec5a5cfca9ff762202f717f65052ba16bc074d0041a6f",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (parcial tipo A 2018-2019).pdf",
+        "year": "2018-2019",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 10
+      },
+      {
+        "hash": "2068de8b1e151512f361adf73dc648e745a569efb99fa5ea764dd00b6394f5ea",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo A 2018-2019).pdf",
+        "year": "2018-2019",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 17,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 17
+      },
+      {
+        "hash": "40010e4bf1f1a7ab3812dfc29dfdeb1abce858f7e122320f95d8b1fdfa2b5fd5",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (parcial tipo B 2017-2018).pdf",
+        "year": "2017-2018",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 10
+      },
+      {
+        "hash": "907b8d463f1b2e9436ec182d618980c7959e29fe10f327623db30831e7fdfb2f",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (parcial tipo A 2017-2018).pdf",
+        "year": "2017-2018",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 9,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 9
+      },
+      {
+        "hash": "15d3534b226af06d8623b030a9813f48a3c063ccb836fd9d4a550bca791d46ca",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo B 2017-2018).pdf",
+        "year": "2017-2018",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 16,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 16
+      },
+      {
+        "hash": "80598265b1d812c83d202e4160f21b32f80231158cd9c9bec68faaaa4ff36391",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo A 2017-2018).pdf",
+        "year": "2017-2018",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 15,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 15
+      },
+      {
+        "hash": "9c3409a7baf906a8fe76776662d5e7d66846271a87f5aa016e56b386bd2a2188",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo C 2016-2017).pdf",
+        "year": "2016-2017",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 8,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 8
+      },
+      {
+        "hash": "4f889e5f40a327c28a0ceb33e6494ac2d15d8d68b4050593805857b84f92a62c",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo A 2016-2017).pdf",
+        "year": "2016-2017",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 12,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 12
+      },
+      {
+        "hash": "69608c1b9b27ee3d64964c57ef0dade26212fc4fea48b22741bde0ee03feb103",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (parcial tipo B 2015-2016).pdf",
+        "year": "2015-2016",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 10
+      },
+      {
+        "hash": "90577e1df195c04f90e8bf9d83fe1820f96ff21ff3c3b6d27ae65c30d9c05d4b",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo B 2015-2016).pdf",
+        "year": "2015-2016",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 19,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 19
+      },
+      {
+        "hash": "590a15b8eab9ed62ba8258deb3faa9cd0b3a1a7605198c30988429328b651f39",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo A 2015-2016).pdf",
+        "year": "2015-2016",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 19,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 19
+      },
+      {
+        "hash": "678f599ee82820ef13a8663a63e507f1a0c128fd698a78a0ee8609f052e039ca",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo B 2014-2015).pdf",
+        "year": "2014-2015",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 17,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 17
+      },
+      {
+        "hash": "64999acbc9bf7bf01377ffbea9e016ed12b270df11f9a3f5e7c6aba9d6a6f659",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo A 2014-2015).pdf",
+        "year": "2014-2015",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 17,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 17
+      },
+      {
+        "hash": "0b3517b8717a0c0b2e548c62297feb892049f40bb864eaf7b1b63320e0a343a3",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo A 2013-2014).pdf",
+        "year": "2013-2014",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 19,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 19
+      },
+      {
+        "hash": "82c3ca122f7f0d5b59ebbb0eb26fe139145476c6b6bc51e9fe1d40a59211005f",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo A 2012-2013).pdf",
+        "year": "2012-2013",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 16,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 16
+      },
+      {
+        "hash": "c5ce9d31af4f0e7c6967468c58de2d8449f7d449acb737cf6a3be7136a6f91d1",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo B 2011-2012).pdf",
+        "year": "2011-2012",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 19,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 19
+      },
+      {
+        "hash": "941549da1bfb159c4cc2efd3f951491682bcb545458b22730f3415db2c02ae2d",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo B 2010-2011).pdf",
+        "year": "2010-2011",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 26,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 26
+      },
+      {
+        "hash": "e4ba033f7023418a75a2e2eae381e8be4f066f64fdea2d850a3ebc7294fcf172",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo A 2009-2010).pdf",
+        "year": "2009-2010",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 15,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 15
+      }
+    ],
+    "notes": [],
+    "statistics": {
+      "parcial": {
+        "totalQuestions": 149,
+        "classifiedQuestions": 134,
+        "documents": 15,
+        "analyzedDocuments": 15,
+        "examGroups": 15,
+        "topics": [
+          {
+            "name": "Proceso contable y estados financieros",
+            "questions": 100,
+            "questionPercent": 67.1,
+            "examsWithTopic": 15,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Existencias y coste de ventas",
+            "questions": 27,
+            "questionPercent": 18.1,
+            "examsWithTopic": 13,
+            "examPercent": 86.7
+          },
+          {
+            "name": "Sin clasificar",
+            "questions": 15,
+            "questionPercent": 10.1,
+            "examsWithTopic": 11,
+            "examPercent": 73.3
+          },
+          {
+            "name": "Amortización e inmovilizado",
+            "questions": 5,
+            "questionPercent": 3.4,
+            "examsWithTopic": 5,
+            "examPercent": 33.3
+          },
+          {
+            "name": "Cálculo financiero y financiación",
+            "questions": 2,
+            "questionPercent": 1.3,
+            "examsWithTopic": 2,
+            "examPercent": 13.3
+          }
+        ],
+        "years": [
+          "2015-2016",
+          "2017-2018",
+          "2018-2019",
+          "2019-2020",
+          "2020-2021",
+          "2021-2022",
+          "2022-2023",
+          "2023-2024",
+          "2024-2025",
+          "2025-2026"
+        ]
+      },
+      "final": {
+        "totalQuestions": 512,
+        "classifiedQuestions": 416,
+        "documents": 29,
+        "analyzedDocuments": 28,
+        "examGroups": 28,
+        "topics": [
+          {
+            "name": "Proceso contable y estados financieros",
+            "questions": 189,
+            "questionPercent": 36.9,
+            "examsWithTopic": 28,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Sin clasificar",
+            "questions": 96,
+            "questionPercent": 18.8,
+            "examsWithTopic": 27,
+            "examPercent": 96.4
+          },
+          {
+            "name": "Inversiones y flujos de caja",
+            "questions": 68,
+            "questionPercent": 13.3,
+            "examsWithTopic": 27,
+            "examPercent": 96.4
+          },
+          {
+            "name": "Costes y punto muerto",
+            "questions": 52,
+            "questionPercent": 10.2,
+            "examsWithTopic": 26,
+            "examPercent": 92.9
+          },
+          {
+            "name": "Análisis financiero y ratios",
+            "questions": 40,
+            "questionPercent": 7.8,
+            "examsWithTopic": 24,
+            "examPercent": 85.7
+          },
+          {
+            "name": "Existencias y coste de ventas",
+            "questions": 33,
+            "questionPercent": 6.4,
+            "examsWithTopic": 20,
+            "examPercent": 71.4
+          },
+          {
+            "name": "Amortización e inmovilizado",
+            "questions": 27,
+            "questionPercent": 5.3,
+            "examsWithTopic": 16,
+            "examPercent": 57.1
+          },
+          {
+            "name": "Cálculo financiero y financiación",
+            "questions": 7,
+            "questionPercent": 1.4,
+            "examsWithTopic": 6,
+            "examPercent": 21.4
+          }
+        ],
+        "years": [
+          "2009-2010",
+          "2010-2011",
+          "2011-2012",
+          "2012-2013",
+          "2013-2014",
+          "2014-2015",
+          "2015-2016",
+          "2016-2017",
+          "2017-2018",
+          "2018-2019",
+          "2019-2020",
+          "2020-2021",
+          "2021-2022",
+          "2022-2023",
+          "2023-2024",
+          "2024-2025",
+          "2025-2026"
+        ]
+      },
+      "otros": {
+        "totalQuestions": 0,
+        "classifiedQuestions": 0,
+        "documents": 0,
+        "analyzedDocuments": 0,
+        "examGroups": 0,
+        "topics": [],
+        "years": []
+      }
+    }
+  },
+  "module-53823": {
+    "subject": "Fundamentos de contabilidad y finanzas",
+    "source": "Fase I.zip",
+    "exams": [
+      {
+        "hash": "f53ad6f5e14676efbf07ead5641d419f40c8b6fc0fff771b66b3eb10c1cb4c41",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (parcial tipo B 2025-2026).pdf",
+        "year": "2025-2026",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 10
+      },
+      {
+        "hash": "9f16a5d5a4116a6bd227bb73cddfadcb9096ae8627bc98996d292121199483b5",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (parcial tipo A 2025-2026).pdf",
+        "year": "2025-2026",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 10
+      },
+      {
+        "hash": "788c9cc97e3183da58edfc95380da4a146dc1f4e13eef072365fdfd7a55f1775",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo B 2025-2026).pdf",
+        "year": "2025-2026",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "7de2c818ca1cccd2335b2fb0cf8da59eb969d2fe335fc4c73ae94da9295498c3",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo A 2025-2026).pdf",
+        "year": "2025-2026",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "3c31c79ccba725601166b1915b35282915e87eb0f4644d1eb22df45ce8e04a35",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (parcial tipo B 2024-2025).pdf",
+        "year": "2024-2025",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 10
+      },
+      {
+        "hash": "2e5f4e48f4c4e4b7332a4c788a63ff7af2baae0a5f33ee7195a8ea1ebb2886bc",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (parcial tipo A 2024-2025).pdf",
+        "year": "2024-2025",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 10
+      },
+      {
+        "hash": "48251e3bc909a923e588427765a903172ce9dbacac4e61a25aef5cfe7c8c3c01",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo B 2024-2025).pdf",
+        "year": "2024-2025",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 19,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 19
+      },
+      {
+        "hash": "ba6e437d749456abaeece7a0b843bc252935011b5ce55d09dda71657762b5ac4",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo A 2024-2025).pdf",
+        "year": "2024-2025",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 19,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 19
+      },
+      {
+        "hash": "33ee11c8c65c609d7bb94f6a9b0b38a229f4fd9fcc67ea7d7ec8edf498e53d2a",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (parcial tipo A 2023-2024).pdf",
+        "year": "2023-2024",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 10
+      },
+      {
+        "hash": "f5f0c7931debc46f2993417e287aa0ffdb4842cfcc7dc5083728341bb97a59b4",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo A 2023-2024).pdf",
+        "year": "2023-2024",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 16,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 16
+      },
+      {
+        "hash": "944d94b7632de0118700f8e8e388b989f0065e78a7b5ec03a776bcb099537069",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (parcial tipo B 2022-2023).pdf",
+        "year": "2022-2023",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 10
+      },
+      {
+        "hash": "34b8f4a4bcbf978c5a34b82cefe09476430e966f07ae50356492c664473288b5",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (parcial tipo A 2022-2023).pdf",
+        "year": "2022-2023",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 10
+      },
+      {
+        "hash": "970c3413dc0ae43ad8fa3655dedc02afff78f740e5645763d19b3da811fba7f0",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo B 2022-2023).pdf",
+        "year": "2022-2023",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "cae686ede977b0070525d596f2191f2d3b27cc6a800bd81bcfcc20ef4f3cdaa8",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo A 2022-2023).pdf",
+        "year": "2022-2023",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "1455d0e970d71e200d7f8438e7c47013749400a6dddbbd76a4ef79977229df17",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (septiembre 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": [],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "d1968a58a0d15dbcf0267ae95b9b0a2c1bf5cdcae33bf0cce01e7ecfbb91d4e1",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (parcial tipo B 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 10
+      },
+      {
+        "hash": "1309452dcb392905deff433ac5fe54d7e67297b7ad7f5066610db0b27b54596b",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (parcial tipo A 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 10
+      },
+      {
+        "hash": "ee1aafeef39d1277ad89840672a798bfb0db66070a67559eda3f8bd4adb49445",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo B 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "ec3bb5c9b2149cf72169d0c064029c3e26b418a2eb8f389183adf6f63dfe944f",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo A 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "c6b5a19f07eb30f7d8bc1c47cee8388889fae1d18648113150cc2785dc7ab376",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final extraordinario tipo B 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 21,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 21
+      },
+      {
+        "hash": "d8658bf06ee81a53c86d3cc702c7f591178fe770b27b97e9b06a8d151d159afb",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final extraordinario tipo A 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 22,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 22
+      },
+      {
+        "hash": "d1b5d4df29e502576a3e3f1f4ceaff4ab94745148a269213f1d5a13227125e7c",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (moodle 2020-2021).pdf",
+        "year": "2020-2021",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 19,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 19
+      },
+      {
+        "hash": "788d224386d3427a7f58773395773a85d36c7ba1314fca73104c4c55d5232c5e",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (moodle 2020-2021).pdf",
+        "year": "2020-2021",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 10
+      },
+      {
+        "hash": "e56313cf0777bcc7048048661848fa74c43af793553f06095cdede2d69d9e8b4",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (parcial tipo B 2019-2020).pdf",
+        "year": "2019-2020",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [
+          "Examen de Fundamentos de contabilidad y finanzas (parcial tipo A 2019-2020).pdf"
+        ],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "23f265a3bdd8ab286f605d804919203e5792205016736ab0923d8bcac0895c09",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo B 2019-2020).pdf",
+        "year": "2019-2020",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 16,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 16
+      },
+      {
+        "hash": "bb83a5e39e940d2964fbbe1cc1e25588a3f3bd74478efca84b6eddaabcee3153",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo A 2019-2020).pdf",
+        "year": "2019-2020",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 16,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 16
+      },
+      {
+        "hash": "607161442bf90458671ec5a5cfca9ff762202f717f65052ba16bc074d0041a6f",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (parcial tipo A 2018-2019).pdf",
+        "year": "2018-2019",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 10
+      },
+      {
+        "hash": "2068de8b1e151512f361adf73dc648e745a569efb99fa5ea764dd00b6394f5ea",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo A 2018-2019).pdf",
+        "year": "2018-2019",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 17,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 17
+      },
+      {
+        "hash": "40010e4bf1f1a7ab3812dfc29dfdeb1abce858f7e122320f95d8b1fdfa2b5fd5",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (parcial tipo B 2017-2018).pdf",
+        "year": "2017-2018",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 10
+      },
+      {
+        "hash": "907b8d463f1b2e9436ec182d618980c7959e29fe10f327623db30831e7fdfb2f",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (parcial tipo A 2017-2018).pdf",
+        "year": "2017-2018",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 9,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 9
+      },
+      {
+        "hash": "15d3534b226af06d8623b030a9813f48a3c063ccb836fd9d4a550bca791d46ca",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo B 2017-2018).pdf",
+        "year": "2017-2018",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 16,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 16
+      },
+      {
+        "hash": "80598265b1d812c83d202e4160f21b32f80231158cd9c9bec68faaaa4ff36391",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo A 2017-2018).pdf",
+        "year": "2017-2018",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 15,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 15
+      },
+      {
+        "hash": "9c3409a7baf906a8fe76776662d5e7d66846271a87f5aa016e56b386bd2a2188",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo C 2016-2017).pdf",
+        "year": "2016-2017",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 8,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 8
+      },
+      {
+        "hash": "4f889e5f40a327c28a0ceb33e6494ac2d15d8d68b4050593805857b84f92a62c",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo A 2016-2017).pdf",
+        "year": "2016-2017",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 12,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 12
+      },
+      {
+        "hash": "69608c1b9b27ee3d64964c57ef0dade26212fc4fea48b22741bde0ee03feb103",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (parcial tipo B 2015-2016).pdf",
+        "year": "2015-2016",
+        "stage": "parcial",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 10
+      },
+      {
+        "hash": "90577e1df195c04f90e8bf9d83fe1820f96ff21ff3c3b6d27ae65c30d9c05d4b",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo B 2015-2016).pdf",
+        "year": "2015-2016",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 19,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 19
+      },
+      {
+        "hash": "590a15b8eab9ed62ba8258deb3faa9cd0b3a1a7605198c30988429328b651f39",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo A 2015-2016).pdf",
+        "year": "2015-2016",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 19,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 19
+      },
+      {
+        "hash": "678f599ee82820ef13a8663a63e507f1a0c128fd698a78a0ee8609f052e039ca",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo B 2014-2015).pdf",
+        "year": "2014-2015",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 17,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 17
+      },
+      {
+        "hash": "64999acbc9bf7bf01377ffbea9e016ed12b270df11f9a3f5e7c6aba9d6a6f659",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo A 2014-2015).pdf",
+        "year": "2014-2015",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 17,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 17
+      },
+      {
+        "hash": "0b3517b8717a0c0b2e548c62297feb892049f40bb864eaf7b1b63320e0a343a3",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo A 2013-2014).pdf",
+        "year": "2013-2014",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 19,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 19
+      },
+      {
+        "hash": "82c3ca122f7f0d5b59ebbb0eb26fe139145476c6b6bc51e9fe1d40a59211005f",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo A 2012-2013).pdf",
+        "year": "2012-2013",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 16,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 16
+      },
+      {
+        "hash": "c5ce9d31af4f0e7c6967468c58de2d8449f7d449acb737cf6a3be7136a6f91d1",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo B 2011-2012).pdf",
+        "year": "2011-2012",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 19,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 19
+      },
+      {
+        "hash": "941549da1bfb159c4cc2efd3f951491682bcb545458b22730f3415db2c02ae2d",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo B 2010-2011).pdf",
+        "year": "2010-2011",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 26,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 26
+      },
+      {
+        "hash": "e4ba033f7023418a75a2e2eae381e8be4f066f64fdea2d850a3ebc7294fcf172",
+        "name": "Examen de Fundamentos de contabilidad y finanzas (final tipo A 2009-2010).pdf",
+        "year": "2009-2010",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 15,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 15
+      }
+    ],
+    "notes": [],
+    "statistics": {
+      "parcial": {
+        "totalQuestions": 149,
+        "classifiedQuestions": 134,
+        "documents": 15,
+        "analyzedDocuments": 15,
+        "examGroups": 15,
+        "topics": [
+          {
+            "name": "Proceso contable y estados financieros",
+            "questions": 100,
+            "questionPercent": 67.1,
+            "examsWithTopic": 15,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Existencias y coste de ventas",
+            "questions": 27,
+            "questionPercent": 18.1,
+            "examsWithTopic": 13,
+            "examPercent": 86.7
+          },
+          {
+            "name": "Sin clasificar",
+            "questions": 15,
+            "questionPercent": 10.1,
+            "examsWithTopic": 11,
+            "examPercent": 73.3
+          },
+          {
+            "name": "Amortización e inmovilizado",
+            "questions": 5,
+            "questionPercent": 3.4,
+            "examsWithTopic": 5,
+            "examPercent": 33.3
+          },
+          {
+            "name": "Cálculo financiero y financiación",
+            "questions": 2,
+            "questionPercent": 1.3,
+            "examsWithTopic": 2,
+            "examPercent": 13.3
+          }
+        ],
+        "years": [
+          "2015-2016",
+          "2017-2018",
+          "2018-2019",
+          "2019-2020",
+          "2020-2021",
+          "2021-2022",
+          "2022-2023",
+          "2023-2024",
+          "2024-2025",
+          "2025-2026"
+        ]
+      },
+      "final": {
+        "totalQuestions": 512,
+        "classifiedQuestions": 416,
+        "documents": 29,
+        "analyzedDocuments": 28,
+        "examGroups": 28,
+        "topics": [
+          {
+            "name": "Proceso contable y estados financieros",
+            "questions": 189,
+            "questionPercent": 36.9,
+            "examsWithTopic": 28,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Sin clasificar",
+            "questions": 96,
+            "questionPercent": 18.8,
+            "examsWithTopic": 27,
+            "examPercent": 96.4
+          },
+          {
+            "name": "Inversiones y flujos de caja",
+            "questions": 68,
+            "questionPercent": 13.3,
+            "examsWithTopic": 27,
+            "examPercent": 96.4
+          },
+          {
+            "name": "Costes y punto muerto",
+            "questions": 52,
+            "questionPercent": 10.2,
+            "examsWithTopic": 26,
+            "examPercent": 92.9
+          },
+          {
+            "name": "Análisis financiero y ratios",
+            "questions": 40,
+            "questionPercent": 7.8,
+            "examsWithTopic": 24,
+            "examPercent": 85.7
+          },
+          {
+            "name": "Existencias y coste de ventas",
+            "questions": 33,
+            "questionPercent": 6.4,
+            "examsWithTopic": 20,
+            "examPercent": 71.4
+          },
+          {
+            "name": "Amortización e inmovilizado",
+            "questions": 27,
+            "questionPercent": 5.3,
+            "examsWithTopic": 16,
+            "examPercent": 57.1
+          },
+          {
+            "name": "Cálculo financiero y financiación",
+            "questions": 7,
+            "questionPercent": 1.4,
+            "examsWithTopic": 6,
+            "examPercent": 21.4
+          }
+        ],
+        "years": [
+          "2009-2010",
+          "2010-2011",
+          "2011-2012",
+          "2012-2013",
+          "2013-2014",
+          "2014-2015",
+          "2015-2016",
+          "2016-2017",
+          "2017-2018",
+          "2018-2019",
+          "2019-2020",
+          "2020-2021",
+          "2021-2022",
+          "2022-2023",
+          "2023-2024",
+          "2024-2025",
+          "2025-2026"
+        ]
+      },
+      "otros": {
+        "totalQuestions": 0,
+        "classifiedQuestions": 0,
+        "documents": 0,
+        "analyzedDocuments": 0,
+        "examGroups": 0,
+        "topics": [],
+        "years": []
+      }
+    }
+  },
+  "module-53378": {
+    "subject": "Dirección estratégica (antes Fundamentos de estrategia empresarial)",
+    "source": "Fase I.zip",
+    "exams": [
+      {
+        "hash": "64d6066f137d4a749a990c90ee9b309fc3d2b2612ae71313eacee2675a5201e3",
+        "name": "Examen de Dirección estratégica (final tipo B 2025-2026).pdf",
+        "year": "2025-2026",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "6ad65b79a0fdb7a1f76647c813bddff36a091eac798d86f124f0fa7ebfcea932",
+        "name": "Examen de Dirección estratégica (final tipo A 2025-2026).pdf",
+        "year": "2025-2026",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "d66dd954c6dd77ddcb0ffd4a5ca01c5ece9126f524c58c5f18ec2d62a7eff26f",
+        "name": "Examen de Dirección estratégica (final tipo B 2024-2025).pdf",
+        "year": "2024-2025",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 30,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 30
+      },
+      {
+        "hash": "0d1fc0c4779aa5de66d5f56a76c7e30ed5b60a0b811fee6a6c7d2303974f6727",
+        "name": "Examen de Dirección estratégica (final tipo A 2024-2025).pdf",
+        "year": "2024-2025",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 30,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 30
+      },
+      {
+        "hash": "975aff032e71f3ad33da976c3bdaf5da6e8670eda21f6d0ac833686434344008",
+        "name": "Examen de Fundamentos de estrategia (final tipo A 2023-2024).pdf",
+        "year": "2023-2024",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "abba8a0e0f2d5add3bd77c5d0451738761bbf264cdb9364b80656b5020c871da",
+        "name": "Examen de Fundamentos de estrategia (final tipo B 2022-2023).pdf",
+        "year": "2022-2023",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "0e27d1c4eaaa9b9b69b1444e6eac8992e79327399bf69c4e37699403a191fd46",
+        "name": "Examen de Fundamentos de estrategia (final tipo A 2022-2023).pdf",
+        "year": "2022-2023",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "66401724a6bd3fd327c57be407a442a39afec3c69a8eea570ef2143f3013f5ba",
+        "name": "Examen de Fundamentos de estrategia (final tipo B 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "5c53ff7d2a7f317069bd279c3d327ed2d33c636445fbf5c18d1b0496b81b7656",
+        "name": "Examen de Fundamentos de estrategia (final tipo A 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "2b8ae398a6e532bba1d104db6bf90818c8e75802a2973589697a80dc485c5ffd",
+        "name": "Examen de Fundamentos de estrategia (moodle 2020-2021).pdf",
+        "year": "2020-2021",
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": [],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "e14eee3f265fc0c28856d58c69f26e9e33c9805c5bacdab83c11cda0b321f84b",
+        "name": "Examen de Fundamentos de estrategia (moodle 2020-2021)'.pdf",
+        "year": "2020-2021",
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 23,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 23
+      },
+      {
+        "hash": "547f4e8666d22515efe5a739e82e19b00773671bdc309c1d4051acf80af8dd6f",
+        "name": "Examen de Fundamentos de estrategia (final tipo B 2018-2019).pdf",
+        "year": "2018-2019",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 10
+      },
+      {
+        "hash": "cbe519306374c60fd44b0cf8dd1454d1ef1953453edfacd7f1789df024fb4a88",
+        "name": "Examen de Fundamentos de estrategia (final tipo B 2017-2018).pdf",
+        "year": "2017-2018",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": [],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "f06a095174d04d0d7eaff9854ecfc3303595ea793d7d1eb7ec268f759ff3d20a",
+        "name": "Examen de Fundamentos de estrategia (final tipo B 2016-2017).pdf",
+        "year": "2016-2017",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": [],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "1e0e4ff27018c9711b68b7ebf76fc8ed45e381fdb21a925d60fd5512c50d9eb7",
+        "name": "Examen de Fundamentos de estrategia (final tipo A 2016-2017).pdf",
+        "year": "2016-2017",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": [],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "64aed73564dd973e8bda6f1555a64d3d7869c6ffa02a7eade3155c2fd63c7093",
+        "name": "Examen de Fundamentos de estrategia (final tipo A 2015-2016).pdf",
+        "year": "2015-2016",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 10,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 10
+      },
+      {
+        "hash": "8d680305dda7d3b7afa400e63e5bda7e71388051f8077487054bb6ba9644abc0",
+        "name": "Examen de Fundamentos de estrategia (final tipo A 2014-2015).pdf",
+        "year": "2014-2015",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "1b70343c34ad8ef64fcf29a42da468f1b17d948baba53ea9be4d01d6f51001aa",
+        "name": "Examen de Fundamentos de estrategia (final tipo B 2013-2014).pdf",
+        "year": "2013-2014",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 12,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 12
+      },
+      {
+        "hash": "8183b8cbaad5b0f699dcc102a868d37d0629237281c49ad4a4acb707ba927517",
+        "name": "Examen de Fundamentos de estrategia (final tipo A 2013-2014).pdf",
+        "year": "2013-2014",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 11,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 11
+      },
+      {
+        "hash": "235395c77876461f428dfbd3dc72e4814e369fef3ba01f7974e449176d3099b3",
+        "name": "Examen de Fundamentos de estrategia (final tipo A 2012-2013).pdf",
+        "year": "2012-2013",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 13,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 13
+      },
+      {
+        "hash": "45341eedbf820a380b87947d1d76eae98b36cc71ba9156bb776ad9eaabba02ff",
+        "name": "Examen de Fundamentos de estrategia (final tipo B 2011-2012).pdf",
+        "year": "2011-2012",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 13,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 13
+      },
+      {
+        "hash": "61e8d2486f74e518b6b37dc4180343d751b721979bd52e9384eabde7c6269abb",
+        "name": "Examen de Fundamentos de estrategia (final tipo A 2011-2012).pdf",
+        "year": "2011-2012",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 13,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 13
+      },
+      {
+        "hash": "1c0dcb54aa30ef313676ae77a9f2e7cc5f8ed283babddbc83405fd3aaaeec1bd",
+        "name": "Examen de Fundamentos de estrategia (final tipo B 2010-2011).PDF",
+        "year": "2010-2011",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "3ba13ef67dd810ff8e8d873a2ed4ca4e758d61fd882dc3e9bbd46776aaa1aeba",
+        "name": "Examen de Fundamentos de estrategia (final tipo A 2010-2011).pdf",
+        "year": "2010-2011",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "043816431676695b2a49881d931dd98ae4ab7a8eaf3687a11c2305aeba9b1099",
+        "name": "Examenes de Estrategia empresarial (preguntas de test).docx",
+        "year": null,
+        "stage": "otros",
+        "extension": "DOCX",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": [],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "072b3badd20563ddd21e8e232629f778ef002150872833bd2098739f8a30cbc8",
+        "name": "Examenes de Estrategia empresarial (preguntas de desarrollo).docx",
+        "year": null,
+        "stage": "otros",
+        "extension": "DOCX",
+        "questionsDetected": 3,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 3
+      }
+    ],
+    "notes": [
+      {
+        "hash": "23071735910afb4aa453ccbdfd66940c8ba36fe73c7a55547bb8ce4da9ae1d28",
+        "name": "Fundamentos de estrategia empresarial (apuntes MIM 2015).pdf",
+        "year": "2015",
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": []
+      },
+      {
+        "hash": "ba47af68ce0500ee5c058565cad9eda931ce451f1076bd91d0fb7ba3bad4e6a8",
+        "name": "Fundamentos de estrategia empresarial (Mata).pdf",
+        "year": null,
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": []
+      },
+      {
+        "hash": "d86e0166f4d0a63fe5c489200c9900c3512b902ed70b045f2c592f62101e50d1",
+        "name": "Fundamentos de estrategia empresarial (María Carrillo Alacid).pdf",
+        "year": null,
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": []
+      }
+    ],
+    "statistics": {
+      "parcial": {
+        "totalQuestions": 0,
+        "classifiedQuestions": 0,
+        "documents": 0,
+        "analyzedDocuments": 0,
+        "examGroups": 0,
+        "topics": [],
+        "years": []
+      },
+      "final": {
+        "totalQuestions": 372,
+        "classifiedQuestions": 308,
+        "documents": 22,
+        "analyzedDocuments": 19,
+        "examGroups": 19,
+        "topics": [
+          {
+            "name": "Entorno y análisis sectorial",
+            "questions": 161,
+            "questionPercent": 43.3,
+            "examsWithTopic": 19,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Sin clasificar",
+            "questions": 64,
+            "questionPercent": 17.2,
+            "examsWithTopic": 16,
+            "examPercent": 84.2
+          },
+          {
+            "name": "Concepto de estrategia y objetivos",
+            "questions": 57,
+            "questionPercent": 15.3,
+            "examsWithTopic": 14,
+            "examPercent": 73.7
+          },
+          {
+            "name": "Desarrollo y estrategia corporativa",
+            "questions": 50,
+            "questionPercent": 13.4,
+            "examsWithTopic": 19,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Diagnóstico e implantación",
+            "questions": 20,
+            "questionPercent": 5.4,
+            "examsWithTopic": 7,
+            "examPercent": 36.8
+          },
+          {
+            "name": "Recursos, capacidades y ventaja competitiva",
+            "questions": 16,
+            "questionPercent": 4.3,
+            "examsWithTopic": 12,
+            "examPercent": 63.2
+          },
+          {
+            "name": "Estrategias competitivas",
+            "questions": 4,
+            "questionPercent": 1.1,
+            "examsWithTopic": 3,
+            "examPercent": 15.8
+          }
+        ],
+        "years": [
+          "2010-2011",
+          "2011-2012",
+          "2012-2013",
+          "2013-2014",
+          "2014-2015",
+          "2015-2016",
+          "2018-2019",
+          "2021-2022",
+          "2022-2023",
+          "2023-2024",
+          "2024-2025",
+          "2025-2026"
+        ]
+      },
+      "otros": {
+        "totalQuestions": 26,
+        "classifiedQuestions": 24,
+        "documents": 4,
+        "analyzedDocuments": 2,
+        "examGroups": 2,
+        "topics": [
+          {
+            "name": "Entorno y análisis sectorial",
+            "questions": 14,
+            "questionPercent": 53.8,
+            "examsWithTopic": 2,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Desarrollo y estrategia corporativa",
+            "questions": 6,
+            "questionPercent": 23.1,
+            "examsWithTopic": 2,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Concepto de estrategia y objetivos",
+            "questions": 3,
+            "questionPercent": 11.5,
+            "examsWithTopic": 1,
+            "examPercent": 50.0
+          },
+          {
+            "name": "Sin clasificar",
+            "questions": 2,
+            "questionPercent": 7.7,
+            "examsWithTopic": 2,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Recursos, capacidades y ventaja competitiva",
+            "questions": 1,
+            "questionPercent": 3.8,
+            "examsWithTopic": 1,
+            "examPercent": 50.0
+          }
+        ],
+        "years": [
+          "2020-2021"
+        ]
+      }
+    }
+  },
+  "module-53395": {
+    "subject": "Fundamentos de marketing",
+    "source": "Fase I.zip",
+    "exams": [
+      {
+        "hash": "6d5a0fd4dfc74b6b30b52b50ca248024408fd98003b269aca68bed7bfac1f92c",
+        "name": "Examen de Fundamentos de marketing (final tipo B 2025-2026).pdf",
+        "year": "2025-2026",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "6751a56ef5c8d1d3a67639e3ce00ec68547beeaddb52734d026f20cda157d15f",
+        "name": "Examen de Fundamentos de marketing (final tipo A 2025-2026).pdf",
+        "year": "2025-2026",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "63665dd284973bb610d8f585f4767806bcdd3ee7eed2cc737f9449e53daf3074",
+        "name": "Examen de Fundamentos de marketing (final tipo B 2024-2025).pdf",
+        "year": "2024-2025",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "97754f1ba4c51a4cfaa6177099d82108eb24e640774848b68d201a1dcada3dad",
+        "name": "Examen de Fundamentos de marketing (final tipo A 2024-2025).pdf",
+        "year": "2024-2025",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "5288069f91a78d4aba9d45fcc8b60388cb3347937277fb76692cacfed4732e36",
+        "name": "Examen de Fundamentos de marketing (final tipo A 2023-2024).pdf",
+        "year": "2023-2024",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 24,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 24
+      },
+      {
+        "hash": "87c9ac03ac1e0e00cd0efda1efce50b1a2ffcf9bd9ac2ffcd3a8838807063456",
+        "name": "Examen de Fundamentos de marketing (final tipo B 2022-2023).pdf",
+        "year": "2022-2023",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "1c52138a09e42a3c7e635d68cd18d2db68c781ca7de18393d9b25fd8c5b3513f",
+        "name": "Examen de Fundamentos de marketing (final tipo A 2022-2023).pdf",
+        "year": "2022-2023",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "c306012c245bb6dfac7283cf85a5cf9f286c42e9ab61dbfd840aeb7f57740cb7",
+        "name": "Examen de Fundamentos de marketing (final tipo C 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "75acb7eb11d27c9fde653b1d418f72629a1bcf99b5745ca94ab8c407207bca61",
+        "name": "Examen de Fundamentos de marketing (final tipo B 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "05d8eb6693a0247107ea56cbeddc09b0c12168a1265feab3bfbe6d1357db02a0",
+        "name": "Examen de Fundamentos de marketing (moodle 2020-2021).pdf",
+        "year": "2020-2021",
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 28,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 28
+      },
+      {
+        "hash": "9e554d04bb16528f5c3521de4aad4b7e68b14300ed92a23a05d70490b1ba71ba",
+        "name": "Examen de Fundamentos de marketing (final tipo B 2019-2020).pdf",
+        "year": "2019-2020",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "c2051d972ff91035be08e670a6a9eb71e33a1d2b83061c2ba8eb649531ff415b",
+        "name": "Examen de Fundamentos de marketing (final tipo A 2019-2020).pdf",
+        "year": "2019-2020",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "c92a71b3356c3557b1b1066e3429a1c2f2bd8aa3de60c992d67c7a95a1aba363",
+        "name": "Examen de Fundamentos de marketing (final tipo B 2017-2018).pdf",
+        "year": "2017-2018",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "cef3758e1fe31d3bba486b7b88785c946310cc956c2a69210914a1504cf50f26",
+        "name": "Examen de Fundamentos de marketing (final tipo A 2017-2018).pdf",
+        "year": "2017-2018",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "b36ebb15aacfdbf803f98512a1fde20064a4f56c2b91caf3054e5b6561361d9b",
+        "name": "Examen de Fundamentos de marketing (final tipo A 2017-2018)'.pdf",
+        "year": "2017-2018",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "f64e39b0a63fa9048608cf27a1984cc1cf83afc08b4ec644ae911a2fff6ea397",
+        "name": "Examen de Fundamentos de marketing (final tipo C 2016-2017).pdf",
+        "year": "2016-2017",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "19c667fd9b03859e6c4f6adda5675c397fcbbf50d94c588eabf4b3297e53fbeb",
+        "name": "Examen de Fundamentos de marketing (final tipo A 2016-2017).pdf",
+        "year": "2016-2017",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "9c6f54e241bae09329d0deb308d2c1abd1031c06923189e6ac38d1a0ae6bef6c",
+        "name": "Examen de Fundamentos de marketing (final tipo A 2015-2016).pdf",
+        "year": "2015-2016",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "ea78107348bf549054eef30d8a6dddc659eb2b78b88397cda94389b3b0b8e2f6",
+        "name": "Examen de Fundamentos de marketing (final tipo A 2014-2015).pdf",
+        "year": "2014-2015",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 28,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 28
+      },
+      {
+        "hash": "2e2ef05da5b4f8776e0a7a44a3115d8f74c4d7fa5750ecae5bccc85df17f1826",
+        "name": "Examen de Fundamentos de marketing (final tipo A 2013-2014).pdf",
+        "year": "2013-2014",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 28,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 28
+      },
+      {
+        "hash": "4ee659bbb1e348f7e559b7ea5c2a4fd8e16d3adb59f9d675b8a54c929b815abd",
+        "name": "Examen de Fundamentos de marketing (final tipo A 2012-2013).pdf",
+        "year": "2012-2013",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 27,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 27
+      },
+      {
+        "hash": "12c947d174babc6fe90d76ed7e275ff621417f72600d4fd0fca3a1b41558832c",
+        "name": "Examen de Fundamentos de marketing (final tipo A 2011-2012).pdf",
+        "year": "2011-2012",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 13,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 13
+      },
+      {
+        "hash": "c4d36879b6d43a1f9b9ebe2add447fe9711d41ec92562de309fe095fdc36436b",
+        "name": "Examen de Fundamentos de marketing (final tipo A 2011-2012)'.pdf",
+        "year": "2011-2012",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": [],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "a268a256242e1ceb749a98eab3468c484719f5ecc679154570462176f6e8e6e9",
+        "name": "Examen de Fundamentos de marketing (final tipo A 2009-2010).pdf",
+        "year": "2009-2010",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 19,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 19
+      },
+      {
+        "hash": "e8c8d51cbfe27f2ae6207415bd388aa901ce8fb5950fd558e4ea8ed3e2e7c43f",
+        "name": "Examen de Fundamentos de marketing (final tipo A 2009-2010)'.pdf",
+        "year": "2009-2010",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 20,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 20
+      },
+      {
+        "hash": "da26cb6141a2770918f3336bd6f154016fe4834d2be37788a01f1b662e9e26c9",
+        "name": "Preguntas Marketing.xlsx",
+        "year": null,
+        "stage": "otros",
+        "extension": "XLSX",
+        "questionsDetected": 93,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 93
+      }
+    ],
+    "notes": [
+      {
+        "hash": "fbd55051e803b58e06020af0a0fcbdc70a2dc5d2ac8052db4214ba6115ffe00d",
+        "name": "Fundamentos de marketing (resumen).pdf",
+        "year": null,
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": []
+      },
+      {
+        "hash": "d4ba5a9e6539471fa4eb04b56d48716942cb11287a0b2d561d76a3d3d37e9867",
+        "name": "Fundamentos de marketing (resumen)'.pdf",
+        "year": null,
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": []
+      },
+      {
+        "hash": "543c4183f914e936ea472b1710aceda1d3761ca22a32e905dc0a2926f0f14310",
+        "name": "Fundamentos de marketing (resumen)''.pdf",
+        "year": null,
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": []
+      }
+    ],
+    "statistics": {
+      "parcial": {
+        "totalQuestions": 0,
+        "classifiedQuestions": 0,
+        "documents": 0,
+        "analyzedDocuments": 0,
+        "examGroups": 0,
+        "topics": [],
+        "years": []
+      },
+      "final": {
+        "totalQuestions": 523,
+        "classifiedQuestions": 458,
+        "documents": 24,
+        "analyzedDocuments": 23,
+        "examGroups": 23,
+        "topics": [
+          {
+            "name": "Producto, marca y cartera",
+            "questions": 112,
+            "questionPercent": 21.4,
+            "examsWithTopic": 23,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Precios",
+            "questions": 78,
+            "questionPercent": 14.9,
+            "examsWithTopic": 20,
+            "examPercent": 87.0
+          },
+          {
+            "name": "Distribución y canales",
+            "questions": 69,
+            "questionPercent": 13.2,
+            "examsWithTopic": 23,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Comunicación y promoción",
+            "questions": 66,
+            "questionPercent": 12.6,
+            "examsWithTopic": 22,
+            "examPercent": 95.7
+          },
+          {
+            "name": "Sin clasificar",
+            "questions": 65,
+            "questionPercent": 12.4,
+            "examsWithTopic": 23,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Fundamentos, entorno y planificación",
+            "questions": 61,
+            "questionPercent": 11.7,
+            "examsWithTopic": 23,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Consumidor y comportamiento de compra",
+            "questions": 45,
+            "questionPercent": 8.6,
+            "examsWithTopic": 21,
+            "examPercent": 91.3
+          },
+          {
+            "name": "Segmentación y posicionamiento",
+            "questions": 27,
+            "questionPercent": 5.2,
+            "examsWithTopic": 16,
+            "examPercent": 69.6
+          }
+        ],
+        "years": [
+          "2009-2010",
+          "2011-2012",
+          "2012-2013",
+          "2013-2014",
+          "2014-2015",
+          "2015-2016",
+          "2016-2017",
+          "2017-2018",
+          "2019-2020",
+          "2021-2022",
+          "2022-2023",
+          "2023-2024",
+          "2024-2025",
+          "2025-2026"
+        ]
+      },
+      "otros": {
+        "totalQuestions": 114,
+        "classifiedQuestions": 69,
+        "documents": 2,
+        "analyzedDocuments": 2,
+        "examGroups": 2,
+        "topics": [
+          {
+            "name": "Sin clasificar",
+            "questions": 45,
+            "questionPercent": 39.5,
+            "examsWithTopic": 2,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Precios",
+            "questions": 14,
+            "questionPercent": 12.3,
+            "examsWithTopic": 2,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Producto, marca y cartera",
+            "questions": 13,
+            "questionPercent": 11.4,
+            "examsWithTopic": 2,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Distribución y canales",
+            "questions": 11,
+            "questionPercent": 9.6,
+            "examsWithTopic": 2,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Fundamentos, entorno y planificación",
+            "questions": 9,
+            "questionPercent": 7.9,
+            "examsWithTopic": 2,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Segmentación y posicionamiento",
+            "questions": 8,
+            "questionPercent": 7.0,
+            "examsWithTopic": 2,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Consumidor y comportamiento de compra",
+            "questions": 8,
+            "questionPercent": 7.0,
+            "examsWithTopic": 2,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Comunicación y promoción",
+            "questions": 6,
+            "questionPercent": 5.3,
+            "examsWithTopic": 2,
+            "examPercent": 100.0
+          }
+        ],
+        "years": [
+          "2020-2021"
+        ]
+      }
+    }
+  },
+  "module-53392": {
+    "subject": "Investigación comercial I - Market Research I",
+    "source": "Fase I.zip",
+    "exams": [
+      {
+        "hash": "9ce9224ba01765205ffe21bbe7a3412ae01d29303ae89f5c52805a8415a3beb6",
+        "name": "Examen de Market Research I (tipo B 2025-2026).pdf",
+        "year": "2025-2026",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "61dcc6d3befb88b406973f16fe241b45baa350ae660140d0a9309396336f10b2",
+        "name": "Examen de Market Research I (tipo A 2025-2026).pdf",
+        "year": "2025-2026",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "5ff0cfbc8c1bff71cc258656458975aeaf3ede12c49ddca91f5a8f446b4210f0",
+        "name": "Examen de Market Research I (tipo B 2024-2025).pdf",
+        "year": "2024-2025",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "d466e519c68a9ed4d22b9bf137eb94f56b7b6996e55161a1ebd7241f2680e2d0",
+        "name": "Examen de Market Research I (tipo A 2024-2025).pdf",
+        "year": "2024-2025",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "533c595feef0d16c2bbf278c92d06386f21f32e7ea83edd8788a45e38e39952a",
+        "name": "Examen de Market Research I (tipo B 2023-2024).pdf",
+        "year": "2023-2024",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 39,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 39
+      },
+      {
+        "hash": "a97acca678e67f50fe7cc34ac5bf1e941764cd92577102a00c7f5986e22823d5",
+        "name": "Examen de Market Research I (tipo A 2023-2024).pdf",
+        "year": "2023-2024",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "e4fe71fb00ea623ee5955aef45e5531c7a417bc1a9dcf3dab46a4b2da9c6d287",
+        "name": "Examen de Market Research I (tipo B 2022-2023).pdf",
+        "year": "2022-2023",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "ad09a9f6d75bfe9b467967a4a841e65b35e84c20bb1e0f23341277cea7ce3011",
+        "name": "Examen de Market Research I. Fuentes de información (moodle 2020-2021).pdf",
+        "year": "2020-2021",
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 43,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 43
+      },
+      {
+        "hash": "b30327090daf4f678f4e8b95764da731e98907f300a30585381c5c11821a4b49",
+        "name": "Examen de Market Research I. Fuentes de información (moodle 2020-2021)'.pdf",
+        "year": "2020-2021",
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 43,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 43
+      },
+      {
+        "hash": "06ce3356f6e50a5af6eec60cec0d75294276222a1b046ba11d997bc23dba0bae",
+        "name": "Examen de Market Research I. Fuentes de información (moodle 2020-2021)''.pdf",
+        "year": "2020-2021",
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": [],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "9b59f6085d958e10d3400ca876bae016fc0f1fbf2654392c5b54f14c4ffe8e6e",
+        "name": "Examen de Market Research I (tipo A 2015-2016).pdf",
+        "year": "2015-2016",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 38,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 38
+      },
+      {
+        "hash": "a6e33aeb901dd55c3029a98065946e13dd71b2eb72eac941b3f0ab6f799e85d9",
+        "name": "Examen de Market Research I (tipo A 2014-2015).pdf",
+        "year": "2014-2015",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 38,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 38
+      },
+      {
+        "hash": "552c396538dea2996e939cf21e95a57b51ce5b91b0c56f41384530f4eb2e1aa7",
+        "name": "Examen de Market Research I. El mercado del mueble en Japón (2011).pdf",
+        "year": "2011",
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 3,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 3
+      },
+      {
+        "hash": "634ed0079171162f56aef236e5f17ac4488c8430f14e6340c57f2524a743c96a",
+        "name": "Examen de Market Research I. El mercado del mueble en Israel (2011).pdf",
+        "year": "2011",
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": [],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "731316beddf7b62b35e07e5631aba4f6d79c11b584894401346eae1c6960f674",
+        "name": "Examen de Market Research I. El mercado del calzado en Ucrania (2011).pdf",
+        "year": "2011",
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": [],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "2ef81211e4a496a411e2498dbf9b92d62a89df27f55a6b1f57566ab2dec10573",
+        "name": "Examen de Market Research I. El mercado de la pintura en Marruecos (2011).pdf",
+        "year": "2011",
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": [],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "3debfe286fe4c349998df48cccad607ab20499a567d54fd285950646ddad26ab",
+        "name": "Examen de Market Research I. El mercado de la cosmética en India (2011).pdf",
+        "year": "2011",
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": [],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "a8de73996e4546da02288732f025a25ce20367ef287e7ed5411d72ea413305c5",
+        "name": "Examen de Market Research I (tipo A 2009).docx",
+        "year": "2009",
+        "stage": "final",
+        "extension": "DOCX",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": [],
+        "quizQuestions": 0
+      }
+    ],
+    "notes": [],
+    "statistics": {
+      "parcial": {
+        "totalQuestions": 0,
+        "classifiedQuestions": 0,
+        "documents": 0,
+        "analyzedDocuments": 0,
+        "examGroups": 0,
+        "topics": [],
+        "years": []
+      },
+      "final": {
+        "totalQuestions": 354,
+        "classifiedQuestions": 222,
+        "documents": 10,
+        "analyzedDocuments": 9,
+        "examGroups": 9,
+        "topics": [
+          {
+            "name": "Acceso a mercados y barreras",
+            "questions": 137,
+            "questionPercent": 38.7,
+            "examsWithTopic": 9,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Sin clasificar",
+            "questions": 132,
+            "questionPercent": 37.3,
+            "examsWithTopic": 9,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Instituciones y promoción internacional",
+            "questions": 29,
+            "questionPercent": 8.2,
+            "examsWithTopic": 7,
+            "examPercent": 77.8
+          },
+          {
+            "name": "Mercados, consumidores y distribución",
+            "questions": 22,
+            "questionPercent": 6.2,
+            "examsWithTopic": 9,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Estadísticas y flujos comerciales",
+            "questions": 19,
+            "questionPercent": 5.4,
+            "examsWithTopic": 9,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Entorno económico y riesgo país",
+            "questions": 9,
+            "questionPercent": 2.5,
+            "examsWithTopic": 7,
+            "examPercent": 77.8
+          },
+          {
+            "name": "Fuentes y proceso de búsqueda",
+            "questions": 6,
+            "questionPercent": 1.7,
+            "examsWithTopic": 3,
+            "examPercent": 33.3
+          }
+        ],
+        "years": [
+          "2014-2015",
+          "2015-2016",
+          "2022-2023",
+          "2023-2024",
+          "2024-2025",
+          "2025-2026"
+        ]
+      },
+      "otros": {
+        "totalQuestions": 89,
+        "classifiedQuestions": 55,
+        "documents": 8,
+        "analyzedDocuments": 3,
+        "examGroups": 3,
+        "topics": [
+          {
+            "name": "Sin clasificar",
+            "questions": 34,
+            "questionPercent": 38.2,
+            "examsWithTopic": 2,
+            "examPercent": 66.7
+          },
+          {
+            "name": "Acceso a mercados y barreras",
+            "questions": 22,
+            "questionPercent": 24.7,
+            "examsWithTopic": 2,
+            "examPercent": 66.7
+          },
+          {
+            "name": "Entorno económico y riesgo país",
+            "questions": 10,
+            "questionPercent": 11.2,
+            "examsWithTopic": 3,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Instituciones y promoción internacional",
+            "questions": 8,
+            "questionPercent": 9.0,
+            "examsWithTopic": 2,
+            "examPercent": 66.7
+          },
+          {
+            "name": "Estadísticas y flujos comerciales",
+            "questions": 7,
+            "questionPercent": 7.9,
+            "examsWithTopic": 3,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Mercados, consumidores y distribución",
+            "questions": 6,
+            "questionPercent": 6.7,
+            "examsWithTopic": 3,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Fuentes y proceso de búsqueda",
+            "questions": 2,
+            "questionPercent": 2.2,
+            "examsWithTopic": 2,
+            "examPercent": 66.7
+          }
+        ],
+        "years": [
+          "2011",
+          "2020-2021"
+        ]
+      }
+    }
+  },
+  "module-53383": {
+    "subject": "Investigación comercial I - Market Research I",
+    "source": "Fase I.zip",
+    "exams": [
+      {
+        "hash": "9ce9224ba01765205ffe21bbe7a3412ae01d29303ae89f5c52805a8415a3beb6",
+        "name": "Examen de Market Research I (tipo B 2025-2026).pdf",
+        "year": "2025-2026",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "61dcc6d3befb88b406973f16fe241b45baa350ae660140d0a9309396336f10b2",
+        "name": "Examen de Market Research I (tipo A 2025-2026).pdf",
+        "year": "2025-2026",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "5ff0cfbc8c1bff71cc258656458975aeaf3ede12c49ddca91f5a8f446b4210f0",
+        "name": "Examen de Market Research I (tipo B 2024-2025).pdf",
+        "year": "2024-2025",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "d466e519c68a9ed4d22b9bf137eb94f56b7b6996e55161a1ebd7241f2680e2d0",
+        "name": "Examen de Market Research I (tipo A 2024-2025).pdf",
+        "year": "2024-2025",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "533c595feef0d16c2bbf278c92d06386f21f32e7ea83edd8788a45e38e39952a",
+        "name": "Examen de Market Research I (tipo B 2023-2024).pdf",
+        "year": "2023-2024",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 39,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 39
+      },
+      {
+        "hash": "a97acca678e67f50fe7cc34ac5bf1e941764cd92577102a00c7f5986e22823d5",
+        "name": "Examen de Market Research I (tipo A 2023-2024).pdf",
+        "year": "2023-2024",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "e4fe71fb00ea623ee5955aef45e5531c7a417bc1a9dcf3dab46a4b2da9c6d287",
+        "name": "Examen de Market Research I (tipo B 2022-2023).pdf",
+        "year": "2022-2023",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "ad09a9f6d75bfe9b467967a4a841e65b35e84c20bb1e0f23341277cea7ce3011",
+        "name": "Examen de Market Research I. Fuentes de información (moodle 2020-2021).pdf",
+        "year": "2020-2021",
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 43,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 43
+      },
+      {
+        "hash": "b30327090daf4f678f4e8b95764da731e98907f300a30585381c5c11821a4b49",
+        "name": "Examen de Market Research I. Fuentes de información (moodle 2020-2021)'.pdf",
+        "year": "2020-2021",
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 43,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 43
+      },
+      {
+        "hash": "06ce3356f6e50a5af6eec60cec0d75294276222a1b046ba11d997bc23dba0bae",
+        "name": "Examen de Market Research I. Fuentes de información (moodle 2020-2021)''.pdf",
+        "year": "2020-2021",
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": [],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "9b59f6085d958e10d3400ca876bae016fc0f1fbf2654392c5b54f14c4ffe8e6e",
+        "name": "Examen de Market Research I (tipo A 2015-2016).pdf",
+        "year": "2015-2016",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 38,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 38
+      },
+      {
+        "hash": "a6e33aeb901dd55c3029a98065946e13dd71b2eb72eac941b3f0ab6f799e85d9",
+        "name": "Examen de Market Research I (tipo A 2014-2015).pdf",
+        "year": "2014-2015",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 38,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 38
+      },
+      {
+        "hash": "552c396538dea2996e939cf21e95a57b51ce5b91b0c56f41384530f4eb2e1aa7",
+        "name": "Examen de Market Research I. El mercado del mueble en Japón (2011).pdf",
+        "year": "2011",
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 3,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 3
+      },
+      {
+        "hash": "634ed0079171162f56aef236e5f17ac4488c8430f14e6340c57f2524a743c96a",
+        "name": "Examen de Market Research I. El mercado del mueble en Israel (2011).pdf",
+        "year": "2011",
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": [],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "731316beddf7b62b35e07e5631aba4f6d79c11b584894401346eae1c6960f674",
+        "name": "Examen de Market Research I. El mercado del calzado en Ucrania (2011).pdf",
+        "year": "2011",
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": [],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "2ef81211e4a496a411e2498dbf9b92d62a89df27f55a6b1f57566ab2dec10573",
+        "name": "Examen de Market Research I. El mercado de la pintura en Marruecos (2011).pdf",
+        "year": "2011",
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": [],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "3debfe286fe4c349998df48cccad607ab20499a567d54fd285950646ddad26ab",
+        "name": "Examen de Market Research I. El mercado de la cosmética en India (2011).pdf",
+        "year": "2011",
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": [],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "a8de73996e4546da02288732f025a25ce20367ef287e7ed5411d72ea413305c5",
+        "name": "Examen de Market Research I (tipo A 2009).docx",
+        "year": "2009",
+        "stage": "final",
+        "extension": "DOCX",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": [],
+        "quizQuestions": 0
+      }
+    ],
+    "notes": [],
+    "statistics": {
+      "parcial": {
+        "totalQuestions": 0,
+        "classifiedQuestions": 0,
+        "documents": 0,
+        "analyzedDocuments": 0,
+        "examGroups": 0,
+        "topics": [],
+        "years": []
+      },
+      "final": {
+        "totalQuestions": 354,
+        "classifiedQuestions": 222,
+        "documents": 10,
+        "analyzedDocuments": 9,
+        "examGroups": 9,
+        "topics": [
+          {
+            "name": "Acceso a mercados y barreras",
+            "questions": 137,
+            "questionPercent": 38.7,
+            "examsWithTopic": 9,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Sin clasificar",
+            "questions": 132,
+            "questionPercent": 37.3,
+            "examsWithTopic": 9,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Instituciones y promoción internacional",
+            "questions": 29,
+            "questionPercent": 8.2,
+            "examsWithTopic": 7,
+            "examPercent": 77.8
+          },
+          {
+            "name": "Mercados, consumidores y distribución",
+            "questions": 22,
+            "questionPercent": 6.2,
+            "examsWithTopic": 9,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Estadísticas y flujos comerciales",
+            "questions": 19,
+            "questionPercent": 5.4,
+            "examsWithTopic": 9,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Entorno económico y riesgo país",
+            "questions": 9,
+            "questionPercent": 2.5,
+            "examsWithTopic": 7,
+            "examPercent": 77.8
+          },
+          {
+            "name": "Fuentes y proceso de búsqueda",
+            "questions": 6,
+            "questionPercent": 1.7,
+            "examsWithTopic": 3,
+            "examPercent": 33.3
+          }
+        ],
+        "years": [
+          "2014-2015",
+          "2015-2016",
+          "2022-2023",
+          "2023-2024",
+          "2024-2025",
+          "2025-2026"
+        ]
+      },
+      "otros": {
+        "totalQuestions": 89,
+        "classifiedQuestions": 55,
+        "documents": 8,
+        "analyzedDocuments": 3,
+        "examGroups": 3,
+        "topics": [
+          {
+            "name": "Sin clasificar",
+            "questions": 34,
+            "questionPercent": 38.2,
+            "examsWithTopic": 2,
+            "examPercent": 66.7
+          },
+          {
+            "name": "Acceso a mercados y barreras",
+            "questions": 22,
+            "questionPercent": 24.7,
+            "examsWithTopic": 2,
+            "examPercent": 66.7
+          },
+          {
+            "name": "Entorno económico y riesgo país",
+            "questions": 10,
+            "questionPercent": 11.2,
+            "examsWithTopic": 3,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Instituciones y promoción internacional",
+            "questions": 8,
+            "questionPercent": 9.0,
+            "examsWithTopic": 2,
+            "examPercent": 66.7
+          },
+          {
+            "name": "Estadísticas y flujos comerciales",
+            "questions": 7,
+            "questionPercent": 7.9,
+            "examsWithTopic": 3,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Mercados, consumidores y distribución",
+            "questions": 6,
+            "questionPercent": 6.7,
+            "examsWithTopic": 3,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Fuentes y proceso de búsqueda",
+            "questions": 2,
+            "questionPercent": 2.2,
+            "examsWithTopic": 2,
+            "examPercent": 66.7
+          }
+        ],
+        "years": [
+          "2011",
+          "2020-2021"
+        ]
+      }
+    }
+  },
+  "subject-investigacion-comercial-ii": {
+    "subject": "Investigación comercial II - Estudios de mercado",
+    "source": "Fase I.zip",
+    "exams": [
+      {
+        "hash": "b8a03ec13e39df93bd48ff98bd9f9cf662420d0798435958d85011e1443d1e47",
+        "name": "Examen de Investigación comercial II - Estudios de mercado (final tipo B 2025-2026).pdf",
+        "year": "2025-2026",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "dadbcd19c7664a2187b1bbe042745bd9090659f37bd38062cf3be3b71f011e49",
+        "name": "Examen de Investigación comercial II - Estudios de mercado (final tipo A 2025-2026).pdf",
+        "year": "2025-2026",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "e3d5ba0ba82c7b2f7b4f755f77831cbc20796d8298be063f30f931f8b86e5d43",
+        "name": "Examen de Investigación comercial II - Estudios de mercado (final tipo B 2024-2025).pdf",
+        "year": "2024-2025",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "ce9a43f546286a280aef870d92be2e2852534889c8bd2672a526bc3ed7b4c75e",
+        "name": "Examen de Investigación comercial II - Estudios de mercado (final tipo A 2024-2025).pdf",
+        "year": "2024-2025",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "30328b47c6defa707d8272d531fd5db4f695108f2a5a3adac8c3ceece7bf4bbc",
+        "name": "Examen de Investigación comercial II - Estudios de mercado (final tipo A 2023-2024).pdf",
+        "year": "2023-2024",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 23,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 23
+      },
+      {
+        "hash": "77451a4e0872d0ac8f020694c78a462fd93f622fb3cc01616931af7ad7df59a4",
+        "name": "Examen de Investigación comercial II - Estudios de mercado (final tipo B 2022-2023).pdf",
+        "year": "2022-2023",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "8417c6676300521c397d681f0a1b2bf2d40423c72c0a6c67e45e9bbade0a8f08",
+        "name": "Examen de Investigación comercial II - Estudios de mercado (final tipo A 2022-2023).pdf",
+        "year": "2022-2023",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 39,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 39
+      },
+      {
+        "hash": "dea7cbd24d81cfc377c82e638a36ee726adeea86e78b623a4c48a8dc96b18e26",
+        "name": "Examen de Investigación comercial II - Estudios de mercado (septiembre 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": [],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "85bf5e81e11ba2f5e036e6559a86737ae41fb2a4a0bd76f330aa2c639e899c2c",
+        "name": "Examen de Investigación comercial II - Estudios de mercado (final tipo B 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [
+          "Examen de Investigación comercial II - Estudios de mercado (final tipo B 2020-2021).pdf"
+        ],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "2421bdb79e5755e6d9e850df1e1eb21d478b7e0dc21dec7f1e5d3f9286c3273e",
+        "name": "Examen de Investigación comercial II - Estudios de mercado (final tipo A 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [
+          "Examen de Investigación comercial II - Estudios de mercado (final tipo A 2020-2021).pdf"
+        ],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "396b685bb03f2c90d0ebc0ac3a294869639ff0b11c90c64b889260460939f781",
+        "name": "Examen de Investigación comercial II - Estudios de mercado (moodle 2020-2021).pdf",
+        "year": "2020-2021",
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 32,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 32
+      },
+      {
+        "hash": "dd42175a0dd57ba42ce30584752efe49846a2d84dc178b0f1af62e8cd8d7ae59",
+        "name": "Examen de Investigación comercial II - Estudios de mercado (final tipo A 2019-2020).pdf",
+        "year": "2019-2020",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "7c67fbb65be92c2b52cdb9712ebb17819fd99898b30e5b9a58baf69d312ca218",
+        "name": "Examen de Investigación comercial II - Estudios de mercado (final tipo A 2016-2017).pdf",
+        "year": "2016-2017",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "d5ba90153033bd2dcecb33b1a9433c95b5ea07a91d367e3f3c11e976c1304c51",
+        "name": "Examen de Investigación comercial II - Estudios de mercado (final tipo A 2015-2016).pdf",
+        "year": "2015-2016",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 6,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 6
+      },
+      {
+        "hash": "fb23043be2274e853a95008bfe3210ad21f01f49a03f7a1c7dad611b8acfe8f8",
+        "name": "Examen de Investigación comercial II - Estudios de mercado (final tipo A 2014-2015).pdf",
+        "year": "2014-2015",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "d1acf568c5f5393d9d45397ebddab0b8278f50aafb8e8f013ca3b11137238e79",
+        "name": "Examen de Investigación comercial II - Estudios de mercado (final tipo A 2013-2014).pdf",
+        "year": "2013-2014",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "6a123d39b1e9070ccbe06e174d873f947d581e9e75a3d1219b58de79cbccddf9",
+        "name": "Examen de Investigación comercial II - Estudios de mercado (final tipo A 2012-2013).pdf",
+        "year": "2012-2013",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "dbec7d02a57f7248d046b395a6dc66b7733d9b4a59e59fe7dbba66850e575596",
+        "name": "Examen de Investigación comercial II - Estudios de mercado (final tipo A 2011-2012).pdf",
+        "year": "2011-2012",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 39,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 39
+      },
+      {
+        "hash": "95921187dd335a6d1dd38e14471be39b010c83924c7c4bb61e93107750e62b87",
+        "name": "Examen de Investigación comercial II - Estudios de mercado (final tipo A 2010-2011).pdf",
+        "year": "2010-2011",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "51ff91382978f8d6ee5635737bff113f9b83319058cf734f46cb6791cdef3f97",
+        "name": "Preguntas de otros años.xlsx",
+        "year": null,
+        "stage": "otros",
+        "extension": "XLSX",
+        "questionsDetected": 400,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 400
+      }
+    ],
+    "notes": [],
+    "statistics": {
+      "parcial": {
+        "totalQuestions": 0,
+        "classifiedQuestions": 0,
+        "documents": 0,
+        "analyzedDocuments": 0,
+        "examGroups": 0,
+        "topics": [],
+        "years": []
+      },
+      "final": {
+        "totalQuestions": 581,
+        "classifiedQuestions": 505,
+        "documents": 17,
+        "analyzedDocuments": 17,
+        "examGroups": 17,
+        "topics": [
+          {
+            "name": "Diseño de investigación y fuentes",
+            "questions": 195,
+            "questionPercent": 33.6,
+            "examsWithTopic": 17,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Encuestas y cuestionarios",
+            "questions": 145,
+            "questionPercent": 25.0,
+            "examsWithTopic": 17,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Sin clasificar",
+            "questions": 76,
+            "questionPercent": 13.1,
+            "examsWithTopic": 16,
+            "examPercent": 94.1
+          },
+          {
+            "name": "Muestreo y error",
+            "questions": 70,
+            "questionPercent": 12.0,
+            "examsWithTopic": 17,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Aplicaciones e informe de mercado",
+            "questions": 38,
+            "questionPercent": 6.5,
+            "examsWithTopic": 14,
+            "examPercent": 82.4
+          },
+          {
+            "name": "Técnicas cualitativas",
+            "questions": 21,
+            "questionPercent": 3.6,
+            "examsWithTopic": 12,
+            "examPercent": 70.6
+          },
+          {
+            "name": "Escalas y medición",
+            "questions": 19,
+            "questionPercent": 3.3,
+            "examsWithTopic": 11,
+            "examPercent": 64.7
+          },
+          {
+            "name": "Análisis de datos y estadística",
+            "questions": 17,
+            "questionPercent": 2.9,
+            "examsWithTopic": 12,
+            "examPercent": 70.6
+          }
+        ],
+        "years": [
+          "2010-2011",
+          "2011-2012",
+          "2012-2013",
+          "2013-2014",
+          "2014-2015",
+          "2015-2016",
+          "2016-2017",
+          "2019-2020",
+          "2021-2022",
+          "2022-2023",
+          "2023-2024",
+          "2024-2025",
+          "2025-2026"
+        ]
+      },
+      "otros": {
+        "totalQuestions": 386,
+        "classifiedQuestions": 219,
+        "documents": 3,
+        "analyzedDocuments": 2,
+        "examGroups": 2,
+        "topics": [
+          {
+            "name": "Sin clasificar",
+            "questions": 167,
+            "questionPercent": 43.3,
+            "examsWithTopic": 2,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Muestreo y error",
+            "questions": 69,
+            "questionPercent": 17.9,
+            "examsWithTopic": 2,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Diseño de investigación y fuentes",
+            "questions": 63,
+            "questionPercent": 16.3,
+            "examsWithTopic": 2,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Encuestas y cuestionarios",
+            "questions": 44,
+            "questionPercent": 11.4,
+            "examsWithTopic": 2,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Aplicaciones e informe de mercado",
+            "questions": 15,
+            "questionPercent": 3.9,
+            "examsWithTopic": 2,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Análisis de datos y estadística",
+            "questions": 13,
+            "questionPercent": 3.4,
+            "examsWithTopic": 1,
+            "examPercent": 50.0
+          },
+          {
+            "name": "Escalas y medición",
+            "questions": 8,
+            "questionPercent": 2.1,
+            "examsWithTopic": 2,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Técnicas cualitativas",
+            "questions": 7,
+            "questionPercent": 1.8,
+            "examsWithTopic": 2,
+            "examPercent": 100.0
+          }
+        ],
+        "years": [
+          "2020-2021"
+        ]
+      }
+    }
+  },
+  "module-53450": {
+    "subject": "Sector exterior y políticas de la Unión Europea",
+    "source": "Fase I.zip",
+    "exams": [
+      {
+        "hash": "5e3660e68f66ce00adcf820c30a28a7c5b470ed4066b34ad58d29b1056a2abb1",
+        "name": "Exámen de Sector exterior y políticas de la Unión Europea (final tipo B 2025-2026).pdf",
+        "year": "2025-2026",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "a0b24bf394aaed0fbd930b383439005a7b872c7a1e8a43132a2768245e5d61a1",
+        "name": "Exámen de Sector exterior y políticas de la Unión Europea (final tipo A 2025-2026).pdf",
+        "year": "2025-2026",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "e25d2bd02b10e6dd827edc890780bfe5effaf568f817006e0f192baf1c9ab959",
+        "name": "Exámen de Sector exterior y políticas de la Unión Europea (final tipo B 2024-2025).pdf",
+        "year": "2024-2025",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "1bc04949459e57dbf7a5173bad6b9625fda51a621b26d29b66c3daa4c5bd60c1",
+        "name": "Exámen de Sector exterior y políticas de la Unión Europea (final tipo A 2024-2025).pdf",
+        "year": "2024-2025",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "304e92d30a780a557dbf958e77d4d3bc8037bd77068fbf73e28c8b2b22f80d1c",
+        "name": "Exámen de Sector exterior y políticas de la Unión Europea (final tipo A 2023-2024).pdf",
+        "year": "2023-2024",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "ec59ddb38887c4458af76df5b3c1f0c3b9ba522ef44c624ce1bfb1228be042db",
+        "name": "Exámen de Sector exterior y políticas de la Unión Europea (final tipo B 2022-2023).pdf",
+        "year": "2022-2023",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "4d5e2334795a4a8722374aea6ec4cd9e482247a97f12da228bc3343be85f4807",
+        "name": "Exámen de Sector exterior y políticas de la Unión Europea (final tipo B 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 50,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 50
+      },
+      {
+        "hash": "6ecf9c2393ad3072b4f2a034e3eebf15c2cf788d085d75be69e65681412df9e4",
+        "name": "Exámen de Sector exterior y políticas de la Unión Europea (final tipo A 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 50,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 50
+      },
+      {
+        "hash": "9839669185b38673fdb36edaa622543e2f8362a4579cb3e8ba28bee69919cc74",
+        "name": "Exámen de Sector exterior y políticas de la Unión Europea (septiembre 2020-2021).pdf",
+        "year": "2020-2021",
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 30,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 30
+      },
+      {
+        "hash": "56154580c2d0969684766ad5bb0fe75482cdc0403acba7b43cb2ea5d91490015",
+        "name": "Exámen de Sector exterior y políticas de la Unión Europea (final tipo B 2020-2021).pdf",
+        "year": "2020-2021",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 50,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 50
+      },
+      {
+        "hash": "8e9b816547c4529397d066f69b134f372b25c662c0eb1c0b3d606f682b16ce67",
+        "name": "Exámen de Sector exterior y políticas de la Unión Europea (final tipo A 2020-2021).pdf",
+        "year": "2020-2021",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 50,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 50
+      },
+      {
+        "hash": "779a5d73b7628e34c2c2a2aaf155d3b2368d233c099653d57b52f7b39852c970",
+        "name": "Exámen de Sector exterior y políticas de la Unión Europea (final tipo A 2018-2019).pdf",
+        "year": "2018-2019",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 50,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 50
+      },
+      {
+        "hash": "462c9d1dd459efdda73ae5e7752fc43afbe957e6e4c2e30cb7b00a15b2b1299c",
+        "name": "Exámen de Sector exterior y políticas de la Unión Europea (final tipo A 2017-2018).pdf",
+        "year": "2017-2018",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 50,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 50
+      },
+      {
+        "hash": "646a9e069c1ab5185e0e421671fe09f6f6edfa7ca89d131b28818b34802330e8",
+        "name": "Exámen de Sector exterior y políticas de la Unión Europea (final tipo A 2016-2017).pdf",
+        "year": "2016-2017",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "ea5972bfcd248085f942a60efc6b77385c7fc5d06d300ad79070da13a27a7f74",
+        "name": "Exámen de Sector exterior y políticas de la Unión Europea (final tipo A 2015-2016).pdf",
+        "year": "2015-2016",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "546255ad39765c5df972e726bd10b3bdb9897513bd9f361f34fd12b26b913ae2",
+        "name": "Exámen de Sector exterior y políticas de la Unión Europea (final tipo A 2014-2015).pdf",
+        "year": "2014-2015",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "c02a94cbf135336e48b848b35e26133e2547a19849672a531342caac9fd617b2",
+        "name": "Exámen de Sector exterior y políticas de la Unión Europea (final tipo A 2013-2014).pdf",
+        "year": "2013-2014",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "09b29a7d1ac493c4a56801444fdcc6d09ea9a6d73cafeb6499746498bc823a60",
+        "name": "Exámen de Sector exterior y políticas de la Unión Europea (final tipo A 2012-2013).pdf",
+        "year": "2012-2013",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "9238d8d17d5d11e91fa5c0e04df65190b81963c7f383054736570caa5556a6c5",
+        "name": "Exámen de Sector exterior y políticas de la Unión Europea (final tipo A 2011-2012).pdf",
+        "year": "2011-2012",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 39,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 39
+      },
+      {
+        "hash": "4146d1b246a2ebcc74cc588dd1dd54bd184ab15b24b1e3a2f1217dd76a66c4c0",
+        "name": "Exámen de Sector exterior y políticas de la Unión Europea (septiembre 2010-2011).pdf",
+        "year": "2010-2011",
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 35,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 35
+      },
+      {
+        "hash": "641cf1cbe85bbb0323ab146393183fb89013d2f412591de34111fb1a5426420e",
+        "name": "Exámen de Sector exterior y políticas de la Unión Europea (final tipo A 2010-2011).pdf",
+        "year": "2010-2011",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 45,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 45
+      },
+      {
+        "hash": "38f64b2142472ef0aa9caeee733dc12dfe5fdc8b6cbd97243d1752df9d403bf2",
+        "name": "Exámen de Sector exterior y políticas de la Unión Europea (final tipo A 2009-2010).pdf",
+        "year": "2009-2010",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 50,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 50
+      }
+    ],
+    "notes": [],
+    "statistics": {
+      "parcial": {
+        "totalQuestions": 0,
+        "classifiedQuestions": 0,
+        "documents": 0,
+        "analyzedDocuments": 0,
+        "examGroups": 0,
+        "topics": [],
+        "years": []
+      },
+      "final": {
+        "totalQuestions": 871,
+        "classifiedQuestions": 628,
+        "documents": 20,
+        "analyzedDocuments": 20,
+        "examGroups": 20,
+        "topics": [
+          {
+            "name": "Sin clasificar",
+            "questions": 243,
+            "questionPercent": 27.9,
+            "examsWithTopic": 20,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Integración y acuerdos comerciales de la UE",
+            "questions": 202,
+            "questionPercent": 23.2,
+            "examsWithTopic": 20,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Balanza de pagos y economía española",
+            "questions": 112,
+            "questionPercent": 12.9,
+            "examsWithTopic": 15,
+            "examPercent": 75.0
+          },
+          {
+            "name": "OMC y sistema multilateral",
+            "questions": 80,
+            "questionPercent": 9.2,
+            "examsWithTopic": 20,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Medidas no arancelarias",
+            "questions": 72,
+            "questionPercent": 8.3,
+            "examsWithTopic": 18,
+            "examPercent": 90.0
+          },
+          {
+            "name": "Comercio digital y sostenibilidad",
+            "questions": 57,
+            "questionPercent": 6.5,
+            "examsWithTopic": 18,
+            "examPercent": 90.0
+          },
+          {
+            "name": "Aranceles y bienestar",
+            "questions": 44,
+            "questionPercent": 5.1,
+            "examsWithTopic": 14,
+            "examPercent": 70.0
+          },
+          {
+            "name": "Inversión extranjera y seguridad económica",
+            "questions": 39,
+            "questionPercent": 4.5,
+            "examsWithTopic": 15,
+            "examPercent": 75.0
+          },
+          {
+            "name": "Comercio internacional y sector exterior",
+            "questions": 22,
+            "questionPercent": 2.5,
+            "examsWithTopic": 17,
+            "examPercent": 85.0
+          }
+        ],
+        "years": [
+          "2009-2010",
+          "2010-2011",
+          "2011-2012",
+          "2012-2013",
+          "2013-2014",
+          "2014-2015",
+          "2015-2016",
+          "2016-2017",
+          "2017-2018",
+          "2018-2019",
+          "2020-2021",
+          "2021-2022",
+          "2022-2023",
+          "2023-2024",
+          "2024-2025",
+          "2025-2026"
+        ]
+      },
+      "otros": {
+        "totalQuestions": 65,
+        "classifiedQuestions": 52,
+        "documents": 2,
+        "analyzedDocuments": 2,
+        "examGroups": 2,
+        "topics": [
+          {
+            "name": "Integración y acuerdos comerciales de la UE",
+            "questions": 17,
+            "questionPercent": 26.2,
+            "examsWithTopic": 2,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Sin clasificar",
+            "questions": 13,
+            "questionPercent": 20.0,
+            "examsWithTopic": 2,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Balanza de pagos y economía española",
+            "questions": 10,
+            "questionPercent": 15.4,
+            "examsWithTopic": 1,
+            "examPercent": 50.0
+          },
+          {
+            "name": "Comercio digital y sostenibilidad",
+            "questions": 6,
+            "questionPercent": 9.2,
+            "examsWithTopic": 2,
+            "examPercent": 100.0
+          },
+          {
+            "name": "OMC y sistema multilateral",
+            "questions": 6,
+            "questionPercent": 9.2,
+            "examsWithTopic": 2,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Medidas no arancelarias",
+            "questions": 6,
+            "questionPercent": 9.2,
+            "examsWithTopic": 2,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Inversión extranjera y seguridad económica",
+            "questions": 3,
+            "questionPercent": 4.6,
+            "examsWithTopic": 2,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Comercio internacional y sector exterior",
+            "questions": 2,
+            "questionPercent": 3.1,
+            "examsWithTopic": 2,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Aranceles y bienestar",
+            "questions": 2,
+            "questionPercent": 3.1,
+            "examsWithTopic": 1,
+            "examPercent": 50.0
+          }
+        ],
+        "years": [
+          "2010-2011",
+          "2020-2021"
+        ]
+      }
+    }
+  },
+  "module-53445": {
+    "subject": "Communication and negotiation skills",
+    "source": "Fase I.zip",
+    "exams": [
+      {
+        "hash": "f36f31ce6870ed6c525c2700dd652c27f94957c9c38e03a3ecc6c80074676f5c",
+        "name": "Examen de Communication skills (final tipo B 2025-2026).pdf",
+        "year": "2025-2026",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 45,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 45
+      },
+      {
+        "hash": "472df4da378fc995f4e9b61379225ae5d56445a5f2ce0ea124b843780ffe3e3f",
+        "name": "Examen de Communication skills (final tipo A 2025-2026).pdf",
+        "year": "2025-2026",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 45,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 45
+      },
+      {
+        "hash": "e97fe2f8bdc104859eb3844b7f02e1ee024ee99b13ab0723b9cb4beb8eba027f",
+        "name": "Examen de Communication skills (final tipo B 2024-2025).pdf",
+        "year": "2024-2025",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 50,
+        "analyzed": false,
+        "aliases": [],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "d716798a38266fa094680d73f945a403a9583c83c59ee6bca166526944ce42a8",
+        "name": "Examen de Communication skills (final tipo A 2024-2025).pdf",
+        "year": "2024-2025",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 50,
+        "analyzed": false,
+        "aliases": [],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "0de386e7fe501c1f411df080686c879d77548037436422bfb7cfc60ee1cef7e3",
+        "name": "Examen de Communication skills (final tipo B 2022-2023).pdf",
+        "year": "2022-2023",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 37,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 37
+      },
+      {
+        "hash": "dfdb1312b29f2f4259078ca67bb1d655398af294edbc7b43f973504b0d813a57",
+        "name": "Examen de Communication skills (final tipo B 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 49,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 49
+      },
+      {
+        "hash": "95849346c1d75431b4d33df82e250b941e1e16a7cd8fc2975bc5c4166bae3b95",
+        "name": "Examen de Communication skills (final tipo A 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 49,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 49
+      },
+      {
+        "hash": "6ec399f816c56c6984c7504ccb135765c1e9976f6763fa2d7221d294e8e29cf1",
+        "name": "Examen de Communication skills (moodle 2020-2021).pdf",
+        "year": "2020-2021",
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 40,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 40
+      },
+      {
+        "hash": "e51be5b726c6398adc7f6618da80ae9acfe5a541e1cc66abb47e4f8863286683",
+        "name": "Examen de Communication skills (final tipo A 2018-2019).pdf",
+        "year": "2018-2019",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 50,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 50
+      },
+      {
+        "hash": "3f38433309adc8973caac3c90e0bc979f81a052c5fa58ca679522d76b0badb7e",
+        "name": "Examen de Communication skills (final tipo A 2017-2018).pdf",
+        "year": "2017-2018",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 50,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 50
+      },
+      {
+        "hash": "35035a2ab1979be658311256687928b7dc8d41926868d12b715c7b7fa77b1fbf",
+        "name": "Examen de Communication skills (final tipo A 2017-2018)'.pdf",
+        "year": "2017-2018",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 48,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 48
+      },
+      {
+        "hash": "845bf7817ec4ecab8c8d6a291477a52750a6105688ce5b50833743ca8a3aeeb7",
+        "name": "Examen de Communication skills (final tipo A 2016-2017).pdf",
+        "year": "2016-2017",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 50,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 50
+      },
+      {
+        "hash": "28d9be69f84776b5a940bf8473be55c6a482bf26b258340f2fb995c91b7fad1c",
+        "name": "Examen de Communication skills (final tipo A 2015-2016).pdf",
+        "year": "2015-2016",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 48,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 48
+      },
+      {
+        "hash": "fcf36029d41c15d2f9ec7388b2b8f8beb4d94f2f7fbf797f8249bbe23e468e44",
+        "name": "Examen de Communication skills (final tipo A 2014-2015).pdf",
+        "year": "2014-2015",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 50,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 50
+      },
+      {
+        "hash": "24ad4f358074859f30b02d301517da3543ccf5bb8c7a2a42a2e1ccf7f2c57e4d",
+        "name": "Examen de Communication skills (final tipo A 2013-2014).pdf",
+        "year": "2013-2014",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 50,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 50
+      },
+      {
+        "hash": "9335a54aa5676034579ffe47714c0881e9e39671cafcecf64a64d37e6ba052ae",
+        "name": "Examen de Communication skills (final tipo A 2012-2013).pdf",
+        "year": "2012-2013",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 29,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 29
+      },
+      {
+        "hash": "041adfd89de4668a1399a0dee0b965432932168b0e7875c1eee2bed033121703",
+        "name": "Examen de Communication skills (final tipo A 2011-2012).pdf",
+        "year": "2011-2012",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 17,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 17
+      },
+      {
+        "hash": "ffbe1b80f67848dc09eebe346d3df230b9fc210d3563914a06c4ca4a470e2d6c",
+        "name": "Examen de Communication skills (final tipo A 2010-2011).pdf",
+        "year": "2010-2011",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 15,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 15
+      }
+    ],
+    "notes": [
+      {
+        "hash": "5b7c5861a9d3986e98acd083b33583536f7ce174456f30059b7be36284f647d2",
+        "name": "Resumen de la asignatura.docx",
+        "year": null,
+        "stage": "otros",
+        "extension": "DOCX",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": []
+      },
+      {
+        "hash": "bc106bc3731bcbf5b069c3fdb1b6eb403afa2b6b0f3c540095cb94bee181248b",
+        "name": "Apuntes de la asignatura.pdf",
+        "year": null,
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": []
+      }
+    ],
+    "statistics": {
+      "parcial": {
+        "totalQuestions": 0,
+        "classifiedQuestions": 0,
+        "documents": 0,
+        "analyzedDocuments": 0,
+        "examGroups": 0,
+        "topics": [],
+        "years": []
+      },
+      "final": {
+        "totalQuestions": 632,
+        "classifiedQuestions": 406,
+        "documents": 15,
+        "analyzedDocuments": 15,
+        "examGroups": 15,
+        "topics": [
+          {
+            "name": "Sin clasificar",
+            "questions": 226,
+            "questionPercent": 35.8,
+            "examsWithTopic": 15,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Negociación y resolución de conflictos",
+            "questions": 115,
+            "questionPercent": 18.2,
+            "examsWithTopic": 12,
+            "examPercent": 80.0
+          },
+          {
+            "name": "Presentaciones y persuasión",
+            "questions": 71,
+            "questionPercent": 11.2,
+            "examsWithTopic": 15,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Escucha y comunicación interpersonal",
+            "questions": 57,
+            "questionPercent": 9.0,
+            "examsWithTopic": 11,
+            "examPercent": 73.3
+          },
+          {
+            "name": "Comunicación intercultural",
+            "questions": 54,
+            "questionPercent": 8.5,
+            "examsWithTopic": 13,
+            "examPercent": 86.7
+          },
+          {
+            "name": "Inteligencia emocional y estilos sociales",
+            "questions": 52,
+            "questionPercent": 8.2,
+            "examsWithTopic": 12,
+            "examPercent": 80.0
+          },
+          {
+            "name": "Creatividad y toma de decisiones",
+            "questions": 42,
+            "questionPercent": 6.6,
+            "examsWithTopic": 12,
+            "examPercent": 80.0
+          },
+          {
+            "name": "Equipos y liderazgo",
+            "questions": 15,
+            "questionPercent": 2.4,
+            "examsWithTopic": 7,
+            "examPercent": 46.7
+          }
+        ],
+        "years": [
+          "2010-2011",
+          "2011-2012",
+          "2012-2013",
+          "2013-2014",
+          "2014-2015",
+          "2015-2016",
+          "2016-2017",
+          "2017-2018",
+          "2018-2019",
+          "2021-2022",
+          "2022-2023",
+          "2025-2026"
+        ]
+      },
+      "otros": {
+        "totalQuestions": 40,
+        "classifiedQuestions": 20,
+        "documents": 1,
+        "analyzedDocuments": 1,
+        "examGroups": 1,
+        "topics": [
+          {
+            "name": "Sin clasificar",
+            "questions": 20,
+            "questionPercent": 50.0,
+            "examsWithTopic": 1,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Presentaciones y persuasión",
+            "questions": 5,
+            "questionPercent": 12.5,
+            "examsWithTopic": 1,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Creatividad y toma de decisiones",
+            "questions": 5,
+            "questionPercent": 12.5,
+            "examsWithTopic": 1,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Negociación y resolución de conflictos",
+            "questions": 5,
+            "questionPercent": 12.5,
+            "examsWithTopic": 1,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Inteligencia emocional y estilos sociales",
+            "questions": 2,
+            "questionPercent": 5.0,
+            "examsWithTopic": 1,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Comunicación intercultural",
+            "questions": 2,
+            "questionPercent": 5.0,
+            "examsWithTopic": 1,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Escucha y comunicación interpersonal",
+            "questions": 1,
+            "questionPercent": 2.5,
+            "examsWithTopic": 1,
+            "examPercent": 100.0
+          }
+        ],
+        "years": [
+          "2020-2021"
+        ]
+      }
+    }
+  },
+  "module-53441": {
+    "subject": "Comportamiento social en los negocios",
+    "source": "Fase I.zip",
+    "exams": [
+      {
+        "hash": "b6706ee8b5857136dae7cc48bfa4c7afb08e84d05c7d1cf802d2ff3a934e6e33",
+        "name": "Examen de Comportamiento social en los negocios (final tipo B 2025-2026).pdf",
+        "year": "2025-2026",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 24,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 24
+      },
+      {
+        "hash": "64dcae93cae2a90279003c5a059ddfe18aaf85e7faac20a2735a589b491c4c70",
+        "name": "Examen de Comportamiento social en los negocios (final tipo A 2025-2026).pdf",
+        "year": "2025-2026",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "e97fe2f8bdc104859eb3844b7f02e1ee024ee99b13ab0723b9cb4beb8eba027f",
+        "name": "Examen de Comportamiento social en los negocios (final tipo B 2024-2025).pdf",
+        "year": "2024-2025",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 50,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "d716798a38266fa094680d73f945a403a9583c83c59ee6bca166526944ce42a8",
+        "name": "Examen de Comportamiento social en los negocios (final tipo A 2024-2025).pdf",
+        "year": "2024-2025",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 50,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "433817995210dd911b71fbf4a77d8db97ef0edb1c5d6634a6c5762af29a782e3",
+        "name": "Examen de Comportamiento social en los negocios (final tipo A 2023-2024).pdf",
+        "year": "2023-2024",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 18,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 18
+      },
+      {
+        "hash": "7b160ebf33499436faf2962f80ff793fd401196e97d023811990ff5c95c32d5f",
+        "name": "Examen de Comportamiento social en los negocios (final tipo B 2022-2023).pdf",
+        "year": "2022-2023",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "306d2e44ecd8198bf86dbbb925009ab95bc9a16e612b8f96cc74d80ef9d87e20",
+        "name": "Examen de Comportamiento social en los negocios (final tipo A 2022-2023).pdf",
+        "year": "2022-2023",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "85ddef2f65ce3a97c8098e1d403639e4e10585691fa3f7fb92669720200ab8c1",
+        "name": "Examen de Comportamiento social en los negocios (final tipo B 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "a2953d46454b5489857793d9ed8f4b794f4c31677867d25c3d71050c160d8c90",
+        "name": "Examen de Comportamiento social en los negocios (final tipo A 2021-2022).pdf",
+        "year": "2021-2022",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "c8c163d3f34daafad936445cfc440031a78ef3398bcad3f33394c4b1c93e24f7",
+        "name": "Examen de Comportamiento social en los negocios (moodle 2020-2021).pdf",
+        "year": "2020-2021",
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 28,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 28
+      },
+      {
+        "hash": "1eb1bc5c28fde5ce51fe91525669c6904a15faa60512ce7420b8f4632fb72bdc",
+        "name": "Examen de Comportamiento social en los negocios (final tipo B 2019-2020).pdf",
+        "year": "2019-2020",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "9cee9ea516cb37af50000c39226c7673804ce1bc082a0aed63df75ee887729c8",
+        "name": "Examen de Comportamiento social en los negocios (final tipo A 2019-2020).pdf",
+        "year": "2019-2020",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "665b72dab8a15ec23a2edc2a43fdee657d7e945866abe316509b91ec2b22b640",
+        "name": "Examen de Comportamiento social en los negocios (final tipo A 2018-2019).pdf",
+        "year": "2018-2019",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "7d83d512399baadd219748e0c364e7de3345a67aed84a60f5a2d25db77e95689",
+        "name": "Examen de Comportamiento social en los negocios (final tipo A 2017-2018).pdf",
+        "year": "2017-2018",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 2,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 2
+      },
+      {
+        "hash": "b36ebb15aacfdbf803f98512a1fde20064a4f56c2b91caf3054e5b6561361d9b",
+        "name": "Examen de Comportamiento social en los negocios (final tipo A 2017-2018)'.pdf",
+        "year": "2017-2018",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": false,
+        "aliases": [],
+        "quizQuestions": 0
+      },
+      {
+        "hash": "f50c712256c3ce74eab4a883929e7b4ffec87baedf35314350cc1ba10f83ee91",
+        "name": "Examen de Comportamiento social en los negocios (final tipo A 2016-2017).pdf",
+        "year": "2016-2017",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "c009d151355380b38feb53c4966aab8650968be35c2e3163b4309a221d4e851b",
+        "name": "Examen de Comportamiento social en los negocios (final tipo A 2015-2016).pdf",
+        "year": "2015-2016",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 25,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 25
+      },
+      {
+        "hash": "4de0b0728252135b733676818ccccfe34cd95f97ebd2440fd67d2a0f0ebada52",
+        "name": "Examen de Comportamiento social en los negocios (final tipo A 2014-2015).pdf",
+        "year": "2014-2015",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 30,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 30
+      },
+      {
+        "hash": "83ff8a53383e37796727827774c7e7d4ea502a6d4757154e45402bf455c37ba4",
+        "name": "Examen de Comportamiento social en los negocios (final tipo B 2013-2014).pdf",
+        "year": "2013-2014",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 30,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 30
+      },
+      {
+        "hash": "eb10436ab104070ab3fe70b4643e2ef5e3ea0069f4325f67509d6fff0d4a35d8",
+        "name": "Examen de Comportamiento social en los negocios (final tipo A 2013-2014).pdf",
+        "year": "2013-2014",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 30,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 30
+      },
+      {
+        "hash": "6a4e80760c0ce474bde142f0b857ace7c47bb3497809505abe63542ea20545a0",
+        "name": "Examen de Comportamiento social en los negocios (final tipo A 2012-2013).pdf",
+        "year": "2012-2013",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 5,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 5
+      },
+      {
+        "hash": "6d21ec7ca2572d40075eddb24aa8a2465e2a89cb6a3762a8e7ed4a22fda29ee3",
+        "name": "Examen de Comportamiento social en los negocios (final tipo A 2011-2012).pdf",
+        "year": "2011-2012",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 4,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 4
+      },
+      {
+        "hash": "2c986142b62b7bc6019e7fbb0007f9f92c6ed1a191de7618517ea903ae944241",
+        "name": "Examen de Comportamiento social en los negocios (final tipo A 2010-2011).pdf",
+        "year": "2010-2011",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 7,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 7
+      },
+      {
+        "hash": "bc97b4abbce81b6582ed87601fb8f58223c66e8844c163c7e8a4949245d79338",
+        "name": "Examen de Comportamiento social en los negocios (final tipo B 2009-2010).pdf",
+        "year": "2009-2010",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 7,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 7
+      },
+      {
+        "hash": "e576e9bba5c63746b7c2f407fa8a44d16b4cb4f52e6e1f0a07e075af6ed3c749",
+        "name": "Examen de Comportamiento social en los negocios (final tipo A 2009-2010).pdf",
+        "year": "2009-2010",
+        "stage": "final",
+        "extension": "PDF",
+        "questionsDetected": 9,
+        "analyzed": true,
+        "aliases": [],
+        "quizQuestions": 9
+      },
+      {
+        "hash": "4633f93b624cd00213c0a5d15a33f2fa38e2a1d2efe103bdb5b97fc2c7a1a0c7",
+        "name": "Preguntas de exámenes de años anteriores.docx",
+        "year": null,
+        "stage": "otros",
+        "extension": "DOCX",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": [
+          "Comportamiento social en los negocios (apuntes)'.docx"
+        ],
+        "quizQuestions": 0
+      }
+    ],
+    "notes": [
+      {
+        "hash": "640f8af478e3eb80710a4c88b8e3c74e3aba6edf6e5ed8d9398496b9a16587a6",
+        "name": "Comportamiento social en los negocios (apuntes).pdf",
+        "year": null,
+        "stage": "otros",
+        "extension": "PDF",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": []
+      },
+      {
+        "hash": "be7d9230ca8488787246747bc79a20a5f205c6af7ba973e51120fe0b452348a3",
+        "name": "Comportamiento social en los negocios (apuntes).docx",
+        "year": null,
+        "stage": "otros",
+        "extension": "DOCX",
+        "questionsDetected": 0,
+        "analyzed": false,
+        "aliases": []
+      }
+    ],
+    "statistics": {
+      "parcial": {
+        "totalQuestions": 0,
+        "classifiedQuestions": 0,
+        "documents": 0,
+        "analyzedDocuments": 0,
+        "examGroups": 0,
+        "topics": [],
+        "years": []
+      },
+      "final": {
+        "totalQuestions": 488,
+        "classifiedQuestions": 352,
+        "documents": 23,
+        "analyzedDocuments": 23,
+        "examGroups": 23,
+        "topics": [
+          {
+            "name": "Precedencias, jerarquía y autoridades",
+            "questions": 165,
+            "questionPercent": 33.8,
+            "examsWithTopic": 21,
+            "examPercent": 91.3
+          },
+          {
+            "name": "Sin clasificar",
+            "questions": 136,
+            "questionPercent": 27.9,
+            "examsWithTopic": 19,
+            "examPercent": 82.6
+          },
+          {
+            "name": "Etiqueta, imagen y relaciones profesionales",
+            "questions": 98,
+            "questionPercent": 20.1,
+            "examsWithTopic": 20,
+            "examPercent": 87.0
+          },
+          {
+            "name": "Mesas, banquetes y colocación",
+            "questions": 44,
+            "questionPercent": 9.0,
+            "examsWithTopic": 18,
+            "examPercent": 78.3
+          },
+          {
+            "name": "Actos y organización de eventos",
+            "questions": 30,
+            "questionPercent": 6.1,
+            "examsWithTopic": 16,
+            "examPercent": 69.6
+          },
+          {
+            "name": "Interculturalidad y protocolo internacional",
+            "questions": 15,
+            "questionPercent": 3.1,
+            "examsWithTopic": 10,
+            "examPercent": 43.5
+          }
+        ],
+        "years": [
+          "2009-2010",
+          "2010-2011",
+          "2011-2012",
+          "2012-2013",
+          "2013-2014",
+          "2014-2015",
+          "2015-2016",
+          "2016-2017",
+          "2017-2018",
+          "2018-2019",
+          "2019-2020",
+          "2021-2022",
+          "2022-2023",
+          "2023-2024",
+          "2024-2025",
+          "2025-2026"
+        ]
+      },
+      "otros": {
+        "totalQuestions": 28,
+        "classifiedQuestions": 27,
+        "documents": 2,
+        "analyzedDocuments": 1,
+        "examGroups": 1,
+        "topics": [
+          {
+            "name": "Etiqueta, imagen y relaciones profesionales",
+            "questions": 10,
+            "questionPercent": 35.7,
+            "examsWithTopic": 1,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Precedencias, jerarquía y autoridades",
+            "questions": 8,
+            "questionPercent": 28.6,
+            "examsWithTopic": 1,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Mesas, banquetes y colocación",
+            "questions": 4,
+            "questionPercent": 14.3,
+            "examsWithTopic": 1,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Actos y organización de eventos",
+            "questions": 3,
+            "questionPercent": 10.7,
+            "examsWithTopic": 1,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Interculturalidad y protocolo internacional",
+            "questions": 2,
+            "questionPercent": 7.1,
+            "examsWithTopic": 1,
+            "examPercent": 100.0
+          },
+          {
+            "name": "Sin clasificar",
+            "questions": 1,
+            "questionPercent": 3.6,
+            "examsWithTopic": 1,
+            "examPercent": 100.0
+          }
+        ],
+        "years": [
+          "2020-2021"
+        ]
+      }
+    }
+  }
+}

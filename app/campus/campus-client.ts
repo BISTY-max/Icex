@@ -13,7 +13,7 @@ export function getCampusClient() {
 export async function downloadCampusDocument(hash: string) {
   const client = getCampusClient();
   if (!client) throw new Error("configuration");
-  const { data, error } = await client.from("icex_documents").select("bucket_id,storage_path,file_name").eq("course_id", "862").eq("sha256", hash).not("verified_at", "is", null).maybeSingle();
+  const { data, error } = await client.from("icex_documents").select("bucket_id,storage_path,file_name").eq("course_id", "862").eq("sha256", hash).not("verified_at", "is", null).limit(1).maybeSingle();
   if (error || !data) throw new Error("document-unavailable");
   const signed = await client.storage.from(data.bucket_id).createSignedUrl(data.storage_path, 60, { download: data.file_name });
   if (signed.error || !signed.data?.signedUrl) throw new Error("download-unavailable");

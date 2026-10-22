@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import CalendarPanel from "./calendar";
 import Notes from "./notes";
+import HistoricalMaterials, { historicalDocumentCount } from "./historical-materials";
 import Account, { PrivateDocumentLink } from "./account";
 import calendarEvents from "./calendar-events.json";
 import data from "./data.json";
@@ -110,7 +111,7 @@ export default function Campus() {
 
         {["Asignaturas","Tareas","Biblioteca"].includes(section)?<div className="campus-tools"><label className="campus-search"><span aria-hidden="true">⌕</span><input value={query} onChange={e=>setQuery(e.target.value)} placeholder="Buscar asignatura, tarea o documento…" aria-label="Buscar contenido"/></label>{section==="Asignaturas"?<select aria-label="Filtrar por fase" value={phase} onChange={e=>setPhase(e.target.value)}><option>Todas</option><option>Fase I</option><option>Transversales</option></select>:<span>{section==="Tareas"?tasks.length:files.length} resultados</span>}</div>:null}
 
-        {section==="Asignaturas"?<><div className="campus-subjects">{subjects.map((s,i)=><details key={s.id} className="campus-subject"><summary><span className="campus-subject-index">{String(i+1).padStart(2,"0")}</span><div><span className="campus-overline">{s.phase}</span><h2>{s.title}</h2><small>{s.resources.flatMap(r=>r.files).length} documentos · {s.resources.filter(r=>r.kind==="Tarea").length} tareas</small></div><span className="campus-expand" aria-hidden="true">+</span></summary><SubjectResources subject={s}/><AIExams subjectId={s.id}/><ExamGuidelines subjectId={s.id}/></details>)}</div>{!subjects.length?<p className="campus-empty">No hay asignaturas que coincidan con tu búsqueda.</p>:null}<div className="campus-note">Las fases II, III y las optativas figuran en las guías. Sus secciones de actividades aún no están visibles en este curso.</div></>:null}
+        {section==="Asignaturas"?<><div className="campus-subjects">{subjects.map((s,i)=><details key={s.id} className="campus-subject"><summary><span className="campus-subject-index">{String(i+1).padStart(2,"0")}</span><div><span className="campus-overline">{s.phase}</span><h2>{s.title}</h2><small>{s.resources.flatMap(r=>r.files).length} documentos del curso{historicalDocumentCount(s.id)?` · ${historicalDocumentCount(s.id)} históricos`:""} · {s.resources.filter(r=>r.kind==="Tarea").length} tareas</small></div><span className="campus-expand" aria-hidden="true">+</span></summary><SubjectResources subject={s}/><HistoricalMaterials subjectId={s.id}/><AIExams subjectId={s.id}/><ExamGuidelines subjectId={s.id}/></details>)}</div>{!subjects.length?<p className="campus-empty">No hay asignaturas que coincidan con tu búsqueda.</p>:null}<div className="campus-note">Las fases II, III y las optativas figuran en las guías. Sus secciones de actividades aún no están visibles en este curso.</div></>:null}
 
         {section==="Tareas"?<div className="campus-task-date-filter"><label htmlFor="task-date-filter">Fecha de entrega</label><select id="task-date-filter" value={taskDateFilter} onChange={e=>setTaskDateFilter(e.target.value)}><option value="todas">Todas las tareas</option><option value="proximas">Entrega más próxima primero</option><option value="recientes">Entrega más reciente primero</option><option value="sin-fecha">Sin fecha límite</option></select></div>:null}
 
