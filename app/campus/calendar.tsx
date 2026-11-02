@@ -14,10 +14,19 @@ const onDay=(event:Event,day:string)=>event.start.slice(0,10)<=day&&lastDay(even
 const dateRange=(event:Event)=>dayLabel(event.start)+(lastDay(event)!==event.start.slice(0,10)?" — "+dayLabel(lastDay(event)):"")+(event.allDay?" · Hora no indicada":" · "+time(event.start)+(event.kind==="entrega"?"":"–"+time(event.end))+" h");
 
 export default function CalendarPanel(){
-  const [month,setMonth]=useState("2026-10");
+  const [month,setMonth]=useState("");
   const [today,setToday]=useState("");
   useEffect(()=>{
-    const update=()=>setToday(new Date().toLocaleDateString("en-CA",{timeZone:"Europe/Madrid"}));
+    let previousDay="";
+    const update=()=>{
+      const currentDay=new Date().toLocaleDateString("en-CA",{timeZone:"Europe/Madrid"});
+      const previousMonth=previousDay.slice(0,7);
+      if(currentDay!==previousDay){
+        setToday(currentDay);
+        setMonth(displayed=>!displayed||displayed===previousMonth?currentDay.slice(0,7):displayed);
+        previousDay=currentDay;
+      }
+    };
     update();
     const timer=setInterval(update,30000);
     document.addEventListener("visibilitychange",update);
@@ -27,19 +36,35 @@ export default function CalendarPanel(){
   const [view,setView]=useState("mes");
   const [selected,setSelected]=useState<Event|null>(null);
   const dialog=useRef<HTMLDialogElement>(null);
+  const todayElement=useRef<HTMLDivElement>(null);
+  const positionedDay=useRef("");
+  useEffect(()=>{
+    if(!today||month!==today.slice(0,7)||view!=="mes"||positionedDay.current===today)return;
+    const element=todayElement.current;
+    if(element){
+      const bounds=element.getBoundingClientRect();
+      if(bounds.bottom>window.innerHeight||bounds.top<0)element.scrollIntoView({block:"center"});
+      positionedDay.current=today;
+    }
+  },[month,today,view]);
+  if(!month)return <section className="academic-calendar" aria-label="Calendario académico" aria-busy="true"><p>Abriendo el calendario de hoy…</p></section>;
   const matching=importedEvents.filter(e=>kind==="todas"||e.kind===kind);
   const [year,number]=month.split("-").map(Number);
   const offset=(new Date(Date.UTC(year,number-1,1)).getUTCDay()+6)%7;
   const days=new Date(Date.UTC(year,number,0)).getUTCDate();
   const first=month+"-01",last=month+"-"+String(days).padStart(2,"0");
   const visible=matching.filter(e=>e.start.slice(0,10)<=last&&lastDay(e)>=first);
-  function changeKind(value:string){setKind(value);const filtered=importedEvents.filter(e=>value==="todas"||e.kind===value);if(!filtered.some(e=>e.start.slice(0,10)<=last&&lastDay(e)>=first)){const next=filtered.find(e=>lastDay(e)>="2026-10-19")||filtered[0];if(next)setMonth(next.start.slice(0,7));}}
-  function moveMonth(delta:number){const next=new Date(Date.UTC(year,number-1+delta,1)).toISOString().slice(0,7);if(next>="2026-10"&&next<="2027-12")setMonth(next);}
+  function changeKind(value:string){setKind(value);}
+  function moveMonth(delta:number){setMonth(new Date(Date.UTC(year,number-1+delta,1)).toISOString().slice(0,7));}
+  function goToday(){
+    setMonth(today.slice(0,7));
+    requestAnimationFrame(()=>todayElement.current?.scrollIntoView({block:"center"}));
+  }
   function openEvent(event:Event){setSelected(event);dialog.current?.showModal();}
   return <section className="academic-calendar" aria-label="Calendario académico">
-    <div className="academic-toolbar"><div className="academic-month"><button aria-label="Mes anterior" onClick={()=>moveMonth(-1)} disabled={month==="2026-10"}>←</button><label><span className="campus-overline">MES</span><input type="month" aria-label="Mes del calendario" value={month} min="2026-10" max="2027-12" onChange={e=>{if(/^\d{4}-\d{2}$/.test(e.target.value)&&e.target.value>="2026-10"&&e.target.value<="2027-12")setMonth(e.target.value);}}/></label><button aria-label="Mes siguiente" onClick={()=>moveMonth(1)} disabled={month==="2027-12"}>→</button></div><label className="academic-filter"><span className="campus-overline">MOSTRAR</span><select aria-label="Tipo de evento" value={kind} onChange={e=>changeKind(e.target.value)}><option value="todas">Todo el calendario</option>{Object.entries(labels).map(([key,label])=><option key={key} value={key}>{label}</option>)}</select></label><div className="academic-view" aria-label="Vista del calendario"><button aria-pressed={view==="mes"} onClick={()=>setView("mes")}>Mes</button><button aria-pressed={view==="agenda"} onClick={()=>setView("agenda")}>Agenda</button></div></div>
+    <div className="academic-toolbar"><div className="academic-month"><button aria-label="Mes anterior" onClick={()=>moveMonth(-1)}>←</button><label><span className="campus-overline">MES</span><input type="month" aria-label="Mes del calendario" value={month} onChange={e=>{if(/^\d{4}-\d{2}$/.test(e.target.value))setMonth(e.target.value);}}/></label><button aria-label="Mes siguiente" onClick={()=>moveMonth(1)}>→</button><button onClick={goToday}>Hoy</button></div><label className="academic-filter"><span className="campus-overline">MOSTRAR</span><select aria-label="Tipo de evento" value={kind} onChange={e=>changeKind(e.target.value)}><option value="todas">Todo el calendario</option>{Object.entries(labels).map(([key,label])=><option key={key} value={key}>{label}</option>)}</select></label><div className="academic-view" aria-label="Vista del calendario"><button aria-pressed={view==="mes"} onClick={()=>setView("mes")}>Mes</button><button aria-pressed={view==="agenda"} onClick={()=>setView("agenda")}>Agenda</button></div></div>
     <div className="academic-legend">{Object.entries(labels).map(([key,label])=><span key={key} className={"legend-"+key}><i/>{label}</span>)}</div>
-    {view==="mes"?<div className="academic-grid"><div className="academic-weekdays">{["LUN","MAR","MIÉ","JUE","VIE","SÁB","DOM"].map(d=><span key={d}>{d}</span>)}</div><div className="academic-days">{Array.from({length:offset},(_,i)=><div key={'blank'+i} className="academic-day empty"/>)}{Array.from({length:days},(_,i)=>{const date=month+'-'+String(i+1).padStart(2,'0');const events=matching.filter(e=>onDay(e,date));return <div key={date} className={"academic-day "+(date===today?"is-today":"")} aria-current={date===today?"date":undefined}><span>{i+1}</span>{events.map(e=><button key={e.id} className={"academic-event kind-"+e.kind} title={e.title+" · "+dateRange(e)} onClick={()=>openEvent(e)}><small>{e.allDay?singular[e.kind]:time(e.start)+(e.kind==='entrega'?'':'–'+time(e.end))}</small><strong>{e.title}</strong></button>)}</div>;})}</div></div>:<div className="academic-agenda">{visible.map(e=><button className={"academic-agenda-row kind-border-"+e.kind} key={e.id} onClick={()=>openEvent(e)}><time dateTime={e.start}><strong>{e.start.slice(8,10)}</strong><span>{new Date(e.start.slice(0,10)+'T12:00:00Z').toLocaleDateString('es-ES',{month:'short',timeZone:'Europe/Madrid'})}</span></time><div><span className={"academic-type kind-"+e.kind}>{singular[e.kind]}</span><h2>{e.title}</h2><p>{dateRange(e)}</p>{e.location?<small>{e.location}</small>:null}</div><span aria-hidden="true">↗</span></button>)}</div>}
+    {view==="mes"?<div className="academic-grid"><div className="academic-weekdays">{["LUN","MAR","MIÉ","JUE","VIE","SÁB","DOM"].map(d=><span key={d}>{d}</span>)}</div><div className="academic-days">{Array.from({length:offset},(_,i)=><div key={'blank'+i} className="academic-day empty"/>)}{Array.from({length:days},(_,i)=>{const date=month+'-'+String(i+1).padStart(2,'0');const events=matching.filter(e=>onDay(e,date));return <div key={date} ref={date===today?todayElement:undefined} className={"academic-day "+(date===today?"is-today":"")} aria-current={date===today?"date":undefined}><span>{i+1}</span>{events.map(e=><button key={e.id} className={"academic-event kind-"+e.kind} title={e.title+" · "+dateRange(e)} onClick={()=>openEvent(e)}><small>{e.allDay?singular[e.kind]:time(e.start)+(e.kind==='entrega'?'':'–'+time(e.end))}</small><strong>{e.title}</strong></button>)}</div>;})}</div></div>:<div className="academic-agenda">{visible.map(e=><button className={"academic-agenda-row kind-border-"+e.kind} key={e.id} onClick={()=>openEvent(e)}><time dateTime={e.start}><strong>{e.start.slice(8,10)}</strong><span>{new Date(e.start.slice(0,10)+'T12:00:00Z').toLocaleDateString('es-ES',{month:'short',timeZone:'Europe/Madrid'})}</span></time><div><span className={"academic-type kind-"+e.kind}>{singular[e.kind]}</span><h2>{e.title}</h2><p>{dateRange(e)}</p>{e.location?<small>{e.location}</small>:null}</div><span aria-hidden="true">↗</span></button>)}</div>}
     {!visible.length?<p className="campus-empty">No hay eventos de este tipo en el mes seleccionado. Puedes cambiar de mes o de filtro.</p>:null}
     <div className="campus-note">Horario de Madrid. Las clases del archivo abarcan del 1 de octubre al 10 de diciembre de 2026. Las fechas de exámenes, notas y revisiones proceden de la imagen facilitada y llegan hasta diciembre de 2027. Los periodos de varias fechas se muestran completos; la imagen no indica horas ni una asignación individual de día para esas convocatorias.</div>
     <div aria-label="Información adicional"><h2 className="campus-overline">Información adicional</h2><div className="academic-summary"><span><strong>{importedEvents.filter(e=>e.kind==='clase').length}</strong> clases</span><span><strong>{importedEvents.filter(e=>e.kind==='examen').length}</strong> exámenes o periodos</span><span><strong>{importedEvents.filter(e=>e.kind==='defensa').length}</strong> periodos de defensa TFM</span><a href="/calendario-icex.ics" download>Descargar calendario completo .ics ↓</a></div></div>
