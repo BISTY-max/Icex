@@ -2286,5 +2286,18 @@
     "source": "Imagen de fechas de exámenes 2026–2027",
     "sourceUid": "notas-tfm-segunda",
     "url": ""
+  },
+  {
+    "id": "user-entrega-investigacion-comercial-ii-2026-11-27",
+    "kind": "entrega",
+    "title": "Entrega de trabajo de Investigación",
+    "start": "2026-11-27",
+    "end": "2026-11-28",
+    "allDay": true,
+    "description": "Asignatura: Investigación Comercial II — Estudios de Mercado.\nEntrega indicada por el usuario. Hora no indicada.",
+    "location": "",
+    "source": "Indicación del usuario · 03/11/2026",
+    "sourceUid": "user-entrega-investigacion-comercial-ii-2026-11-27",
+    "url": ""
   }
 ]
