@@ -2299,5 +2299,18 @@
     "source": "Indicación del usuario · 03/11/2026",
     "sourceUid": "user-entrega-investigacion-comercial-ii-2026-11-27",
     "url": ""
+  },
+  {
+    "id": "user-presentacion-marketing-caso-1-2026-11-18",
+    "kind": "entrega",
+    "title": "Presentacion Marketing Caso 1",
+    "start": "2026-11-18",
+    "end": "2026-11-19",
+    "allDay": true,
+    "description": "Asignatura: Marketing.\nPresentación indicada por el usuario. Hora no indicada.",
+    "location": "",
+    "source": "Indicación del usuario · 04/11/2026",
+    "sourceUid": "user-presentacion-marketing-caso-1-2026-11-18",
+    "url": ""
   }
 ]
